@@ -1,0 +1,2722 @@
+[
+  {
+    "id": "FTC001",
+    "query": "What is the reimbursement rate for four-wheeler personal vehicle travel?",
+    "keyFacts": [
+      "Rs. 10.00 / - per km"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Rates"
+  },
+  {
+    "id": "FTC002",
+    "query": "Per km rate for two-wheeler local conveyance?",
+    "keyFacts": [
+      "two wheeler @ Rs. 5.00 per km"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Rates"
+  },
+  {
+    "id": "FTC003",
+    "query": "My car travel rate for official work?",
+    "keyFacts": [
+      "four wheeler @ Rs. 10.00 / - per km"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Rates"
+  },
+  {
+    "id": "FTC004",
+    "query": "Rate per km if I use my bike for official travel?",
+    "keyFacts": [
+      "two wheeler @ Rs. 5.00 per km"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Rates"
+  },
+  {
+    "id": "FTC005",
+    "query": "Is local conveyance policy applicable across all grades?",
+    "keyFacts": [
+      "applicable across all grades"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Applicability"
+  },
+  {
+    "id": "FTC006",
+    "query": "Is conveyance policy applicable across India?",
+    "keyFacts": [
+      "applicable across India"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Applicability"
+  },
+  {
+    "id": "FTC007",
+    "query": "Who approves local conveyance claims?",
+    "keyFacts": [
+      "approved only by BM grade employees"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Approval"
+  },
+  {
+    "id": "FTC008",
+    "query": "How do I claim local conveyance in the system?",
+    "keyFacts": [
+      "Orapps"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Claim"
+  },
+  {
+    "id": "FTC009",
+    "query": "What is the reimbursement if I take a taxi for official work?",
+    "keyFacts": [
+      "reimbursement will be done on actuals"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Taxi"
+  },
+  {
+    "id": "FTC010",
+    "query": "If two employees share a vehicle, who claims conveyance?",
+    "keyFacts": [
+      "individual who has actually incurred the cost"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Sharing"
+  },
+  {
+    "id": "FTC011",
+    "query": "When does an employee with a company car get local conveyance?",
+    "keyFacts": [
+      "outside the respective City/Town Municipal Corporation"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 1,
+    "category": "Conveyance Applicability"
+  },
+  {
+    "id": "FTC012",
+    "query": "Can Ahmedabad employees claim conveyance to Santej?",
+    "keyFacts": [
+      "not be reimbursed for local conveyance"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 1,
+    "category": "Conveyance Applicability"
+  },
+  {
+    "id": "FTC013",
+    "query": "When is local conveyance allowed?",
+    "keyFacts": [
+      "conveyance undertaken for the purpose of official work"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 1,
+    "category": "Conveyance Applicability"
+  },
+  {
+    "id": "FTC014",
+    "query": "What is the effective date of local conveyance policy?",
+    "keyFacts": [
+      "01.07.2022"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 1,
+    "category": "Conveyance Applicability"
+  },
+  {
+    "id": "FTC015",
+    "query": "What happens if I submit a false conveyance claim?",
+    "keyFacts": [
+      "strict disciplinary action shall be taken"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Compliance"
+  },
+  {
+    "id": "FTC020",
+    "query": "What is the train travel class for BMH9 grade?",
+    "keyFacts": [
+      "1st AC"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC021",
+    "query": "What air travel class is BMH9 grade entitled to?",
+    "keyFacts": [
+      "Premium Economy / Business"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC022",
+    "query": "Train class for BMH7 and H8 grade employees?",
+    "keyFacts": [
+      "1st AC"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC023",
+    "query": "Air travel entitlement for BMH7 and H8?",
+    "keyFacts": [
+      "Economy / Premium Economy"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC024",
+    "query": "What train class for BM-H3 to H6 grade?",
+    "keyFacts": [
+      "1st AC"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC025",
+    "query": "Train entitlement for M3H1, M3, M2 grades?",
+    "keyFacts": [
+      "2nd AC"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC026",
+    "query": "Air travel class for M3H1, M3, M2 employees?",
+    "keyFacts": [
+      "Economy"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC027",
+    "query": "What class of train can an E1 grade employee travel in?",
+    "keyFacts": [
+      "3rd AC/Chair Car"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC028",
+    "query": "Train class for M1 grade employees?",
+    "keyFacts": [
+      "3rd AC/Chair Car"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC029",
+    "query": "What train class do E2 grade employees get?",
+    "keyFacts": [
+      "3rd AC/Chair Car"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC030",
+    "query": "Air travel entitlement for OT grade?",
+    "keyFacts": [
+      "Not Applicable"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Mode of Travel"
+  },
+  {
+    "id": "FTC040",
+    "query": "What is the hotel limit for BMH7 and above in Class 1 city?",
+    "keyFacts": [
+      "At Actual"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC041",
+    "query": "Lodging limit for BMH3-H6 in a Class 1 city?",
+    "keyFacts": [
+      "8000"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC042",
+    "query": "Hotel limit for BMH3-H6 in Class 2 city?",
+    "keyFacts": [
+      "6000"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC043",
+    "query": "Lodging entitlement for BMH3-H6 in Class 3 city?",
+    "keyFacts": [
+      "5000"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC044",
+    "query": "What is the hotel limit for M3H1 in Class 1 city?",
+    "keyFacts": [
+      "6000"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC045",
+    "query": "M3/M2 lodging limit for Class 2 city?",
+    "keyFacts": [
+      "5000"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC046",
+    "query": "Hotel limit for M3H1/M3/M2 in Class 3?",
+    "keyFacts": [
+      "4000"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC047",
+    "query": "What is the lodging limit for M1/E2/E1 in Class 1 city?",
+    "keyFacts": [
+      "3400"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC048",
+    "query": "Hotel limit for E1 grade employee staying in a Class 2 city?",
+    "keyFacts": [
+      "2300"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC049",
+    "query": "Lodging limit for E1/E2 in Class 3 city?",
+    "keyFacts": [
+      "1700"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC050",
+    "query": "Can a BMH7 grade employee claim lodging on actuals?",
+    "keyFacts": [
+      "At Actual"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC051",
+    "query": "What hotel limit for OT grade in Mumbai?",
+    "keyFacts": [
+      "3400"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC052",
+    "query": "Flat rate for lodging if BM-H7 and above arranges own stay?",
+    "keyFacts": [
+      "Rs. 6,000 per day"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 5,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC053",
+    "query": "What is the flat rate lodging percentage for own arrangement?",
+    "keyFacts": [
+      "30% of the entitlement"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 5,
+    "category": "Lodging Limits"
+  },
+  {
+    "id": "FTC060",
+    "query": "What is the boarding limit for BMH3-H6 in Class 1 city?",
+    "keyFacts": [
+      "1500"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC061",
+    "query": "Boarding entitlement for BMH3-H6 in Class 2 city?",
+    "keyFacts": [
+      "1300"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC062",
+    "query": "Boarding limit for BMH3-H6 in Class 3 city?",
+    "keyFacts": [
+      "1000"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC063",
+    "query": "What is the boarding limit for M3H1/M3/M2 in Class 1?",
+    "keyFacts": [
+      "1200"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC064",
+    "query": "Boarding entitlement for M2 grade in Class 2 city?",
+    "keyFacts": [
+      "1000"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC065",
+    "query": "Boarding limit for M1/M2/M3 in Class 3 city?",
+    "keyFacts": [
+      "800"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC066",
+    "query": "What boarding amount is allowed for E1 in Class 1 city?",
+    "keyFacts": [
+      "1000"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC067",
+    "query": "Food allowance for E2/M1 in Class 2 city?",
+    "keyFacts": [
+      "800"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC068",
+    "query": "Boarding limit for OT grade in Class 3 city?",
+    "keyFacts": [
+      "600"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC069",
+    "query": "Is boarding entitlement inclusive of taxes?",
+    "keyFacts": [
+      "inclusive of applicable taxes"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 4,
+    "category": "Boarding Limits"
+  },
+  {
+    "id": "FTC080",
+    "query": "Is Mumbai a Class 1 city?",
+    "keyFacts": [
+      "Mumbai"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC081",
+    "query": "Which cities are in Class 1?",
+    "keyFacts": [
+      "Delhi, NCR, Mumbai, Bangalore, Chennai, Hyderabad, Kolkata, Pune"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC082",
+    "query": "Is Bangalore a Class 1 or Class 2 city?",
+    "keyFacts": [
+      "Bangalore"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC083",
+    "query": "What class is Ahmedabad?",
+    "keyFacts": [
+      "Ahmedabad"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC084",
+    "query": "What city class is Surat?",
+    "keyFacts": [
+      "Surat"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC085",
+    "query": "Is Jaipur a Class 2 city?",
+    "keyFacts": [
+      "Jaipur"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC086",
+    "query": "What class is Hyderabad?",
+    "keyFacts": [
+      "Hyderabad"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC087",
+    "query": "Lucknow city classification?",
+    "keyFacts": [
+      "Lucknow"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC088",
+    "query": "Is Pune Class 1 or Class 2?",
+    "keyFacts": [
+      "Pune"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC089",
+    "query": "What category does Delhi fall under?",
+    "keyFacts": [
+      "Delhi"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC090",
+    "query": "Is Kolkata a Class 1 city?",
+    "keyFacts": [
+      "Kolkata"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC091",
+    "query": "What class is Vadodara?",
+    "keyFacts": [
+      "Vadodara"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC092",
+    "query": "Is Chennai Class 1?",
+    "keyFacts": [
+      "Chennai"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC093",
+    "query": "What class are all other cities not listed?",
+    "keyFacts": [
+      "All Other Cities"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 7,
+    "category": "City Classification"
+  },
+  {
+    "id": "FTC100",
+    "query": "What cab is BM-H7 and above entitled to?",
+    "keyFacts": [
+      "Actuals"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Cab Entitlements"
+  },
+  {
+    "id": "FTC101",
+    "query": "Cab entitlement for BMH3-H6 grade employees?",
+    "keyFacts": [
+      "Ola / Uber / BluSmart"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Cab Entitlements"
+  },
+  {
+    "id": "FTC102",
+    "query": "What cabs can M3H1/M3/M2 use?",
+    "keyFacts": [
+      "Ola / Uber / BluSmart"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Cab Entitlements"
+  },
+  {
+    "id": "FTC103",
+    "query": "Cab options for M1/E2/E1/OT grade?",
+    "keyFacts": [
+      "Ola / Uber / BluSmart, Bus, Metro, Local Transportation"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Cab Entitlements"
+  },
+  {
+    "id": "FTC104",
+    "query": "Can OT grade use metro for conveyance?",
+    "keyFacts": [
+      "Bus, Metro, Local Transportation"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Cab Entitlements"
+  },
+  {
+    "id": "FTC105",
+    "query": "When should full-day cabs be booked?",
+    "keyFacts": [
+      "travel to three or more locations on a given day"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 5,
+    "category": "Cab Entitlements"
+  },
+  {
+    "id": "FTC110",
+    "query": "Is web check-in reimbursable?",
+    "keyFacts": [
+      "Web Check-in amount"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC111",
+    "query": "Are VIP lounge fees reimbursed?",
+    "keyFacts": [
+      "Fees for VIP Clubs/Lounge"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC112",
+    "query": "Is alcohol reimbursable during travel?",
+    "keyFacts": [
+      "Alcohol, cigarettes"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC113",
+    "query": "Are personal entertainment expenses reimbursable?",
+    "keyFacts": [
+      "Amount incurred on personal entertainment/recreation"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC114",
+    "query": "Is spouse travel reimbursable?",
+    "keyFacts": [
+      "Spouse/dependent travel"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC115",
+    "query": "Are personal gifts reimbursable?",
+    "keyFacts": [
+      "Personal Gifts"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC116",
+    "query": "Is seat upgradation cost reimbursed?",
+    "keyFacts": [
+      "Upgradation of seat/class at an added cost"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC117",
+    "query": "Is mini-bar usage reimbursable?",
+    "keyFacts": [
+      "Usage of Mini-Bar"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC118",
+    "query": "Is airport parking reimbursable after 24 hours?",
+    "keyFacts": [
+      "Airport parking tariff"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC119",
+    "query": "Is health club expense reimbursed during travel?",
+    "keyFacts": [
+      "Health club services"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 8,
+    "category": "Non-Reimbursable"
+  },
+  {
+    "id": "FTC130",
+    "query": "How far in advance must air tickets be booked?",
+    "keyFacts": [
+      "at least 7 days in advance"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 3,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC131",
+    "query": "What tool should be used for air and hotel booking?",
+    "keyFacts": [
+      "myBiz"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 3,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC132",
+    "query": "How many days to settle travel expenses?",
+    "keyFacts": [
+      "within 15 days of the trip"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 5,
+    "category": "Settlement"
+  },
+  {
+    "id": "FTC133",
+    "query": "What happens if travel expenses not settled in 15 days?",
+    "keyFacts": [
+      "auto-settlement on the 16th day"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 5,
+    "category": "Settlement"
+  },
+  {
+    "id": "FTC134",
+    "query": "When can laundry be reimbursed?",
+    "keyFacts": [
+      "duration of travel exceeds three days"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 5,
+    "category": "Settlement"
+  },
+  {
+    "id": "FTC135",
+    "query": "Is accommodation allowed on same-day return trips?",
+    "keyFacts": [
+      "not eligible to avail the accommodation"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 4,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC136",
+    "query": "What is scope of domestic travel policy in terms of distance?",
+    "keyFacts": [
+      "domestic travel exceeding a distance of 300 km"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 2,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC137",
+    "query": "When can a delayed flight booking be cancelled?",
+    "keyFacts": [
+      "delayed by more than 3 hours"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 3,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC138",
+    "query": "Who approves exceptions for flight booked outside travel desk for joining?",
+    "keyFacts": [
+      "CEO / CHRO"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 3,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC145",
+    "query": "What hotel grade are women employees entitled to?",
+    "keyFacts": [
+      "hotel limits of the next higher grade"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 4,
+    "category": "Women Travel"
+  },
+  {
+    "id": "FTC146",
+    "query": "What accommodation type are women advised to avoid?",
+    "keyFacts": [
+      "avoid staying in service apartments"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 4,
+    "category": "Women Travel"
+  },
+  {
+    "id": "FTC147",
+    "query": "Are women employees advised to avoid night travel?",
+    "keyFacts": [
+      "Avoidance of Night Travel"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 4,
+    "category": "Women Travel"
+  },
+  {
+    "id": "FTC160",
+    "query": "How long to acknowledge a grievance?",
+    "keyFacts": [
+      "2 working days"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Timelines"
+  },
+  {
+    "id": "FTC161",
+    "query": "How many days to complete grievance investigation?",
+    "keyFacts": [
+      "10 working days"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Timelines"
+  },
+  {
+    "id": "FTC162",
+    "query": "When must grievance resolution be communicated?",
+    "keyFacts": [
+      "15 working days"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Timelines"
+  },
+  {
+    "id": "FTC163",
+    "query": "What is the first level for raising grievance?",
+    "keyFacts": [
+      "Immediate HR Representative"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 2,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC164",
+    "query": "Can grievance be filed anonymously?",
+    "keyFacts": [
+      "Anonymous complaints will be considered"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC165",
+    "query": "What is the toll-free number for Ethics Helpline?",
+    "keyFacts": [
+      "1800 200 8301"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC166",
+    "query": "What is the Ethics Helpline email?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC167",
+    "query": "What is the grievance web portal?",
+    "keyFacts": [
+      "www.in.kpmg.com/ethicshelpline/arvind"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC168",
+    "query": "Can I raise a grievance verbally?",
+    "keyFacts": [
+      "raised verbally or in writing"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC169",
+    "query": "When is grievance policy reviewed?",
+    "keyFacts": [
+      "every two years"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 4,
+    "category": "Grievance Policy"
+  },
+  {
+    "id": "FTC170",
+    "query": "Is retaliation allowed against grievance filers?",
+    "keyFacts": [
+      "protected from retaliation"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 2,
+    "category": "Grievance Policy"
+  },
+  {
+    "id": "FTC171",
+    "query": "What is the effective date of grievance policy?",
+    "keyFacts": [
+      "26.07.2025"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 1,
+    "category": "Grievance Policy"
+  },
+  {
+    "id": "FTC172",
+    "query": "Who leads grievance resolution process?",
+    "keyFacts": [
+      "HR Department"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 4,
+    "category": "Grievance Policy"
+  },
+  {
+    "id": "FTC173",
+    "query": "What happens to false grievance complaints?",
+    "keyFacts": [
+      "disciplinary action"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Policy"
+  },
+  {
+    "id": "FTC174",
+    "query": "Can I escalate if unsatisfied with grievance resolution?",
+    "keyFacts": [
+      "escalate the grievance to the next level"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 3,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC175",
+    "query": "What does BUHR stand for in grievance context?",
+    "keyFacts": [
+      "Immediate HR Representative"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 2,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC176",
+    "query": "Who is the second level of grievance redressal?",
+    "keyFacts": [
+      "Line Manager or Supervisor"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 2,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC177",
+    "query": "Who is third level for grievance escalation?",
+    "keyFacts": [
+      "Head of Department"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 2,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC178",
+    "query": "Is grievance policy applicable to contract workers?",
+    "keyFacts": [
+      "contract workers"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 2,
+    "category": "Grievance Applicability"
+  },
+  {
+    "id": "FTC179",
+    "query": "Is grievance policy applicable to trainees?",
+    "keyFacts": [
+      "trainees"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 2,
+    "category": "Grievance Applicability"
+  },
+  {
+    "id": "FTC200",
+    "query": "How to file a POSH complaint?",
+    "keyFacts": [
+      "lodge a written complaint"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Complaint Filing"
+  },
+  {
+    "id": "FTC201",
+    "query": "Can a POSH complaint be filed via email?",
+    "keyFacts": [
+      "lodge her complaint in writing or via e- mail"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 6,
+    "category": "POSH Complaint Filing"
+  },
+  {
+    "id": "FTC202",
+    "query": "Are anonymous POSH complaints entertained?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 6,
+    "category": "POSH Complaint Filing"
+  },
+  {
+    "id": "FTC203",
+    "query": "Within what time must a POSH complaint be filed?",
+    "keyFacts": [
+      "3 (three) months from the date of incident"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 6,
+    "category": "POSH Timelines"
+  },
+  {
+    "id": "FTC204",
+    "query": "Can the 3-month filing deadline for POSH be extended?",
+    "keyFacts": [
+      "extended for further 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 6,
+    "category": "POSH Timelines"
+  },
+  {
+    "id": "FTC205",
+    "query": "How many days does the respondent have to respond?",
+    "keyFacts": [
+      "10 (ten) working days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 6,
+    "category": "POSH Timelines"
+  },
+  {
+    "id": "FTC206",
+    "query": "When must AIC provide its report to management?",
+    "keyFacts": [
+      "within a period of 10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 7,
+    "category": "POSH Timelines"
+  },
+  {
+    "id": "FTC207",
+    "query": "How long does management have to act on AIC recommendation?",
+    "keyFacts": [
+      "60 (sixty) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 7,
+    "category": "POSH Timelines"
+  },
+  {
+    "id": "FTC208",
+    "query": "How many days for AIC to forward complaint to respondent?",
+    "keyFacts": [
+      "7 (seven) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 6,
+    "category": "POSH Timelines"
+  },
+  {
+    "id": "FTC210",
+    "query": "Who is the Presiding Officer of AIC?",
+    "keyFacts": [
+      "Senior level woman employee"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 3,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC211",
+    "query": "How many members does AIC have minimum?",
+    "keyFacts": [
+      "2 members amongst employees"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 3,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC212",
+    "query": "What is the tenure of AIC members?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 4,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC213",
+    "query": "Can AIC members be re-nominated after initial term?",
+    "keyFacts": [
+      "re-nominated/re-elected for one additional term"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 4,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC214",
+    "query": "What is the minimum quorum for AIC inquiry?",
+    "keyFacts": [
+      "minimum of 3 members"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 4,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC215",
+    "query": "What is the required women representation in AIC quorum?",
+    "keyFacts": [
+      "50% women representation"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 4,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC216",
+    "query": "How long to fill vacancy in AIC?",
+    "keyFacts": [
+      "within 15 days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 4,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC217",
+    "query": "What is paid to external AIC member?",
+    "keyFacts": [
+      "Rs. 250 per day"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 4,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC218",
+    "query": "Is the AIC independent of management?",
+    "keyFacts": [
+      "independent committee"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 4,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC219",
+    "query": "What is the AIC term limit?",
+    "keyFacts": [
+      "period of three years or completion of the age of 58 years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 4,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC225",
+    "query": "What leave can AIC grant as interim action?",
+    "keyFacts": [
+      "leave to the Aggrieved Woman up to a period of 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 7,
+    "category": "POSH Interim Action"
+  },
+  {
+    "id": "FTC226",
+    "query": "Is interim POSH leave in addition to regular leave?",
+    "keyFacts": [
+      "in addition to the entitled leaves"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 7,
+    "category": "POSH Interim Action"
+  },
+  {
+    "id": "FTC227",
+    "query": "Can respondent be suspended during inquiry?",
+    "keyFacts": [
+      "suspend the RE for defined period"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 7,
+    "category": "POSH Interim Action"
+  },
+  {
+    "id": "FTC230",
+    "query": "What actions can be taken against proven harasser?",
+    "keyFacts": [
+      "Written warning"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 8,
+    "category": "POSH Disciplinary"
+  },
+  {
+    "id": "FTC231",
+    "query": "Can a harasser be terminated?",
+    "keyFacts": [
+      "Terminating the RE from service"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 8,
+    "category": "POSH Disciplinary"
+  },
+  {
+    "id": "FTC232",
+    "query": "Can promotion be withheld as POSH punishment?",
+    "keyFacts": [
+      "Withholding of promotion"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 8,
+    "category": "POSH Disciplinary"
+  },
+  {
+    "id": "FTC233",
+    "query": "Can pay rise be withheld as POSH penalty?",
+    "keyFacts": [
+      "Withholding of pay rise or increments"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 8,
+    "category": "POSH Disciplinary"
+  },
+  {
+    "id": "FTC240",
+    "query": "Is retaliation against POSH complainant allowed?",
+    "keyFacts": [
+      "protected from any form of retaliation"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 9,
+    "category": "POSH Retaliation"
+  },
+  {
+    "id": "FTC241",
+    "query": "What is the policy on POSH confidentiality?",
+    "keyFacts": [
+      "not be published, communicated or made known"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 9,
+    "category": "POSH Confidentiality"
+  },
+  {
+    "id": "FTC242",
+    "query": "What happens if someone violates POSH confidentiality?",
+    "keyFacts": [
+      "disciplinary action will be taken"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 9,
+    "category": "POSH Confidentiality"
+  },
+  {
+    "id": "FTC243",
+    "query": "What happens in case of malicious POSH complaint?",
+    "keyFacts": [
+      "allegation was malicious"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 9,
+    "category": "POSH Malicious Complaint"
+  },
+  {
+    "id": "FTC250",
+    "query": "POSH hotline number?",
+    "keyFacts": [
+      "18002008301"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Channels"
+  },
+  {
+    "id": "FTC251",
+    "query": "POSH complaint email address?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Channels"
+  },
+  {
+    "id": "FTC252",
+    "query": "What is the POSH complaint portal?",
+    "keyFacts": [
+      "www.in.kpmg.com/ethicshelpline/arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Channels"
+  },
+  {
+    "id": "FTC253",
+    "query": "Can a POSH complaint be filed through supervisor?",
+    "keyFacts": [
+      "Supervisor / Reporting Manager"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Channels"
+  },
+  {
+    "id": "FTC258",
+    "query": "What is the POSH policy effective date?",
+    "keyFacts": [
+      "01.05.2025"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 1,
+    "category": "POSH Policy Dates"
+  },
+  {
+    "id": "FTC259",
+    "query": "What is the POSH policy issue date?",
+    "keyFacts": [
+      "31.03.2022"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 1,
+    "category": "POSH Policy Dates"
+  },
+  {
+    "id": "FTC260",
+    "query": "Who is covered under POSH policy?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 1,
+    "category": "POSH Scope"
+  },
+  {
+    "id": "FTC261",
+    "query": "Are third parties covered by POSH?",
+    "keyFacts": [
+      "Third parties and/or visitors"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 1,
+    "category": "POSH Scope"
+  },
+  {
+    "id": "FTC262",
+    "query": "Does POSH cover incidents outside office?",
+    "keyFacts": [
+      "outside the workplace"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 1,
+    "category": "POSH Scope"
+  },
+  {
+    "id": "FTC263",
+    "query": "Are office parties covered under POSH?",
+    "keyFacts": [
+      "Office parties"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 2,
+    "category": "POSH Scope"
+  },
+  {
+    "id": "FTC264",
+    "query": "Is same-sex harassment covered under POSH?",
+    "keyFacts": [
+      "prohibits same-sex harassment"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Scope"
+  },
+  {
+    "id": "FTC265",
+    "query": "Is POSH policy gender neutral?",
+    "keyFacts": [
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Scope"
+  },
+  {
+    "id": "FTC300",
+    "query": "How can I report a whistleblower concern?",
+    "keyFacts": [
+      "www.in.kpmg.com/ethicshelpline/arvind"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Channels"
+  },
+  {
+    "id": "FTC301",
+    "query": "What is the whistleblower toll-free number?",
+    "keyFacts": [
+      "18002008301"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Channels"
+  },
+  {
+    "id": "FTC302",
+    "query": "Whistleblower email address?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Channels"
+  },
+  {
+    "id": "FTC303",
+    "query": "Who is covered under whistleblower policy?",
+    "keyFacts": [
+      "Directors"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Coverage"
+  },
+  {
+    "id": "FTC304",
+    "query": "Are business associates covered by whistleblower policy?",
+    "keyFacts": [
+      "Business Associates"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Coverage"
+  },
+  {
+    "id": "FTC305",
+    "query": "Can I report bribery through whistleblower?",
+    "keyFacts": [
+      "Bribery and corruption"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC306",
+    "query": "Can I report theft of company assets?",
+    "keyFacts": [
+      "Misappropriation/theft/embezzlement of company assets"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC307",
+    "query": "Can I report false invoicing through whistleblower?",
+    "keyFacts": [
+      "False invoicing"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC308",
+    "query": "Can workplace harassment be reported as whistleblower?",
+    "keyFacts": [
+      "Workplace harassment"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC309",
+    "query": "Can I report workplace discrimination through whistleblower?",
+    "keyFacts": [
+      "Discrimination and favouritism"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC310",
+    "query": "When does whistleblower committee report to Audit Committee?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 4,
+    "category": "Whistleblower Investigation"
+  },
+  {
+    "id": "FTC311",
+    "query": "When can I get follow-up on my whistleblower concern?",
+    "keyFacts": [
+      "four weeks after the submission"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 4,
+    "category": "Whistleblower Investigation"
+  },
+  {
+    "id": "FTC312",
+    "query": "Can an independent agency investigate whistleblower complaints?",
+    "keyFacts": [
+      "appoint an independent agency"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 4,
+    "category": "Whistleblower Investigation"
+  },
+  {
+    "id": "FTC313",
+    "query": "Is retaliation allowed against whistleblowers?",
+    "keyFacts": [
+      "no adverse personnel action, victimization, retaliation"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 5,
+    "category": "Whistleblower Protection"
+  },
+  {
+    "id": "FTC314",
+    "query": "What if I make a false whistleblower complaint?",
+    "keyFacts": [
+      "will not be protected by this Policy"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 5,
+    "category": "Whistleblower Compliance"
+  },
+  {
+    "id": "FTC315",
+    "query": "Is my identity kept confidential as whistleblower?",
+    "keyFacts": [
+      "identity of the whistle blower shall be kept confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 4,
+    "category": "Whistleblower Confidentiality"
+  },
+  {
+    "id": "FTC316",
+    "query": "What can whistleblower report about corporate fraud?",
+    "keyFacts": [
+      "Fraudulent financial accounting, auditing and reporting"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC317",
+    "query": "Can I report procurement fraud through whistleblower?",
+    "keyFacts": [
+      "Procurement and tendering fraud"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC318",
+    "query": "Is health and safety covered under whistleblower reporting?",
+    "keyFacts": [
+      "Health, safety, environment and security related"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC350",
+    "query": "What is the issue date of gender policy?",
+    "keyFacts": [
+      "25.07.2025"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 1,
+    "category": "Gender Policy Dates"
+  },
+  {
+    "id": "FTC351",
+    "query": "What is the effective date of gender policy?",
+    "keyFacts": [
+      "26.07.2025"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 1,
+    "category": "Gender Policy Dates"
+  },
+  {
+    "id": "FTC352",
+    "query": "Who does gender policy apply to?",
+    "keyFacts": [
+      "all employees of Arvind Ltd"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 2,
+    "category": "Gender Applicability"
+  },
+  {
+    "id": "FTC353",
+    "query": "Are interns covered under gender policy?",
+    "keyFacts": [
+      "interns"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 2,
+    "category": "Gender Applicability"
+  },
+  {
+    "id": "FTC354",
+    "query": "Are contract staff covered under gender policy?",
+    "keyFacts": [
+      "contract staff"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 2,
+    "category": "Gender Applicability"
+  },
+  {
+    "id": "FTC355",
+    "query": "What is the first level for gender grievance?",
+    "keyFacts": [
+      "HR Department"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 3,
+    "category": "Gender Channels"
+  },
+  {
+    "id": "FTC356",
+    "query": "What is the second level for gender grievance?",
+    "keyFacts": [
+      "Line Manager"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 3,
+    "category": "Gender Channels"
+  },
+  {
+    "id": "FTC357",
+    "query": "Is there a toll-free number for gender concerns?",
+    "keyFacts": [
+      "1800 200 8301"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 3,
+    "category": "Gender Channels"
+  },
+  {
+    "id": "FTC358",
+    "query": "What is the gender policy review period?",
+    "keyFacts": [
+      "every two years"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 3,
+    "category": "Gender Policy"
+  },
+  {
+    "id": "FTC359",
+    "query": "Is retaliation against gender concerns allowed?",
+    "keyFacts": [
+      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 3,
+    "category": "Gender Policy"
+  },
+  {
+    "id": "FTC360",
+    "query": "What email to use for gender-related concerns?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 3,
+    "category": "Gender Channels"
+  },
+  {
+    "id": "FTC361",
+    "query": "What is the gender policy web portal?",
+    "keyFacts": [
+      "www.in.kpmg.com/ethicshelpline/arvind"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 3,
+    "category": "Gender Channels"
+  },
+  {
+    "id": "FTC400",
+    "query": "What is the monthly MAB for E1 grade?",
+    "keyFacts": [
+      "32,583"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC401",
+    "query": "What is the monthly MAB for E2 grade?",
+    "keyFacts": [
+      "45,750"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC402",
+    "query": "Monthly MAB for M1 grade?",
+    "keyFacts": [
+      "71,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC403",
+    "query": "What is M2 grade monthly MAB?",
+    "keyFacts": [
+      "1,08,333"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC404",
+    "query": "Monthly MAB for M3 grade?",
+    "keyFacts": [
+      "1,58,333"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC405",
+    "query": "What is the monthly MAB for M3H1 grade?",
+    "keyFacts": [
+      "2,16,667"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC406",
+    "query": "Annual MAB for E1 grade?",
+    "keyFacts": [
+      "3,91,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC407",
+    "query": "Annual MAB for E2 grade?",
+    "keyFacts": [
+      "5,49,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC408",
+    "query": "Annual MAB for M1 grade?",
+    "keyFacts": [
+      "8,52,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC409",
+    "query": "Annual MAB for M2?",
+    "keyFacts": [
+      "13,00,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC410",
+    "query": "Annual MAB for M3?",
+    "keyFacts": [
+      "19,00,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC411",
+    "query": "Annual MAB for M3H1?",
+    "keyFacts": [
+      "26,00,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC412",
+    "query": "How long is MAB paid?",
+    "keyFacts": [
+      "12 months"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 6,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC413",
+    "query": "When is MAB merged with CTC?",
+    "keyFacts": [
+      "merged with CTC on completion of 1 year"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 6,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC414",
+    "query": "What happens to MAB after 1 year?",
+    "keyFacts": [
+      "merged in CTC on completion of 1 year"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC420",
+    "query": "What is the SIA for E1 grade?",
+    "keyFacts": [
+      "10,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC421",
+    "query": "SIA for E2 grade?",
+    "keyFacts": [
+      "10,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC422",
+    "query": "What is the SIA for M1 grade?",
+    "keyFacts": [
+      "15,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC423",
+    "query": "SIA for M2 grade?",
+    "keyFacts": [
+      "20,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC424",
+    "query": "What is the SIA for M3 grade?",
+    "keyFacts": [
+      "30,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC425",
+    "query": "SIA for M3H1 grade?",
+    "keyFacts": [
+      "45,000"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC426",
+    "query": "Is SIA a monthly or one-time payment?",
+    "keyFacts": [
+      "One time"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC427",
+    "query": "When is SIA applicable?",
+    "keyFacts": [
+      "shifting house"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC428",
+    "query": "Minimum relocation distance for SIA?",
+    "keyFacts": [
+      "relocation >20 kms"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 7,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC440",
+    "query": "What triggers job rotation in talent mobility policy?",
+    "keyFacts": [
+      "3 years = trigger for rotation"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 4,
+    "category": "Rotation Rules"
+  },
+  {
+    "id": "FTC441",
+    "query": "Who can block talent mobility?",
+    "keyFacts": [
+      "Managers cannot block mobility"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 4,
+    "category": "Rotation Rules"
+  },
+  {
+    "id": "FTC442",
+    "query": "Who can approve exceptions to talent mobility?",
+    "keyFacts": [
+      "CHRO/CEO can approve exceptions"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 4,
+    "category": "Rotation Rules"
+  },
+  {
+    "id": "FTC443",
+    "query": "Where is first rotation within?",
+    "keyFacts": [
+      "1st Rotation \u2013 within the city"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 4,
+    "category": "Rotation Rules"
+  },
+  {
+    "id": "FTC444",
+    "query": "What is second rotation scope?",
+    "keyFacts": [
+      "2nd Rotation \u2013 across different business / different location"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 4,
+    "category": "Rotation Rules"
+  },
+  {
+    "id": "FTC445",
+    "query": "Positions up to which grade must be via IJP?",
+    "keyFacts": [
+      "All positions upto M2"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 4,
+    "category": "Rotation Rules"
+  },
+  {
+    "id": "FTC500",
+    "query": "What is the maximum duration of pre-joining visit?",
+    "keyFacts": [
+      "maximum period of 3 days"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Pre-Visit"
+  },
+  {
+    "id": "FTC501",
+    "query": "Who can accompany the employee on pre-joining visit?",
+    "keyFacts": [
+      "spouse"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Pre-Visit"
+  },
+  {
+    "id": "FTC502",
+    "query": "How many days of post-joining leave is allowed?",
+    "keyFacts": [
+      "3 days leave"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Post-Visit"
+  },
+  {
+    "id": "FTC503",
+    "query": "Transportation rate if distance is less than 700 km?",
+    "keyFacts": [
+      "Rs. 50 per km"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Transport"
+  },
+  {
+    "id": "FTC504",
+    "query": "Transportation rate for more than 700 km?",
+    "keyFacts": [
+      "Rs. 60 per km"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Transport"
+  },
+  {
+    "id": "FTC505",
+    "query": "Car transport rate via packers and movers?",
+    "keyFacts": [
+      "Rs. 10.0 per km"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Transport"
+  },
+  {
+    "id": "FTC506",
+    "query": "Driver wages for 8 hours trip during joining?",
+    "keyFacts": [
+      "Rs. 600/-"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Transport"
+  },
+  {
+    "id": "FTC507",
+    "query": "Driver wages after 8 hours per hour?",
+    "keyFacts": [
+      "Rs. 50/- per hour"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Transport"
+  },
+  {
+    "id": "FTC508",
+    "query": "Maximum food expense per meal for joining travel?",
+    "keyFacts": [
+      "Rs. 200/- per meal"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Expenses"
+  },
+  {
+    "id": "FTC509",
+    "query": "How long does the brokerage benefit last from joining?",
+    "keyFacts": [
+      "maximum for 1 year from the date of the joining"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Accommodation"
+  },
+  {
+    "id": "FTC510",
+    "query": "What is the brokerage benefit for new employees?",
+    "keyFacts": [
+      "One month rent"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Accommodation"
+  },
+  {
+    "id": "FTC511",
+    "query": "What is the house deposit recovery period?",
+    "keyFacts": [
+      "10 equal monthly instalments"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Accommodation"
+  },
+  {
+    "id": "FTC512",
+    "query": "Within how long must joining expenses be claimed?",
+    "keyFacts": [
+      "One Year from Date of Joining"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Expenses"
+  },
+  {
+    "id": "FTC513",
+    "query": "What happens if employee quits within 1 year?",
+    "keyFacts": [
+      "recovered in his/her F&F settlement"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Expenses"
+  },
+  {
+    "id": "FTC514",
+    "query": "Who must approve joining expense exceptions?",
+    "keyFacts": [
+      "CEO"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Expenses"
+  },
+  {
+    "id": "FTC515",
+    "query": "Is joining policy applicable to management cadre?",
+    "keyFacts": [
+      "Management / staff cadre employees"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Applicability"
+  },
+  {
+    "id": "FTC516",
+    "query": "What is the joining policy effective date?",
+    "keyFacts": [
+      "21.09.2023"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Policy Dates"
+  },
+  {
+    "id": "FTC517",
+    "query": "Who books flight tickets for joining travel?",
+    "keyFacts": [
+      "Arvind Travel Desk"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Transport"
+  },
+  {
+    "id": "FTC518",
+    "query": "What is the mileage rate if employee drives own car for joining?",
+    "keyFacts": [
+      "Rs. 10.0 per km"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Transport"
+  },
+  {
+    "id": "FTC519",
+    "query": "Who pays the packers and movers bill for joining?",
+    "keyFacts": [
+      "The company shall directly make payment"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Transport"
+  },
+  {
+    "id": "FTC520",
+    "query": "Are children covered in pre-joining visit?",
+    "keyFacts": [
+      "Children allowed in case of school admission"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Pre-Visit"
+  },
+  {
+    "id": "FTC600",
+    "query": "What is the POSH policy number?",
+    "keyFacts": [
+      "ARV|ELC_SHA|008|010422"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 1,
+    "category": "POSH Policy Dates"
+  },
+  {
+    "id": "FTC601",
+    "query": "Can a friend file a POSH complaint on behalf of victim?",
+    "keyFacts": [
+      "Her relative or friend"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Complaint Filing"
+  },
+  {
+    "id": "FTC602",
+    "query": "Can a POSH complaint be filed for a dead person?",
+    "keyFacts": [
+      "written consent of her legal heir"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Complaint Filing"
+  },
+  {
+    "id": "FTC603",
+    "query": "Can a POSH complaint be filed by a co-worker?",
+    "keyFacts": [
+      "Her co-worker"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 5,
+    "category": "POSH Complaint Filing"
+  },
+  {
+    "id": "FTC604",
+    "query": "How many copies of complaint must be submitted to AIC?",
+    "keyFacts": [
+      "six copies of the complaint"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 6,
+    "category": "POSH Complaint Filing"
+  },
+  {
+    "id": "FTC605",
+    "query": "What is the AIC abbreviation full form?",
+    "keyFacts": [
+      "Arvind Internal Complaint Committee"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 2,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC606",
+    "query": "Can a party bring legal practitioner to AIC proceedings?",
+    "keyFacts": [
+      "not be allowed to bring in any legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 6,
+    "category": "POSH Complaint Filing"
+  },
+  {
+    "id": "FTC607",
+    "query": "What is CT in POSH policy?",
+    "keyFacts": [
+      "Complainant"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 2,
+    "category": "POSH Definitions"
+  },
+  {
+    "id": "FTC608",
+    "query": "What is RE in POSH?",
+    "keyFacts": [
+      "Respondent"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 2,
+    "category": "POSH Definitions"
+  },
+  {
+    "id": "FTC609",
+    "query": "Does AIC have same powers as civil court?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 4,
+    "category": "POSH AIC Structure"
+  },
+  {
+    "id": "FTC610",
+    "query": "What if AIC inquiry is abandoned after 3 missed proceedings?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "page": 6,
+    "category": "POSH Timelines"
+  },
+  {
+    "id": "FTC620",
+    "query": "What does policy say about confidentiality in grievance?",
+    "keyFacts": [
+      "kept strictly confidential"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 2,
+    "category": "Grievance Policy"
+  },
+  {
+    "id": "FTC621",
+    "query": "Who handles complex grievances involving ethical misconduct?",
+    "keyFacts": [
+      "Ethics Helpline / Group Ethics Officer"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 4,
+    "category": "Grievance Channels"
+  },
+  {
+    "id": "FTC622",
+    "query": "Is the grievance policy applicable to part-time employees?",
+    "keyFacts": [
+      "part-time"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 2,
+    "category": "Grievance Applicability"
+  },
+  {
+    "id": "FTC623",
+    "query": "What is the grievance policy number?",
+    "keyFacts": [
+      "ARV|COM_GRM|001|260725"
+    ],
+    "source": "Grievance Mechanism Policy 2025",
+    "page": 1,
+    "category": "Grievance Policy"
+  },
+  {
+    "id": "FTC630",
+    "query": "What is the purpose of MAB?",
+    "keyFacts": [
+      "Monthly allowance"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 6,
+    "category": "MAB"
+  },
+  {
+    "id": "FTC631",
+    "query": "What is SIA used for?",
+    "keyFacts": [
+      "household setup"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 6,
+    "category": "SIA"
+  },
+  {
+    "id": "FTC632",
+    "query": "How does talent mobility help with risk?",
+    "keyFacts": [
+      "sensitive roles exceed tenure"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 2,
+    "category": "Rotation Rules"
+  },
+  {
+    "id": "FTC633",
+    "query": "Who governs talent mobility decisions?",
+    "keyFacts": [
+      "Governed by HR"
+    ],
+    "source": "Talent Mobility Policy",
+    "page": 4,
+    "category": "Rotation Rules"
+  },
+  {
+    "id": "FTC640",
+    "query": "What system to use for conveyance claims?",
+    "keyFacts": [
+      "Orapps \u2013 ESMS \u2013 Entry \u2013 Conveyance Expense"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 2,
+    "category": "Conveyance Claim"
+  },
+  {
+    "id": "FTC641",
+    "query": "Does local conveyance apply to Ahmedabad corporate staff?",
+    "keyFacts": [
+      "Applicable to all Management / staff cadre of Arvind Ltd"
+    ],
+    "source": "Local Conveyance Policy",
+    "page": 1,
+    "category": "Conveyance Applicability"
+  },
+  {
+    "id": "FTC650",
+    "query": "What is domestic travel policy number?",
+    "keyFacts": [
+      "ARV | EOP_DTP | 003 | 270723"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 1,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC651",
+    "query": "What is the issue date of domestic travel policy?",
+    "keyFacts": [
+      "27.07.2023"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 1,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC652",
+    "query": "Can senior officials travel together on same flight?",
+    "keyFacts": [
+      "senior officials travelling to the same destination on the same day take separate flights"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 3,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC653",
+    "query": "When is overnight rail travel mandatory?",
+    "keyFacts": [
+      "destinations connected by overnight rail"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 3,
+    "category": "Travel Procedures"
+  },
+  {
+    "id": "FTC654",
+    "query": "Are shared cab arrangements encouraged?",
+    "keyFacts": [
+      "multiple employees traveling to the same destination make arrangements to share cabs"
+    ],
+    "source": "Domestic Travel Policy",
+    "page": 5,
+    "category": "Cab Entitlements"
+  },
+  {
+    "id": "FTC660",
+    "query": "Is joining policy applicable to subsidiaries?",
+    "keyFacts": [
+      "subsidiaries"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Applicability"
+  },
+  {
+    "id": "FTC661",
+    "query": "Are income taxes handled for joining relocation?",
+    "keyFacts": [
+      "Income tax shall be grossed up"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Expenses"
+  },
+  {
+    "id": "FTC662",
+    "query": "Can employee avail both pre and post joining visit?",
+    "keyFacts": [
+      "either a Pre-Joining Visit OR Post Joining Visit"
+    ],
+    "source": "Joining Policy",
+    "page": 1,
+    "category": "Joining Pre-Visit"
+  },
+  {
+    "id": "FTC670",
+    "query": "What is the gender policy number?",
+    "keyFacts": [
+      "ARV|COM_GENP|001|260725"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 1,
+    "category": "Gender Policy Dates"
+  },
+  {
+    "id": "FTC671",
+    "query": "Does gender policy cover hiring decisions?",
+    "keyFacts": [
+      "Hiring and Promotions are conducted based on merit"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 3,
+    "category": "Gender Applicability"
+  },
+  {
+    "id": "FTC672",
+    "query": "Are third-party partners covered under gender policy?",
+    "keyFacts": [
+      "third-party partners"
+    ],
+    "source": "Gender Policy 2025",
+    "page": 2,
+    "category": "Gender Applicability"
+  },
+  {
+    "id": "FTC680",
+    "query": "Can I report employee negligence through whistleblower?",
+    "keyFacts": [
+      "Employee negligence"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC681",
+    "query": "Can I report corporate espionage through whistleblower?",
+    "keyFacts": [
+      "Corporate espionage and information disclosure"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 3,
+    "category": "Whistleblower Scope"
+  },
+  {
+    "id": "FTC682",
+    "query": "What is the duty of employees during whistleblower investigation?",
+    "keyFacts": [
+      "duty to cooperate with investigations"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 4,
+    "category": "Whistleblower Investigation"
+  },
+  {
+    "id": "FTC683",
+    "query": "How long to file complaint with Chairman if whistleblower victimized?",
+    "keyFacts": [
+      "lodge a written complaint to the Chairman"
+    ],
+    "source": "Whistleblower Policy",
+    "page": 5,
+    "category": "Whistleblower Protection"
+  }
+]

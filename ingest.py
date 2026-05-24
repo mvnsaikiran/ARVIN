@@ -20,7 +20,7 @@ POLICIES_SRC = "policies"
 VECTORSTORE_DIR = "vectorstore"
 MAX_PROSE_CHUNK = 1400
 PROSE_OVERLAP   = 200
-MIN_CHUNK       = 60
+MIN_CHUNK       = 30
 
 POLICY_NAMES = {
     "localconveyance": "Local Conveyance Policy",
@@ -82,8 +82,9 @@ def split_prose_into_chunks(text: str) -> list[str]:
     Split prose text at section headers first, then paragraphs,
     keeping chunks under MAX_PROSE_CHUNK with PROSE_OVERLAP.
     """
-    # Split at section headers
-    parts = re.split(r'(?=^(?:\d+(?:\.\d+)*[\.\)]\s|[A-Z][A-Z\s\-/]{4,}:?$))', text, flags=re.MULTILINE)
+    # Split only at TOP-LEVEL section boundaries (not sub-items like 5.1. or a.)
+    # This keeps list items (5.1, 5.2 … or a., b., …) together in their parent section chunk
+    parts = re.split(r'(?=^(?:\d+[\.\)]\s+[A-Z]|[A-Z][A-Z\s\-/]{4,}:?$))', text, flags=re.MULTILINE)
     chunks = []
     for part in parts:
         part = part.strip()

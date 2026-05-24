@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 VECTORSTORE_DIR = "vectorstore"
-TOP_K = 6  # chunks to retrieve
+TOP_K = 10  # chunks to retrieve
 MODEL = "claude-sonnet-4-6"
 
 SYSTEM_PROMPT = """You are ARVIN, Arvind Limited's official HR Policy Assistant. \
