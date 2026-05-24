@@ -1,4 +1,5 @@
 .env
+dist/
 vectorstore/
 __pycache__/
 *.pyc
