@@ -1,132 +1,143 @@
 """
-ChromaDB Retrieval Accuracy Benchmark — no Gemini key needed.
-Tests: does ChromaDB return chunks containing the right policy + key facts?
+ChromaDB Retrieval Benchmark — normalised evaluator.
+Fixes benchmark bugs identified in deep analysis:
+  1. Hyphenation: "two-wheeler" == "two wheeler"
+  2. Parenthetical numbers: "3 months" matches "3 (three) months"
+  3. Currency format: "50 per hour" matches "Rs. 50/- per hour"
+  4. "Multiple Policies" source: skip source check, count fact hit only
+  5. Slash vs "or":  "3rd ac/chair car" == "3rd ac or chair car"
 """
 
-import json, re, sys, time
-import chromadb
+import json, re, time, chromadb
 from chromadb.utils import embedding_functions
 
-VECTORSTORE_DIR = "vectorstore"
-TOP_K = 6
-SAMPLE = None  # None = run all test cases
+TOP_K  = 6
+MULTI_POLICY_SOURCES = {"multiple policies", "multiple"}
 
-# ── Load test suite from TypeScript file ─────────────────────────────────────
+# ── Text normalisation ────────────────────────────────────────────────────────
 
-def load_test_suite(path="src/data/fullTestSuite.ts", limit=None):
-    with open(path, encoding="utf-8") as f:
-        content = f.read()
+def normalise(text: str) -> str:
+    t = text.lower()
+    # Currency: "Rs. 50/-" → "50", "₹6,000" → "6000"
+    t = re.sub(r'rs\.?\s*', '', t)
+    t = re.sub(r'₹\s*', '', t)
+    t = re.sub(r'/-', '', t)
+    t = re.sub(r',', '', t)          # "6,000" → "6000"
+    # Parenthetical words after numbers: "3 (three) months" → "3  months"
+    t = re.sub(r'\([\w\s]+\)', ' ', t)
+    # Hyphens → space: "two-wheeler" → "two wheeler"
+    t = t.replace('-', ' ')
+    # Slash → " or ": "3rd ac/chair car" → "3rd ac or chair car"
+    t = t.replace('/', ' or ')
+    # Collapse whitespace
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
 
-    cases = []
-    # Extract each test object block
-    blocks = re.findall(r'\{[^{}]*"id":\s*"TC\d+"[^{}]*\}', content, re.DOTALL)
-    for block in blocks:
-        try:
-            def get(field):
-                m = re.search(rf'"{field}":\s*`([^`]*)`', block)
-                if m: return m.group(1).strip()
-                m = re.search(rf'"{field}":\s*"([^"]*)"', block)
-                if m: return m.group(1).strip()
-                return ""
 
-            def get_list(field):
-                m = re.search(rf'"{field}":\s*\[([^\]]*)\]', block, re.DOTALL)
-                if not m: return []
-                items = re.findall(r'"([^"]+)"', m.group(1))
-                return items
+def fact_present(fact: str, combined_normalised: str) -> bool:
+    return normalise(fact) in combined_normalised
 
-            tc = {
-                "id": get("id"),
-                "query": get("query"),
-                "exactAnswer": get("exactAnswer"),
-                "keyFacts": get_list("keyFacts"),
-                "source": get("source"),
-                "page": get("page"),
-                "category": get("category"),
-            }
-            if tc["id"] and tc["query"]:
-                cases.append(tc)
-        except Exception:
-            continue
-        if limit and len(cases) >= limit:
-            break
-    return cases
 
 # ── ChromaDB setup ────────────────────────────────────────────────────────────
 
 print("Loading ChromaDB + ONNX embeddings...", flush=True)
-ef = embedding_functions.ONNXMiniLM_L6_V2()
-client = chromadb.PersistentClient(path=VECTORSTORE_DIR)
-collection = client.get_collection("arvind_policies", embedding_function=ef)
-print(f"Collection loaded: {collection.count()} chunks\n", flush=True)
+ef     = embedding_functions.ONNXMiniLM_L6_V2()
+client = chromadb.PersistentClient(path="vectorstore")
+col    = client.get_collection("arvind_policies", embedding_function=ef)
+print(f"Collection: {col.count()} chunks\n", flush=True)
 
-# ── Benchmark ─────────────────────────────────────────────────────────────────
+with open("test_suite.json") as f:
+    tests = json.load(f)
+print(f"Running normalised benchmark on {len(tests)} test cases...\n", flush=True)
 
-print("Loading test suite...", flush=True)
-tests = load_test_suite(limit=SAMPLE)
-print(f"Loaded {len(tests)} test cases\n", flush=True)
+# ── Benchmark loop ────────────────────────────────────────────────────────────
 
-source_hits = 0
-fact_hits = 0
-both_hits = 0
-total = 0
-category_stats = {}
+source_hits = fact_hits = both_hits = total = 0
+cat_stats   = {}          # category → [total, both_hit]
+fail_examples = []        # first 3 failures per category for diagnosis
 
 start = time.time()
 
 for i, tc in enumerate(tests):
-    query = tc["query"]
-    expected_source = tc["source"].lower().strip()
-    key_facts = [f.lower() for f in tc["keyFacts"]]
-    category = tc["category"] or "Unknown"
+    query       = tc["query"]
+    expected    = tc["source"].lower().strip()
+    key_facts   = tc.get("keyFacts", [])
+    category    = tc.get("category", "Unknown")
+    multi_src   = expected in MULTI_POLICY_SOURCES
 
-    # ChromaDB retrieval
-    results = collection.query(
-        query_texts=[query],
-        n_results=TOP_K,
-        include=["documents", "metadatas"],
+    results = col.query(
+        query_texts=[query], n_results=TOP_K,
+        include=["documents", "metadatas"]
     )
-    docs = results["documents"][0]
+    docs  = results["documents"][0]
     metas = results["metadatas"][0]
 
-    # Check source match
     retrieved_sources = [m.get("policy_name", "").lower() for m in metas]
-    source_hit = any(expected_source in s or s in expected_source for s in retrieved_sources)
+    combined_norm     = normalise(" ".join(docs))
 
-    # Check key facts in retrieved context
-    combined_text = " ".join(docs).lower()
-    fact_hit = all(f in combined_text for f in key_facts) if key_facts else True
+    # Source hit
+    if multi_src:
+        source_hit = True          # skip source check for multi-policy Qs
+    else:
+        source_hit = any(
+            expected in s or s in expected
+            for s in retrieved_sources
+        )
 
-    source_hits += int(source_hit)
-    fact_hits += int(fact_hit)
-    both_hits += int(source_hit and fact_hit)
-    total += 1
+    # Fact hit (normalised)
+    fact_hit = all(fact_present(f, combined_norm) for f in key_facts) if key_facts else True
 
-    # Category tracking
-    if category not in category_stats:
-        category_stats[category] = {"total": 0, "both": 0}
-    category_stats[category]["total"] += 1
-    category_stats[category]["both"] += int(source_hit and fact_hit)
+    source_hits += source_hit
+    fact_hits   += fact_hit
+    both        = source_hit and fact_hit
+    both_hits   += both
+    total       += 1
 
-    if (i + 1) % 500 == 0:
-        elapsed = time.time() - start
-        print(f"  {i+1}/{len(tests)} | Source: {source_hits/(i+1)*100:.1f}% | Facts: {fact_hits/(i+1)*100:.1f}% | Both: {both_hits/(i+1)*100:.1f}% | {elapsed:.0f}s", flush=True)
+    if category not in cat_stats:
+        cat_stats[category] = [0, 0, []]
+    cat_stats[category][0] += 1
+    cat_stats[category][1] += both
+    if not both and len(cat_stats[category][2]) < 2:
+        cat_stats[category][2].append({
+            "q": query,
+            "facts": key_facts,
+            "src_hit": source_hit,
+            "fact_hit": fact_hit,
+            "retrieved": combined_norm[:300],
+        })
+
+    if (i + 1) % 1000 == 0:
+        print(f"  {i+1}/{len(tests)} | Source {source_hits/(i+1)*100:.1f}% | "
+              f"Facts {fact_hits/(i+1)*100:.1f}% | Overall {both_hits/(i+1)*100:.1f}%",
+              flush=True)
 
 elapsed = time.time() - start
 
 # ── Results ───────────────────────────────────────────────────────────────────
 
-print(f"\n{'='*55}")
-print(f"  CHROMADB RETRIEVAL BENCHMARK — {total} test cases")
-print(f"{'='*55}")
-print(f"  Source accuracy  (correct policy retrieved): {source_hits/total*100:.1f}%")
-print(f"  Fact accuracy    (key facts in context):     {fact_hits/total*100:.1f}%")
-print(f"  Overall accuracy (source + facts both hit):  {both_hits/total*100:.1f}%")
-print(f"  Time: {elapsed:.1f}s ({elapsed/total*1000:.0f}ms per query)\n")
+print(f"\n{'='*60}")
+print(f"  NORMALISED BENCHMARK — {total} test cases")
+print(f"{'='*60}")
+print(f"  Source accuracy:   {source_hits/total*100:.1f}%  (raw was 98.0%)")
+print(f"  Fact accuracy:     {fact_hits/total*100:.1f}%  (raw was 75.1%)")
+print(f"  Overall accuracy:  {both_hits/total*100:.1f}%  (raw was 73.9%)")
+print(f"  Speed: {elapsed/total*1000:.1f}ms/query | {elapsed:.0f}s total\n")
 
-print("  By category:")
-for cat, stats in sorted(category_stats.items(), key=lambda x: -x[1]["both"]/max(x[1]["total"],1)):
-    pct = stats["both"] / stats["total"] * 100
-    print(f"    {cat:<35} {pct:5.1f}%  ({stats['both']}/{stats['total']})")
+perfect   = [(c, s) for c, s in cat_stats.items() if s[1]==s[0]]
+imperfect = [(c, s) for c, s in cat_stats.items() if s[1]<s[0]]
 
-print(f"{'='*55}")
+print(f"  ✅ Perfect categories ({len(perfect)}):")
+for cat, (t, h, _) in sorted(perfect, key=lambda x: -x[1][0]):
+    print(f"    {cat:<40} 100.0%  ({h}/{t})")
+
+print(f"\n  ⚠️  Imperfect categories ({len(imperfect)}) — sorted by score:")
+for cat, (t, h, examples) in sorted(imperfect, key=lambda x: x[1][1]/x[1][0]):
+    pct = h/t*100
+    print(f"\n    {cat:<40} {pct:5.1f}%  ({h}/{t})")
+    for ex in examples:
+        missing = [f for f in ex['facts'] if not fact_present(f, ex['retrieved'])]
+        print(f"      Q: {ex['q'][:80]}")
+        print(f"      Missing facts: {missing}")
+        print(f"      Src hit: {ex['src_hit']}  |  context: {ex['retrieved'][:120]}...")
+
+print(f"\n{'='*60}")
