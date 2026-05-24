@@ -1,10 +1,10 @@
 """
 Python RAG backend — FastAPI on port 8001.
-Receives requests from the Node.js server (server.ts) and responds with
-Claude-generated answers grounded in ChromaDB policy chunks.
+Retrieval: ChromaDB (semantic search over 8 Arvind HR policies)
+LLM: Gemini (via GEMINI_API_KEY) — same model as the frontend uses
 
 Endpoints:
-  POST /api/claude/generate  — main chat (called from geminiProxy.ts)
+  POST /api/claude/generate  — RAG-enriched Gemini response (called from geminiProxy.ts)
   POST /api/ingest           — re-index all policies in ./policies/
   GET  /api/health           — health check
 """
@@ -12,15 +12,17 @@ Endpoints:
 import os
 import sys
 import subprocess
+import json
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Any
 from dotenv import load_dotenv
+import google.generativeai as genai
 
 load_dotenv()
 
-app = FastAPI(title="ARVIN Python RAG Backend")
+app = FastAPI(title="ARVIN RAG Backend")
 
 app.add_middleware(
     CORSMiddleware,
@@ -29,22 +31,25 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Request models ────────────────────────────────────────────────────────────
+# ── Gemini client ─────────────────────────────────────────────────────────────
+
+def get_gemini_client():
+    key = os.getenv("GEMINI_API_KEY", "")
+    if not key:
+        raise HTTPException(status_code=500, detail="GEMINI_API_KEY not set.")
+    genai.configure(api_key=key)
+    return genai.GenerativeModel("gemini-2.0-flash")
+
+# ── Request model ─────────────────────────────────────────────────────────────
 
 class GenerateRequest(BaseModel):
-    contents: list[Any]       # Gemini-format content array from the frontend
+    contents: list[Any]
     config: dict[str, Any] = {}
-
-class IngestRequest(BaseModel):
-    pass
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def extract_query_and_history(contents: list[Any]) -> tuple[str, list[dict]]:
-    """
-    Convert Gemini-format contents into (last_user_query, chat_history).
-    Gemini format: [{role: "user", parts: [{text: "..."}]}, ...]
-    """
+    """Extract last user query + prior turns from Gemini-format contents."""
     messages = []
     for item in contents:
         if not isinstance(item, dict):
@@ -58,58 +63,58 @@ def extract_query_and_history(contents: list[Any]) -> tuple[str, list[dict]]:
             elif isinstance(part, str):
                 text += part
         if text.strip():
-            # Map Gemini roles to Anthropic roles
-            anthropic_role = "assistant" if role == "model" else "user"
-            messages.append({"role": anthropic_role, "content": text.strip()})
+            messages.append({"role": role, "text": text.strip()})
 
     if not messages:
         raise ValueError("No text content found in request.")
 
-    # Last message is the current question; the rest is history
-    last = messages[-1]["content"]
-    history = messages[:-1]
-    return last, history
+    last_query = messages[-1]["text"]
+    return last_query, messages[:-1]
 
 
-def get_system_instruction(config: dict) -> str | None:
-    """Extract system instruction from Gemini config if present."""
-    si = config.get("systemInstruction")
-    if isinstance(si, str):
-        return si
-    if isinstance(si, dict):
-        parts = si.get("parts", [])
-        texts = [p.get("text", "") for p in parts if isinstance(p, dict)]
-        return " ".join(texts).strip() or None
-    return None
+def inject_rag_context(contents: list[Any], context: str) -> list[Any]:
+    """Prepend ChromaDB context into the last user turn."""
+    if not contents:
+        return contents
+    enriched = list(contents)
+    last = dict(enriched[-1]) if isinstance(enriched[-1], dict) else {}
+    parts = list(last.get("parts", []))
+    if parts and isinstance(parts[-1], dict) and "text" in parts[-1]:
+        original_text = parts[-1]["text"]
+        parts[-1] = {
+            "text": (
+                f"[POLICY CONTEXT FROM KNOWLEDGE BASE]\n{context}\n"
+                f"[END POLICY CONTEXT]\n\n{original_text}"
+            )
+        }
+    last["parts"] = parts
+    enriched[-1] = last
+    return enriched
 
+# ── Lazy RAG loader ───────────────────────────────────────────────────────────
 
-# ── Lazy-load RAG module ──────────────────────────────────────────────────────
-
-_rag_loaded = False
+_rag_ready = False
 
 def ensure_rag():
-    global _rag_loaded
-    if not _rag_loaded:
-        import rag  # noqa: F401 — triggers model + collection load
-        _rag_loaded = True
-
+    global _rag_ready
+    if not _rag_ready:
+        import rag  # triggers ChromaDB + ONNX model load
+        _rag_ready = True
 
 # ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "backend": "claude-rag"}
+    return {"status": "ok", "backend": "chromadb-gemini"}
 
 
 @app.post("/api/ingest")
 def ingest():
-    """Re-run ingest.py to rebuild the ChromaDB vectorstore."""
+    """Rebuild the ChromaDB vectorstore from policies/."""
     try:
         result = subprocess.run(
             [sys.executable, "ingest.py"],
-            capture_output=True,
-            text=True,
-            timeout=300,
+            capture_output=True, text=True, timeout=300,
         )
         if result.returncode != 0:
             raise RuntimeError(result.stderr)
@@ -119,50 +124,31 @@ def ingest():
 
 
 @app.post("/api/claude/generate")
-def claude_generate(req: GenerateRequest):
+def rag_generate(req: GenerateRequest):
     """
-    Main chat endpoint. Extracts the query from Gemini-format contents,
-    runs RAG retrieval against ChromaDB, and calls Claude for the answer.
-    Returns {"text": "..."} to match the existing frontend contract.
+    1. Extract query from Gemini-format contents
+    2. Retrieve relevant policy chunks from ChromaDB
+    3. Inject context into the request
+    4. Call Gemini and return {text: ...}
     """
     try:
         ensure_rag()
-        from rag import stream_answer, retrieve, build_context_block
-        import anthropic
+        from rag import retrieve, build_context_block
 
-        query, history = extract_query_and_history(req.contents)
+        query, _ = extract_query_and_history(req.contents)
 
-        # Build RAG context
+        # ChromaDB semantic retrieval
         chunks = retrieve(query)
         context = build_context_block(chunks)
 
-        # System prompt — use frontend's instruction if present, else default
-        frontend_system = get_system_instruction(req.config)
-        system_prompt = frontend_system or (
-            "You are ARVIN, Arvind Limited's official HR Policy Assistant. "
-            "Answer ONLY from the policy context provided. Always cite which policy "
-            "you are referencing. If the answer is not in the context, say so and "
-            "suggest contacting Business HR. Be professional and concise."
-        )
+        # Inject context into the Gemini request
+        enriched_contents = inject_rag_context(req.contents, context)
 
-        # Build messages for Claude
-        messages = list(history)
-        user_message = f"POLICY CONTEXT:\n{context}\n\nEMPLOYEE QUESTION:\n{query}"
-        messages.append({"role": "user", "content": user_message})
+        # Call Gemini
+        model = get_gemini_client()
+        response = model.generate_content(enriched_contents)
+        text = response.text if response.text else ""
 
-        api_key = os.getenv("ANTHROPIC_API_KEY")
-        if not api_key:
-            raise HTTPException(status_code=500, detail="ANTHROPIC_API_KEY not set.")
-
-        client = anthropic.Anthropic(api_key=api_key)
-        message = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=1024,
-            system=system_prompt,
-            messages=messages,
-        )
-
-        text = message.content[0].text if message.content else ""
         return {"text": text}
 
     except HTTPException:
