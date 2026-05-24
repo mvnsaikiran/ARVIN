@@ -1,9 +1,4 @@
-/**
- * geminiProxy.ts — swapped from Gemini to Claude via Python RAG backend.
- * Request/response contract is identical so no frontend changes are needed.
- */
-
-const PYTHON_BACKEND = process.env.PYTHON_BACKEND_URL || "http://127.0.0.1:8001";
+import { GoogleGenAI } from "@google/genai";
 
 export interface GeminiGenerateRequest {
   model?: string;
@@ -11,31 +6,47 @@ export interface GeminiGenerateRequest {
   config?: Record<string, unknown>;
 }
 
-export async function generateGeminiText(request: GeminiGenerateRequest): Promise<string> {
-  if (!request || !Array.isArray(request.contents) || request.contents.length === 0) {
-    throw new Error("Request contents are required.");
+let cachedClient: GoogleGenAI | null = null;
+let cachedKey = "";
+
+function getGeminiApiKey() {
+  const key = process.env.GEMINI_API_KEY || "";
+  if (!key) {
+    throw new Error("GEMINI_API_KEY not set.");
   }
-
-  const response = await fetch(`${PYTHON_BACKEND}/api/claude/generate`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      contents: request.contents,
-      config: request.config ?? {},
-    }),
-  });
-
-  if (!response.ok) {
-    const err = await response.text();
-    throw new Error(`Python backend error ${response.status}: ${err}`);
-  }
-
-  const data = await response.json() as { text?: string; error?: string };
-  if (data.error) throw new Error(data.error);
-  return data.text ?? "";
+  return key;
 }
 
-// Embeddings handled internally by the Python backend — not needed here.
-export async function generateGeminiEmbedding(_text: string): Promise<number[]> {
-  return [];
+function getGeminiClient() {
+  const key = getGeminiApiKey();
+  if (!cachedClient || cachedKey !== key) {
+    cachedClient = new GoogleGenAI({ apiKey: key });
+    cachedKey = key;
+  }
+  return cachedClient;
+}
+
+export async function generateGeminiText(request: GeminiGenerateRequest) {
+  if (!request || !Array.isArray(request.contents) || request.contents.length === 0) {
+    throw new Error("Gemini request contents are required.");
+  }
+
+  const response = await getGeminiClient().models.generateContent({
+    model: request.model || "gemini-2.0-flash",
+    contents: request.contents as any,
+    config: request.config as any,
+  });
+
+  return response.text ?? "";
+}
+
+export async function generateGeminiEmbedding(text: string) {
+  if (!text) {
+    throw new Error("Text is required for embedding.");
+  }
+  const result = await getGeminiClient().models.embedContent({
+    model: "text-embedding-004",
+    contents: text,
+  });
+  return result.embeddings?.[0]?.values ?? [];
 }
