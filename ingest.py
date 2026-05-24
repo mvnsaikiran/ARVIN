@@ -279,6 +279,19 @@ def main():
         )
         print(f"  Stored {end}/{len(all_chunks)}", flush=True)
 
+    # Save chunks manifest for BM25 hybrid retrieval
+    chunks_file = os.path.join(VECTORSTORE_DIR, 'chunks.json')
+    import json as _json
+    with open(chunks_file, 'w') as f:
+        _json.dump([{
+            'text':        c['text'],
+            'policy_name': c['policy_name'],
+            'page':        c['page'],
+            'filename':    c['filename'],
+            'chunk_type':  c['chunk_type'],
+        } for c in all_chunks], f)
+    print(f"Saved chunks manifest → {chunks_file}", flush=True)
+
     print(f"\nDone. {len(all_chunks)} chunks in vectorstore.", flush=True)
 
 

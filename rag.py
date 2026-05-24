@@ -1,17 +1,16 @@
 """
-RAG pipeline: embed query → retrieve policy chunks → call Claude → stream answer.
+RAG pipeline: hybrid BM25 + semantic retrieval → call Claude → stream answer.
+Uses hybrid_rag.HybridRetriever for better numeric and keyword-specific lookups.
 """
 
 import os
 import anthropic
-import chromadb
-from chromadb.utils import embedding_functions
 from dotenv import load_dotenv
+import hybrid_rag
 
 load_dotenv()
 
-VECTORSTORE_DIR = "vectorstore"
-TOP_K = 10  # chunks to retrieve
+TOP_K = 10
 MODEL = "claude-sonnet-4-6"
 
 SYSTEM_PROMPT = """You are ARVIN, Arvind Limited's official HR Policy Assistant. \
@@ -27,50 +26,9 @@ Guidelines:
 - Format responses clearly using bullet points or numbered steps when listing conditions or steps.
 """
 
-_ef = None
-_collection = None
-_client = None
-
-
-def _get_ef():
-    global _ef
-    if _ef is None:
-        _ef = embedding_functions.ONNXMiniLM_L6_V2()
-    return _ef
-
-
-def _get_collection():
-    global _collection, _client
-    if _collection is None:
-        _client = chromadb.PersistentClient(path=VECTORSTORE_DIR)
-        _collection = _client.get_collection(
-            "arvind_policies", embedding_function=_get_ef()
-        )
-    return _collection
-
-
 def retrieve(query: str) -> list[dict]:
-    """Return top-K relevant policy chunks for the query."""
-    collection = _get_collection()
-    results = collection.query(
-        query_texts=[query],
-        n_results=TOP_K,
-        include=["documents", "metadatas", "distances"],
-    )
-    chunks = []
-    for doc, meta, dist in zip(
-        results["documents"][0],
-        results["metadatas"][0],
-        results["distances"][0],
-    ):
-        chunks.append({
-            "text": doc,
-            "policy_name": meta["policy_name"],
-            "page": meta["page"],
-            "filename": meta["filename"],
-            "score": round(1 - dist, 3),  # cosine similarity
-        })
-    return chunks
+    """Return top-K relevant policy chunks via hybrid BM25 + semantic retrieval."""
+    return hybrid_rag.retrieve(query, n_results=TOP_K)
 
 
 def build_context_block(chunks: list[dict]) -> str:
