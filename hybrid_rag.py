@@ -58,6 +58,13 @@ POLICY_KEYWORDS = {
         "rs. 10", "rs. 5", "10.00 per km", "5.00 per km",
         "municipal corporation", "gram panchayat", "santej", "raipur", "gomtipur",
         "company car", "personal vehicle", "bm grade",
+        # LC-specific exact phrases
+        "applicable to all management", "staff cadre", "management staff cadre",
+        "forge the documents", "strict disciplinary action shall be taken",
+        "orapps esms", "esms entry", "conveyance expense",
+        "outside the respective city", "outside the respective",
+        "gram panchayat limits", "municipal corporation limits",
+        "support staff", "company owned vehicle",
     ],
     "Talent Mobility Policy": [
         "mab", "sia", "mobility adjustment", "settling-in", "settling in",
@@ -93,6 +100,22 @@ POLICY_KEYWORDS = {
         "quarterly report", "four weeks after", "independent agency",
         "confidential", "disciplinary action will be taken",
         "18002008301",
+        # Disciplinary action specifics
+        "terminating the re from service", "written apology",
+        "reprimand", "censure", "withholding of promotion",
+        "withholding of pay rise", "counselling session",
+        "community service", "monetary compensation",
+        # Protection
+        "protected from retaliation", "no adverse action",
+        "victimization", "protect complainants",
+        # Contact
+        "1800 200 8301", "ethics helpline",
+        # AIC quorum/composition
+        "minimum of 3 members", "presiding officer shall be",
+        "senior level woman employee",
+        # Scope
+        "prohibits same-sex", "same-sex harassment", "gender neutral policy",
+        "covers with equal rigour",
     ],
     "Grievance Mechanism Policy 2025": [
         "grievance", "complaint channel", "redressal", "grievance policy",
@@ -119,6 +142,25 @@ POLICY_KEYWORDS = {
         "effective from gender", "arvind gender",
         "retaliation against individuals", "raise concerns in good faith",
         "every two years", "gender review",
+        # Applicability specifics
+        "interns", "contract staff", "third-party partners", "third party partners",
+        "full-time", "part-time", "consultants",
+        "all employees of arvind", "arvind ltd. is committed",
+        # Complaint process specifics
+        "hr department", "buhr", "group ethics officer",
+        "first level", "second level", "third level", "fourth level",
+        "gender based harassment", "non-tolerance",
+        # Policy details
+        "25.07.2025", "26.07.2025", "arv|com_genp",
+        "gender neutral", "equal access and opportunity",
+        "non-tolerance of gender",
+        # Protection
+        "retaliation against", "concerns in good faith",
+        "gender-sensitive work environment",
+        "gender-based caregiving", "work-life integration",
+        # Initiatives
+        "gender diversity initiatives", "gender-inclusive workforce",
+        "gender sensitization training", "merit", "balanced",
     ],
     "Domestic Travel Policy": [
         "domestic travel", "travel policy", "hotel reimbursement",
@@ -205,11 +247,15 @@ class HybridRetriever:
         self._ensure_loaded()
 
         detected_policy = _detect_policy(query)
+        cross_policy = detected_policy is None
+
+        # Cross-policy queries get a wider semantic net
+        sem_k = min(SEMANTIC_K * 2 if cross_policy else SEMANTIC_K, self._chroma.count())
 
         # 1. Semantic search (wider net)
         sem = self._chroma.query(
             query_texts=[query],
-            n_results=min(SEMANTIC_K, self._chroma.count()),
+            n_results=sem_k,
             include=["documents", "metadatas", "distances"],
         )
         sem_docs  = sem["documents"][0]
@@ -261,7 +307,22 @@ class HybridRetriever:
                 score += 1.5 / (RRF_K + bm25_rk[idx])
             rrf[idx] = score
 
-        top_indices = sorted(rrf.items(), key=lambda x: -x[1])[:n_results]
+        # For cross-policy queries: enforce policy diversity (max 4 chunks per policy)
+        # and return up to 2× chunks so multi-document facts can all be covered.
+        if cross_policy:
+            effective_k = min(n_results * 2, 20)
+            policy_counts: dict[str, int] = {}
+            diverse: list[tuple[int, float]] = []
+            for idx, score in sorted(rrf.items(), key=lambda x: -x[1]):
+                pol = self._chunks[idx]["policy_name"]
+                if policy_counts.get(pol, 0) < 4:
+                    policy_counts[pol] = policy_counts.get(pol, 0) + 1
+                    diverse.append((idx, score))
+                if len(diverse) >= effective_k:
+                    break
+            top_indices = diverse
+        else:
+            top_indices = sorted(rrf.items(), key=lambda x: -x[1])[:n_results]
 
         # 4. BM25 exact-match guarantee: inject top BM25 results not in RRF top-K,
         #    but only when the chunk actually contains a content token from the query.
