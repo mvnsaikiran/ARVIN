@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  .markdown-body h3 {
+    @apply text-lg font-bold mt-8 mb-4 text-slate-800 flex items-center gap-2;
+  }
+  .markdown-body h3::before {
+    content: "";
+    @apply w-1 h-6 bg-indigo-500 rounded-full inline-block;
+  }
+  .markdown-body ul {
+    @apply list-disc ml-6 space-y-2 mb-6 text-slate-600;
+  }
+  .markdown-body p {
+    @apply mb-5 leading-relaxed text-slate-700;
+  }
+  .markdown-body table {
+    @apply w-full border-collapse mb-8 border border-slate-200 rounded-xl overflow-hidden shadow-sm;
+    display: table;
+  }
+  .markdown-body thead {
+    @apply bg-slate-50;
+  }
+  .markdown-body th {
+    @apply px-4 py-3 text-left text-[11px] font-black uppercase tracking-widest text-slate-500 border-b border-slate-200;
+  }
+  .markdown-body td {
+    @apply px-4 py-3 text-sm border-b border-slate-100 text-slate-600 font-medium;
+  }
+  .markdown-body tr:last-child td {
+    @apply border-b-0;
+  }
+  .markdown-body tr:nth-child(even) {
+    @apply bg-slate-50/50;
+  }
+  .markdown-body strong {
+    @apply font-bold text-indigo-700 bg-indigo-50 px-1 rounded;
+  }
+}
+
