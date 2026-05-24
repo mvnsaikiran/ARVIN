@@ -109,6 +109,8 @@ POLICY_KEYWORDS = {
         "undue awarding", "awarding of contracts", "kickback",
         "quarterly", "reporting frequency", "annual basis",
         "independent agency", "appoint an independent", "investigation",
+        "four weeks after the submission", "four weeks after submission",
+        "duty to cooperate", "adverse personnel action",
         "arvind@ethicshelpline",
     ],
     "Gender Policy 2025": [
@@ -144,7 +146,8 @@ def _tokenise(text: str) -> list[str]:
     t = re.sub(r'/-', '', t)
     t = re.sub(r',', '', t)
     t = re.sub(r'[(){}[\]]', ' ', t)
-    t = re.sub(r'[?!;:"\']', ' ', t)   # strip terminal punctuation (not . or /)
+    t = re.sub(r'[?!;:"\']', ' ', t)
+    t = re.sub(r'\.(?=\s|$)', ' ', t)  # strip sentence-ending periods (not decimals)
     t = t.replace('-', ' ').replace('/', ' ')
     return [w for w in t.split() if w]
 
