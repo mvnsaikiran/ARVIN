@@ -307,8 +307,7 @@ class HybridRetriever:
                 score += 1.5 / (RRF_K + bm25_rk[idx])
             rrf[idx] = score
 
-        # For cross-policy queries: enforce policy diversity (max 4 chunks per policy)
-        # and return up to 2× chunks so multi-document facts can all be covered.
+        # Cross-policy: diversity enforcement, 2× result budget
         if cross_policy:
             effective_k = min(n_results * 2, 20)
             policy_counts: dict[str, int] = {}
