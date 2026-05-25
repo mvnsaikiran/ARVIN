@@ -13,13 +13,36 @@ load_dotenv()
 TOP_K = 10
 MODEL = "claude-sonnet-4-6"
 
+# Thresholds for the two-gate out-of-scope check (see is_low_confidence).
+# Content tokens shorter than MIN_TOKEN_LEN are excluded from scoring to prevent
+# single digits/symbols ("2", "+") from inflating BM25.
+# A query with no policy-keyword hit passes only when ≥2 multi-char content tokens
+# individually score >0 in BM25 AND their combined BM25 score ≥ BM25_NOISE_FLOOR.
+MIN_TOKEN_LEN   = 2
+BM25_NOISE_FLOOR = 5.5   # combined BM25 floor for no-policy-detected queries
+BM25_MATCH_MIN   = 2     # min distinct tokens that must score >0 independently
+
+# Message returned when retrieval confidence is too low or query is out of scope.
+_OUT_OF_SCOPE_MSG = (
+    "I'm sorry, I wasn't able to find relevant information in Arvind's HR policy documents "
+    "for your question.\n\n"
+    "This could mean:\n"
+    "- The topic is not covered by the policies I have access to, or\n"
+    "- Your question may be outside the scope of HR policies (e.g. general knowledge questions).\n\n"
+    "**What you can do:**\n"
+    "- Rephrase your question using policy-specific terms (e.g. *travel reimbursement*, *POSH complaint*, *grievance process*)\n"
+    "- Contact your **Business HR representative** directly\n"
+    "- Reach the **Ethics Helpline** at `1800 200 8301` or `arvind@ethicshelpline.in`"
+)
+
 SYSTEM_PROMPT = """You are ARVIN, Arvind Limited's official HR Policy Assistant. \
 Your role is to help employees understand company HR policies accurately and clearly.
 
 Guidelines:
 - Answer ONLY from the policy context provided below. Do not invent information.
 - Always mention which policy you are referencing (e.g., "As per the Domestic Travel Policy...").
-- If the answer is not found in the context, say: "This is not covered in the policies I have access to. Please contact your Business HR for assistance."
+- If the policy context does not contain enough information to answer the question, respond with exactly: "I'm sorry, this specific detail is not covered in the policies I have access to. Please contact your Business HR for assistance."
+- Never guess, infer, or fill in details not present in the context.
 - Be professional, concise, and empathetic in tone.
 - For POSH or grievance issues, always include the relevant helpline/contact if present in the context.
 - Never give legal advice or speculate beyond what the policy states.
@@ -46,6 +69,45 @@ def build_context_block(chunks: list[dict]) -> str:
     return "\n\n---\n\n".join(parts)
 
 
+def _max_bm25_content_score(query: str) -> float:
+    """Return the max BM25 score across all chunks for the query's content tokens."""
+    from hybrid_rag import _retriever, _tokenise, _BM25_STOPWORDS
+    _retriever._ensure_loaded()
+    content_tokens = [t for t in _tokenise(query) if t not in _BM25_STOPWORDS]
+    if not content_tokens:
+        return 0.0
+    scores = _retriever._bm25.get_scores(content_tokens)
+    return float(max(scores))
+
+
+def is_low_confidence(query: str, chunks: list[dict]) -> bool:
+    """
+    Return True when the query is out of Arvind HR policy scope.
+
+    Logic (two gates, both must pass to allow through):
+      Gate 1 — policy keyword: if hybrid_rag detects a specific Arvind policy
+               via keyword matching, the query is definitely on-topic → pass.
+      Gate 2 — BM25 noise floor: if no policy was detected (Gate 1 missed) AND
+               the max BM25 content-token score is below BM25_NOISE_FLOOR, the
+               query most likely has no real HR policy content → block.
+
+    This catches:
+      - "cook pasta", "tell me a joke"   → BM25≈0, no policy → blocked
+      - "capital of France"              → BM25=4.5 (capital≡GPA), no policy → blocked
+      - "what is 2+2"                    → BM25=6.4 (bare "2" in tables), no policy → blocked
+    And correctly passes:
+      - All queries that hit any POLICY_KEYWORDS entry (reimbursement, posh, mab, …)
+      - General HR queries with multiple HR-vocab tokens (benefits, counselling, etc.)
+    """
+    if not chunks:
+        return True
+    from hybrid_rag import _detect_policy
+    if _detect_policy(query):
+        return False  # explicit policy match → always on-topic
+    bm25_max = _max_bm25_content_score(query)
+    return bm25_max < BM25_NOISE_FLOOR
+
+
 def stream_answer(query: str, chat_history: list[dict]):
     """
     Retrieve context, build prompt, stream Claude response.
@@ -53,6 +115,14 @@ def stream_answer(query: str, chat_history: list[dict]):
     Also yields a special dict at the end: {"sources": [...]} for citation display.
     """
     chunks = retrieve(query)
+
+    # Guardrail: short-circuit before touching the LLM if retrieval is empty or
+    # the BM25 signal is below the confidence floor (query is out of scope / unknown).
+    if is_low_confidence(query, chunks):
+        yield _OUT_OF_SCOPE_MSG
+        yield {"sources": []}
+        return
+
     context = build_context_block(chunks)
 
     # Build messages list for Claude

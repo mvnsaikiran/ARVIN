@@ -128,17 +128,23 @@ def rag_generate(req: GenerateRequest):
     """
     1. Extract query from Gemini-format contents
     2. Retrieve relevant policy chunks from ChromaDB
-    3. Inject context into the request
-    4. Call Gemini and return {text: ...}
+    3. Guardrail: short-circuit if retrieval confidence is too low
+    4. Inject context into the request and call Gemini
     """
     try:
         ensure_rag()
-        from rag import retrieve, build_context_block
+        from rag import retrieve, build_context_block, is_low_confidence, _OUT_OF_SCOPE_MSG
 
         query, _ = extract_query_and_history(req.contents)
 
-        # ChromaDB semantic retrieval
+        # Hybrid retrieval
         chunks = retrieve(query)
+
+        # Guardrail: if the query is out of scope, return the fallback message
+        # directly — no Gemini call, no hallucination risk.
+        if is_low_confidence(query, chunks):
+            return {"text": _OUT_OF_SCOPE_MSG}
+
         context = build_context_block(chunks)
 
         # Inject context into the Gemini request
