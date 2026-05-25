@@ -1,0 +1,4798 @@
+[
+  {
+    "id": "GHI_0042",
+    "query": "As per Arvind HR policy, Are children covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "two children",
+      "25 years"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "GHI_0048",
+    "query": "HR query: What is the maternity benefit under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "50,000",
+      "normal delivery"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "FNF_0019",
+    "query": "Please tell me: How to resign from Arvind?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Darwinbox",
+      "Employee Life Cycle",
+      "Separation"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "EER_0042",
+    "query": "As per Arvind HR policy, How do I claim fuel expenses for company car?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "fuel vouchers",
+      "petrol pumps"
+    ],
+    "category": "Car-Expenses"
+  },
+  {
+    "id": "EER_0028",
+    "query": "HR query: Is giving gifts to vendors allowed?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "prohibited",
+      "CEO",
+      "CHRO",
+      "Group Ethics Officer"
+    ],
+    "category": "Gifts"
+  },
+  {
+    "id": "EAP_0030",
+    "query": "As per Arvind HR policy, Is EAP confidential?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "confidential",
+      "no need to inform"
+    ],
+    "category": "Confidentiality"
+  },
+  {
+    "id": "EAP_0035",
+    "query": "Please tell me: Does my manager know if I use EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "confidential",
+      "no need to inform"
+    ],
+    "category": "Confidentiality"
+  },
+  {
+    "id": "EAP_0060",
+    "query": "HR query: EAP emergency contact number",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1800-258-8121",
+      "1800-258-8999"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "GHI_0014",
+    "query": "As per Arvind HR policy, What is the room rent limit for BM?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "12,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "EAP_0011",
+    "query": "Please tell me: What does EAP stand for?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "Employee Assistance Program"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GPA_0039",
+    "query": "Please tell me: Is fracture covered under personal accident insurance?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "20,000"
+    ],
+    "category": "Fracture"
+  },
+  {
+    "id": "GHI_0025",
+    "query": "What is the room charge for E2?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "6,000"
+    ],
+    "category": "Entitlement-E1"
+  },
+  {
+    "id": "EAP_0021",
+    "query": "What can I use EAP for?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress",
+      "anxiety",
+      "family"
+    ],
+    "category": "Use-Cases"
+  },
+  {
+    "id": "EER_0075",
+    "query": "Please tell me: Who approves exceptions to the expense policy?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "CFO",
+      "CHRO"
+    ],
+    "category": "Exceptions"
+  },
+  {
+    "id": "GHI_0060",
+    "query": "HR query: What is the critical illness benefit?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "5,00,000",
+      "once-in-a-lifetime"
+    ],
+    "category": "Critical-Illness"
+  },
+  {
+    "id": "FNF_0049",
+    "query": "When do I get the experience letter?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "last working day"
+    ],
+    "category": "Letters"
+  },
+  {
+    "id": "GHI_0072",
+    "query": "HR query: What is the GHI helpline number?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "1800-425-4033"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "EAP_0067",
+    "query": "Please tell me: How to register on 1to1help?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "work email",
+      "OTP"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "EER_0009",
+    "query": "Is there reimbursement for birthday celebrations?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "no reimbursement",
+      "HR"
+    ],
+    "category": "Birthday"
+  },
+  {
+    "id": "GPA_0020",
+    "query": "HR query: How long is TTD benefit paid?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "100 weeks"
+    ],
+    "category": "TTD"
+  },
+  {
+    "id": "EAP_0092",
+    "query": "HR query: What is the turnaround time for EAP referrals?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "9 am",
+      "9 pm",
+      "same day"
+    ],
+    "category": "Turnaround"
+  },
+  {
+    "id": "FNF_0037",
+    "query": "What is the Eklavya policy recovery rule?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "50%",
+      "100%",
+      "tuition"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "FNF_0063",
+    "query": "Please tell me: Who is involved in No Dues Clearance?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Business HR",
+      "CMG",
+      "IT",
+      "Admin",
+      "Finance"
+    ],
+    "category": "No-Dues"
+  },
+  {
+    "id": "EER_0005",
+    "query": "When is the Expense Reimbursement Policy effective?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "01.04.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GPA_0049",
+    "query": "What is PTD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Partial Total Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "FNF_0007",
+    "query": "Please tell me: How many days notice is required for resignation?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "60",
+      "sixty"
+    ],
+    "category": "Notice-Period"
+  },
+  {
+    "id": "EER_0054",
+    "query": "As per Arvind HR policy, Where should I claim telephone charges for international trips?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "travel settlement"
+    ],
+    "category": "Travel-Expenses"
+  },
+  {
+    "id": "GHI_0061",
+    "query": "What diseases are covered under critical illness?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "cardiac",
+      "cancer",
+      "renal"
+    ],
+    "category": "Critical-Illness"
+  },
+  {
+    "id": "EAP_0098",
+    "query": "As per Arvind HR policy, What self-help content is available on 1to1help?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "articles",
+      "podcasts",
+      "videos"
+    ],
+    "category": "Self-Help"
+  },
+  {
+    "id": "EAP_0009",
+    "query": "What does EAP stand for?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "Employee Assistance Program"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GHI_0075",
+    "query": "Please tell me: Where do I intimate a claim?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "1800-425-4033",
+      "intimation@fhpl.net"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "GHI_0110",
+    "query": "As per Arvind HR policy, What is the minimum hospitalisation period for GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "24 hrs",
+      "24 hours"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "GPA_0035",
+    "query": "Please tell me: What is covered for broken bones?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "20,000",
+      "IPD",
+      "OPD"
+    ],
+    "category": "Fracture"
+  },
+  {
+    "id": "EAP_0032",
+    "query": "HR query: Is EAP confidential?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "confidential",
+      "no need to inform"
+    ],
+    "category": "Confidentiality"
+  },
+  {
+    "id": "GHI_0018",
+    "query": "As per Arvind HR policy, What is the ICU charge limit for BM?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "18,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "GPA_0022",
+    "query": "As per Arvind HR policy, What is covered under accidental hospitalisation?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "25%",
+      "40%"
+    ],
+    "category": "Medical-Extension"
+  },
+  {
+    "id": "GPA_0060",
+    "query": "HR query: What is PPD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Permanent Partial Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "EAP_0008",
+    "query": "HR query: What is the Employee Assistance Program?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential",
+      "counsellor"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "EAP_0007",
+    "query": "Please tell me: What is the Employee Assistance Program?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential",
+      "counsellor"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GHI_0026",
+    "query": "As per Arvind HR policy, What is the room charge for E2?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "6,000"
+    ],
+    "category": "Entitlement-E1"
+  },
+  {
+    "id": "EAP_0084",
+    "query": "HR query: Can my manager force me to use EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "voluntary",
+      "cannot force"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "EAP_0105",
+    "query": "What topics are covered in EAP articles?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress management",
+      "self-development"
+    ],
+    "category": "Self-Help"
+  },
+  {
+    "id": "GHI_0006",
+    "query": "As per Arvind HR policy, What is the family floater for M2?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "4,00,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "GHI_0008",
+    "query": "HR query: What is the family floater for M2?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "4,00,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "GHI_0105",
+    "query": "Is oral chemotherapy covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "Oral Chemotherapy",
+      "sum insured"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "GPA_0025",
+    "query": "What is the education grant for children under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "10%",
+      "10,000",
+      "two children"
+    ],
+    "category": "Education-Grant"
+  },
+  {
+    "id": "EER_0039",
+    "query": "Please tell me: What is the process for late night dinner at office?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "8:00 pm",
+      "5:00 pm",
+      "Admin"
+    ],
+    "category": "Late-Food"
+  },
+  {
+    "id": "FNF_0032",
+    "query": "HR query: What is the final settlement timeline?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "30 days",
+      "last working day"
+    ],
+    "category": "FnF-Timeline"
+  },
+  {
+    "id": "GPA_0064",
+    "query": "HR query: Who is covered under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "subsidiaries"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "GHI_0097",
+    "query": "Is ambulance covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "5,000",
+      "ambulance"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "GHI_0044",
+    "query": "HR query: Are children covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "two children",
+      "25 years"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "GHI_0096",
+    "query": "HR query: How many days post-hospitalisation is covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "60 days"
+    ],
+    "category": "Coverage-Period"
+  },
+  {
+    "id": "GPA_0056",
+    "query": "HR query: What is TTD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Temporary Total Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "FNF_0031",
+    "query": "Please tell me: What is the final settlement timeline?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "30 days",
+      "last working day"
+    ],
+    "category": "FnF-Timeline"
+  },
+  {
+    "id": "GHI_0074",
+    "query": "As per Arvind HR policy, Where do I intimate a claim?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "1800-425-4033",
+      "intimation@fhpl.net"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "FNF_0082",
+    "query": "As per Arvind HR policy, What happens with LWP during notice period?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "gross salary",
+      "not adjusted"
+    ],
+    "category": "LWP"
+  },
+  {
+    "id": "FNF_0011",
+    "query": "Please tell me: What is included in Notice Pay?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Basic Salary",
+      "House Rent Allowance",
+      "Flexible Benefits Plan"
+    ],
+    "category": "Notice-Pay"
+  },
+  {
+    "id": "GHI_0095",
+    "query": "Please tell me: How many days post-hospitalisation is covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "60 days"
+    ],
+    "category": "Coverage-Period"
+  },
+  {
+    "id": "GHI_0070",
+    "query": "As per Arvind HR policy, What is the GHI helpline number?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "1800-425-4033"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "EAP_0015",
+    "query": "Please tell me: Who provides EAP at Arvind?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1to1help",
+      "1to1Help"
+    ],
+    "category": "Provider"
+  },
+  {
+    "id": "GPA_0016",
+    "query": "HR query: What is the TTD benefit amount?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "1%",
+      "5,000",
+      "100 weeks"
+    ],
+    "category": "TTD"
+  },
+  {
+    "id": "EER_0052",
+    "query": "HR query: Can I buy stationery and claim reimbursement?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "admin team",
+      "no reimbursement"
+    ],
+    "category": "Admin-Purchases"
+  },
+  {
+    "id": "FNF_0035",
+    "query": "Please tell me: Within how many days is the final payout done?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "30 days",
+      "last working day"
+    ],
+    "category": "FnF-Timeline"
+  },
+  {
+    "id": "GHI_0011",
+    "query": "Please tell me: What is the health insurance for BM grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "6,00,000",
+      "12,000",
+      "18,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "GHI_0108",
+    "query": "HR query: Is oral chemotherapy covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "Oral Chemotherapy",
+      "sum insured"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "EER_0017",
+    "query": "What is the farewell gift limit for CXO-level employees?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "10,000",
+      "CEO",
+      "CHRO"
+    ],
+    "category": "Farewell"
+  },
+  {
+    "id": "FNF_0058",
+    "query": "As per Arvind HR policy, What is No Dues Clearance?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Business HR",
+      "CMG",
+      "IT",
+      "Admin",
+      "Finance"
+    ],
+    "category": "No-Dues"
+  },
+  {
+    "id": "GHI_0088",
+    "query": "HR query: What is the claim submission deadline?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days",
+      "discharge"
+    ],
+    "category": "Claim-Process"
+  },
+  {
+    "id": "EER_0031",
+    "query": "Please tell me: What is the gift policy at Arvind?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "prohibited"
+    ],
+    "category": "Gifts"
+  },
+  {
+    "id": "EAP_0104",
+    "query": "HR query: How many assessments are on the EAP app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "180"
+    ],
+    "category": "Assessments"
+  },
+  {
+    "id": "GHI_0120",
+    "query": "HR query: Effective date of GHI policy?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0071",
+    "query": "Please tell me: What is the GHI helpline number?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "1800-425-4033"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "EAP_0043",
+    "query": "Please tell me: How much does EAP cost?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential"
+    ],
+    "category": "Cost"
+  },
+  {
+    "id": "GHI_0036",
+    "query": "HR query: Who is covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "spouse",
+      "two children",
+      "25 years"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "GPA_0050",
+    "query": "As per Arvind HR policy, What is PTD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Partial Total Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "GHI_0037",
+    "query": "Is my spouse covered under health insurance?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "spouse",
+      "two children"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "EAP_0061",
+    "query": "How do I download the 1to1help app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "Play Store",
+      "App Store"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "EAP_0057",
+    "query": "EAP emergency contact number",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1800-258-8121",
+      "1800-258-8999"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "FNF_0068",
+    "query": "HR query: What is IT clearance during exit?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "laptops",
+      "last working day",
+      "damaged"
+    ],
+    "category": "IT-Clearance"
+  },
+  {
+    "id": "EER_0043",
+    "query": "Please tell me: How do I claim fuel expenses for company car?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "fuel vouchers",
+      "petrol pumps"
+    ],
+    "category": "Car-Expenses"
+  },
+  {
+    "id": "EAP_0042",
+    "query": "As per Arvind HR policy, How much does EAP cost?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential"
+    ],
+    "category": "Cost"
+  },
+  {
+    "id": "EAP_0072",
+    "query": "HR query: Is my username on 1to1help private?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "private",
+      "not be shared"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "FNF_0045",
+    "query": "Eklavya recovery within 2 years?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "50%",
+      "tuition fee"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "EAP_0050",
+    "query": "As per Arvind HR policy, What modes of counselling are available in EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "phone",
+      "video",
+      "in person"
+    ],
+    "category": "How-It-Works"
+  },
+  {
+    "id": "FNF_0039",
+    "query": "Please tell me: What is the Eklavya policy recovery rule?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "50%",
+      "100%",
+      "tuition"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "GHI_0040",
+    "query": "HR query: Is my spouse covered under health insurance?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "spouse",
+      "two children"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "EAP_0019",
+    "query": "Please tell me: Which company provides the EAP app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1to1help"
+    ],
+    "category": "Provider"
+  },
+  {
+    "id": "EAP_0010",
+    "query": "As per Arvind HR policy, What does EAP stand for?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "Employee Assistance Program"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "FNF_0027",
+    "query": "Please tell me: When does my notice period start?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "date",
+      "resigned in the system"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "GHI_0114",
+    "query": "As per Arvind HR policy, Policy number for Group Health Insurance?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "ARV|EBF_MLB|005|010126"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0089",
+    "query": "How many days pre-hospitalisation is covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days"
+    ],
+    "category": "Coverage-Period"
+  },
+  {
+    "id": "EER_0062",
+    "query": "As per Arvind HR policy, Within how many days must I submit expenses?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "7 working days"
+    ],
+    "category": "Submission"
+  },
+  {
+    "id": "FNF_0025",
+    "query": "When does my notice period start?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "date",
+      "resigned in the system"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "FNF_0015",
+    "query": "Please tell me: How is Notice Pay calculated?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "basic salary",
+      "Personal Allowance",
+      "HRA",
+      "Flexible Benefits Plan"
+    ],
+    "category": "Notice-Pay"
+  },
+  {
+    "id": "GHI_0055",
+    "query": "Please tell me: Is maternity covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "50,000",
+      "85,000"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "GPA_0026",
+    "query": "As per Arvind HR policy, What is the education grant for children under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "10%",
+      "10,000",
+      "two children"
+    ],
+    "category": "Education-Grant"
+  },
+  {
+    "id": "GHI_0023",
+    "query": "Please tell me: What is the health cover for E1 grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "3,00,000",
+      "6,000",
+      "9,000"
+    ],
+    "category": "Entitlement-E1"
+  },
+  {
+    "id": "GHI_0033",
+    "query": "Who is covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "spouse",
+      "two children",
+      "25 years"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "FNF_0081",
+    "query": "What happens with LWP during notice period?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "gross salary",
+      "not adjusted"
+    ],
+    "category": "LWP"
+  },
+  {
+    "id": "GPA_0011",
+    "query": "Please tell me: What is the accidental death benefit?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "24 times",
+      "monthly consolidated",
+      "5 lakhs"
+    ],
+    "category": "Death-Benefit"
+  },
+  {
+    "id": "FNF_0021",
+    "query": "Can I resign by email?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "email",
+      "not be considered valid"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "EAP_0093",
+    "query": "How quickly does EAP respond to referrals?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "9 am",
+      "9 pm",
+      "next day"
+    ],
+    "category": "Turnaround"
+  },
+  {
+    "id": "FNF_0065",
+    "query": "What is IT clearance during exit?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "laptops",
+      "last working day",
+      "damaged"
+    ],
+    "category": "IT-Clearance"
+  },
+  {
+    "id": "FNF_0055",
+    "query": "Please tell me: When is the relieving letter issued?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "No Dues Clearance"
+    ],
+    "category": "Letters"
+  },
+  {
+    "id": "FNF_0018",
+    "query": "As per Arvind HR policy, How to resign from Arvind?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Darwinbox",
+      "Employee Life Cycle",
+      "Separation"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "EAP_0013",
+    "query": "Who provides EAP at Arvind?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1to1help",
+      "1to1Help"
+    ],
+    "category": "Provider"
+  },
+  {
+    "id": "EAP_0016",
+    "query": "HR query: Who provides EAP at Arvind?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1to1help",
+      "1to1Help"
+    ],
+    "category": "Provider"
+  },
+  {
+    "id": "FNF_0089",
+    "query": "Effective date of FnF policy?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "24.02.2024"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "FNF_0043",
+    "query": "Please tell me: What happens if I leave within 1 year of completing Eklavya?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "100%",
+      "tuition fee"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "GPA_0010",
+    "query": "As per Arvind HR policy, What is the accidental death benefit?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "24 times",
+      "monthly consolidated",
+      "5 lakhs"
+    ],
+    "category": "Death-Benefit"
+  },
+  {
+    "id": "FNF_0012",
+    "query": "HR query: What is included in Notice Pay?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Basic Salary",
+      "House Rent Allowance",
+      "Flexible Benefits Plan"
+    ],
+    "category": "Notice-Pay"
+  },
+  {
+    "id": "GHI_0012",
+    "query": "HR query: What is the health insurance for BM grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "6,00,000",
+      "12,000",
+      "18,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "EAP_0071",
+    "query": "Please tell me: Is my username on 1to1help private?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "private",
+      "not be shared"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "GPA_0001",
+    "query": "What is the Capital Sum Insured formula?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "60 times",
+      "monthly basic"
+    ],
+    "category": "CSI"
+  },
+  {
+    "id": "GPA_0028",
+    "query": "HR query: What is the education grant for children under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "10%",
+      "10,000",
+      "two children"
+    ],
+    "category": "Education-Grant"
+  },
+  {
+    "id": "GPA_0074",
+    "query": "As per Arvind HR policy, Policy number for Group Personal Accident?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "ARV|COR|EBF_GPA|001|01012026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0093",
+    "query": "How many days post-hospitalisation is covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "60 days"
+    ],
+    "category": "Coverage-Period"
+  },
+  {
+    "id": "GHI_0041",
+    "query": "Are children covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "two children",
+      "25 years"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "GPA_0033",
+    "query": "What is covered for broken bones?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "20,000",
+      "IPD",
+      "OPD"
+    ],
+    "category": "Fracture"
+  },
+  {
+    "id": "GHI_0091",
+    "query": "Please tell me: How many days pre-hospitalisation is covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days"
+    ],
+    "category": "Coverage-Period"
+  },
+  {
+    "id": "EER_0029",
+    "query": "What is the gift policy at Arvind?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "prohibited"
+    ],
+    "category": "Gifts"
+  },
+  {
+    "id": "EER_0079",
+    "query": "Please tell me: Is puja expense reimbursed?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "Admin team",
+      "Pandit"
+    ],
+    "category": "Puja"
+  },
+  {
+    "id": "GPA_0054",
+    "query": "As per Arvind HR policy, What is TTD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Temporary Total Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "EAP_0051",
+    "query": "Please tell me: What modes of counselling are available in EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "phone",
+      "video",
+      "in person"
+    ],
+    "category": "How-It-Works"
+  },
+  {
+    "id": "EAP_0090",
+    "query": "As per Arvind HR policy, What is the turnaround time for EAP referrals?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "9 am",
+      "9 pm",
+      "same day"
+    ],
+    "category": "Turnaround"
+  },
+  {
+    "id": "GHI_0078",
+    "query": "As per Arvind HR policy, Within how many hours must I intimate hospitalisation?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "24 hours"
+    ],
+    "category": "Intimation"
+  },
+  {
+    "id": "EER_0035",
+    "query": "Please tell me: Can I get reimbursed for working late food?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "8:00 pm",
+      "Admin",
+      "5:00 pm"
+    ],
+    "category": "Late-Food"
+  },
+  {
+    "id": "FNF_0020",
+    "query": "HR query: How to resign from Arvind?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Darwinbox",
+      "Employee Life Cycle",
+      "Separation"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "EER_0072",
+    "query": "HR query: Who approves expense reimbursement requests?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "Department Head",
+      "Accounts Officer"
+    ],
+    "category": "Approval"
+  },
+  {
+    "id": "FNF_0083",
+    "query": "Please tell me: What happens with LWP during notice period?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "gross salary",
+      "not adjusted"
+    ],
+    "category": "LWP"
+  },
+  {
+    "id": "GPA_0071",
+    "query": "Please tell me: What is the maximum accumulation under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "50 crores"
+    ],
+    "category": "Maximum"
+  },
+  {
+    "id": "GHI_0030",
+    "query": "As per Arvind HR policy, What is the ICU limit for M3?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "12,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "FNF_0034",
+    "query": "As per Arvind HR policy, Within how many days is the final payout done?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "30 days",
+      "last working day"
+    ],
+    "category": "FnF-Timeline"
+  },
+  {
+    "id": "EER_0002",
+    "query": "As per Arvind HR policy, What is the Employee Expense Reimbursement Policy?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "ARV|ELC_EER",
+      "01.04.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "FNF_0029",
+    "query": "What is the final settlement timeline?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "30 days",
+      "last working day"
+    ],
+    "category": "FnF-Timeline"
+  },
+  {
+    "id": "GPA_0055",
+    "query": "Please tell me: What is TTD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Temporary Total Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "GPA_0057",
+    "query": "What is PPD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Permanent Partial Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "GHI_0052",
+    "query": "HR query: What is the limit for C-section delivery?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "85,000",
+      "abnormal delivery"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "GPA_0053",
+    "query": "What is TTD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Temporary Total Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "EAP_0083",
+    "query": "Please tell me: Can my manager force me to use EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "voluntary",
+      "cannot force"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "GPA_0036",
+    "query": "HR query: What is covered for broken bones?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "20,000",
+      "IPD",
+      "OPD"
+    ],
+    "category": "Fracture"
+  },
+  {
+    "id": "FNF_0030",
+    "query": "As per Arvind HR policy, What is the final settlement timeline?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "30 days",
+      "last working day"
+    ],
+    "category": "FnF-Timeline"
+  },
+  {
+    "id": "GHI_0102",
+    "query": "As per Arvind HR policy, Is Ayush treatment covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "Ayush",
+      "family sum insured"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "EAP_0066",
+    "query": "As per Arvind HR policy, How to register on 1to1help?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "work email",
+      "OTP"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "GHI_0054",
+    "query": "As per Arvind HR policy, Is maternity covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "50,000",
+      "85,000"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "EER_0070",
+    "query": "As per Arvind HR policy, Who approves expense reimbursement requests?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "Department Head",
+      "Accounts Officer"
+    ],
+    "category": "Approval"
+  },
+  {
+    "id": "EER_0026",
+    "query": "As per Arvind HR policy, Is giving gifts to vendors allowed?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "prohibited",
+      "CEO",
+      "CHRO",
+      "Group Ethics Officer"
+    ],
+    "category": "Gifts"
+  },
+  {
+    "id": "FNF_0054",
+    "query": "As per Arvind HR policy, When is the relieving letter issued?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "No Dues Clearance"
+    ],
+    "category": "Letters"
+  },
+  {
+    "id": "FNF_0010",
+    "query": "As per Arvind HR policy, What is included in Notice Pay?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Basic Salary",
+      "House Rent Allowance",
+      "Flexible Benefits Plan"
+    ],
+    "category": "Notice-Pay"
+  },
+  {
+    "id": "EER_0001",
+    "query": "What is the Employee Expense Reimbursement Policy?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "ARV|ELC_EER",
+      "01.04.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "FNF_0056",
+    "query": "HR query: When is the relieving letter issued?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "No Dues Clearance"
+    ],
+    "category": "Letters"
+  },
+  {
+    "id": "GHI_0099",
+    "query": "Please tell me: Is ambulance covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "5,000",
+      "ambulance"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "EAP_0017",
+    "query": "Which company provides the EAP app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1to1help"
+    ],
+    "category": "Provider"
+  },
+  {
+    "id": "GHI_0077",
+    "query": "Within how many hours must I intimate hospitalisation?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "24 hours"
+    ],
+    "category": "Intimation"
+  },
+  {
+    "id": "EER_0032",
+    "query": "HR query: What is the gift policy at Arvind?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "prohibited"
+    ],
+    "category": "Gifts"
+  },
+  {
+    "id": "EAP_0048",
+    "query": "HR query: How does EAP work?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "phone",
+      "video",
+      "in person"
+    ],
+    "category": "How-It-Works"
+  },
+  {
+    "id": "EAP_0100",
+    "query": "HR query: What self-help content is available on 1to1help?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "articles",
+      "podcasts",
+      "videos"
+    ],
+    "category": "Self-Help"
+  },
+  {
+    "id": "GPA_0014",
+    "query": "As per Arvind HR policy, What is the TTD benefit amount?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "1%",
+      "5,000",
+      "100 weeks"
+    ],
+    "category": "TTD"
+  },
+  {
+    "id": "EER_0076",
+    "query": "HR query: Who approves exceptions to the expense policy?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "CFO",
+      "CHRO"
+    ],
+    "category": "Exceptions"
+  },
+  {
+    "id": "EAP_0020",
+    "query": "HR query: Which company provides the EAP app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1to1help"
+    ],
+    "category": "Provider"
+  },
+  {
+    "id": "EAP_0108",
+    "query": "HR query: What topics are covered in EAP articles?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress management",
+      "self-development"
+    ],
+    "category": "Self-Help"
+  },
+  {
+    "id": "GHI_0009",
+    "query": "What is the health insurance for BM grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "6,00,000",
+      "12,000",
+      "18,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "EER_0016",
+    "query": "HR query: Who handles birthday celebrations at Arvind?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "HR"
+    ],
+    "category": "Birthday"
+  },
+  {
+    "id": "GHI_0027",
+    "query": "Please tell me: What is the room charge for E2?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "6,000"
+    ],
+    "category": "Entitlement-E1"
+  },
+  {
+    "id": "EER_0023",
+    "query": "Please tell me: Who approves CXO farewell gift expense?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "CEO",
+      "CHRO"
+    ],
+    "category": "Farewell"
+  },
+  {
+    "id": "GPA_0046",
+    "query": "As per Arvind HR policy, What is covered for funeral expenses?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "2,500",
+      "2%",
+      "CSI"
+    ],
+    "category": "Funeral"
+  },
+  {
+    "id": "EER_0065",
+    "query": "What happens if I delay expense submission?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "forfeiture of reimbursement"
+    ],
+    "category": "Non-Compliance"
+  },
+  {
+    "id": "EER_0021",
+    "query": "Who approves CXO farewell gift expense?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "CEO",
+      "CHRO"
+    ],
+    "category": "Farewell"
+  },
+  {
+    "id": "GHI_0101",
+    "query": "Is Ayush treatment covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "Ayush",
+      "family sum insured"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "GPA_0019",
+    "query": "Please tell me: How long is TTD benefit paid?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "100 weeks"
+    ],
+    "category": "TTD"
+  },
+  {
+    "id": "EER_0007",
+    "query": "Please tell me: When is the Expense Reimbursement Policy effective?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "01.04.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0021",
+    "query": "What is the health cover for E1 grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "3,00,000",
+      "6,000",
+      "9,000"
+    ],
+    "category": "Entitlement-E1"
+  },
+  {
+    "id": "GPA_0051",
+    "query": "Please tell me: What is PTD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Partial Total Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "EAP_0046",
+    "query": "As per Arvind HR policy, How does EAP work?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "phone",
+      "video",
+      "in person"
+    ],
+    "category": "How-It-Works"
+  },
+  {
+    "id": "EER_0048",
+    "query": "HR query: How is company car maintenance handled?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "dealerships",
+      "company name"
+    ],
+    "category": "Car-Expenses"
+  },
+  {
+    "id": "GHI_0031",
+    "query": "Please tell me: What is the ICU limit for M3?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "12,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "GPA_0070",
+    "query": "As per Arvind HR policy, What is the maximum accumulation under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "50 crores"
+    ],
+    "category": "Maximum"
+  },
+  {
+    "id": "EER_0033",
+    "query": "Can I get reimbursed for working late food?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "8:00 pm",
+      "Admin",
+      "5:00 pm"
+    ],
+    "category": "Late-Food"
+  },
+  {
+    "id": "EER_0030",
+    "query": "As per Arvind HR policy, What is the gift policy at Arvind?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "prohibited"
+    ],
+    "category": "Gifts"
+  },
+  {
+    "id": "FNF_0050",
+    "query": "As per Arvind HR policy, When do I get the experience letter?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "last working day"
+    ],
+    "category": "Letters"
+  },
+  {
+    "id": "GPA_0076",
+    "query": "HR query: Policy number for Group Personal Accident?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "ARV|COR|EBF_GPA|001|01012026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "FNF_0016",
+    "query": "HR query: How is Notice Pay calculated?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "basic salary",
+      "Personal Allowance",
+      "HRA",
+      "Flexible Benefits Plan"
+    ],
+    "category": "Notice-Pay"
+  },
+  {
+    "id": "EAP_0036",
+    "query": "HR query: Does my manager know if I use EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "confidential",
+      "no need to inform"
+    ],
+    "category": "Confidentiality"
+  },
+  {
+    "id": "FNF_0077",
+    "query": "What is the HR contact for FnF exceptions?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "corporate.hr@arvind.in"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "FNF_0084",
+    "query": "HR query: What happens with LWP during notice period?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "gross salary",
+      "not adjusted"
+    ],
+    "category": "LWP"
+  },
+  {
+    "id": "GHI_0076",
+    "query": "HR query: Where do I intimate a claim?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "1800-425-4033",
+      "intimation@fhpl.net"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "EAP_0097",
+    "query": "What self-help content is available on 1to1help?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "articles",
+      "podcasts",
+      "videos"
+    ],
+    "category": "Self-Help"
+  },
+  {
+    "id": "GPA_0027",
+    "query": "Please tell me: What is the education grant for children under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "10%",
+      "10,000",
+      "two children"
+    ],
+    "category": "Education-Grant"
+  },
+  {
+    "id": "FNF_0033",
+    "query": "Within how many days is the final payout done?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "30 days",
+      "last working day"
+    ],
+    "category": "FnF-Timeline"
+  },
+  {
+    "id": "FNF_0026",
+    "query": "As per Arvind HR policy, When does my notice period start?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "date",
+      "resigned in the system"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "FNF_0041",
+    "query": "What happens if I leave within 1 year of completing Eklavya?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "100%",
+      "tuition fee"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "GHI_0022",
+    "query": "As per Arvind HR policy, What is the health cover for E1 grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "3,00,000",
+      "6,000",
+      "9,000"
+    ],
+    "category": "Entitlement-E1"
+  },
+  {
+    "id": "EER_0011",
+    "query": "Please tell me: Is there reimbursement for birthday celebrations?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "no reimbursement",
+      "HR"
+    ],
+    "category": "Birthday"
+  },
+  {
+    "id": "EAP_0033",
+    "query": "Does my manager know if I use EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "confidential",
+      "no need to inform"
+    ],
+    "category": "Confidentiality"
+  },
+  {
+    "id": "EAP_0077",
+    "query": "What is the manager referral process for EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "managersupport@1to1help.net"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "GHI_0028",
+    "query": "HR query: What is the room charge for E2?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "6,000"
+    ],
+    "category": "Entitlement-E1"
+  },
+  {
+    "id": "GPA_0061",
+    "query": "Who is covered under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "subsidiaries"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "GPA_0018",
+    "query": "As per Arvind HR policy, How long is TTD benefit paid?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "100 weeks"
+    ],
+    "category": "TTD"
+  },
+  {
+    "id": "GHI_0002",
+    "query": "As per Arvind HR policy, What is the health insurance cover for M1 grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "4,00,000",
+      "8,000",
+      "12,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "GPA_0068",
+    "query": "HR query: Can sum insured change during the year?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "promotion",
+      "grade change"
+    ],
+    "category": "Mid-Term"
+  },
+  {
+    "id": "EER_0059",
+    "query": "Please tell me: Where do I submit conveyance expenses?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "conveyance tab"
+    ],
+    "category": "Conveyance"
+  },
+  {
+    "id": "EAP_0029",
+    "query": "Is EAP confidential?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "confidential",
+      "no need to inform"
+    ],
+    "category": "Confidentiality"
+  },
+  {
+    "id": "GHI_0069",
+    "query": "What is the GHI helpline number?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "1800-425-4033"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "FNF_0076",
+    "query": "HR query: Can I transfer my PF on exit?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "transfer",
+      "UAN",
+      "EPFO"
+    ],
+    "category": "PF"
+  },
+  {
+    "id": "GHI_0053",
+    "query": "Is maternity covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "50,000",
+      "85,000"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "EAP_0099",
+    "query": "Please tell me: What self-help content is available on 1to1help?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "articles",
+      "podcasts",
+      "videos"
+    ],
+    "category": "Self-Help"
+  },
+  {
+    "id": "FNF_0090",
+    "query": "As per Arvind HR policy, Effective date of FnF policy?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "24.02.2024"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "FNF_0080",
+    "query": "HR query: What is the HR contact for FnF exceptions?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "corporate.hr@arvind.in"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "FNF_0009",
+    "query": "What is included in Notice Pay?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Basic Salary",
+      "House Rent Allowance",
+      "Flexible Benefits Plan"
+    ],
+    "category": "Notice-Pay"
+  },
+  {
+    "id": "EAP_0096",
+    "query": "HR query: How quickly does EAP respond to referrals?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "9 am",
+      "9 pm",
+      "next day"
+    ],
+    "category": "Turnaround"
+  },
+  {
+    "id": "EAP_0055",
+    "query": "Please tell me: What is the EAP toll-free number?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1800-258-8121",
+      "1800-258-8999"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "GHI_0045",
+    "query": "What is the maternity benefit under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "50,000",
+      "normal delivery"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "GHI_0083",
+    "query": "Please tell me: How do I file a reimbursement claim?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days",
+      "discharge"
+    ],
+    "category": "Claim-Process"
+  },
+  {
+    "id": "GPA_0004",
+    "query": "HR query: What is the Capital Sum Insured formula?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "60 times",
+      "monthly basic"
+    ],
+    "category": "CSI"
+  },
+  {
+    "id": "EER_0022",
+    "query": "As per Arvind HR policy, Who approves CXO farewell gift expense?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "CEO",
+      "CHRO"
+    ],
+    "category": "Farewell"
+  },
+  {
+    "id": "FNF_0008",
+    "query": "HR query: How many days notice is required for resignation?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "60",
+      "sixty"
+    ],
+    "category": "Notice-Period"
+  },
+  {
+    "id": "FNF_0024",
+    "query": "HR query: Can I resign by email?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "email",
+      "not be considered valid"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "FNF_0004",
+    "query": "HR query: What is the notice period at Arvind?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "60",
+      "sixty days"
+    ],
+    "category": "Notice-Period"
+  },
+  {
+    "id": "FNF_0013",
+    "query": "How is Notice Pay calculated?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "basic salary",
+      "Personal Allowance",
+      "HRA",
+      "Flexible Benefits Plan"
+    ],
+    "category": "Notice-Pay"
+  },
+  {
+    "id": "GHI_0112",
+    "query": "HR query: What is the minimum hospitalisation period for GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "24 hrs",
+      "24 hours"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "EER_0061",
+    "query": "Within how many days must I submit expenses?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "7 working days"
+    ],
+    "category": "Submission"
+  },
+  {
+    "id": "EER_0041",
+    "query": "How do I claim fuel expenses for company car?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "fuel vouchers",
+      "petrol pumps"
+    ],
+    "category": "Car-Expenses"
+  },
+  {
+    "id": "EER_0067",
+    "query": "Please tell me: What happens if I delay expense submission?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "forfeiture of reimbursement"
+    ],
+    "category": "Non-Compliance"
+  },
+  {
+    "id": "GHI_0092",
+    "query": "HR query: How many days pre-hospitalisation is covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days"
+    ],
+    "category": "Coverage-Period"
+  },
+  {
+    "id": "GPA_0015",
+    "query": "Please tell me: What is the TTD benefit amount?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "1%",
+      "5,000",
+      "100 weeks"
+    ],
+    "category": "TTD"
+  },
+  {
+    "id": "EER_0074",
+    "query": "As per Arvind HR policy, Who approves exceptions to the expense policy?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "CFO",
+      "CHRO"
+    ],
+    "category": "Exceptions"
+  },
+  {
+    "id": "GPA_0007",
+    "query": "Please tell me: How is CSI calculated under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "60 times",
+      "monthly basic"
+    ],
+    "category": "CSI"
+  },
+  {
+    "id": "EAP_0039",
+    "query": "Please tell me: Is EAP free?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential"
+    ],
+    "category": "Cost"
+  },
+  {
+    "id": "FNF_0052",
+    "query": "HR query: When do I get the experience letter?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "last working day"
+    ],
+    "category": "Letters"
+  },
+  {
+    "id": "EAP_0002",
+    "query": "As per Arvind HR policy, What is EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential",
+      "one-to-one support"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "FNF_0042",
+    "query": "As per Arvind HR policy, What happens if I leave within 1 year of completing Eklavya?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "100%",
+      "tuition fee"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "EER_0063",
+    "query": "Please tell me: Within how many days must I submit expenses?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "7 working days"
+    ],
+    "category": "Submission"
+  },
+  {
+    "id": "GHI_0063",
+    "query": "Please tell me: What diseases are covered under critical illness?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "cardiac",
+      "cancer",
+      "renal"
+    ],
+    "category": "Critical-Illness"
+  },
+  {
+    "id": "EAP_0037",
+    "query": "Is EAP free?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential"
+    ],
+    "category": "Cost"
+  },
+  {
+    "id": "GHI_0104",
+    "query": "HR query: Is Ayush treatment covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "Ayush",
+      "family sum insured"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "EER_0040",
+    "query": "HR query: What is the process for late night dinner at office?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "8:00 pm",
+      "5:00 pm",
+      "Admin"
+    ],
+    "category": "Late-Food"
+  },
+  {
+    "id": "GHI_0007",
+    "query": "Please tell me: What is the family floater for M2?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "4,00,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "EAP_0079",
+    "query": "Please tell me: What is the manager referral process for EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "managersupport@1to1help.net"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "FNF_0072",
+    "query": "HR query: How is PL balance paid during FnF?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Consolidated Salary",
+      "Basic Salary"
+    ],
+    "category": "PL-Payout"
+  },
+  {
+    "id": "EER_0055",
+    "query": "Please tell me: Where should I claim telephone charges for international trips?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "travel settlement"
+    ],
+    "category": "Travel-Expenses"
+  },
+  {
+    "id": "EAP_0014",
+    "query": "As per Arvind HR policy, Who provides EAP at Arvind?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1to1help",
+      "1to1Help"
+    ],
+    "category": "Provider"
+  },
+  {
+    "id": "FNF_0014",
+    "query": "As per Arvind HR policy, How is Notice Pay calculated?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "basic salary",
+      "Personal Allowance",
+      "HRA",
+      "Flexible Benefits Plan"
+    ],
+    "category": "Notice-Pay"
+  },
+  {
+    "id": "EAP_0094",
+    "query": "As per Arvind HR policy, How quickly does EAP respond to referrals?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "9 am",
+      "9 pm",
+      "next day"
+    ],
+    "category": "Turnaround"
+  },
+  {
+    "id": "EAP_0026",
+    "query": "As per Arvind HR policy, When should I contact EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress",
+      "work pressure",
+      "burnout"
+    ],
+    "category": "Use-Cases"
+  },
+  {
+    "id": "EER_0073",
+    "query": "Who approves exceptions to the expense policy?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "CFO",
+      "CHRO"
+    ],
+    "category": "Exceptions"
+  },
+  {
+    "id": "GHI_0003",
+    "query": "Please tell me: What is the health insurance cover for M1 grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "4,00,000",
+      "8,000",
+      "12,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "EER_0015",
+    "query": "Please tell me: Who handles birthday celebrations at Arvind?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "HR"
+    ],
+    "category": "Birthday"
+  },
+  {
+    "id": "GHI_0118",
+    "query": "As per Arvind HR policy, Effective date of GHI policy?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0117",
+    "query": "Effective date of GHI policy?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EAP_0085",
+    "query": "Is EAP voluntary?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "voluntary"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "EAP_0012",
+    "query": "HR query: What does EAP stand for?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "Employee Assistance Program"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GPA_0006",
+    "query": "As per Arvind HR policy, How is CSI calculated under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "60 times",
+      "monthly basic"
+    ],
+    "category": "CSI"
+  },
+  {
+    "id": "EAP_0075",
+    "query": "Please tell me: Can a manager refer an employee for EAP counselling?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "managersupport@1to1help.net",
+      "voluntary"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "EAP_0078",
+    "query": "As per Arvind HR policy, What is the manager referral process for EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "managersupport@1to1help.net"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "EAP_0065",
+    "query": "How to register on 1to1help?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "work email",
+      "OTP"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "GPA_0008",
+    "query": "HR query: How is CSI calculated under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "60 times",
+      "monthly basic"
+    ],
+    "category": "CSI"
+  },
+  {
+    "id": "GPA_0038",
+    "query": "As per Arvind HR policy, Is fracture covered under personal accident insurance?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "20,000"
+    ],
+    "category": "Fracture"
+  },
+  {
+    "id": "EER_0025",
+    "query": "Is giving gifts to vendors allowed?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "prohibited",
+      "CEO",
+      "CHRO",
+      "Group Ethics Officer"
+    ],
+    "category": "Gifts"
+  },
+  {
+    "id": "GHI_0038",
+    "query": "As per Arvind HR policy, Is my spouse covered under health insurance?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "spouse",
+      "two children"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "EAP_0045",
+    "query": "How does EAP work?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "phone",
+      "video",
+      "in person"
+    ],
+    "category": "How-It-Works"
+  },
+  {
+    "id": "EAP_0091",
+    "query": "Please tell me: What is the turnaround time for EAP referrals?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "9 am",
+      "9 pm",
+      "same day"
+    ],
+    "category": "Turnaround"
+  },
+  {
+    "id": "EAP_0068",
+    "query": "HR query: How to register on 1to1help?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "work email",
+      "OTP"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "EAP_0040",
+    "query": "HR query: Is EAP free?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential"
+    ],
+    "category": "Cost"
+  },
+  {
+    "id": "FNF_0057",
+    "query": "What is No Dues Clearance?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Business HR",
+      "CMG",
+      "IT",
+      "Admin",
+      "Finance"
+    ],
+    "category": "No-Dues"
+  },
+  {
+    "id": "EAP_0054",
+    "query": "As per Arvind HR policy, What is the EAP toll-free number?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1800-258-8121",
+      "1800-258-8999"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "EAP_0053",
+    "query": "What is the EAP toll-free number?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1800-258-8121",
+      "1800-258-8999"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "FNF_0078",
+    "query": "As per Arvind HR policy, What is the HR contact for FnF exceptions?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "corporate.hr@arvind.in"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "EAP_0107",
+    "query": "Please tell me: What topics are covered in EAP articles?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress management",
+      "self-development"
+    ],
+    "category": "Self-Help"
+  },
+  {
+    "id": "GHI_0066",
+    "query": "As per Arvind HR policy, How do I use cashless hospitalisation?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "FHPL",
+      "network hospital",
+      "pre-authorisation"
+    ],
+    "category": "Cashless"
+  },
+  {
+    "id": "GPA_0059",
+    "query": "Please tell me: What is PPD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Permanent Partial Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "EAP_0006",
+    "query": "As per Arvind HR policy, What is the Employee Assistance Program?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential",
+      "counsellor"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "FNF_0053",
+    "query": "When is the relieving letter issued?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "No Dues Clearance"
+    ],
+    "category": "Letters"
+  },
+  {
+    "id": "GHI_0094",
+    "query": "As per Arvind HR policy, How many days post-hospitalisation is covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "60 days"
+    ],
+    "category": "Coverage-Period"
+  },
+  {
+    "id": "GHI_0103",
+    "query": "Please tell me: Is Ayush treatment covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "Ayush",
+      "family sum insured"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "GHI_0062",
+    "query": "As per Arvind HR policy, What diseases are covered under critical illness?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "cardiac",
+      "cancer",
+      "renal"
+    ],
+    "category": "Critical-Illness"
+  },
+  {
+    "id": "GHI_0034",
+    "query": "As per Arvind HR policy, Who is covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "spouse",
+      "two children",
+      "25 years"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "FNF_0071",
+    "query": "Please tell me: How is PL balance paid during FnF?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Consolidated Salary",
+      "Basic Salary"
+    ],
+    "category": "PL-Payout"
+  },
+  {
+    "id": "EAP_0003",
+    "query": "Please tell me: What is EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential",
+      "one-to-one support"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GHI_0017",
+    "query": "What is the ICU charge limit for BM?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "18,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "FNF_0064",
+    "query": "HR query: Who is involved in No Dues Clearance?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Business HR",
+      "CMG",
+      "IT",
+      "Admin",
+      "Finance"
+    ],
+    "category": "No-Dues"
+  },
+  {
+    "id": "EER_0053",
+    "query": "Where should I claim telephone charges for international trips?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "travel settlement"
+    ],
+    "category": "Travel-Expenses"
+  },
+  {
+    "id": "GPA_0066",
+    "query": "As per Arvind HR policy, Can sum insured change during the year?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "promotion",
+      "grade change"
+    ],
+    "category": "Mid-Term"
+  },
+  {
+    "id": "EAP_0080",
+    "query": "HR query: What is the manager referral process for EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "managersupport@1to1help.net"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "GHI_0073",
+    "query": "Where do I intimate a claim?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "1800-425-4033",
+      "intimation@fhpl.net"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "GHI_0065",
+    "query": "How do I use cashless hospitalisation?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "FHPL",
+      "network hospital",
+      "pre-authorisation"
+    ],
+    "category": "Cashless"
+  },
+  {
+    "id": "FNF_0040",
+    "query": "HR query: What is the Eklavya policy recovery rule?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "50%",
+      "100%",
+      "tuition"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "GHI_0024",
+    "query": "HR query: What is the health cover for E1 grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "3,00,000",
+      "6,000",
+      "9,000"
+    ],
+    "category": "Entitlement-E1"
+  },
+  {
+    "id": "GPA_0034",
+    "query": "As per Arvind HR policy, What is covered for broken bones?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "20,000",
+      "IPD",
+      "OPD"
+    ],
+    "category": "Fracture"
+  },
+  {
+    "id": "FNF_0060",
+    "query": "HR query: What is No Dues Clearance?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Business HR",
+      "CMG",
+      "IT",
+      "Admin",
+      "Finance"
+    ],
+    "category": "No-Dues"
+  },
+  {
+    "id": "EER_0012",
+    "query": "HR query: Is there reimbursement for birthday celebrations?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "no reimbursement",
+      "HR"
+    ],
+    "category": "Birthday"
+  },
+  {
+    "id": "GPA_0078",
+    "query": "As per Arvind HR policy, Effective date of GPA scheme?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GPA_0062",
+    "query": "As per Arvind HR policy, Who is covered under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "subsidiaries"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "EER_0077",
+    "query": "Is puja expense reimbursed?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "Admin team",
+      "Pandit"
+    ],
+    "category": "Puja"
+  },
+  {
+    "id": "EER_0038",
+    "query": "As per Arvind HR policy, What is the process for late night dinner at office?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "8:00 pm",
+      "5:00 pm",
+      "Admin"
+    ],
+    "category": "Late-Food"
+  },
+  {
+    "id": "EER_0046",
+    "query": "As per Arvind HR policy, How is company car maintenance handled?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "dealerships",
+      "company name"
+    ],
+    "category": "Car-Expenses"
+  },
+  {
+    "id": "FNF_0085",
+    "query": "What is the policy number for FnF settlement?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "ARV|COR|ELC_FnF|001|010922"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GPA_0045",
+    "query": "What is covered for funeral expenses?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "2,500",
+      "2%",
+      "CSI"
+    ],
+    "category": "Funeral"
+  },
+  {
+    "id": "GHI_0098",
+    "query": "As per Arvind HR policy, Is ambulance covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "5,000",
+      "ambulance"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "EAP_0102",
+    "query": "As per Arvind HR policy, How many assessments are on the EAP app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "180"
+    ],
+    "category": "Assessments"
+  },
+  {
+    "id": "GPA_0012",
+    "query": "HR query: What is the accidental death benefit?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "24 times",
+      "monthly consolidated",
+      "5 lakhs"
+    ],
+    "category": "Death-Benefit"
+  },
+  {
+    "id": "GPA_0031",
+    "query": "Please tell me: Education grant after accidental death?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "10,000 per child",
+      "25 years"
+    ],
+    "category": "Education-Grant"
+  },
+  {
+    "id": "EER_0049",
+    "query": "Can I buy stationery and claim reimbursement?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "admin team",
+      "no reimbursement"
+    ],
+    "category": "Admin-Purchases"
+  },
+  {
+    "id": "FNF_0070",
+    "query": "As per Arvind HR policy, How is PL balance paid during FnF?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Consolidated Salary",
+      "Basic Salary"
+    ],
+    "category": "PL-Payout"
+  },
+  {
+    "id": "GPA_0043",
+    "query": "Please tell me: What is the ambulance charge under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "3,000",
+      "actuals"
+    ],
+    "category": "Ambulance"
+  },
+  {
+    "id": "EAP_0103",
+    "query": "Please tell me: How many assessments are on the EAP app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "180"
+    ],
+    "category": "Assessments"
+  },
+  {
+    "id": "GPA_0023",
+    "query": "Please tell me: What is covered under accidental hospitalisation?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "25%",
+      "40%"
+    ],
+    "category": "Medical-Extension"
+  },
+  {
+    "id": "GPA_0013",
+    "query": "What is the TTD benefit amount?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "1%",
+      "5,000",
+      "100 weeks"
+    ],
+    "category": "TTD"
+  },
+  {
+    "id": "GPA_0017",
+    "query": "How long is TTD benefit paid?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "100 weeks"
+    ],
+    "category": "TTD"
+  },
+  {
+    "id": "GPA_0032",
+    "query": "HR query: Education grant after accidental death?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "10,000 per child",
+      "25 years"
+    ],
+    "category": "Education-Grant"
+  },
+  {
+    "id": "EER_0024",
+    "query": "HR query: Who approves CXO farewell gift expense?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "CEO",
+      "CHRO"
+    ],
+    "category": "Farewell"
+  },
+  {
+    "id": "FNF_0047",
+    "query": "Please tell me: Eklavya recovery within 2 years?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "50%",
+      "tuition fee"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "GHI_0016",
+    "query": "HR query: What is the room rent limit for BM?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "12,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "EER_0058",
+    "query": "As per Arvind HR policy, Where do I submit conveyance expenses?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "conveyance tab"
+    ],
+    "category": "Conveyance"
+  },
+  {
+    "id": "EAP_0056",
+    "query": "HR query: What is the EAP toll-free number?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1800-258-8121",
+      "1800-258-8999"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "FNF_0022",
+    "query": "As per Arvind HR policy, Can I resign by email?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "email",
+      "not be considered valid"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "EER_0004",
+    "query": "HR query: What is the Employee Expense Reimbursement Policy?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "ARV|ELC_EER",
+      "01.04.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0109",
+    "query": "What is the minimum hospitalisation period for GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "24 hrs",
+      "24 hours"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "FNF_0073",
+    "query": "Can I transfer my PF on exit?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "transfer",
+      "UAN",
+      "EPFO"
+    ],
+    "category": "PF"
+  },
+  {
+    "id": "EER_0036",
+    "query": "HR query: Can I get reimbursed for working late food?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "8:00 pm",
+      "Admin",
+      "5:00 pm"
+    ],
+    "category": "Late-Food"
+  },
+  {
+    "id": "EER_0003",
+    "query": "Please tell me: What is the Employee Expense Reimbursement Policy?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "ARV|ELC_EER",
+      "01.04.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EER_0068",
+    "query": "HR query: What happens if I delay expense submission?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "forfeiture of reimbursement"
+    ],
+    "category": "Non-Compliance"
+  },
+  {
+    "id": "EAP_0034",
+    "query": "As per Arvind HR policy, Does my manager know if I use EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "confidential",
+      "no need to inform"
+    ],
+    "category": "Confidentiality"
+  },
+  {
+    "id": "EAP_0106",
+    "query": "As per Arvind HR policy, What topics are covered in EAP articles?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress management",
+      "self-development"
+    ],
+    "category": "Self-Help"
+  },
+  {
+    "id": "GPA_0079",
+    "query": "Please tell me: Effective date of GPA scheme?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EAP_0001",
+    "query": "What is EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential",
+      "one-to-one support"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GHI_0020",
+    "query": "HR query: What is the ICU charge limit for BM?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "18,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "EER_0018",
+    "query": "As per Arvind HR policy, What is the farewell gift limit for CXO-level employees?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "10,000",
+      "CEO",
+      "CHRO"
+    ],
+    "category": "Farewell"
+  },
+  {
+    "id": "EAP_0058",
+    "query": "As per Arvind HR policy, EAP emergency contact number",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1800-258-8121",
+      "1800-258-8999"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "EAP_0052",
+    "query": "HR query: What modes of counselling are available in EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "phone",
+      "video",
+      "in person"
+    ],
+    "category": "How-It-Works"
+  },
+  {
+    "id": "FNF_0005",
+    "query": "How many days notice is required for resignation?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "60",
+      "sixty"
+    ],
+    "category": "Notice-Period"
+  },
+  {
+    "id": "EER_0050",
+    "query": "As per Arvind HR policy, Can I buy stationery and claim reimbursement?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "admin team",
+      "no reimbursement"
+    ],
+    "category": "Admin-Purchases"
+  },
+  {
+    "id": "EER_0080",
+    "query": "HR query: Is puja expense reimbursed?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "Admin team",
+      "Pandit"
+    ],
+    "category": "Puja"
+  },
+  {
+    "id": "FNF_0086",
+    "query": "As per Arvind HR policy, What is the policy number for FnF settlement?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "ARV|COR|ELC_FnF|001|010922"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0058",
+    "query": "As per Arvind HR policy, What is the critical illness benefit?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "5,00,000",
+      "once-in-a-lifetime"
+    ],
+    "category": "Critical-Illness"
+  },
+  {
+    "id": "EER_0019",
+    "query": "Please tell me: What is the farewell gift limit for CXO-level employees?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "10,000",
+      "CEO",
+      "CHRO"
+    ],
+    "category": "Farewell"
+  },
+  {
+    "id": "EER_0034",
+    "query": "As per Arvind HR policy, Can I get reimbursed for working late food?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "8:00 pm",
+      "Admin",
+      "5:00 pm"
+    ],
+    "category": "Late-Food"
+  },
+  {
+    "id": "GPA_0063",
+    "query": "Please tell me: Who is covered under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "subsidiaries"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "FNF_0006",
+    "query": "As per Arvind HR policy, How many days notice is required for resignation?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "60",
+      "sixty"
+    ],
+    "category": "Notice-Period"
+  },
+  {
+    "id": "GHI_0113",
+    "query": "Policy number for Group Health Insurance?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "ARV|EBF_MLB|005|010126"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0100",
+    "query": "HR query: Is ambulance covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "5,000",
+      "ambulance"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "GHI_0064",
+    "query": "HR query: What diseases are covered under critical illness?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "cardiac",
+      "cancer",
+      "renal"
+    ],
+    "category": "Critical-Illness"
+  },
+  {
+    "id": "EAP_0018",
+    "query": "As per Arvind HR policy, Which company provides the EAP app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1to1help"
+    ],
+    "category": "Provider"
+  },
+  {
+    "id": "GPA_0030",
+    "query": "As per Arvind HR policy, Education grant after accidental death?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "10,000 per child",
+      "25 years"
+    ],
+    "category": "Education-Grant"
+  },
+  {
+    "id": "FNF_0066",
+    "query": "As per Arvind HR policy, What is IT clearance during exit?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "laptops",
+      "last working day",
+      "damaged"
+    ],
+    "category": "IT-Clearance"
+  },
+  {
+    "id": "GPA_0072",
+    "query": "HR query: What is the maximum accumulation under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "50 crores"
+    ],
+    "category": "Maximum"
+  },
+  {
+    "id": "GHI_0090",
+    "query": "As per Arvind HR policy, How many days pre-hospitalisation is covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days"
+    ],
+    "category": "Coverage-Period"
+  },
+  {
+    "id": "GHI_0116",
+    "query": "HR query: Policy number for Group Health Insurance?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "ARV|EBF_MLB|005|010126"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EAP_0005",
+    "query": "What is the Employee Assistance Program?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential",
+      "counsellor"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "EER_0071",
+    "query": "Please tell me: Who approves expense reimbursement requests?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "Department Head",
+      "Accounts Officer"
+    ],
+    "category": "Approval"
+  },
+  {
+    "id": "GHI_0079",
+    "query": "Please tell me: Within how many hours must I intimate hospitalisation?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "24 hours"
+    ],
+    "category": "Intimation"
+  },
+  {
+    "id": "GHI_0046",
+    "query": "As per Arvind HR policy, What is the maternity benefit under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "50,000",
+      "normal delivery"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "FNF_0074",
+    "query": "As per Arvind HR policy, Can I transfer my PF on exit?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "transfer",
+      "UAN",
+      "EPFO"
+    ],
+    "category": "PF"
+  },
+  {
+    "id": "EER_0056",
+    "query": "HR query: Where should I claim telephone charges for international trips?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "travel settlement"
+    ],
+    "category": "Travel-Expenses"
+  },
+  {
+    "id": "FNF_0023",
+    "query": "Please tell me: Can I resign by email?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "email",
+      "not be considered valid"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "GPA_0069",
+    "query": "What is the maximum accumulation under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "50 crores"
+    ],
+    "category": "Maximum"
+  },
+  {
+    "id": "FNF_0059",
+    "query": "Please tell me: What is No Dues Clearance?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Business HR",
+      "CMG",
+      "IT",
+      "Admin",
+      "Finance"
+    ],
+    "category": "No-Dues"
+  },
+  {
+    "id": "GHI_0050",
+    "query": "As per Arvind HR policy, What is the limit for C-section delivery?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "85,000",
+      "abnormal delivery"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "GHI_0010",
+    "query": "As per Arvind HR policy, What is the health insurance for BM grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "6,00,000",
+      "12,000",
+      "18,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "EAP_0069",
+    "query": "Is my username on 1to1help private?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "private",
+      "not be shared"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "GHI_0086",
+    "query": "As per Arvind HR policy, What is the claim submission deadline?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days",
+      "discharge"
+    ],
+    "category": "Claim-Process"
+  },
+  {
+    "id": "FNF_0003",
+    "query": "Please tell me: What is the notice period at Arvind?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "60",
+      "sixty days"
+    ],
+    "category": "Notice-Period"
+  },
+  {
+    "id": "FNF_0046",
+    "query": "As per Arvind HR policy, Eklavya recovery within 2 years?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "50%",
+      "tuition fee"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "GPA_0044",
+    "query": "HR query: What is the ambulance charge under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "3,000",
+      "actuals"
+    ],
+    "category": "Ambulance"
+  },
+  {
+    "id": "EAP_0028",
+    "query": "HR query: When should I contact EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress",
+      "work pressure",
+      "burnout"
+    ],
+    "category": "Use-Cases"
+  },
+  {
+    "id": "GPA_0075",
+    "query": "Please tell me: Policy number for Group Personal Accident?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "ARV|COR|EBF_GPA|001|01012026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EAP_0070",
+    "query": "As per Arvind HR policy, Is my username on 1to1help private?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "private",
+      "not be shared"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "GHI_0047",
+    "query": "Please tell me: What is the maternity benefit under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "50,000",
+      "normal delivery"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "EAP_0038",
+    "query": "As per Arvind HR policy, Is EAP free?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential"
+    ],
+    "category": "Cost"
+  },
+  {
+    "id": "EAP_0044",
+    "query": "HR query: How much does EAP cost?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential"
+    ],
+    "category": "Cost"
+  },
+  {
+    "id": "GHI_0057",
+    "query": "What is the critical illness benefit?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "5,00,000",
+      "once-in-a-lifetime"
+    ],
+    "category": "Critical-Illness"
+  },
+  {
+    "id": "EAP_0031",
+    "query": "Please tell me: Is EAP confidential?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "confidential",
+      "no need to inform"
+    ],
+    "category": "Confidentiality"
+  },
+  {
+    "id": "EER_0013",
+    "query": "Who handles birthday celebrations at Arvind?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "HR"
+    ],
+    "category": "Birthday"
+  },
+  {
+    "id": "EER_0027",
+    "query": "Please tell me: Is giving gifts to vendors allowed?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "prohibited",
+      "CEO",
+      "CHRO",
+      "Group Ethics Officer"
+    ],
+    "category": "Gifts"
+  },
+  {
+    "id": "GHI_0051",
+    "query": "Please tell me: What is the limit for C-section delivery?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "85,000",
+      "abnormal delivery"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "GPA_0002",
+    "query": "As per Arvind HR policy, What is the Capital Sum Insured formula?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "60 times",
+      "monthly basic"
+    ],
+    "category": "CSI"
+  },
+  {
+    "id": "GHI_0059",
+    "query": "Please tell me: What is the critical illness benefit?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "5,00,000",
+      "once-in-a-lifetime"
+    ],
+    "category": "Critical-Illness"
+  },
+  {
+    "id": "GHI_0067",
+    "query": "Please tell me: How do I use cashless hospitalisation?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "FHPL",
+      "network hospital",
+      "pre-authorisation"
+    ],
+    "category": "Cashless"
+  },
+  {
+    "id": "GHI_0019",
+    "query": "Please tell me: What is the ICU charge limit for BM?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "18,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "EAP_0095",
+    "query": "Please tell me: How quickly does EAP respond to referrals?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "9 am",
+      "9 pm",
+      "next day"
+    ],
+    "category": "Turnaround"
+  },
+  {
+    "id": "GHI_0119",
+    "query": "Please tell me: Effective date of GHI policy?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EER_0047",
+    "query": "Please tell me: How is company car maintenance handled?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "dealerships",
+      "company name"
+    ],
+    "category": "Car-Expenses"
+  },
+  {
+    "id": "EER_0057",
+    "query": "Where do I submit conveyance expenses?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "conveyance tab"
+    ],
+    "category": "Conveyance"
+  },
+  {
+    "id": "EAP_0041",
+    "query": "How much does EAP cost?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential"
+    ],
+    "category": "Cost"
+  },
+  {
+    "id": "EER_0037",
+    "query": "What is the process for late night dinner at office?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "8:00 pm",
+      "5:00 pm",
+      "Admin"
+    ],
+    "category": "Late-Food"
+  },
+  {
+    "id": "FNF_0051",
+    "query": "Please tell me: When do I get the experience letter?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "last working day"
+    ],
+    "category": "Letters"
+  },
+  {
+    "id": "EAP_0047",
+    "query": "Please tell me: How does EAP work?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "phone",
+      "video",
+      "in person"
+    ],
+    "category": "How-It-Works"
+  },
+  {
+    "id": "EER_0078",
+    "query": "As per Arvind HR policy, Is puja expense reimbursed?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "Admin team",
+      "Pandit"
+    ],
+    "category": "Puja"
+  },
+  {
+    "id": "EAP_0073",
+    "query": "Can a manager refer an employee for EAP counselling?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "managersupport@1to1help.net",
+      "voluntary"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "FNF_0062",
+    "query": "As per Arvind HR policy, Who is involved in No Dues Clearance?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Business HR",
+      "CMG",
+      "IT",
+      "Admin",
+      "Finance"
+    ],
+    "category": "No-Dues"
+  },
+  {
+    "id": "FNF_0091",
+    "query": "Please tell me: Effective date of FnF policy?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "24.02.2024"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GPA_0052",
+    "query": "HR query: What is PTD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Partial Total Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "GHI_0039",
+    "query": "Please tell me: Is my spouse covered under health insurance?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "spouse",
+      "two children"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "FNF_0075",
+    "query": "Please tell me: Can I transfer my PF on exit?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "transfer",
+      "UAN",
+      "EPFO"
+    ],
+    "category": "PF"
+  },
+  {
+    "id": "EAP_0023",
+    "query": "Please tell me: What can I use EAP for?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress",
+      "anxiety",
+      "family"
+    ],
+    "category": "Use-Cases"
+  },
+  {
+    "id": "EAP_0088",
+    "query": "HR query: Is EAP voluntary?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "voluntary"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "EAP_0022",
+    "query": "As per Arvind HR policy, What can I use EAP for?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress",
+      "anxiety",
+      "family"
+    ],
+    "category": "Use-Cases"
+  },
+  {
+    "id": "EAP_0082",
+    "query": "As per Arvind HR policy, Can my manager force me to use EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "voluntary",
+      "cannot force"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "GHI_0035",
+    "query": "Please tell me: Who is covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "spouse",
+      "two children",
+      "25 years"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "EER_0064",
+    "query": "HR query: Within how many days must I submit expenses?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "7 working days"
+    ],
+    "category": "Submission"
+  },
+  {
+    "id": "FNF_0044",
+    "query": "HR query: What happens if I leave within 1 year of completing Eklavya?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "100%",
+      "tuition fee"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "FNF_0001",
+    "query": "What is the notice period at Arvind?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "60",
+      "sixty days"
+    ],
+    "category": "Notice-Period"
+  },
+  {
+    "id": "EAP_0086",
+    "query": "As per Arvind HR policy, Is EAP voluntary?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "voluntary"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "EER_0066",
+    "query": "As per Arvind HR policy, What happens if I delay expense submission?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "forfeiture of reimbursement"
+    ],
+    "category": "Non-Compliance"
+  },
+  {
+    "id": "FNF_0028",
+    "query": "HR query: When does my notice period start?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "date",
+      "resigned in the system"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "EER_0045",
+    "query": "How is company car maintenance handled?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "dealerships",
+      "company name"
+    ],
+    "category": "Car-Expenses"
+  },
+  {
+    "id": "GHI_0115",
+    "query": "Please tell me: Policy number for Group Health Insurance?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "ARV|EBF_MLB|005|010126"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EAP_0024",
+    "query": "HR query: What can I use EAP for?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress",
+      "anxiety",
+      "family"
+    ],
+    "category": "Use-Cases"
+  },
+  {
+    "id": "FNF_0069",
+    "query": "How is PL balance paid during FnF?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Consolidated Salary",
+      "Basic Salary"
+    ],
+    "category": "PL-Payout"
+  },
+  {
+    "id": "EAP_0074",
+    "query": "As per Arvind HR policy, Can a manager refer an employee for EAP counselling?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "managersupport@1to1help.net",
+      "voluntary"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "GHI_0029",
+    "query": "What is the ICU limit for M3?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "12,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "GHI_0013",
+    "query": "What is the room rent limit for BM?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "12,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "GPA_0009",
+    "query": "What is the accidental death benefit?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "24 times",
+      "monthly consolidated",
+      "5 lakhs"
+    ],
+    "category": "Death-Benefit"
+  },
+  {
+    "id": "GHI_0001",
+    "query": "What is the health insurance cover for M1 grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "4,00,000",
+      "8,000",
+      "12,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "GHI_0032",
+    "query": "HR query: What is the ICU limit for M3?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "12,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "EAP_0004",
+    "query": "HR query: What is EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "free and confidential",
+      "one-to-one support"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "EER_0006",
+    "query": "As per Arvind HR policy, When is the Expense Reimbursement Policy effective?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "01.04.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0084",
+    "query": "HR query: How do I file a reimbursement claim?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days",
+      "discharge"
+    ],
+    "category": "Claim-Process"
+  },
+  {
+    "id": "EAP_0059",
+    "query": "Please tell me: EAP emergency contact number",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "1800-258-8121",
+      "1800-258-8999"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "EER_0051",
+    "query": "Please tell me: Can I buy stationery and claim reimbursement?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "admin team",
+      "no reimbursement"
+    ],
+    "category": "Admin-Purchases"
+  },
+  {
+    "id": "GPA_0005",
+    "query": "How is CSI calculated under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "60 times",
+      "monthly basic"
+    ],
+    "category": "CSI"
+  },
+  {
+    "id": "GHI_0080",
+    "query": "HR query: Within how many hours must I intimate hospitalisation?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "24 hours"
+    ],
+    "category": "Intimation"
+  },
+  {
+    "id": "EAP_0064",
+    "query": "HR query: How do I download the 1to1help app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "Play Store",
+      "App Store"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "GPA_0042",
+    "query": "As per Arvind HR policy, What is the ambulance charge under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "3,000",
+      "actuals"
+    ],
+    "category": "Ambulance"
+  },
+  {
+    "id": "FNF_0092",
+    "query": "HR query: Effective date of FnF policy?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "24.02.2024"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EAP_0087",
+    "query": "Please tell me: Is EAP voluntary?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "voluntary"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "GHI_0004",
+    "query": "HR query: What is the health insurance cover for M1 grade?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "4,00,000",
+      "8,000",
+      "12,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "EAP_0049",
+    "query": "What modes of counselling are available in EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "phone",
+      "video",
+      "in person"
+    ],
+    "category": "How-It-Works"
+  },
+  {
+    "id": "EAP_0027",
+    "query": "Please tell me: When should I contact EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress",
+      "work pressure",
+      "burnout"
+    ],
+    "category": "Use-Cases"
+  },
+  {
+    "id": "GHI_0081",
+    "query": "How do I file a reimbursement claim?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days",
+      "discharge"
+    ],
+    "category": "Claim-Process"
+  },
+  {
+    "id": "GPA_0037",
+    "query": "Is fracture covered under personal accident insurance?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "20,000"
+    ],
+    "category": "Fracture"
+  },
+  {
+    "id": "GHI_0107",
+    "query": "Please tell me: Is oral chemotherapy covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "Oral Chemotherapy",
+      "sum insured"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "GPA_0029",
+    "query": "Education grant after accidental death?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "10,000 per child",
+      "25 years"
+    ],
+    "category": "Education-Grant"
+  },
+  {
+    "id": "GPA_0065",
+    "query": "Can sum insured change during the year?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "promotion",
+      "grade change"
+    ],
+    "category": "Mid-Term"
+  },
+  {
+    "id": "EAP_0076",
+    "query": "HR query: Can a manager refer an employee for EAP counselling?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "managersupport@1to1help.net",
+      "voluntary"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "EAP_0063",
+    "query": "Please tell me: How do I download the 1to1help app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "Play Store",
+      "App Store"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "EER_0044",
+    "query": "HR query: How do I claim fuel expenses for company car?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "fuel vouchers",
+      "petrol pumps"
+    ],
+    "category": "Car-Expenses"
+  },
+  {
+    "id": "FNF_0017",
+    "query": "How to resign from Arvind?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Darwinbox",
+      "Employee Life Cycle",
+      "Separation"
+    ],
+    "category": "Resignation-Process"
+  },
+  {
+    "id": "FNF_0048",
+    "query": "HR query: Eklavya recovery within 2 years?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "50%",
+      "tuition fee"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "GHI_0087",
+    "query": "Please tell me: What is the claim submission deadline?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days",
+      "discharge"
+    ],
+    "category": "Claim-Process"
+  },
+  {
+    "id": "GHI_0106",
+    "query": "As per Arvind HR policy, Is oral chemotherapy covered?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "Oral Chemotherapy",
+      "sum insured"
+    ],
+    "category": "Coverage"
+  },
+  {
+    "id": "GPA_0077",
+    "query": "Effective date of GPA scheme?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "FNF_0002",
+    "query": "As per Arvind HR policy, What is the notice period at Arvind?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "60",
+      "sixty days"
+    ],
+    "category": "Notice-Period"
+  },
+  {
+    "id": "EER_0069",
+    "query": "Who approves expense reimbursement requests?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "Department Head",
+      "Accounts Officer"
+    ],
+    "category": "Approval"
+  },
+  {
+    "id": "GPA_0067",
+    "query": "Please tell me: Can sum insured change during the year?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "promotion",
+      "grade change"
+    ],
+    "category": "Mid-Term"
+  },
+  {
+    "id": "GPA_0047",
+    "query": "Please tell me: What is covered for funeral expenses?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "2,500",
+      "2%",
+      "CSI"
+    ],
+    "category": "Funeral"
+  },
+  {
+    "id": "EER_0008",
+    "query": "HR query: When is the Expense Reimbursement Policy effective?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "01.04.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0015",
+    "query": "Please tell me: What is the room rent limit for BM?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "12,000"
+    ],
+    "category": "Entitlement-BM"
+  },
+  {
+    "id": "FNF_0088",
+    "query": "HR query: What is the policy number for FnF settlement?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "ARV|COR|ELC_FnF|001|010922"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EER_0010",
+    "query": "As per Arvind HR policy, Is there reimbursement for birthday celebrations?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "no reimbursement",
+      "HR"
+    ],
+    "category": "Birthday"
+  },
+  {
+    "id": "GHI_0085",
+    "query": "What is the claim submission deadline?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days",
+      "discharge"
+    ],
+    "category": "Claim-Process"
+  },
+  {
+    "id": "FNF_0061",
+    "query": "Who is involved in No Dues Clearance?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "Business HR",
+      "CMG",
+      "IT",
+      "Admin",
+      "Finance"
+    ],
+    "category": "No-Dues"
+  },
+  {
+    "id": "EER_0020",
+    "query": "HR query: What is the farewell gift limit for CXO-level employees?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "10,000",
+      "CEO",
+      "CHRO"
+    ],
+    "category": "Farewell"
+  },
+  {
+    "id": "EAP_0062",
+    "query": "As per Arvind HR policy, How do I download the 1to1help app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "Play Store",
+      "App Store"
+    ],
+    "category": "App"
+  },
+  {
+    "id": "FNF_0079",
+    "query": "Please tell me: What is the HR contact for FnF exceptions?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "corporate.hr@arvind.in"
+    ],
+    "category": "Contact"
+  },
+  {
+    "id": "GHI_0056",
+    "query": "HR query: Is maternity covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "50,000",
+      "85,000"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "GPA_0048",
+    "query": "HR query: What is covered for funeral expenses?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "2,500",
+      "2%",
+      "CSI"
+    ],
+    "category": "Funeral"
+  },
+  {
+    "id": "GPA_0073",
+    "query": "Policy number for Group Personal Accident?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "ARV|COR|EBF_GPA|001|01012026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GHI_0068",
+    "query": "HR query: How do I use cashless hospitalisation?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "FHPL",
+      "network hospital",
+      "pre-authorisation"
+    ],
+    "category": "Cashless"
+  },
+  {
+    "id": "GPA_0024",
+    "query": "HR query: What is covered under accidental hospitalisation?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "25%",
+      "40%"
+    ],
+    "category": "Medical-Extension"
+  },
+  {
+    "id": "GHI_0049",
+    "query": "What is the limit for C-section delivery?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "85,000",
+      "abnormal delivery"
+    ],
+    "category": "Maternity"
+  },
+  {
+    "id": "GPA_0040",
+    "query": "HR query: Is fracture covered under personal accident insurance?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "20,000"
+    ],
+    "category": "Fracture"
+  },
+  {
+    "id": "GPA_0021",
+    "query": "What is covered under accidental hospitalisation?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "25%",
+      "40%"
+    ],
+    "category": "Medical-Extension"
+  },
+  {
+    "id": "FNF_0036",
+    "query": "HR query: Within how many days is the final payout done?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "30 days",
+      "last working day"
+    ],
+    "category": "FnF-Timeline"
+  },
+  {
+    "id": "EER_0060",
+    "query": "HR query: Where do I submit conveyance expenses?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "conveyance tab"
+    ],
+    "category": "Conveyance"
+  },
+  {
+    "id": "GPA_0041",
+    "query": "What is the ambulance charge under GPA?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "3,000",
+      "actuals"
+    ],
+    "category": "Ambulance"
+  },
+  {
+    "id": "GHI_0082",
+    "query": "As per Arvind HR policy, How do I file a reimbursement claim?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "30 days",
+      "discharge"
+    ],
+    "category": "Claim-Process"
+  },
+  {
+    "id": "EAP_0025",
+    "query": "When should I contact EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "stress",
+      "work pressure",
+      "burnout"
+    ],
+    "category": "Use-Cases"
+  },
+  {
+    "id": "GPA_0003",
+    "query": "Please tell me: What is the Capital Sum Insured formula?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "60 times",
+      "monthly basic"
+    ],
+    "category": "CSI"
+  },
+  {
+    "id": "EAP_0089",
+    "query": "What is the turnaround time for EAP referrals?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "9 am",
+      "9 pm",
+      "same day"
+    ],
+    "category": "Turnaround"
+  },
+  {
+    "id": "GHI_0005",
+    "query": "What is the family floater for M2?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "4,00,000"
+    ],
+    "category": "Entitlement-M1"
+  },
+  {
+    "id": "GHI_0043",
+    "query": "Please tell me: Are children covered under GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "two children",
+      "25 years"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "FNF_0087",
+    "query": "Please tell me: What is the policy number for FnF settlement?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "ARV|COR|ELC_FnF|001|010922"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "EAP_0101",
+    "query": "How many assessments are on the EAP app?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "180"
+    ],
+    "category": "Assessments"
+  },
+  {
+    "id": "EAP_0081",
+    "query": "Can my manager force me to use EAP?",
+    "source": "Employee Assistance Program (EAP)",
+    "keyFacts": [
+      "voluntary",
+      "cannot force"
+    ],
+    "category": "Manager-Referral"
+  },
+  {
+    "id": "GPA_0058",
+    "query": "As per Arvind HR policy, What is PPD?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "Permanent Partial Disablement"
+    ],
+    "category": "Definitions"
+  },
+  {
+    "id": "FNF_0067",
+    "query": "Please tell me: What is IT clearance during exit?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "laptops",
+      "last working day",
+      "damaged"
+    ],
+    "category": "IT-Clearance"
+  },
+  {
+    "id": "GPA_0080",
+    "query": "HR query: Effective date of GPA scheme?",
+    "source": "Group Personal Accident Insurance Scheme",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "FNF_0038",
+    "query": "As per Arvind HR policy, What is the Eklavya policy recovery rule?",
+    "source": "Exit & Full & Final Settlement Policy",
+    "keyFacts": [
+      "50%",
+      "100%",
+      "tuition"
+    ],
+    "category": "Eklavya"
+  },
+  {
+    "id": "GHI_0111",
+    "query": "Please tell me: What is the minimum hospitalisation period for GHI?",
+    "source": "Group Health Insurance Policy",
+    "keyFacts": [
+      "24 hrs",
+      "24 hours"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "EER_0014",
+    "query": "As per Arvind HR policy, Who handles birthday celebrations at Arvind?",
+    "source": "Employee Expense Reimbursement Policy",
+    "keyFacts": [
+      "HR"
+    ],
+    "category": "Birthday"
+  }
+]
