@@ -18,24 +18,6 @@
     ]
   },
   {
-    "id": "ETV2_01735",
-    "query": "What happens if I file a false conveyance claim?",
-    "category": "Compliance",
-    "source": "Local Conveyance Policy",
-    "missing": [
-      "strict disciplinary action shall be taken"
-    ]
-  },
-  {
-    "id": "ETV2_01736",
-    "query": "Does the Local Conveyance Policy apply to all employee grades?",
-    "category": "Applicability",
-    "source": "Local Conveyance Policy",
-    "missing": [
-      "applicable across all grades"
-    ]
-  },
-  {
     "id": "ETV2_01738",
     "query": "Who is covered under the Local Conveyance Policy?",
     "category": "Applicability",
@@ -45,30 +27,21 @@
     ]
   },
   {
+    "id": "ETV2_01739",
+    "query": "When was the Local Conveyance Policy effective?",
+    "category": "Policy-Details",
+    "source": "Local Conveyance Policy",
+    "missing": [
+      "01.07.2022"
+    ]
+  },
+  {
     "id": "ETV2_01745",
     "query": "What is the penalty for fraudulent conveyance claims?",
     "category": "Compliance",
     "source": "Local Conveyance Policy",
     "missing": [
       "strict disciplinary action shall be taken"
-    ]
-  },
-  {
-    "id": "ETV2_01748",
-    "query": "When is an employee mandated to rotate under Talent Mobility Policy?",
-    "category": "Rotation-Trigger",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "3 years = trigger for rotation"
-    ]
-  },
-  {
-    "id": "ETV2_01766",
-    "query": "After 3 years in the same role, what happens under Talent Mobility?",
-    "category": "Rotation-Trigger",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "3 years = trigger for rotation"
     ]
   },
   {
@@ -90,111 +63,12 @@
     ]
   },
   {
-    "id": "ETV2_03300",
-    "query": "As per Arvind HR policy, What is the annual MAB for a E1 employee?",
-    "category": "MAB-Annual-E1",
-    "source": "Talent Mobility Policy",
+    "id": "ETV2_03519",
+    "query": "As per Arvind HR policy, Can two senior officials travel together on the same flight to the same destination?",
+    "category": "Travel-Guidelines",
+    "source": "Domestic Travel Policy",
     "missing": [
-      "3,91,000"
-    ]
-  },
-  {
-    "id": "ETV2_03304",
-    "query": "As per Arvind HR policy, If I am E1, what annual MAB is credited?",
-    "category": "MAB-Annual-E1",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "3,91,000"
-    ]
-  },
-  {
-    "id": "ETV2_03320",
-    "query": "As per Arvind HR policy, What is the annual MAB for a E2 employee?",
-    "category": "MAB-Annual-E2",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "5,49,000"
-    ]
-  },
-  {
-    "id": "ETV2_03324",
-    "query": "As per Arvind HR policy, If I am E2, what annual MAB is credited?",
-    "category": "MAB-Annual-E2",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "5,49,000"
-    ]
-  },
-  {
-    "id": "ETV2_03340",
-    "query": "As per Arvind HR policy, What is the annual MAB for a M1 employee?",
-    "category": "MAB-Annual-M1",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "8,52,000"
-    ]
-  },
-  {
-    "id": "ETV2_03344",
-    "query": "As per Arvind HR policy, If I am M1, what annual MAB is credited?",
-    "category": "MAB-Annual-M1",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "8,52,000"
-    ]
-  },
-  {
-    "id": "ETV2_03360",
-    "query": "As per Arvind HR policy, What is the annual MAB for a M2 employee?",
-    "category": "MAB-Annual-M2",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "13,00,000"
-    ]
-  },
-  {
-    "id": "ETV2_03364",
-    "query": "As per Arvind HR policy, If I am M2, what annual MAB is credited?",
-    "category": "MAB-Annual-M2",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "13,00,000"
-    ]
-  },
-  {
-    "id": "ETV2_03380",
-    "query": "As per Arvind HR policy, What is the annual MAB for a M3 employee?",
-    "category": "MAB-Annual-M3",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "19,00,000"
-    ]
-  },
-  {
-    "id": "ETV2_03384",
-    "query": "As per Arvind HR policy, If I am M3, what annual MAB is credited?",
-    "category": "MAB-Annual-M3",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "19,00,000"
-    ]
-  },
-  {
-    "id": "ETV2_03400",
-    "query": "As per Arvind HR policy, What is the annual MAB for a M3H1 employee?",
-    "category": "MAB-Annual-M3H1",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "26,00,000"
-    ]
-  },
-  {
-    "id": "ETV2_03404",
-    "query": "As per Arvind HR policy, If I am M3H1, what annual MAB is credited?",
-    "category": "MAB-Annual-M3H1",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "26,00,000"
+      "senior officials travelling to the same destination on the same day take separate flights"
     ]
   },
   {
@@ -225,12 +99,12 @@
     ]
   },
   {
-    "id": "ETV2_03539",
-    "query": "As per Arvind HR policy, Does the Local Conveyance Policy apply to all employee grades?",
-    "category": "Applicability",
+    "id": "ETV2_03542",
+    "query": "As per Arvind HR policy, When was the Local Conveyance Policy effective?",
+    "category": "Policy-Details",
     "source": "Local Conveyance Policy",
     "missing": [
-      "applicable across all grades"
+      "01.07.2022"
     ]
   },
   {
@@ -243,51 +117,6 @@
     ]
   },
   {
-    "id": "ETV2_03550",
-    "query": "As per Arvind HR policy, Does the conveyance policy cover inter-city travel?",
-    "category": "Eligibility",
-    "source": "Local Conveyance Policy",
-    "missing": [
-      "outside the respective City/Town Municipal Corporation"
-    ]
-  },
-  {
-    "id": "ETV2_03551",
-    "query": "As per Arvind HR policy, When is an employee mandated to rotate under Talent Mobility Policy?",
-    "category": "Rotation-Trigger",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "3 years = trigger for rotation"
-    ]
-  },
-  {
-    "id": "ETV2_03557",
-    "query": "As per Arvind HR policy, What distance triggers SIA eligibility?",
-    "category": "SIA-Condition",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "relocation >20 kms"
-    ]
-  },
-  {
-    "id": "ETV2_03562",
-    "query": "As per Arvind HR policy, What is the first rotation model under Talent Mobility?",
-    "category": "Rotation-Framework",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "1st Rotation \u2013 within the city"
-    ]
-  },
-  {
-    "id": "ETV2_03569",
-    "query": "As per Arvind HR policy, After 3 years in the same role, what happens under Talent Mobility?",
-    "category": "Rotation-Trigger",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "3 years = trigger for rotation"
-    ]
-  },
-  {
     "id": "ETV2_03574",
     "query": "As per Arvind HR policy, E2 employee going to Delhi for a week \u2014 what hotel amount is allowed per night?",
     "category": "Lodging-E2-ClassI",
@@ -297,125 +126,35 @@
     ]
   },
   {
-    "id": "ETV2_04007",
-    "query": "What is the POSH helpline number?",
-    "category": "Contact",
+    "id": "ETV2_04051",
+    "query": "When was the POSH policy last updated?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "18002008301"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_04008",
-    "query": "Who heads the AIC?",
-    "category": "AIC-Composition",
+    "id": "ETV2_04052",
+    "query": "What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Senior level woman employee"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
-    "id": "ETV2_04010",
-    "query": "How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "id": "ETV2_04118",
+    "query": "What can I do if I face retaliation after reporting?",
+    "category": "Retaliation-Recourse",
+    "source": "Whistleblower Policy",
     "missing": [
-      "minimum of 3 members"
+      "lodge a written complaint to the Chairman"
     ]
   },
   {
-    "id": "ETV2_04012",
-    "query": "How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_04016",
-    "query": "What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_04017",
-    "query": "Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_04018",
-    "query": "How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_04023",
-    "query": "How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_04027",
-    "query": "What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_04029",
-    "query": "Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_04032",
-    "query": "Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_04042",
-    "query": "Can the AIC recommend termination of the respondent?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Terminating the RE from service"
-    ]
-  },
-  {
-    "id": "ETV2_04057",
-    "query": "Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_04193",
-    "query": "Is Workplace harassment a reportable concern under Whistleblower Policy?",
+    "id": "ETV2_04121",
+    "query": "Can I report workplace harassment under the Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -423,8 +162,8 @@
     ]
   },
   {
-    "id": "ETV2_04194",
-    "query": "Does Whistleblower Policy cover Workplace harassment?",
+    "id": "ETV2_04193",
+    "query": "Is Workplace harassment a reportable concern under Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -459,129 +198,12 @@
     ]
   },
   {
-    "id": "ETV2_04226",
-    "query": "I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
+    "id": "ETV2_04201",
+    "query": "Should I use the ethics helpline to report Discrimination and favouritism?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
     "missing": [
-      "15 working days"
-    ]
-  },
-  {
-    "id": "ETV2_04242",
-    "query": "As per Arvind HR policy, What is the POSH helpline number?",
-    "category": "Contact",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "18002008301"
-    ]
-  },
-  {
-    "id": "ETV2_04245",
-    "query": "As per Arvind HR policy, How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_04247",
-    "query": "As per Arvind HR policy, How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_04251",
-    "query": "As per Arvind HR policy, What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_04252",
-    "query": "As per Arvind HR policy, Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_04253",
-    "query": "As per Arvind HR policy, How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_04258",
-    "query": "As per Arvind HR policy, How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_04261",
-    "query": "As per Arvind HR policy, Within how many working days should the inquiry be completed?",
-    "category": "Timelines",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "10 (ten) working days"
-    ]
-  },
-  {
-    "id": "ETV2_04262",
-    "query": "As per Arvind HR policy, What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_04263",
-    "query": "As per Arvind HR policy, Is the interim leave granted in addition to regular leave?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "in addition to the entitled leaves"
-    ]
-  },
-  {
-    "id": "ETV2_04264",
-    "query": "As per Arvind HR policy, Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_04266",
-    "query": "As per Arvind HR policy, Can office party incidents be reported under POSH?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Office parties"
-    ]
-  },
-  {
-    "id": "ETV2_04268",
-    "query": "As per Arvind HR policy, Is POSH gender-neutral at Arvind?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "gender neutral"
+      "Discrimination and favouritism"
     ]
   },
   {
@@ -594,21 +216,21 @@
     ]
   },
   {
-    "id": "ETV2_04289",
-    "query": "As per Arvind HR policy, Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
+    "id": "ETV2_04286",
+    "query": "As per Arvind HR policy, When was the POSH policy last updated?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Written warning"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_04292",
-    "query": "As per Arvind HR policy, Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
+    "id": "ETV2_04287",
+    "query": "As per Arvind HR policy, What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Written warning"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
@@ -621,12 +243,12 @@
     ]
   },
   {
-    "id": "ETV2_04334",
-    "query": "As per Arvind HR policy, Under what circumstances is Carrying out community service recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "id": "ETV2_04352",
+    "query": "As per Arvind HR policy, Am I protected from retaliation as a whistleblower?",
+    "category": "Protection",
+    "source": "Whistleblower Policy",
     "missing": [
-      "Carrying out community service"
+      "no adverse personnel action, victimization, retaliation"
     ]
   },
   {
@@ -650,6 +272,15 @@
   {
     "id": "ETV2_04359",
     "query": "As per Arvind HR policy, Is false invoicing a reportable concern?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "False invoicing"
+    ]
+  },
+  {
+    "id": "ETV2_04407",
+    "query": "As per Arvind HR policy, Should I use the ethics helpline to report False invoicing?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -720,210 +351,21 @@
     ]
   },
   {
-    "id": "ETV2_04437",
-    "query": "As per Arvind HR policy, I witnessed Discrimination and favouritism. Can I blow the whistle?",
-    "category": "Reportable-Issues",
-    "source": "Whistleblower Policy",
-    "missing": [
-      "Discrimination and favouritism"
-    ]
-  },
-  {
-    "id": "ETV2_04438",
-    "query": "As per Arvind HR policy, Is Discrimination and favouritism listed as a reportable issue?",
-    "category": "Reportable-Issues",
-    "source": "Whistleblower Policy",
-    "missing": [
-      "Discrimination and favouritism"
-    ]
-  },
-  {
-    "id": "ETV2_04444",
-    "query": "As per Arvind HR policy, What is the resolution timeline for a grievance?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
-    "missing": [
-      "15 working days"
-    ]
-  },
-  {
-    "id": "ETV2_04461",
-    "query": "As per Arvind HR policy, I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
-    "missing": [
-      "15 working days"
-    ]
-  },
-  {
-    "id": "ETV2_04470",
-    "query": "As per Arvind HR policy, Will I be penalized for raising a workplace grievance?",
-    "category": "Protection",
-    "source": "Grievance Mechanism Policy 2025",
-    "missing": [
-      "protected from retaliation"
-    ]
-  },
-  {
-    "id": "ETV2_04478",
-    "query": "Under Arvind's policy, Who heads the AIC?",
-    "category": "AIC-Composition",
+    "id": "ETV2_04521",
+    "query": "Under Arvind's policy, When was the POSH policy last updated?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Senior level woman employee"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_04480",
-    "query": "Under Arvind's policy, How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
+    "id": "ETV2_04522",
+    "query": "Under Arvind's policy, What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_04481",
-    "query": "Under Arvind's policy, What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_04486",
-    "query": "Under Arvind's policy, What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_04487",
-    "query": "Under Arvind's policy, Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_04488",
-    "query": "Under Arvind's policy, How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_04493",
-    "query": "Under Arvind's policy, How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_04496",
-    "query": "Under Arvind's policy, Within how many working days should the inquiry be completed?",
-    "category": "Timelines",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "10 (ten) working days"
-    ]
-  },
-  {
-    "id": "ETV2_04497",
-    "query": "Under Arvind's policy, What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_04498",
-    "query": "Under Arvind's policy, Is the interim leave granted in addition to regular leave?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "in addition to the entitled leaves"
-    ]
-  },
-  {
-    "id": "ETV2_04499",
-    "query": "Under Arvind's policy, Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_04501",
-    "query": "Under Arvind's policy, Can office party incidents be reported under POSH?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Office parties"
-    ]
-  },
-  {
-    "id": "ETV2_04503",
-    "query": "Under Arvind's policy, Is POSH gender-neutral at Arvind?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "gender neutral"
-    ]
-  },
-  {
-    "id": "ETV2_04512",
-    "query": "Under Arvind's policy, Can the AIC recommend termination of the respondent?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Terminating the RE from service"
-    ]
-  },
-  {
-    "id": "ETV2_04514",
-    "query": "Under Arvind's policy, Can the AIC recommend withholding a promotion?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Withholding of promotion"
-    ]
-  },
-  {
-    "id": "ETV2_04524",
-    "query": "Under Arvind's policy, Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_04527",
-    "query": "Under Arvind's policy, Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_04545",
-    "query": "Under Arvind's policy, Under what circumstances is Withholding of promotion recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Withholding of promotion"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
@@ -942,6 +384,15 @@
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
       "Carrying out community service"
+    ]
+  },
+  {
+    "id": "ETV2_04587",
+    "query": "Under Arvind's policy, Am I protected from retaliation as a whistleblower?",
+    "category": "Protection",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "no adverse personnel action, victimization, retaliation"
     ]
   },
   {
@@ -969,6 +420,15 @@
     "source": "Whistleblower Policy",
     "missing": [
       "False invoicing"
+    ]
+  },
+  {
+    "id": "ETV2_04600",
+    "query": "Under Arvind's policy, Should I use the ethics helpline to report Breach of internal compliance requirements?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Breach of internal compliance requirements"
     ]
   },
   {
@@ -1062,237 +522,21 @@
     ]
   },
   {
-    "id": "ETV2_04672",
-    "query": "Under Arvind's policy, I witnessed Discrimination and favouritism. Can I blow the whistle?",
-    "category": "Reportable-Issues",
-    "source": "Whistleblower Policy",
-    "missing": [
-      "Discrimination and favouritism"
-    ]
-  },
-  {
-    "id": "ETV2_04673",
-    "query": "Under Arvind's policy, Is Discrimination and favouritism listed as a reportable issue?",
-    "category": "Reportable-Issues",
-    "source": "Whistleblower Policy",
-    "missing": [
-      "Discrimination and favouritism"
-    ]
-  },
-  {
-    "id": "ETV2_04679",
-    "query": "Under Arvind's policy, What is the resolution timeline for a grievance?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
-    "missing": [
-      "15 working days"
-    ]
-  },
-  {
-    "id": "ETV2_04696",
-    "query": "Under Arvind's policy, I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
-    "missing": [
-      "15 working days"
-    ]
-  },
-  {
-    "id": "ETV2_04712",
-    "query": "My HR manager asked: What is the POSH helpline number?",
-    "category": "Contact",
+    "id": "ETV2_04756",
+    "query": "My HR manager asked: When was the POSH policy last updated?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "18002008301"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_04713",
-    "query": "My HR manager asked: Who heads the AIC?",
-    "category": "AIC-Composition",
+    "id": "ETV2_04757",
+    "query": "My HR manager asked: What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Senior level woman employee"
-    ]
-  },
-  {
-    "id": "ETV2_04715",
-    "query": "My HR manager asked: How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_04716",
-    "query": "My HR manager asked: What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_04717",
-    "query": "My HR manager asked: How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_04721",
-    "query": "My HR manager asked: What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_04722",
-    "query": "My HR manager asked: Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_04723",
-    "query": "My HR manager asked: How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_04728",
-    "query": "My HR manager asked: How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_04731",
-    "query": "My HR manager asked: Within how many working days should the inquiry be completed?",
-    "category": "Timelines",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "10 (ten) working days"
-    ]
-  },
-  {
-    "id": "ETV2_04732",
-    "query": "My HR manager asked: What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_04733",
-    "query": "My HR manager asked: Is the interim leave granted in addition to regular leave?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "in addition to the entitled leaves"
-    ]
-  },
-  {
-    "id": "ETV2_04734",
-    "query": "My HR manager asked: Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_04736",
-    "query": "My HR manager asked: Can office party incidents be reported under POSH?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Office parties"
-    ]
-  },
-  {
-    "id": "ETV2_04737",
-    "query": "My HR manager asked: Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_04738",
-    "query": "My HR manager asked: Is POSH gender-neutral at Arvind?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "gender neutral"
-    ]
-  },
-  {
-    "id": "ETV2_04747",
-    "query": "My HR manager asked: Can the AIC recommend termination of the respondent?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Terminating the RE from service"
-    ]
-  },
-  {
-    "id": "ETV2_04752",
-    "query": "My HR manager asked: Who are the POSH filing channels?",
-    "category": "Filing-Channels",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Supervisor / Reporting Manager"
-    ]
-  },
-  {
-    "id": "ETV2_04759",
-    "query": "My HR manager asked: Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_04760",
-    "query": "My HR manager asked: Is Written warning a possible outcome of POSH inquiry?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_04762",
-    "query": "My HR manager asked: Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_04797",
-    "query": "My HR manager asked: What does the POSH policy say about Undergoing a counselling session?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Undergoing a counselling session"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
@@ -1305,15 +549,6 @@
     ]
   },
   {
-    "id": "ETV2_04804",
-    "query": "My HR manager asked: Under what circumstances is Carrying out community service recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Carrying out community service"
-    ]
-  },
-  {
     "id": "ETV2_04823",
     "query": "My HR manager asked: What can I do if I face retaliation after reporting?",
     "category": "Retaliation-Recourse",
@@ -1323,8 +558,8 @@
     ]
   },
   {
-    "id": "ETV2_04898",
-    "query": "My HR manager asked: Is Workplace harassment a reportable concern under Whistleblower Policy?",
+    "id": "ETV2_04826",
+    "query": "My HR manager asked: Can I report workplace harassment under the Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -1332,8 +567,17 @@
     ]
   },
   {
-    "id": "ETV2_04899",
-    "query": "My HR manager asked: Does Whistleblower Policy cover Workplace harassment?",
+    "id": "ETV2_04889",
+    "query": "My HR manager asked: Should I use the ethics helpline to report Employee negligence?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Employee negligence"
+    ]
+  },
+  {
+    "id": "ETV2_04898",
+    "query": "My HR manager asked: Is Workplace harassment a reportable concern under Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -1377,179 +621,44 @@
     ]
   },
   {
-    "id": "ETV2_04908",
-    "query": "My HR manager asked: Is Discrimination and favouritism listed as a reportable issue?",
-    "category": "Reportable-Issues",
+    "id": "ETV2_04991",
+    "query": "I need to know: When was the POSH policy last updated?",
+    "category": "Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "01.05.2025"
+    ]
+  },
+  {
+    "id": "ETV2_04992",
+    "query": "I need to know: What is the POSH policy reference number?",
+    "category": "Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_05033",
+    "query": "I need to know: Under what circumstances is Undergoing a counselling session recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Undergoing a counselling session"
+    ]
+  },
+  {
+    "id": "ETV2_05058",
+    "query": "I need to know: What can I do if I face retaliation after reporting?",
+    "category": "Retaliation-Recourse",
     "source": "Whistleblower Policy",
     "missing": [
-      "Discrimination and favouritism"
-    ]
-  },
-  {
-    "id": "ETV2_04931",
-    "query": "My HR manager asked: I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
-    "missing": [
-      "15 working days"
-    ]
-  },
-  {
-    "id": "ETV2_04948",
-    "query": "I need to know: Who heads the AIC?",
-    "category": "AIC-Composition",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Senior level woman employee"
-    ]
-  },
-  {
-    "id": "ETV2_04950",
-    "query": "I need to know: How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_04951",
-    "query": "I need to know: What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_04952",
-    "query": "I need to know: How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_04956",
-    "query": "I need to know: What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_04957",
-    "query": "I need to know: Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_04958",
-    "query": "I need to know: How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_04963",
-    "query": "I need to know: How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_04967",
-    "query": "I need to know: What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_04969",
-    "query": "I need to know: Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_04972",
-    "query": "I need to know: Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_04973",
-    "query": "I need to know: Is POSH gender-neutral at Arvind?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "gender neutral"
-    ]
-  },
-  {
-    "id": "ETV2_04982",
-    "query": "I need to know: Can the AIC recommend termination of the respondent?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Terminating the RE from service"
-    ]
-  },
-  {
-    "id": "ETV2_04994",
-    "query": "I need to know: Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_04995",
-    "query": "I need to know: Is Written warning a possible outcome of POSH inquiry?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_04997",
-    "query": "I need to know: Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
+      "lodge a written complaint to the Chairman"
     ]
   },
   {
     "id": "ETV2_05133",
     "query": "I need to know: Is Workplace harassment a reportable concern under Whistleblower Policy?",
-    "category": "Reportable-Issues",
-    "source": "Whistleblower Policy",
-    "missing": [
-      "Workplace harassment"
-    ]
-  },
-  {
-    "id": "ETV2_05134",
-    "query": "I need to know: Does Whistleblower Policy cover Workplace harassment?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -1584,165 +693,30 @@
     ]
   },
   {
-    "id": "ETV2_05166",
-    "query": "I need to know: I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
+    "id": "ETV2_05226",
+    "query": "Quick question \u2014 When was the POSH policy last updated?",
+    "category": "Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "15 working days"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_05182",
-    "query": "Quick question \u2014 What is the POSH helpline number?",
-    "category": "Contact",
+    "id": "ETV2_05227",
+    "query": "Quick question \u2014 What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "18002008301"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
-    "id": "ETV2_05183",
-    "query": "Quick question \u2014 Who heads the AIC?",
-    "category": "AIC-Composition",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "id": "ETV2_05293",
+    "query": "Quick question \u2014 What can I do if I face retaliation after reporting?",
+    "category": "Retaliation-Recourse",
+    "source": "Whistleblower Policy",
     "missing": [
-      "Senior level woman employee"
-    ]
-  },
-  {
-    "id": "ETV2_05185",
-    "query": "Quick question \u2014 How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_05186",
-    "query": "Quick question \u2014 What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_05187",
-    "query": "Quick question \u2014 How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_05191",
-    "query": "Quick question \u2014 What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_05192",
-    "query": "Quick question \u2014 Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_05193",
-    "query": "Quick question \u2014 How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_05198",
-    "query": "Quick question \u2014 How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_05201",
-    "query": "Quick question \u2014 Within how many working days should the inquiry be completed?",
-    "category": "Timelines",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "10 (ten) working days"
-    ]
-  },
-  {
-    "id": "ETV2_05202",
-    "query": "Quick question \u2014 What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_05204",
-    "query": "Quick question \u2014 Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_05207",
-    "query": "Quick question \u2014 Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_05215",
-    "query": "Quick question \u2014 Is written warning a possible POSH sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_05217",
-    "query": "Quick question \u2014 Can the AIC recommend termination of the respondent?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Terminating the RE from service"
-    ]
-  },
-  {
-    "id": "ETV2_05229",
-    "query": "Quick question \u2014 Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_05232",
-    "query": "Quick question \u2014 Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
+      "lodge a written complaint to the Chairman"
     ]
   },
   {
@@ -1757,15 +731,6 @@
   {
     "id": "ETV2_05368",
     "query": "Quick question \u2014 Is Workplace harassment a reportable concern under Whistleblower Policy?",
-    "category": "Reportable-Issues",
-    "source": "Whistleblower Policy",
-    "missing": [
-      "Workplace harassment"
-    ]
-  },
-  {
-    "id": "ETV2_05369",
-    "query": "Quick question \u2014 Does Whistleblower Policy cover Workplace harassment?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -1800,188 +765,53 @@
     ]
   },
   {
-    "id": "ETV2_05401",
-    "query": "Quick question \u2014 I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
+    "id": "ETV2_05376",
+    "query": "Quick question \u2014 Should I use the ethics helpline to report Discrimination and favouritism?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
     "missing": [
-      "15 working days"
+      "Discrimination and favouritism"
     ]
   },
   {
-    "id": "ETV2_05417",
-    "query": "Policy check: What is the POSH helpline number?",
-    "category": "Contact",
+    "id": "ETV2_05413",
+    "query": "Policy check: How many copies of the POSH complaint do I need to submit?",
+    "category": "Filing",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "18002008301"
+      "six copies of the complaint"
     ]
   },
   {
-    "id": "ETV2_05418",
-    "query": "Policy check: Who heads the AIC?",
-    "category": "AIC-Composition",
+    "id": "ETV2_05415",
+    "query": "Policy check: How do I file a POSH complaint?",
+    "category": "Filing",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Senior level woman employee"
+      "lodge her complaint in writing or via e- mail"
     ]
   },
   {
-    "id": "ETV2_05420",
-    "query": "Policy check: How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
+    "id": "ETV2_05461",
+    "query": "Policy check: When was the POSH policy last updated?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "minimum of 3 members"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_05421",
-    "query": "Policy check: What is the minimum women representation in AIC?",
-    "category": "Quorum",
+    "id": "ETV2_05462",
+    "query": "Policy check: What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "50% women representation"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
-    "id": "ETV2_05422",
-    "query": "Policy check: How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_05426",
-    "query": "Policy check: What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_05427",
-    "query": "Policy check: Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_05428",
-    "query": "Policy check: How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_05433",
-    "query": "Policy check: How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_05436",
-    "query": "Policy check: Within how many working days should the inquiry be completed?",
-    "category": "Timelines",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "10 (ten) working days"
-    ]
-  },
-  {
-    "id": "ETV2_05437",
-    "query": "Policy check: What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_05438",
-    "query": "Policy check: Is the interim leave granted in addition to regular leave?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "in addition to the entitled leaves"
-    ]
-  },
-  {
-    "id": "ETV2_05439",
-    "query": "Policy check: Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_05441",
-    "query": "Policy check: Can office party incidents be reported under POSH?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Office parties"
-    ]
-  },
-  {
-    "id": "ETV2_05442",
-    "query": "Policy check: Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_05450",
-    "query": "Policy check: Is written warning a possible POSH sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_05452",
-    "query": "Policy check: Can the AIC recommend termination of the respondent?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Terminating the RE from service"
-    ]
-  },
-  {
-    "id": "ETV2_05464",
-    "query": "Policy check: Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_05467",
-    "query": "Policy check: Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_05603",
-    "query": "Policy check: Is Workplace harassment a reportable concern under Whistleblower Policy?",
+    "id": "ETV2_05531",
+    "query": "Policy check: Can I report workplace harassment under the Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -1989,8 +819,26 @@
     ]
   },
   {
-    "id": "ETV2_05604",
-    "query": "Policy check: Does Whistleblower Policy cover Workplace harassment?",
+    "id": "ETV2_05534",
+    "query": "Policy check: Is false invoicing a reportable concern?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "False invoicing"
+    ]
+  },
+  {
+    "id": "ETV2_05594",
+    "query": "Policy check: Should I use the ethics helpline to report Employee negligence?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Employee negligence"
+    ]
+  },
+  {
+    "id": "ETV2_05603",
+    "query": "Policy check: Is Workplace harassment a reportable concern under Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -2034,168 +882,6 @@
     ]
   },
   {
-    "id": "ETV2_05636",
-    "query": "Policy check: I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
-    "missing": [
-      "15 working days"
-    ]
-  },
-  {
-    "id": "ETV2_05652",
-    "query": "HR query: What is the POSH helpline number?",
-    "category": "Contact",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "18002008301"
-    ]
-  },
-  {
-    "id": "ETV2_05653",
-    "query": "HR query: Who heads the AIC?",
-    "category": "AIC-Composition",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Senior level woman employee"
-    ]
-  },
-  {
-    "id": "ETV2_05655",
-    "query": "HR query: How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_05656",
-    "query": "HR query: What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_05657",
-    "query": "HR query: How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_05661",
-    "query": "HR query: What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_05662",
-    "query": "HR query: Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_05663",
-    "query": "HR query: How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_05668",
-    "query": "HR query: How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_05671",
-    "query": "HR query: Within how many working days should the inquiry be completed?",
-    "category": "Timelines",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "10 (ten) working days"
-    ]
-  },
-  {
-    "id": "ETV2_05672",
-    "query": "HR query: What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_05673",
-    "query": "HR query: Is the interim leave granted in addition to regular leave?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "in addition to the entitled leaves"
-    ]
-  },
-  {
-    "id": "ETV2_05674",
-    "query": "HR query: Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_05676",
-    "query": "HR query: Can office party incidents be reported under POSH?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Office parties"
-    ]
-  },
-  {
-    "id": "ETV2_05677",
-    "query": "HR query: Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_05678",
-    "query": "HR query: Is POSH gender-neutral at Arvind?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "gender neutral"
-    ]
-  },
-  {
-    "id": "ETV2_05685",
-    "query": "HR query: Is written warning a possible POSH sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
     "id": "ETV2_05687",
     "query": "HR query: Can the AIC recommend termination of the respondent?",
     "category": "Disciplinary-Actions",
@@ -2205,66 +891,21 @@
     ]
   },
   {
-    "id": "ETV2_05689",
-    "query": "HR query: Can the AIC recommend withholding a promotion?",
-    "category": "Disciplinary-Actions",
+    "id": "ETV2_05696",
+    "query": "HR query: When was the POSH policy last updated?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Withholding of promotion"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_05692",
-    "query": "HR query: Who are the POSH filing channels?",
-    "category": "Filing-Channels",
+    "id": "ETV2_05697",
+    "query": "HR query: What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Supervisor / Reporting Manager"
-    ]
-  },
-  {
-    "id": "ETV2_05699",
-    "query": "HR query: Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_05700",
-    "query": "HR query: Is Written warning a possible outcome of POSH inquiry?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_05702",
-    "query": "HR query: Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_05720",
-    "query": "HR query: Under what circumstances is Withholding of promotion recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Withholding of promotion"
-    ]
-  },
-  {
-    "id": "ETV2_05737",
-    "query": "HR query: What does the POSH policy say about Undergoing a counselling session?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Undergoing a counselling session"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
@@ -2295,8 +936,8 @@
     ]
   },
   {
-    "id": "ETV2_05838",
-    "query": "HR query: Is Workplace harassment a reportable concern under Whistleblower Policy?",
+    "id": "ETV2_05766",
+    "query": "HR query: Can I report workplace harassment under the Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -2304,8 +945,17 @@
     ]
   },
   {
-    "id": "ETV2_05839",
-    "query": "HR query: Does Whistleblower Policy cover Workplace harassment?",
+    "id": "ETV2_05829",
+    "query": "HR query: Should I use the ethics helpline to report Employee negligence?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Employee negligence"
+    ]
+  },
+  {
+    "id": "ETV2_05838",
+    "query": "HR query: Is Workplace harassment a reportable concern under Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -2349,165 +999,21 @@
     ]
   },
   {
-    "id": "ETV2_05871",
-    "query": "HR query: I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
+    "id": "ETV2_05931",
+    "query": "Employee question: When was the POSH policy last updated?",
+    "category": "Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "15 working days"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_05887",
-    "query": "Employee question: What is the POSH helpline number?",
-    "category": "Contact",
+    "id": "ETV2_05932",
+    "query": "Employee question: What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "18002008301"
-    ]
-  },
-  {
-    "id": "ETV2_05888",
-    "query": "Employee question: Who heads the AIC?",
-    "category": "AIC-Composition",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Senior level woman employee"
-    ]
-  },
-  {
-    "id": "ETV2_05890",
-    "query": "Employee question: How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_05891",
-    "query": "Employee question: What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_05892",
-    "query": "Employee question: How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_05896",
-    "query": "Employee question: What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_05897",
-    "query": "Employee question: Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_05898",
-    "query": "Employee question: How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_05903",
-    "query": "Employee question: How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_05906",
-    "query": "Employee question: Within how many working days should the inquiry be completed?",
-    "category": "Timelines",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "10 (ten) working days"
-    ]
-  },
-  {
-    "id": "ETV2_05907",
-    "query": "Employee question: What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_05908",
-    "query": "Employee question: Is the interim leave granted in addition to regular leave?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "in addition to the entitled leaves"
-    ]
-  },
-  {
-    "id": "ETV2_05909",
-    "query": "Employee question: Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_05912",
-    "query": "Employee question: Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_05922",
-    "query": "Employee question: Can the AIC recommend termination of the respondent?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Terminating the RE from service"
-    ]
-  },
-  {
-    "id": "ETV2_05934",
-    "query": "Employee question: Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_05937",
-    "query": "Employee question: Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
@@ -2526,6 +1032,15 @@
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
       "Carrying out community service"
+    ]
+  },
+  {
+    "id": "ETV2_05998",
+    "query": "Employee question: What can I do if I face retaliation after reporting?",
+    "category": "Retaliation-Recourse",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "lodge a written complaint to the Chairman"
     ]
   },
   {
@@ -2565,165 +1080,30 @@
     ]
   },
   {
-    "id": "ETV2_06106",
-    "query": "Employee question: I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
+    "id": "ETV2_06166",
+    "query": "Can you clarify: When was the POSH policy last updated?",
+    "category": "Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "15 working days"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_06123",
-    "query": "Can you clarify: Who heads the AIC?",
-    "category": "AIC-Composition",
+    "id": "ETV2_06167",
+    "query": "Can you clarify: What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Senior level woman employee"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
-    "id": "ETV2_06125",
-    "query": "Can you clarify: How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "id": "ETV2_06233",
+    "query": "Can you clarify: What can I do if I face retaliation after reporting?",
+    "category": "Retaliation-Recourse",
+    "source": "Whistleblower Policy",
     "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_06126",
-    "query": "Can you clarify: What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_06127",
-    "query": "Can you clarify: How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_06131",
-    "query": "Can you clarify: What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_06132",
-    "query": "Can you clarify: Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_06133",
-    "query": "Can you clarify: How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_06138",
-    "query": "Can you clarify: How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_06142",
-    "query": "Can you clarify: What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_06143",
-    "query": "Can you clarify: Is the interim leave granted in addition to regular leave?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "in addition to the entitled leaves"
-    ]
-  },
-  {
-    "id": "ETV2_06144",
-    "query": "Can you clarify: Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_06146",
-    "query": "Can you clarify: Can office party incidents be reported under POSH?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Office parties"
-    ]
-  },
-  {
-    "id": "ETV2_06147",
-    "query": "Can you clarify: Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_06157",
-    "query": "Can you clarify: Can the AIC recommend termination of the respondent?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Terminating the RE from service"
-    ]
-  },
-  {
-    "id": "ETV2_06169",
-    "query": "Can you clarify: Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_06170",
-    "query": "Can you clarify: Is Written warning a possible outcome of POSH inquiry?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_06172",
-    "query": "Can you clarify: Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
+      "lodge a written complaint to the Chairman"
     ]
   },
   {
@@ -2745,170 +1125,53 @@
     ]
   },
   {
-    "id": "ETV2_06341",
-    "query": "Can you clarify: I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
+    "id": "ETV2_06316",
+    "query": "Can you clarify: Should I use the ethics helpline to report Discrimination and favouritism?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
     "missing": [
-      "15 working days"
+      "Discrimination and favouritism"
     ]
   },
   {
-    "id": "ETV2_06357",
-    "query": "Just to confirm: What is the POSH helpline number?",
-    "category": "Contact",
+    "id": "ETV2_06401",
+    "query": "Just to confirm: When was the POSH policy last updated?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "18002008301"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_06358",
-    "query": "Just to confirm: Who heads the AIC?",
-    "category": "AIC-Composition",
+    "id": "ETV2_06402",
+    "query": "Just to confirm: What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Senior level woman employee"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
-    "id": "ETV2_06360",
-    "query": "Just to confirm: How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_06361",
-    "query": "Just to confirm: What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_06362",
-    "query": "Just to confirm: How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_06366",
-    "query": "Just to confirm: What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_06367",
-    "query": "Just to confirm: Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_06368",
-    "query": "Just to confirm: How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_06373",
-    "query": "Just to confirm: How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_06377",
-    "query": "Just to confirm: What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_06379",
-    "query": "Just to confirm: Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_06382",
-    "query": "Just to confirm: Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_06383",
-    "query": "Just to confirm: Is POSH gender-neutral at Arvind?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "gender neutral"
-    ]
-  },
-  {
-    "id": "ETV2_06392",
-    "query": "Just to confirm: Can the AIC recommend termination of the respondent?",
+    "id": "ETV2_06443",
+    "query": "Just to confirm: Under what circumstances is Undergoing a counselling session recommended by AIC?",
     "category": "Disciplinary-Actions",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Terminating the RE from service"
+      "Undergoing a counselling session"
     ]
   },
   {
-    "id": "ETV2_06404",
-    "query": "Just to confirm: Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "id": "ETV2_06468",
+    "query": "Just to confirm: What can I do if I face retaliation after reporting?",
+    "category": "Retaliation-Recourse",
+    "source": "Whistleblower Policy",
     "missing": [
-      "Written warning"
+      "lodge a written complaint to the Chairman"
     ]
   },
   {
-    "id": "ETV2_06405",
-    "query": "Just to confirm: Is Written warning a possible outcome of POSH inquiry?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_06407",
-    "query": "Just to confirm: Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_06543",
-    "query": "Just to confirm: Is Workplace harassment a reportable concern under Whistleblower Policy?",
+    "id": "ETV2_06471",
+    "query": "Just to confirm: Can I report workplace harassment under the Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -2916,8 +1179,8 @@
     ]
   },
   {
-    "id": "ETV2_06544",
-    "query": "Just to confirm: Does Whistleblower Policy cover Workplace harassment?",
+    "id": "ETV2_06543",
+    "query": "Just to confirm: Is Workplace harassment a reportable concern under Whistleblower Policy?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -2961,170 +1224,35 @@
     ]
   },
   {
-    "id": "ETV2_06576",
-    "query": "Just to confirm: I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
+    "id": "ETV2_06636",
+    "query": "I want to verify: When was the POSH policy last updated?",
+    "category": "Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "15 working days"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_06593",
-    "query": "I want to verify: Who heads the AIC?",
-    "category": "AIC-Composition",
+    "id": "ETV2_06637",
+    "query": "I want to verify: What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Senior level woman employee"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
-    "id": "ETV2_06595",
-    "query": "I want to verify: How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "id": "ETV2_06703",
+    "query": "I want to verify: What can I do if I face retaliation after reporting?",
+    "category": "Retaliation-Recourse",
+    "source": "Whistleblower Policy",
     "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_06596",
-    "query": "I want to verify: What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_06597",
-    "query": "I want to verify: How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_06601",
-    "query": "I want to verify: What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_06602",
-    "query": "I want to verify: Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_06603",
-    "query": "I want to verify: How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_06608",
-    "query": "I want to verify: How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_06612",
-    "query": "I want to verify: What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_06614",
-    "query": "I want to verify: Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_06617",
-    "query": "I want to verify: Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_06618",
-    "query": "I want to verify: Is POSH gender-neutral at Arvind?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "gender neutral"
-    ]
-  },
-  {
-    "id": "ETV2_06625",
-    "query": "I want to verify: Is written warning a possible POSH sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_06627",
-    "query": "I want to verify: Can the AIC recommend termination of the respondent?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Terminating the RE from service"
-    ]
-  },
-  {
-    "id": "ETV2_06639",
-    "query": "I want to verify: Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_06642",
-    "query": "I want to verify: Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
+      "lodge a written complaint to the Chairman"
     ]
   },
   {
     "id": "ETV2_06778",
     "query": "I want to verify: Is Workplace harassment a reportable concern under Whistleblower Policy?",
-    "category": "Reportable-Issues",
-    "source": "Whistleblower Policy",
-    "missing": [
-      "Workplace harassment"
-    ]
-  },
-  {
-    "id": "ETV2_06779",
-    "query": "I want to verify: Does Whistleblower Policy cover Workplace harassment?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -3159,165 +1287,48 @@
     ]
   },
   {
-    "id": "ETV2_06811",
-    "query": "I want to verify: I raised a grievance 3 weeks ago and heard nothing. What are the expected timelines?",
-    "category": "Timelines",
-    "source": "Grievance Mechanism Policy 2025",
+    "id": "ETV2_06786",
+    "query": "I want to verify: Should I use the ethics helpline to report Discrimination and favouritism?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
     "missing": [
-      "15 working days"
+      "Discrimination and favouritism"
     ]
   },
   {
-    "id": "ETV2_06827",
-    "query": "Please help me understand: What is the POSH helpline number?",
-    "category": "Contact",
+    "id": "ETV2_06871",
+    "query": "Please help me understand: When was the POSH policy last updated?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "18002008301"
+      "01.05.2025"
     ]
   },
   {
-    "id": "ETV2_06828",
-    "query": "Please help me understand: Who heads the AIC?",
-    "category": "AIC-Composition",
+    "id": "ETV2_06872",
+    "query": "Please help me understand: What is the POSH policy reference number?",
+    "category": "Policy-Details",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Senior level woman employee"
+      "ARV|ELC_SHA|008|010422"
     ]
   },
   {
-    "id": "ETV2_06830",
-    "query": "Please help me understand: How many members must be present for a valid AIC inquiry?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "minimum of 3 members"
-    ]
-  },
-  {
-    "id": "ETV2_06831",
-    "query": "Please help me understand: What is the minimum women representation in AIC?",
-    "category": "Quorum",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "50% women representation"
-    ]
-  },
-  {
-    "id": "ETV2_06832",
-    "query": "Please help me understand: How much is the external AIC member paid per day?",
-    "category": "External-Member",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Rs. 250 per day"
-    ]
-  },
-  {
-    "id": "ETV2_06836",
-    "query": "Please help me understand: What kind of committee is the AIC?",
-    "category": "AIC-Nature",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "independent committee"
-    ]
-  },
-  {
-    "id": "ETV2_06837",
-    "query": "Please help me understand: Does AIC have the powers of a civil court?",
-    "category": "AIC-Powers",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "powers as that of a civil court"
-    ]
-  },
-  {
-    "id": "ETV2_06838",
-    "query": "Please help me understand: How quickly must a vacancy in AIC be filled?",
-    "category": "AIC-Vacancy",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within 15 days"
-    ]
-  },
-  {
-    "id": "ETV2_06843",
-    "query": "Please help me understand: How many working days for AIC to submit its report?",
-    "category": "AIC-Report",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "within a period of 10 (ten) days"
-    ]
-  },
-  {
-    "id": "ETV2_06846",
-    "query": "Please help me understand: Within how many working days should the inquiry be completed?",
-    "category": "Timelines",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "10 (ten) working days"
-    ]
-  },
-  {
-    "id": "ETV2_06847",
-    "query": "Please help me understand: What interim leave can the aggrieved woman get during inquiry?",
-    "category": "Interim-Relief",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "leave to the Aggrieved Woman up to a period of 3 (three) months"
-    ]
-  },
-  {
-    "id": "ETV2_06849",
-    "query": "Please help me understand: Can the AIC suspend the respondent during inquiry?",
-    "category": "Interim-Action",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "suspend the RE for defined period"
-    ]
-  },
-  {
-    "id": "ETV2_06852",
-    "query": "Please help me understand: Does POSH cover same-sex harassment?",
-    "category": "Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "prohibits same-sex harassment"
-    ]
-  },
-  {
-    "id": "ETV2_06862",
-    "query": "Please help me understand: Can the AIC recommend termination of the respondent?",
+    "id": "ETV2_06913",
+    "query": "Please help me understand: Under what circumstances is Undergoing a counselling session recommended by AIC?",
     "category": "Disciplinary-Actions",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "Terminating the RE from service"
+      "Undergoing a counselling session"
     ]
   },
   {
-    "id": "ETV2_06874",
-    "query": "Please help me understand: Can the AIC recommend Written warning as a sanction?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "id": "ETV2_06941",
+    "query": "Please help me understand: Can I report workplace harassment under the Whistleblower Policy?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
     "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_06875",
-    "query": "Please help me understand: Is Written warning a possible outcome of POSH inquiry?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
-    ]
-  },
-  {
-    "id": "ETV2_06877",
-    "query": "Please help me understand: Under what circumstances is Written warning recommended by AIC?",
-    "category": "Disciplinary-Actions",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Written warning"
+      "Workplace harassment"
     ]
   },
   {
@@ -3330,60 +1341,6 @@
     ]
   },
   {
-    "id": "ETV2_07087",
-    "query": "Who does the Gender Policy apply to?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07098",
-    "query": "Will I face retaliation for reporting gender discrimination?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07099",
-    "query": "Is reporting gender bias protected from retaliation?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07102",
-    "query": "I'm an intern and witnessed gender bias. Am I covered by Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_07103",
-    "query": "I'm a contract worker. Can I use the Gender Policy to report discrimination?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "contract staff"
-    ]
-  },
-  {
-    "id": "ETV2_07104",
-    "query": "I reported a gender issue and my manager is hostile. What protection do I have?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
     "id": "ETV2_07106",
     "query": "A vendor is discriminating based on gender. Is this covered?",
     "category": "Applicability",
@@ -3393,48 +1350,12 @@
     ]
   },
   {
-    "id": "ETV2_07108",
-    "query": "Can an intern report under the Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_07114",
-    "query": "What is the primary internal contact for gender complaints?",
-    "category": "Complaint-Process",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "HR Department"
-    ]
-  },
-  {
-    "id": "ETV2_07123",
-    "query": "Is there anti-retaliation protection for gender complaints?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07124",
-    "query": "What does Gender Policy say about retaliation against complainants?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07131",
-    "query": "When was the current Gender Policy published?",
+    "id": "ETV2_07134",
+    "query": "What reference code is used for Gender Policy 2025?",
     "category": "Policy-Details",
     "source": "Gender Policy 2025",
     "missing": [
-      "25.07.2025"
+      "ARV|COM_GENP|001|260725"
     ]
   },
   {
@@ -3447,186 +1368,6 @@
     ]
   },
   {
-    "id": "ETV2_07141",
-    "query": "I'm afraid my report of gender bias will affect my career. What protection exists?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07239",
-    "query": "As per Arvind HR policy, Will I face retaliation for reporting gender discrimination?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07240",
-    "query": "As per Arvind HR policy, Is reporting gender bias protected from retaliation?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07245",
-    "query": "As per Arvind HR policy, I reported a gender issue and my manager is hostile. What protection do I have?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07246",
-    "query": "As per Arvind HR policy, I feel I was passed over for promotion due to gender. Who should I report to?",
-    "category": "Complaint-Process",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "HR Department"
-    ]
-  },
-  {
-    "id": "ETV2_07247",
-    "query": "As per Arvind HR policy, A vendor is discriminating based on gender. Is this covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "third-party partners"
-    ]
-  },
-  {
-    "id": "ETV2_07264",
-    "query": "As per Arvind HR policy, Is there anti-retaliation protection for gender complaints?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07265",
-    "query": "As per Arvind HR policy, What does Gender Policy say about retaliation against complainants?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07278",
-    "query": "As per Arvind HR policy, I faced gender bias at a factory location. Am I covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07282",
-    "query": "As per Arvind HR policy, I'm afraid my report of gender bias will affect my career. What protection exists?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07380",
-    "query": "Under Arvind's policy, Will I face retaliation for reporting gender discrimination?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07381",
-    "query": "Under Arvind's policy, Is reporting gender bias protected from retaliation?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07386",
-    "query": "Under Arvind's policy, I reported a gender issue and my manager is hostile. What protection do I have?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07387",
-    "query": "Under Arvind's policy, I feel I was passed over for promotion due to gender. Who should I report to?",
-    "category": "Complaint-Process",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "HR Department"
-    ]
-  },
-  {
-    "id": "ETV2_07388",
-    "query": "Under Arvind's policy, A vendor is discriminating based on gender. Is this covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "third-party partners"
-    ]
-  },
-  {
-    "id": "ETV2_07396",
-    "query": "Under Arvind's policy, What is the primary internal contact for gender complaints?",
-    "category": "Complaint-Process",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "HR Department"
-    ]
-  },
-  {
-    "id": "ETV2_07405",
-    "query": "Under Arvind's policy, Is there anti-retaliation protection for gender complaints?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07406",
-    "query": "Under Arvind's policy, What does Gender Policy say about retaliation against complainants?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07419",
-    "query": "Under Arvind's policy, I faced gender bias at a factory location. Am I covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07423",
-    "query": "Under Arvind's policy, I'm afraid my report of gender bias will affect my career. What protection exists?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
     "id": "ETV2_07455",
     "query": "My HR manager asked: The company is paying my house deposit. How will it be recovered?",
     "category": "House-Deposit",
@@ -3636,120 +1377,12 @@
     ]
   },
   {
-    "id": "ETV2_07510",
-    "query": "My HR manager asked: Who does the Gender Policy apply to?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07521",
-    "query": "My HR manager asked: Will I face retaliation for reporting gender discrimination?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07522",
-    "query": "My HR manager asked: Is reporting gender bias protected from retaliation?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07525",
-    "query": "My HR manager asked: I'm an intern and witnessed gender bias. Am I covered by Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_07526",
-    "query": "My HR manager asked: I'm a contract worker. Can I use the Gender Policy to report discrimination?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "contract staff"
-    ]
-  },
-  {
-    "id": "ETV2_07527",
-    "query": "My HR manager asked: I reported a gender issue and my manager is hostile. What protection do I have?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07529",
-    "query": "My HR manager asked: A vendor is discriminating based on gender. Is this covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "third-party partners"
-    ]
-  },
-  {
-    "id": "ETV2_07531",
-    "query": "My HR manager asked: Can an intern report under the Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_07546",
-    "query": "My HR manager asked: Is there anti-retaliation protection for gender complaints?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07547",
-    "query": "My HR manager asked: What does Gender Policy say about retaliation against complainants?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07554",
-    "query": "My HR manager asked: When was the current Gender Policy published?",
+    "id": "ETV2_07557",
+    "query": "My HR manager asked: What reference code is used for Gender Policy 2025?",
     "category": "Policy-Details",
     "source": "Gender Policy 2025",
     "missing": [
-      "25.07.2025"
-    ]
-  },
-  {
-    "id": "ETV2_07560",
-    "query": "My HR manager asked: I faced gender bias at a factory location. Am I covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07564",
-    "query": "My HR manager asked: I'm afraid my report of gender bias will affect my career. What protection exists?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
+      "ARV|COM_GENP|001|260725"
     ]
   },
   {
@@ -3762,69 +1395,6 @@
     ]
   },
   {
-    "id": "ETV2_07651",
-    "query": "I need to know: Who does the Gender Policy apply to?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07662",
-    "query": "I need to know: Will I face retaliation for reporting gender discrimination?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07663",
-    "query": "I need to know: Is reporting gender bias protected from retaliation?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07666",
-    "query": "I need to know: I'm an intern and witnessed gender bias. Am I covered by Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_07667",
-    "query": "I need to know: I'm a contract worker. Can I use the Gender Policy to report discrimination?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "contract staff"
-    ]
-  },
-  {
-    "id": "ETV2_07668",
-    "query": "I need to know: I reported a gender issue and my manager is hostile. What protection do I have?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07669",
-    "query": "I need to know: I feel I was passed over for promotion due to gender. Who should I report to?",
-    "category": "Complaint-Process",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "HR Department"
-    ]
-  },
-  {
     "id": "ETV2_07670",
     "query": "I need to know: A vendor is discriminating based on gender. Is this covered?",
     "category": "Applicability",
@@ -3834,57 +1404,12 @@
     ]
   },
   {
-    "id": "ETV2_07672",
-    "query": "I need to know: Can an intern report under the Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_07678",
-    "query": "I need to know: What is the primary internal contact for gender complaints?",
-    "category": "Complaint-Process",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "HR Department"
-    ]
-  },
-  {
-    "id": "ETV2_07687",
-    "query": "I need to know: Is there anti-retaliation protection for gender complaints?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07688",
-    "query": "I need to know: What does Gender Policy say about retaliation against complainants?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07695",
-    "query": "I need to know: When was the current Gender Policy published?",
+    "id": "ETV2_07698",
+    "query": "I need to know: What reference code is used for Gender Policy 2025?",
     "category": "Policy-Details",
     "source": "Gender Policy 2025",
     "missing": [
-      "25.07.2025"
-    ]
-  },
-  {
-    "id": "ETV2_07701",
-    "query": "I need to know: I faced gender bias at a factory location. Am I covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
+      "ARV|COM_GENP|001|260725"
     ]
   },
   {
@@ -3906,87 +1431,6 @@
     ]
   },
   {
-    "id": "ETV2_07756",
-    "query": "Quick question \u2014 What is the overtime charge for driver per hour?",
-    "category": "Driver-Wages",
-    "source": "Joining Policy",
-    "missing": [
-      "Rs. 50/- per hour"
-    ]
-  },
-  {
-    "id": "ETV2_07792",
-    "query": "Quick question \u2014 Who does the Gender Policy apply to?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07803",
-    "query": "Quick question \u2014 Will I face retaliation for reporting gender discrimination?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07804",
-    "query": "Quick question \u2014 Is reporting gender bias protected from retaliation?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07807",
-    "query": "Quick question \u2014 I'm an intern and witnessed gender bias. Am I covered by Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_07808",
-    "query": "Quick question \u2014 I'm a contract worker. Can I use the Gender Policy to report discrimination?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "contract staff"
-    ]
-  },
-  {
-    "id": "ETV2_07809",
-    "query": "Quick question \u2014 I reported a gender issue and my manager is hostile. What protection do I have?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07811",
-    "query": "Quick question \u2014 A vendor is discriminating based on gender. Is this covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "third-party partners"
-    ]
-  },
-  {
-    "id": "ETV2_07813",
-    "query": "Quick question \u2014 Can an intern report under the Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
     "id": "ETV2_07819",
     "query": "Quick question \u2014 What is the primary internal contact for gender complaints?",
     "category": "Complaint-Process",
@@ -3996,57 +1440,12 @@
     ]
   },
   {
-    "id": "ETV2_07828",
-    "query": "Quick question \u2014 Is there anti-retaliation protection for gender complaints?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07829",
-    "query": "Quick question \u2014 What does Gender Policy say about retaliation against complainants?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07836",
-    "query": "Quick question \u2014 When was the current Gender Policy published?",
+    "id": "ETV2_07839",
+    "query": "Quick question \u2014 What reference code is used for Gender Policy 2025?",
     "category": "Policy-Details",
     "source": "Gender Policy 2025",
     "missing": [
-      "25.07.2025"
-    ]
-  },
-  {
-    "id": "ETV2_07842",
-    "query": "Quick question \u2014 I faced gender bias at a factory location. Am I covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07846",
-    "query": "Quick question \u2014 I'm afraid my report of gender bias will affect my career. What protection exists?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07855",
-    "query": "Policy check: I am driving my car to my new location. What rate do I get per km?",
-    "category": "Car-Transport",
-    "source": "Joining Policy",
-    "missing": [
-      "Rs. 10.0 per km"
+      "ARV|COM_GENP|001|260725"
     ]
   },
   {
@@ -4059,15 +1458,6 @@
     ]
   },
   {
-    "id": "ETV2_07889",
-    "query": "Policy check: My move is 900km from current city. What per km rate applies?",
-    "category": "Transportation",
-    "source": "Joining Policy",
-    "missing": [
-      "Rs. 60 per km"
-    ]
-  },
-  {
     "id": "ETV2_07901",
     "query": "Policy check: What is the brokerage amount covered by the company?",
     "category": "Brokerage",
@@ -4077,111 +1467,12 @@
     ]
   },
   {
-    "id": "ETV2_07933",
-    "query": "Policy check: Who does the Gender Policy apply to?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
+    "id": "ETV2_08018",
+    "query": "HR query: What is the brokerage ceiling for a new joinee?",
+    "category": "Brokerage",
+    "source": "Joining Policy",
     "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07944",
-    "query": "Policy check: Will I face retaliation for reporting gender discrimination?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07945",
-    "query": "Policy check: Is reporting gender bias protected from retaliation?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07948",
-    "query": "Policy check: I'm an intern and witnessed gender bias. Am I covered by Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_07950",
-    "query": "Policy check: I reported a gender issue and my manager is hostile. What protection do I have?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07951",
-    "query": "Policy check: I feel I was passed over for promotion due to gender. Who should I report to?",
-    "category": "Complaint-Process",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "HR Department"
-    ]
-  },
-  {
-    "id": "ETV2_07952",
-    "query": "Policy check: A vendor is discriminating based on gender. Is this covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "third-party partners"
-    ]
-  },
-  {
-    "id": "ETV2_07960",
-    "query": "Policy check: What is the primary internal contact for gender complaints?",
-    "category": "Complaint-Process",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "HR Department"
-    ]
-  },
-  {
-    "id": "ETV2_07969",
-    "query": "Policy check: Is there anti-retaliation protection for gender complaints?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07970",
-    "query": "Policy check: What does Gender Policy say about retaliation against complainants?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07983",
-    "query": "Policy check: I faced gender bias at a factory location. Am I covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_07987",
-    "query": "Policy check: I'm afraid my report of gender bias will affect my career. What protection exists?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
+      "One month rent"
     ]
   },
   {
@@ -4194,192 +1485,12 @@
     ]
   },
   {
-    "id": "ETV2_08042",
-    "query": "HR query: What is the brokerage amount covered by the company?",
-    "category": "Brokerage",
-    "source": "Joining Policy",
-    "missing": [
-      "One month rent"
-    ]
-  },
-  {
-    "id": "ETV2_08074",
-    "query": "HR query: Who does the Gender Policy apply to?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_08085",
-    "query": "HR query: Will I face retaliation for reporting gender discrimination?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08086",
-    "query": "HR query: Is reporting gender bias protected from retaliation?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08089",
-    "query": "HR query: I'm an intern and witnessed gender bias. Am I covered by Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_08090",
-    "query": "HR query: I'm a contract worker. Can I use the Gender Policy to report discrimination?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "contract staff"
-    ]
-  },
-  {
-    "id": "ETV2_08091",
-    "query": "HR query: I reported a gender issue and my manager is hostile. What protection do I have?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08093",
-    "query": "HR query: A vendor is discriminating based on gender. Is this covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "third-party partners"
-    ]
-  },
-  {
-    "id": "ETV2_08095",
-    "query": "HR query: Can an intern report under the Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_08098",
-    "query": "HR query: Are all categories of workers covered by Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_08110",
-    "query": "HR query: Is there anti-retaliation protection for gender complaints?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08111",
-    "query": "HR query: What does Gender Policy say about retaliation against complainants?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08118",
-    "query": "HR query: When was the current Gender Policy published?",
+    "id": "ETV2_08121",
+    "query": "HR query: What reference code is used for Gender Policy 2025?",
     "category": "Policy-Details",
     "source": "Gender Policy 2025",
     "missing": [
-      "25.07.2025"
-    ]
-  },
-  {
-    "id": "ETV2_08124",
-    "query": "HR query: I faced gender bias at a factory location. Am I covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_08128",
-    "query": "HR query: I'm afraid my report of gender bias will affect my career. What protection exists?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08215",
-    "query": "Employee question: Who does the Gender Policy apply to?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_08226",
-    "query": "Employee question: Will I face retaliation for reporting gender discrimination?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08227",
-    "query": "Employee question: Is reporting gender bias protected from retaliation?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08230",
-    "query": "Employee question: I'm an intern and witnessed gender bias. Am I covered by Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
-    "id": "ETV2_08232",
-    "query": "Employee question: I reported a gender issue and my manager is hostile. What protection do I have?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08233",
-    "query": "Employee question: I feel I was passed over for promotion due to gender. Who should I report to?",
-    "category": "Complaint-Process",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "HR Department"
+      "ARV|COM_GENP|001|260725"
     ]
   },
   {
@@ -4392,15 +1503,6 @@
     ]
   },
   {
-    "id": "ETV2_08236",
-    "query": "Employee question: Can an intern report under the Gender Policy?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "interns"
-    ]
-  },
-  {
     "id": "ETV2_08242",
     "query": "Employee question: What is the primary internal contact for gender complaints?",
     "category": "Complaint-Process",
@@ -4410,48 +1512,12 @@
     ]
   },
   {
-    "id": "ETV2_08251",
-    "query": "Employee question: Is there anti-retaliation protection for gender complaints?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08252",
-    "query": "Employee question: What does Gender Policy say about retaliation against complainants?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_08259",
-    "query": "Employee question: When was the current Gender Policy published?",
+    "id": "ETV2_08262",
+    "query": "Employee question: What reference code is used for Gender Policy 2025?",
     "category": "Policy-Details",
     "source": "Gender Policy 2025",
     "missing": [
-      "25.07.2025"
-    ]
-  },
-  {
-    "id": "ETV2_08265",
-    "query": "Employee question: I faced gender bias at a factory location. Am I covered?",
-    "category": "Applicability",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "all employees of Arvind Ltd"
-    ]
-  },
-  {
-    "id": "ETV2_08269",
-    "query": "Employee question: I'm afraid my report of gender bias will affect my career. What protection exists?",
-    "category": "Protection",
-    "source": "Gender Policy 2025",
-    "missing": [
-      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
+      "ARV|COM_GENP|001|260725"
     ]
   },
   {
@@ -4464,24 +1530,6 @@
     ]
   },
   {
-    "id": "ETV2_08312",
-    "query": "Can you clarify: My move is 900km from current city. What per km rate applies?",
-    "category": "Transportation",
-    "source": "Joining Policy",
-    "missing": [
-      "Rs. 60 per km"
-    ]
-  },
-  {
-    "id": "ETV2_08320",
-    "query": "Can you clarify: What is the overtime charge for driver per hour?",
-    "category": "Driver-Wages",
-    "source": "Joining Policy",
-    "missing": [
-      "Rs. 50/- per hour"
-    ]
-  },
-  {
     "id": "ETV2_08324",
     "query": "Can you clarify: What is the brokerage amount covered by the company?",
     "category": "Brokerage",
@@ -4491,12 +1539,1715 @@
     ]
   },
   {
-    "id": "ETV2_08356",
-    "query": "Can you clarify: Who does the Gender Policy apply to?",
+    "id": "ETV2_08375",
+    "query": "Can you clarify: A vendor is discriminating based on gender. Is this covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "third-party partners"
+    ]
+  },
+  {
+    "id": "ETV2_08383",
+    "query": "Can you clarify: What is the primary internal contact for gender complaints?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
+    ]
+  },
+  {
+    "id": "ETV2_08403",
+    "query": "Can you clarify: What reference code is used for Gender Policy 2025?",
+    "category": "Policy-Details",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "ARV|COM_GENP|001|260725"
+    ]
+  },
+  {
+    "id": "ETV2_08406",
+    "query": "Can you clarify: I faced gender bias at a factory location. Am I covered?",
     "category": "Applicability",
     "source": "Gender Policy 2025",
     "missing": [
       "all employees of Arvind Ltd"
+    ]
+  },
+  {
+    "id": "ETV2_08442",
+    "query": "Just to confirm: The company is paying my house deposit. How will it be recovered?",
+    "category": "House-Deposit",
+    "source": "Joining Policy",
+    "missing": [
+      "10 equal monthly instalments"
+    ]
+  },
+  {
+    "id": "ETV2_08465",
+    "query": "Just to confirm: What is the brokerage amount covered by the company?",
+    "category": "Brokerage",
+    "source": "Joining Policy",
+    "missing": [
+      "One month rent"
+    ]
+  },
+  {
+    "id": "ETV2_08516",
+    "query": "Just to confirm: A vendor is discriminating based on gender. Is this covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "third-party partners"
+    ]
+  },
+  {
+    "id": "ETV2_08544",
+    "query": "Just to confirm: What reference code is used for Gender Policy 2025?",
+    "category": "Policy-Details",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "ARV|COM_GENP|001|260725"
+    ]
+  },
+  {
+    "id": "ETV2_08547",
+    "query": "Just to confirm: I faced gender bias at a factory location. Am I covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "all employees of Arvind Ltd"
+    ]
+  },
+  {
+    "id": "ETV2_08583",
+    "query": "I want to verify: The company is paying my house deposit. How will it be recovered?",
+    "category": "House-Deposit",
+    "source": "Joining Policy",
+    "missing": [
+      "10 equal monthly instalments"
+    ]
+  },
+  {
+    "id": "ETV2_08606",
+    "query": "I want to verify: What is the brokerage amount covered by the company?",
+    "category": "Brokerage",
+    "source": "Joining Policy",
+    "missing": [
+      "One month rent"
+    ]
+  },
+  {
+    "id": "ETV2_08610",
+    "query": "I want to verify: In how many installments is the house deposit refunded?",
+    "category": "House-Deposit",
+    "source": "Joining Policy",
+    "missing": [
+      "10 equal monthly instalments"
+    ]
+  },
+  {
+    "id": "ETV2_08657",
+    "query": "I want to verify: A vendor is discriminating based on gender. Is this covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "third-party partners"
+    ]
+  },
+  {
+    "id": "ETV2_08685",
+    "query": "I want to verify: What reference code is used for Gender Policy 2025?",
+    "category": "Policy-Details",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "ARV|COM_GENP|001|260725"
+    ]
+  },
+  {
+    "id": "ETV2_08688",
+    "query": "I want to verify: I faced gender bias at a factory location. Am I covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "all employees of Arvind Ltd"
+    ]
+  },
+  {
+    "id": "ETV2_08692",
+    "query": "I want to verify: I'm afraid my report of gender bias will affect my career. What protection exists?",
+    "category": "Protection",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
+    ]
+  },
+  {
+    "id": "ETV2_08724",
+    "query": "Please help me understand: The company is paying my house deposit. How will it be recovered?",
+    "category": "House-Deposit",
+    "source": "Joining Policy",
+    "missing": [
+      "10 equal monthly instalments"
+    ]
+  },
+  {
+    "id": "ETV2_08798",
+    "query": "Please help me understand: A vendor is discriminating based on gender. Is this covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "third-party partners"
+    ]
+  },
+  {
+    "id": "ETV2_08826",
+    "query": "Please help me understand: What reference code is used for Gender Policy 2025?",
+    "category": "Policy-Details",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "ARV|COM_GENP|001|260725"
+    ]
+  },
+  {
+    "id": "ETV2_08865",
+    "query": "The company is paying my house deposit. How will it be recovered? \u2014 help me understand.",
+    "category": "House-Deposit",
+    "source": "Joining Policy",
+    "missing": [
+      "10 equal monthly instalments"
+    ]
+  },
+  {
+    "id": "ETV2_08947",
+    "query": "What is the primary internal contact for gender complaints? \u2014 help me understand.",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
+    ]
+  },
+  {
+    "id": "ETV2_08967",
+    "query": "What reference code is used for Gender Policy 2025? \u2014 help me understand.",
+    "category": "Policy-Details",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "ARV|COM_GENP|001|260725"
+    ]
+  },
+  {
+    "id": "ETV2_09008",
+    "query": "Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09015",
+    "query": "If I face sexual harassment, do I use POSH or Whistleblower Policy?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09024",
+    "query": "What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09030",
+    "query": "How does the Whistleblower Policy review cycle compare to Grievance Policy?",
+    "category": "Cross-Review",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09036",
+    "query": "If my rotation request is blocked, can I file a grievance?",
+    "category": "Cross-Governance",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09059",
+    "query": "As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09069",
+    "query": "I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09072",
+    "query": "Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
+    "category": "Cross-Governance",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "escalate the grievance to the next level"
+    ]
+  },
+  {
+    "id": "ETV2_09086",
+    "query": "For a 200km trip, do local conveyance or domestic travel rules apply?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09095",
+    "query": "Does POSH protection apply from the joining date?",
+    "category": "Cross-Applicability",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "All persons employed at Arvind"
+    ]
+  },
+  {
+    "id": "ETV2_09097",
+    "query": "If I report financial irregularities to POSH AIC, will it be handled correctly?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09110",
+    "query": "What are the policy IDs for POSH and Gender Policy 2025?",
+    "category": "Cross-Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_09119",
+    "query": "As per Arvind HR policy, Both POSH and Grievance policies protect against retaliation. What does POSH say?",
+    "category": "Cross-Protection",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "protected from any form of retaliation"
+    ]
+  },
+  {
+    "id": "ETV2_09127",
+    "query": "As per Arvind HR policy, Does local conveyance policy cover trips over 300km?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09129",
+    "query": "As per Arvind HR policy, Should I use POSH or Whistleblower Policy to report workplace harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09130",
+    "query": "As per Arvind HR policy, If I face sexual harassment, do I use POSH or Whistleblower Policy?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09139",
+    "query": "As per Arvind HR policy, What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09141",
+    "query": "As per Arvind HR policy, If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_09143",
+    "query": "As per Arvind HR policy, I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
+    "category": "Cross-Grade-All",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "3400"
+    ]
+  },
+  {
+    "id": "ETV2_09145",
+    "query": "As per Arvind HR policy, How does the Whistleblower Policy review cycle compare to Grievance Policy?",
+    "category": "Cross-Review",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09151",
+    "query": "As per Arvind HR policy, If my rotation request is blocked, can I file a grievance?",
+    "category": "Cross-Governance",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09157",
+    "query": "As per Arvind HR policy, I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583",
+      "10,000"
+    ]
+  },
+  {
+    "id": "ETV2_09158",
+    "query": "As per Arvind HR policy, I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_09160",
+    "query": "As per Arvind HR policy, I am E2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750",
+      "10,000"
+    ]
+  },
+  {
+    "id": "ETV2_09161",
+    "query": "As per Arvind HR policy, I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_09164",
+    "query": "As per Arvind HR policy, I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_09167",
+    "query": "As per Arvind HR policy, I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_09170",
+    "query": "As per Arvind HR policy, I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "id": "ETV2_09172",
+    "query": "As per Arvind HR policy, I am M3H1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667",
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09173",
+    "query": "As per Arvind HR policy, I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_09174",
+    "query": "As per Arvind HR policy, As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09183",
+    "query": "As per Arvind HR policy, Can workplace harassment be reported under both POSH and Whistleblower policies?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09184",
+    "query": "As per Arvind HR policy, I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09185",
+    "query": "As per Arvind HR policy, Does Whistleblower Policy cover discrimination while POSH covers harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "id": "ETV2_09187",
+    "query": "As per Arvind HR policy, Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
+    "category": "Cross-Governance",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "escalate the grievance to the next level"
+    ]
+  },
+  {
+    "id": "ETV2_09201",
+    "query": "As per Arvind HR policy, For a 200km trip, do local conveyance or domestic travel rules apply?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09210",
+    "query": "As per Arvind HR policy, Does POSH protection apply from the joining date?",
+    "category": "Cross-Applicability",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "All persons employed at Arvind"
+    ]
+  },
+  {
+    "id": "ETV2_09212",
+    "query": "As per Arvind HR policy, If I report financial irregularities to POSH AIC, will it be handled correctly?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09225",
+    "query": "As per Arvind HR policy, What are the policy IDs for POSH and Gender Policy 2025?",
+    "category": "Cross-Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_09234",
+    "query": "Under Arvind's policy, Both POSH and Grievance policies protect against retaliation. What does POSH say?",
+    "category": "Cross-Protection",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "protected from any form of retaliation"
+    ]
+  },
+  {
+    "id": "ETV2_09238",
+    "query": "Under Arvind's policy, Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09244",
+    "query": "Under Arvind's policy, Should I use POSH or Whistleblower Policy to report workplace harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09245",
+    "query": "Under Arvind's policy, If I face sexual harassment, do I use POSH or Whistleblower Policy?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09254",
+    "query": "Under Arvind's policy, What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09256",
+    "query": "Under Arvind's policy, If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_09258",
+    "query": "Under Arvind's policy, I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
+    "category": "Cross-Grade-All",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "3400"
+    ]
+  },
+  {
+    "id": "ETV2_09260",
+    "query": "Under Arvind's policy, How does the Whistleblower Policy review cycle compare to Grievance Policy?",
+    "category": "Cross-Review",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09266",
+    "query": "Under Arvind's policy, If my rotation request is blocked, can I file a grievance?",
+    "category": "Cross-Governance",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09272",
+    "query": "Under Arvind's policy, I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583",
+      "10,000"
+    ]
+  },
+  {
+    "id": "ETV2_09273",
+    "query": "Under Arvind's policy, I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_09275",
+    "query": "Under Arvind's policy, I am E2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750",
+      "10,000"
+    ]
+  },
+  {
+    "id": "ETV2_09276",
+    "query": "Under Arvind's policy, I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_09278",
+    "query": "Under Arvind's policy, I am M1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000",
+      "15,000"
+    ]
+  },
+  {
+    "id": "ETV2_09279",
+    "query": "Under Arvind's policy, I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_09281",
+    "query": "Under Arvind's policy, I am M2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333",
+      "20,000"
+    ]
+  },
+  {
+    "id": "ETV2_09282",
+    "query": "Under Arvind's policy, I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_09284",
+    "query": "Under Arvind's policy, I am M3 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333",
+      "30,000"
+    ]
+  },
+  {
+    "id": "ETV2_09285",
+    "query": "Under Arvind's policy, I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "id": "ETV2_09287",
+    "query": "Under Arvind's policy, I am M3H1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667",
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09288",
+    "query": "Under Arvind's policy, I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_09289",
+    "query": "Under Arvind's policy, As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09298",
+    "query": "Under Arvind's policy, Can workplace harassment be reported under both POSH and Whistleblower policies?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09300",
+    "query": "Under Arvind's policy, Does Whistleblower Policy cover discrimination while POSH covers harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "id": "ETV2_09302",
+    "query": "Under Arvind's policy, Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
+    "category": "Cross-Governance",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "escalate the grievance to the next level"
+    ]
+  },
+  {
+    "id": "ETV2_09308",
+    "query": "Under Arvind's policy, Does Whistleblower Policy protect me the same way POSH does from retaliation?",
+    "category": "Cross-Protection",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "no adverse personnel action, victimization, retaliation"
+    ]
+  },
+  {
+    "id": "ETV2_09316",
+    "query": "Under Arvind's policy, For a 200km trip, do local conveyance or domestic travel rules apply?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09325",
+    "query": "Under Arvind's policy, Does POSH protection apply from the joining date?",
+    "category": "Cross-Applicability",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "All persons employed at Arvind"
+    ]
+  },
+  {
+    "id": "ETV2_09326",
+    "query": "Under Arvind's policy, I witnessed both harassment and financial fraud. Which policies should I use?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Bribery and corruption"
+    ]
+  },
+  {
+    "id": "ETV2_09327",
+    "query": "Under Arvind's policy, If I report financial irregularities to POSH AIC, will it be handled correctly?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09333",
+    "query": "Under Arvind's policy, M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_09340",
+    "query": "Under Arvind's policy, What are the policy IDs for POSH and Gender Policy 2025?",
+    "category": "Cross-Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_09353",
+    "query": "My HR manager asked: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09359",
+    "query": "My HR manager asked: Should I use POSH or Whistleblower Policy to report workplace harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09360",
+    "query": "My HR manager asked: If I face sexual harassment, do I use POSH or Whistleblower Policy?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09369",
+    "query": "My HR manager asked: What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09375",
+    "query": "My HR manager asked: How does the Whistleblower Policy review cycle compare to Grievance Policy?",
+    "category": "Cross-Review",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09381",
+    "query": "My HR manager asked: If my rotation request is blocked, can I file a grievance?",
+    "category": "Cross-Governance",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09388",
+    "query": "My HR manager asked: I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_09391",
+    "query": "My HR manager asked: I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_09404",
+    "query": "My HR manager asked: As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09408",
+    "query": "My HR manager asked: As M3 new joiner from 1000km, what transport reimbursement rate applies?",
+    "category": "Cross-Joining-Travel",
+    "source": "Joining Policy",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "id": "ETV2_09413",
+    "query": "My HR manager asked: Can workplace harassment be reported under both POSH and Whistleblower policies?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09414",
+    "query": "My HR manager asked: I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09415",
+    "query": "My HR manager asked: Does Whistleblower Policy cover discrimination while POSH covers harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "id": "ETV2_09440",
+    "query": "My HR manager asked: Does POSH protection apply from the joining date?",
+    "category": "Cross-Applicability",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "All persons employed at Arvind"
+    ]
+  },
+  {
+    "id": "ETV2_09442",
+    "query": "My HR manager asked: If I report financial irregularities to POSH AIC, will it be handled correctly?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09448",
+    "query": "My HR manager asked: M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_09455",
+    "query": "My HR manager asked: What are the policy IDs for POSH and Gender Policy 2025?",
+    "category": "Cross-Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_09468",
+    "query": "I need to know: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09475",
+    "query": "I need to know: If I face sexual harassment, do I use POSH or Whistleblower Policy?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09484",
+    "query": "I need to know: What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09490",
+    "query": "I need to know: How does the Whistleblower Policy review cycle compare to Grievance Policy?",
+    "category": "Cross-Review",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09496",
+    "query": "I need to know: If my rotation request is blocked, can I file a grievance?",
+    "category": "Cross-Governance",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09519",
+    "query": "I need to know: As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09523",
+    "query": "I need to know: As M3 new joiner from 1000km, what transport reimbursement rate applies?",
+    "category": "Cross-Joining-Travel",
+    "source": "Joining Policy",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "id": "ETV2_09529",
+    "query": "I need to know: I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09532",
+    "query": "I need to know: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
+    "category": "Cross-Governance",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "escalate the grievance to the next level"
+    ]
+  },
+  {
+    "id": "ETV2_09546",
+    "query": "I need to know: For a 200km trip, do local conveyance or domestic travel rules apply?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09555",
+    "query": "I need to know: Does POSH protection apply from the joining date?",
+    "category": "Cross-Applicability",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "All persons employed at Arvind"
+    ]
+  },
+  {
+    "id": "ETV2_09557",
+    "query": "I need to know: If I report financial irregularities to POSH AIC, will it be handled correctly?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09563",
+    "query": "I need to know: M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_09570",
+    "query": "I need to know: What are the policy IDs for POSH and Gender Policy 2025?",
+    "category": "Cross-Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_09583",
+    "query": "Quick question \u2014 Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09590",
+    "query": "Quick question \u2014 If I face sexual harassment, do I use POSH or Whistleblower Policy?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09599",
+    "query": "Quick question \u2014 What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09605",
+    "query": "Quick question \u2014 How does the Whistleblower Policy review cycle compare to Grievance Policy?",
+    "category": "Cross-Review",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09611",
+    "query": "Quick question \u2014 If my rotation request is blocked, can I file a grievance?",
+    "category": "Cross-Governance",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09634",
+    "query": "Quick question \u2014 As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09638",
+    "query": "Quick question \u2014 As M3 new joiner from 1000km, what transport reimbursement rate applies?",
+    "category": "Cross-Joining-Travel",
+    "source": "Joining Policy",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "id": "ETV2_09644",
+    "query": "Quick question \u2014 I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09645",
+    "query": "Quick question \u2014 Does Whistleblower Policy cover discrimination while POSH covers harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "id": "ETV2_09647",
+    "query": "Quick question \u2014 Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
+    "category": "Cross-Governance",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "escalate the grievance to the next level"
+    ]
+  },
+  {
+    "id": "ETV2_09661",
+    "query": "Quick question \u2014 For a 200km trip, do local conveyance or domestic travel rules apply?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09662",
+    "query": "Quick question \u2014 Which policy covers a 400km business trip \u2014 local conveyance or domestic travel?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09670",
+    "query": "Quick question \u2014 Does POSH protection apply from the joining date?",
+    "category": "Cross-Applicability",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "All persons employed at Arvind"
+    ]
+  },
+  {
+    "id": "ETV2_09672",
+    "query": "Quick question \u2014 If I report financial irregularities to POSH AIC, will it be handled correctly?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09685",
+    "query": "Quick question \u2014 What are the policy IDs for POSH and Gender Policy 2025?",
+    "category": "Cross-Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_09694",
+    "query": "Policy check: Both POSH and Grievance policies protect against retaliation. What does POSH say?",
+    "category": "Cross-Protection",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "protected from any form of retaliation"
+    ]
+  },
+  {
+    "id": "ETV2_09698",
+    "query": "Policy check: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09705",
+    "query": "Policy check: If I face sexual harassment, do I use POSH or Whistleblower Policy?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09714",
+    "query": "Policy check: What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09716",
+    "query": "Policy check: If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_09720",
+    "query": "Policy check: How does the Whistleblower Policy review cycle compare to Grievance Policy?",
+    "category": "Cross-Review",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09726",
+    "query": "Policy check: If my rotation request is blocked, can I file a grievance?",
+    "category": "Cross-Governance",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09732",
+    "query": "Policy check: I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583",
+      "10,000"
+    ]
+  },
+  {
+    "id": "ETV2_09733",
+    "query": "Policy check: I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_09735",
+    "query": "Policy check: I am E2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750",
+      "10,000"
+    ]
+  },
+  {
+    "id": "ETV2_09736",
+    "query": "Policy check: I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_09742",
+    "query": "Policy check: I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_09745",
+    "query": "Policy check: I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "id": "ETV2_09748",
+    "query": "Policy check: I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_09749",
+    "query": "Policy check: As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09753",
+    "query": "Policy check: As M3 new joiner from 1000km, what transport reimbursement rate applies?",
+    "category": "Cross-Joining-Travel",
+    "source": "Joining Policy",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "id": "ETV2_09759",
+    "query": "Policy check: I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09762",
+    "query": "Policy check: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
+    "category": "Cross-Governance",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "escalate the grievance to the next level"
+    ]
+  },
+  {
+    "id": "ETV2_09776",
+    "query": "Policy check: For a 200km trip, do local conveyance or domestic travel rules apply?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09777",
+    "query": "Policy check: Which policy covers a 400km business trip \u2014 local conveyance or domestic travel?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09785",
+    "query": "Policy check: Does POSH protection apply from the joining date?",
+    "category": "Cross-Applicability",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "All persons employed at Arvind"
+    ]
+  },
+  {
+    "id": "ETV2_09787",
+    "query": "Policy check: If I report financial irregularities to POSH AIC, will it be handled correctly?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09793",
+    "query": "Policy check: M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_09800",
+    "query": "Policy check: What are the policy IDs for POSH and Gender Policy 2025?",
+    "category": "Cross-Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_09813",
+    "query": "HR query: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09820",
+    "query": "HR query: If I face sexual harassment, do I use POSH or Whistleblower Policy?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09829",
+    "query": "HR query: What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09835",
+    "query": "HR query: How does the Whistleblower Policy review cycle compare to Grievance Policy?",
+    "category": "Cross-Review",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09841",
+    "query": "HR query: If my rotation request is blocked, can I file a grievance?",
+    "category": "Cross-Governance",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09873",
+    "query": "HR query: Can workplace harassment be reported under both POSH and Whistleblower policies?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09874",
+    "query": "HR query: I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09875",
+    "query": "HR query: Does Whistleblower Policy cover discrimination while POSH covers harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "id": "ETV2_09877",
+    "query": "HR query: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
+    "category": "Cross-Governance",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "escalate the grievance to the next level"
+    ]
+  },
+  {
+    "id": "ETV2_09891",
+    "query": "HR query: For a 200km trip, do local conveyance or domestic travel rules apply?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09900",
+    "query": "HR query: Does POSH protection apply from the joining date?",
+    "category": "Cross-Applicability",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "All persons employed at Arvind"
+    ]
+  },
+  {
+    "id": "ETV2_09902",
+    "query": "HR query: If I report financial irregularities to POSH AIC, will it be handled correctly?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09915",
+    "query": "HR query: What are the policy IDs for POSH and Gender Policy 2025?",
+    "category": "Cross-Policy-Details",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_09924",
+    "query": "Employee question: Both POSH and Grievance policies protect against retaliation. What does POSH say?",
+    "category": "Cross-Protection",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "protected from any form of retaliation"
+    ]
+  },
+  {
+    "id": "ETV2_09928",
+    "query": "Employee question: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09932",
+    "query": "Employee question: Does local conveyance policy cover trips over 300km?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09935",
+    "query": "Employee question: If I face sexual harassment, do I use POSH or Whistleblower Policy?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09944",
+    "query": "Employee question: What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09946",
+    "query": "Employee question: If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_09948",
+    "query": "Employee question: I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
+    "category": "Cross-Grade-All",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "3400"
+    ]
+  },
+  {
+    "id": "ETV2_09950",
+    "query": "Employee question: How does the Whistleblower Policy review cycle compare to Grievance Policy?",
+    "category": "Cross-Review",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09956",
+    "query": "Employee question: If my rotation request is blocked, can I file a grievance?",
+    "category": "Cross-Governance",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09966",
+    "query": "Employee question: I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_09979",
+    "query": "Employee question: As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09989",
+    "query": "Employee question: I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
+    "category": "Cross-Scope",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09992",
+    "query": "Employee question: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
+    "category": "Cross-Governance",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "escalate the grievance to the next level"
     ]
   }
 ]
