@@ -1,0 +1,30 @@
+[
+  {
+    "query": "Can I consult a cardiologist on MediBuddy?",
+    "key_facts": [
+      "cardiology",
+      "cardiolog",
+      "specialist"
+    ],
+    "category": "Specialties",
+    "retrieved": [
+      "MediBuddy Customer Care: FAQ 8: What happens when I do not get a response from a Doctor? You can contact our 24x7 voice ",
+      "[TABLE \u2014 MediBuddy Health & Wellness (User Manual), Page 7]\nUser Flow-MediBuddy Gold Select relevant Health Problem for ",
+      "FAQs\n7. What are the 16 Indian languages in which consultation is happening?\nHindi, English, Telegu, Kannada, Malayalam,"
+    ]
+  },
+  {
+    "query": "Can I get a dermatologist on MediBuddy?",
+    "key_facts": [
+      "skin",
+      "dermatolog",
+      "specialit"
+    ],
+    "category": "Specialties",
+    "retrieved": [
+      "MediBuddy Customer Care: FAQ 8: What happens when I do not get a response from a Doctor? You can contact our 24x7 voice ",
+      "User Flow: MediBuddy Gold\nDownload MediBuddy app\nfrom Play store or App store.\nSelect \u201c I have a Corporate\nAccount\u201d\nDoct",
+      "FAQ 5: Do we have a cap on number of consultations in a given frame of time? No, there is no cap on the number of consul"
+    ]
+  }
+]
