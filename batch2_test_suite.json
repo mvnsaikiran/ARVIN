@@ -1,0 +1,2722 @@
+[
+  {
+    "id": "VDC_0012",
+    "query": "HR query: What is the death contribution for OT grade?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "100"
+    ],
+    "category": "Grade-OT"
+  },
+  {
+    "id": "TSP_0063",
+    "query": "Please tell me: Is invoice required for travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "invoice",
+      "mandatory"
+    ],
+    "category": "Requirements"
+  },
+  {
+    "id": "TSP_0044",
+    "query": "HR query: Is express boarding reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Express boarding",
+      "not be reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "TSP_0009",
+    "query": "How do I initiate travel settlement?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "My Tour Dashboard",
+      "Tour No",
+      "Initiate Settlement"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "PER_0004",
+    "query": "HR query: What is the Pankh employee referral program?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "diverse",
+      "inclusive",
+      "M3"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GTI_0062",
+    "query": "As per Arvind HR policy, What happens to the claim amount in GTI?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "dues",
+      "balance",
+      "nominee",
+      "Gratuity"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "GTI_0027",
+    "query": "Please tell me: What is the term life cover for E1?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "3,00,000"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "VDC_0056",
+    "query": "HR query: Who benefits from the Voluntary Death Contribution Scheme?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "dependants",
+      "beneficiaries"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GTI_0004",
+    "query": "HR query: What is Group Term Life Insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "financial security",
+      "natural death"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "PER_0031",
+    "query": "Please tell me: What is the bonus for 5 successful referrals?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "20,000",
+      "20000"
+    ],
+    "category": "Bonus"
+  },
+  {
+    "id": "GTI_0046",
+    "query": "As per Arvind HR policy, What is the GTI cover for VP grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "85,00,000"
+    ],
+    "category": "Grade-VP"
+  },
+  {
+    "id": "TSP_0047",
+    "query": "Please tell me: Are extra baggage charges reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Extra baggage",
+      "receipts",
+      "approval"
+    ],
+    "category": "Baggage"
+  },
+  {
+    "id": "TSP_0019",
+    "query": "Please tell me: What expense types can I claim for travel?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Boarding",
+      "Flat Rate",
+      "Conveyance",
+      "Telephone"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "VDC_0052",
+    "query": "HR query: When is the VDCS effective from?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "01.05.2021"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "PER_0043",
+    "query": "Please tell me: What conditions must be met for referral payout?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "employed at Arvind",
+      "not on notice"
+    ],
+    "category": "Payout-Conditions"
+  },
+  {
+    "id": "VDC_0047",
+    "query": "Please tell me: What is the policy number for Voluntary Death Contribution?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "ARV|EFB_IPP"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "VDC_0023",
+    "query": "Please tell me: What is the death contribution for M2?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "200"
+    ],
+    "category": "Grade-M2"
+  },
+  {
+    "id": "GTI_0054",
+    "query": "As per Arvind HR policy, How is the death claim processed?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "CMG",
+      "death certificate",
+      "Insurance Section"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "PER_0028",
+    "query": "HR query: What is the referral reward for M2 or M3?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "10,000",
+      "10000"
+    ],
+    "category": "Reward-M2M3"
+  },
+  {
+    "id": "GTI_0048",
+    "query": "HR query: What is the GTI cover for VP grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "85,00,000"
+    ],
+    "category": "Grade-VP"
+  },
+  {
+    "id": "VDC_0048",
+    "query": "HR query: What is the policy number for Voluntary Death Contribution?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "ARV|EFB_IPP"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GTI_0039",
+    "query": "Please tell me: What is the life insurance for BMH9?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "1,00,00,000"
+    ],
+    "category": "Grade-BMH9"
+  },
+  {
+    "id": "TSP_0014",
+    "query": "As per Arvind HR policy, What is the My Tour Dashboard?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "unsettled expenses",
+      "Tour No",
+      "settlement"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "GTI_0021",
+    "query": "What is the life insurance for M3?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "18,00,000"
+    ],
+    "category": "Grade-M3"
+  },
+  {
+    "id": "PER_0068",
+    "query": "HR query: What is the referral bonus for 5 diverse hires?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "20,000"
+    ],
+    "category": "Bonus"
+  },
+  {
+    "id": "GTI_0057",
+    "query": "Who processes the life insurance claim?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "CMG",
+      "Insurance Section"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "PER_0030",
+    "query": "As per Arvind HR policy, What is the bonus for 5 successful referrals?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "20,000",
+      "20000"
+    ],
+    "category": "Bonus"
+  },
+  {
+    "id": "PER_0048",
+    "query": "HR query: Is referral payout taxable?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "taxable"
+    ],
+    "category": "Tax"
+  },
+  {
+    "id": "PER_0033",
+    "query": "Is there a reward for referring male candidates?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "no monetary reward",
+      "no reward"
+    ],
+    "category": "Male-Referral"
+  },
+  {
+    "id": "PER_0002",
+    "query": "As per Arvind HR policy, What is the Pankh employee referral program?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "diverse",
+      "inclusive",
+      "M3"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "PER_0065",
+    "query": "What is the referral bonus for 5 diverse hires?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "20,000"
+    ],
+    "category": "Bonus"
+  },
+  {
+    "id": "GTI_0069",
+    "query": "Effective date of GTI policy?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GTI_0076",
+    "query": "HR query: Who is covered under group term life insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "subsidiary"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "VDC_0054",
+    "query": "As per Arvind HR policy, Who benefits from the Voluntary Death Contribution Scheme?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "dependants",
+      "beneficiaries"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "PER_0022",
+    "query": "As per Arvind HR policy, What is the referral reward for M1?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "7,500",
+      "7500"
+    ],
+    "category": "Reward-M1"
+  },
+  {
+    "id": "TSP_0051",
+    "query": "Please tell me: How does the manager approve travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Manager Approval",
+      "My Team Tour",
+      "Tour Pending"
+    ],
+    "category": "Manager-Approval"
+  },
+  {
+    "id": "PER_0017",
+    "query": "What is the referral reward for E1-E2 grade?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "5,000",
+      "5000"
+    ],
+    "category": "Reward-E1"
+  },
+  {
+    "id": "PER_0045",
+    "query": "Is referral payout taxable?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "taxable"
+    ],
+    "category": "Tax"
+  },
+  {
+    "id": "GTI_0047",
+    "query": "Please tell me: What is the GTI cover for VP grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "85,00,000"
+    ],
+    "category": "Grade-VP"
+  },
+  {
+    "id": "TSP_0035",
+    "query": "Please tell me: Are hotel phone calls reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "hotel phones",
+      "NOT be reimbursed",
+      "not reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "VDC_0005",
+    "query": "Who is covered under VDCS?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "Arvind Ltd",
+      "subsidiaries"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "TSP_0029",
+    "query": "What conveyance modes are covered in travel settlement?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Uber",
+      "Ola",
+      "Taxi",
+      "Auto",
+      "Metro"
+    ],
+    "category": "Conveyance"
+  },
+  {
+    "id": "PER_0012",
+    "query": "HR query: Can HR team members refer candidates under Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "HR team",
+      "selection process"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "TSP_0012",
+    "query": "HR query: How do I initiate travel settlement?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "My Tour Dashboard",
+      "Tour No",
+      "Initiate Settlement"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "GTI_0080",
+    "query": "HR query: What is the life cover for DET grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "3,00,000"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "PER_0001",
+    "query": "What is the Pankh employee referral program?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "diverse",
+      "inclusive",
+      "M3"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GTI_0005",
+    "query": "What does GTI cover at Arvind?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "natural death",
+      "suicide"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "PER_0063",
+    "query": "Please tell me: What kind of candidates get monetary reward in Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "female",
+      "transgender",
+      "specially-abled"
+    ],
+    "category": "Reward-Criteria"
+  },
+  {
+    "id": "PER_0018",
+    "query": "As per Arvind HR policy, What is the referral reward for E1-E2 grade?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "5,000",
+      "5000"
+    ],
+    "category": "Reward-E1"
+  },
+  {
+    "id": "TSP_0002",
+    "query": "As per Arvind HR policy, How do I submit travel expenses in OneArvind?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "OneArvind",
+      "Services",
+      "Travel Menu",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "TSP_0050",
+    "query": "As per Arvind HR policy, How does the manager approve travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Manager Approval",
+      "My Team Tour",
+      "Tour Pending"
+    ],
+    "category": "Manager-Approval"
+  },
+  {
+    "id": "VDC_0019",
+    "query": "Please tell me: What is the death contribution for M1?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "175"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "PER_0003",
+    "query": "Please tell me: What is the Pankh employee referral program?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "diverse",
+      "inclusive",
+      "M3"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "VDC_0027",
+    "query": "Please tell me: What is the death contribution for M3?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "300"
+    ],
+    "category": "Grade-M3"
+  },
+  {
+    "id": "PER_0029",
+    "query": "What is the bonus for 5 successful referrals?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "20,000",
+      "20000"
+    ],
+    "category": "Bonus"
+  },
+  {
+    "id": "TSP_0059",
+    "query": "Please tell me: What is Create Your Tour Expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Create Your Tour",
+      "expense",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "GTI_0068",
+    "query": "HR query: Policy number for Group Term Life Insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "ARV|COR|EBF_GTI"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "PER_0055",
+    "query": "Please tell me: What is the policy number for Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "ARV|ELC_PER"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "TSP_0004",
+    "query": "HR query: How do I submit travel expenses in OneArvind?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "OneArvind",
+      "Services",
+      "Travel Menu",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "VDC_0002",
+    "query": "As per Arvind HR policy, What is the Voluntary Death Contribution Scheme?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "monetary contributions",
+      "deceased",
+      "dependants"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GTI_0041",
+    "query": "What is the term life cover for AVP?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "50,00,000"
+    ],
+    "category": "Grade-AVP"
+  },
+  {
+    "id": "GTI_0014",
+    "query": "As per Arvind HR policy, What is the life insurance cover for M1 grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "8,00,000"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "PER_0054",
+    "query": "As per Arvind HR policy, What is the policy number for Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "ARV|ELC_PER"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "TSP_0055",
+    "query": "Please tell me: What system is used for travel booking?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "MMT",
+      "Travel Booking",
+      "OneArvind"
+    ],
+    "category": "System"
+  },
+  {
+    "id": "VDC_0018",
+    "query": "As per Arvind HR policy, What is the death contribution for M1?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "175"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "GTI_0013",
+    "query": "What is the life insurance cover for M1 grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "8,00,000"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "PER_0027",
+    "query": "Please tell me: What is the referral reward for M2 or M3?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "10,000",
+      "10000"
+    ],
+    "category": "Reward-M2M3"
+  },
+  {
+    "id": "VDC_0046",
+    "query": "As per Arvind HR policy, What is the policy number for Voluntary Death Contribution?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "ARV|EFB_IPP"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "VDC_0039",
+    "query": "Please tell me: What is the contribution for BMH5?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "550"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "GTI_0028",
+    "query": "HR query: What is the term life cover for E1?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "3,00,000"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "VDC_0030",
+    "query": "As per Arvind HR policy, What is the death contribution for BMH3?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "550"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "TSP_0036",
+    "query": "HR query: Are hotel phone calls reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "hotel phones",
+      "NOT be reimbursed",
+      "not reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "PER_0023",
+    "query": "Please tell me: What is the referral reward for M1?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "7,500",
+      "7500"
+    ],
+    "category": "Reward-M1"
+  },
+  {
+    "id": "GTI_0010",
+    "query": "As per Arvind HR policy, Is suicide covered under term life insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "suicide",
+      "not be applicable"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "VDC_0042",
+    "query": "As per Arvind HR policy, How much does an M1 employee contribute when a colleague dies?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "175"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "TSP_0061",
+    "query": "Is invoice required for travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "invoice",
+      "mandatory"
+    ],
+    "category": "Requirements"
+  },
+  {
+    "id": "GTI_0053",
+    "query": "How is the death claim processed?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "CMG",
+      "death certificate",
+      "Insurance Section"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "TSP_0054",
+    "query": "As per Arvind HR policy, What system is used for travel booking?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "MMT",
+      "Travel Booking",
+      "OneArvind"
+    ],
+    "category": "System"
+  },
+  {
+    "id": "PER_0019",
+    "query": "Please tell me: What is the referral reward for E1-E2 grade?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "5,000",
+      "5000"
+    ],
+    "category": "Reward-E1"
+  },
+  {
+    "id": "TSP_0049",
+    "query": "How does the manager approve travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Manager Approval",
+      "My Team Tour",
+      "Tour Pending"
+    ],
+    "category": "Manager-Approval"
+  },
+  {
+    "id": "PER_0007",
+    "query": "Please tell me: Who can participate in the Pankh referral program?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "all employees",
+      "HR team",
+      "selection process"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "VDC_0028",
+    "query": "HR query: What is the death contribution for M3?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "300"
+    ],
+    "category": "Grade-M3"
+  },
+  {
+    "id": "GTI_0030",
+    "query": "As per Arvind HR policy, What is the life insurance for E2?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "5,50,000"
+    ],
+    "category": "Grade-E2"
+  },
+  {
+    "id": "PER_0061",
+    "query": "What kind of candidates get monetary reward in Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "female",
+      "transgender",
+      "specially-abled"
+    ],
+    "category": "Reward-Criteria"
+  },
+  {
+    "id": "TSP_0007",
+    "query": "Please tell me: What is the path for travel settlement in OneArvind?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Services",
+      "Travel Menu",
+      "Travel Booking",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "TSP_0062",
+    "query": "As per Arvind HR policy, Is invoice required for travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "invoice",
+      "mandatory"
+    ],
+    "category": "Requirements"
+  },
+  {
+    "id": "TSP_0041",
+    "query": "Is express boarding reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Express boarding",
+      "not be reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "TSP_0023",
+    "query": "Please tell me: What does Boarding expense cover?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Food",
+      "Dining"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "VDC_0014",
+    "query": "As per Arvind HR policy, What is the death contribution for E1?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "100"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "GTI_0003",
+    "query": "Please tell me: What is Group Term Life Insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "financial security",
+      "natural death"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "PER_0014",
+    "query": "As per Arvind HR policy, What grades are open for employee referrals?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "M3",
+      "upto M3"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "GTI_0012",
+    "query": "HR query: Is suicide covered under term life insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "suicide",
+      "not be applicable"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "GTI_0049",
+    "query": "What is the life insurance for BMH3?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "30,00,000"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "VDC_0035",
+    "query": "Please tell me: What is the death contribution for BMH6?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "800"
+    ],
+    "category": "Grade-BMH6"
+  },
+  {
+    "id": "PER_0059",
+    "query": "Please tell me: When was the Pankh program effective?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "01.01.2023"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "TSP_0032",
+    "query": "HR query: What conveyance modes are covered in travel settlement?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Uber",
+      "Ola",
+      "Taxi",
+      "Auto",
+      "Metro"
+    ],
+    "category": "Conveyance"
+  },
+  {
+    "id": "PER_0049",
+    "query": "How do I refer a candidate in Darwinbox?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "Darwinbox",
+      "Recruitment",
+      "Refer Tab"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "VDC_0041",
+    "query": "How much does an M1 employee contribute when a colleague dies?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "175"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "VDC_0022",
+    "query": "As per Arvind HR policy, What is the death contribution for M2?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "200"
+    ],
+    "category": "Grade-M2"
+  },
+  {
+    "id": "VDC_0017",
+    "query": "What is the death contribution for M1?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "175"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "PER_0020",
+    "query": "HR query: What is the referral reward for E1-E2 grade?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "5,000",
+      "5000"
+    ],
+    "category": "Reward-E1"
+  },
+  {
+    "id": "PER_0037",
+    "query": "When is the referral payout made?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "3 months",
+      "6 months",
+      "tranches"
+    ],
+    "category": "Payout"
+  },
+  {
+    "id": "TSP_0058",
+    "query": "As per Arvind HR policy, What is Create Your Tour Expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Create Your Tour",
+      "expense",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "GTI_0051",
+    "query": "Please tell me: What is the life insurance for BMH3?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "30,00,000"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "PER_0008",
+    "query": "HR query: Who can participate in the Pankh referral program?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "all employees",
+      "HR team",
+      "selection process"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "GTI_0044",
+    "query": "HR query: What is the term life cover for AVP?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "50,00,000"
+    ],
+    "category": "Grade-AVP"
+  },
+  {
+    "id": "GTI_0017",
+    "query": "What is the GTI cover for M2?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "12,50,000"
+    ],
+    "category": "Grade-M2"
+  },
+  {
+    "id": "GTI_0007",
+    "query": "Please tell me: What does GTI cover at Arvind?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "natural death",
+      "suicide"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "VDC_0004",
+    "query": "HR query: What is the Voluntary Death Contribution Scheme?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "monetary contributions",
+      "deceased",
+      "dependants"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "PER_0071",
+    "query": "Please tell me: Can referred employees be on notice at time of payout?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "not on notice",
+      "employed"
+    ],
+    "category": "Payout-Conditions"
+  },
+  {
+    "id": "TSP_0056",
+    "query": "HR query: What system is used for travel booking?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "MMT",
+      "Travel Booking",
+      "OneArvind"
+    ],
+    "category": "System"
+  },
+  {
+    "id": "TSP_0001",
+    "query": "How do I submit travel expenses in OneArvind?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "OneArvind",
+      "Services",
+      "Travel Menu",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "VDC_0051",
+    "query": "Please tell me: When is the VDCS effective from?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "01.05.2021"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "TSP_0040",
+    "query": "HR query: Is web check-in reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Web check-in",
+      "not be reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "GTI_0065",
+    "query": "Policy number for Group Term Life Insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "ARV|COR|EBF_GTI"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "PER_0066",
+    "query": "As per Arvind HR policy, What is the referral bonus for 5 diverse hires?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "20,000"
+    ],
+    "category": "Bonus"
+  },
+  {
+    "id": "GTI_0034",
+    "query": "As per Arvind HR policy, What is the GTI cover for OT grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "2,50,000"
+    ],
+    "category": "Grade-OT"
+  },
+  {
+    "id": "VDC_0011",
+    "query": "Please tell me: What is the death contribution for OT grade?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "100"
+    ],
+    "category": "Grade-OT"
+  },
+  {
+    "id": "VDC_0036",
+    "query": "HR query: What is the death contribution for BMH6?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "800"
+    ],
+    "category": "Grade-BMH6"
+  },
+  {
+    "id": "GTI_0024",
+    "query": "HR query: What is the life insurance for M3?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "18,00,000"
+    ],
+    "category": "Grade-M3"
+  },
+  {
+    "id": "VDC_0015",
+    "query": "Please tell me: What is the death contribution for E1?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "100"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "PER_0021",
+    "query": "What is the referral reward for M1?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "7,500",
+      "7500"
+    ],
+    "category": "Reward-M1"
+  },
+  {
+    "id": "VDC_0006",
+    "query": "As per Arvind HR policy, Who is covered under VDCS?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "Arvind Ltd",
+      "subsidiaries"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "GTI_0066",
+    "query": "As per Arvind HR policy, Policy number for Group Term Life Insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "ARV|COR|EBF_GTI"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "TSP_0048",
+    "query": "HR query: Are extra baggage charges reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Extra baggage",
+      "receipts",
+      "approval"
+    ],
+    "category": "Baggage"
+  },
+  {
+    "id": "VDC_0029",
+    "query": "What is the death contribution for BMH3?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "550"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "PER_0053",
+    "query": "What is the policy number for Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "ARV|ELC_PER"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "PER_0015",
+    "query": "Please tell me: What grades are open for employee referrals?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "M3",
+      "upto M3"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "TSP_0013",
+    "query": "What is the My Tour Dashboard?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "unsettled expenses",
+      "Tour No",
+      "settlement"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "TSP_0060",
+    "query": "HR query: What is Create Your Tour Expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Create Your Tour",
+      "expense",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "PER_0051",
+    "query": "Please tell me: How do I refer a candidate in Darwinbox?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "Darwinbox",
+      "Recruitment",
+      "Refer Tab"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "VDC_0033",
+    "query": "What is the death contribution for BMH6?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "800"
+    ],
+    "category": "Grade-BMH6"
+  },
+  {
+    "id": "PER_0013",
+    "query": "What grades are open for employee referrals?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "M3",
+      "upto M3"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "PER_0052",
+    "query": "HR query: How do I refer a candidate in Darwinbox?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "Darwinbox",
+      "Recruitment",
+      "Refer Tab"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "VDC_0053",
+    "query": "Who benefits from the Voluntary Death Contribution Scheme?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "dependants",
+      "beneficiaries"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "TSP_0015",
+    "query": "Please tell me: What is the My Tour Dashboard?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "unsettled expenses",
+      "Tour No",
+      "settlement"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "VDC_0009",
+    "query": "What is the death contribution for OT grade?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "100"
+    ],
+    "category": "Grade-OT"
+  },
+  {
+    "id": "GTI_0038",
+    "query": "As per Arvind HR policy, What is the life insurance for BMH9?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "1,00,00,000"
+    ],
+    "category": "Grade-BMH9"
+  },
+  {
+    "id": "VDC_0044",
+    "query": "HR query: How much does an M1 employee contribute when a colleague dies?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "175"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "TSP_0017",
+    "query": "What expense types can I claim for travel?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Boarding",
+      "Flat Rate",
+      "Conveyance",
+      "Telephone"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "GTI_0042",
+    "query": "As per Arvind HR policy, What is the term life cover for AVP?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "50,00,000"
+    ],
+    "category": "Grade-AVP"
+  },
+  {
+    "id": "GTI_0032",
+    "query": "HR query: What is the life insurance for E2?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "5,50,000"
+    ],
+    "category": "Grade-E2"
+  },
+  {
+    "id": "VDC_0034",
+    "query": "As per Arvind HR policy, What is the death contribution for BMH6?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "800"
+    ],
+    "category": "Grade-BMH6"
+  },
+  {
+    "id": "VDC_0008",
+    "query": "HR query: Who is covered under VDCS?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "Arvind Ltd",
+      "subsidiaries"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "GTI_0078",
+    "query": "As per Arvind HR policy, What is the life cover for DET grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "3,00,000"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "TSP_0011",
+    "query": "Please tell me: How do I initiate travel settlement?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "My Tour Dashboard",
+      "Tour No",
+      "Initiate Settlement"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "TSP_0053",
+    "query": "What system is used for travel booking?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "MMT",
+      "Travel Booking",
+      "OneArvind"
+    ],
+    "category": "System"
+  },
+  {
+    "id": "TSP_0033",
+    "query": "Are hotel phone calls reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "hotel phones",
+      "NOT be reimbursed",
+      "not reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "TSP_0020",
+    "query": "HR query: What expense types can I claim for travel?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Boarding",
+      "Flat Rate",
+      "Conveyance",
+      "Telephone"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "GTI_0040",
+    "query": "HR query: What is the life insurance for BMH9?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "1,00,00,000"
+    ],
+    "category": "Grade-BMH9"
+  },
+  {
+    "id": "PER_0046",
+    "query": "As per Arvind HR policy, Is referral payout taxable?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "taxable"
+    ],
+    "category": "Tax"
+  },
+  {
+    "id": "GTI_0006",
+    "query": "As per Arvind HR policy, What does GTI cover at Arvind?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "natural death",
+      "suicide"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "TSP_0046",
+    "query": "As per Arvind HR policy, Are extra baggage charges reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Extra baggage",
+      "receipts",
+      "approval"
+    ],
+    "category": "Baggage"
+  },
+  {
+    "id": "TSP_0016",
+    "query": "HR query: What is the My Tour Dashboard?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "unsettled expenses",
+      "Tour No",
+      "settlement"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "PER_0050",
+    "query": "As per Arvind HR policy, How do I refer a candidate in Darwinbox?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "Darwinbox",
+      "Recruitment",
+      "Refer Tab"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "VDC_0031",
+    "query": "Please tell me: What is the death contribution for BMH3?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "550"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "TSP_0022",
+    "query": "As per Arvind HR policy, What does Boarding expense cover?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Food",
+      "Dining"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "VDC_0021",
+    "query": "What is the death contribution for M2?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "200"
+    ],
+    "category": "Grade-M2"
+  },
+  {
+    "id": "VDC_0055",
+    "query": "Please tell me: Who benefits from the Voluntary Death Contribution Scheme?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "dependants",
+      "beneficiaries"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "PER_0006",
+    "query": "As per Arvind HR policy, Who can participate in the Pankh referral program?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "all employees",
+      "HR team",
+      "selection process"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "VDC_0038",
+    "query": "As per Arvind HR policy, What is the contribution for BMH5?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "550"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "GTI_0015",
+    "query": "Please tell me: What is the life insurance cover for M1 grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "8,00,000"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "TSP_0042",
+    "query": "As per Arvind HR policy, Is express boarding reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Express boarding",
+      "not be reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "TSP_0018",
+    "query": "As per Arvind HR policy, What expense types can I claim for travel?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Boarding",
+      "Flat Rate",
+      "Conveyance",
+      "Telephone"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "GTI_0009",
+    "query": "Is suicide covered under term life insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "suicide",
+      "not be applicable"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "PER_0038",
+    "query": "As per Arvind HR policy, When is the referral payout made?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "3 months",
+      "6 months",
+      "tranches"
+    ],
+    "category": "Payout"
+  },
+  {
+    "id": "GTI_0011",
+    "query": "Please tell me: Is suicide covered under term life insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "suicide",
+      "not be applicable"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "PER_0011",
+    "query": "Please tell me: Can HR team members refer candidates under Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "HR team",
+      "selection process"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "GTI_0073",
+    "query": "Who is covered under group term life insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "subsidiary"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "VDC_0037",
+    "query": "What is the contribution for BMH5?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "550"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "PER_0058",
+    "query": "As per Arvind HR policy, When was the Pankh program effective?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "01.01.2023"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "VDC_0001",
+    "query": "What is the Voluntary Death Contribution Scheme?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "monetary contributions",
+      "deceased",
+      "dependants"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "TSP_0010",
+    "query": "As per Arvind HR policy, How do I initiate travel settlement?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "My Tour Dashboard",
+      "Tour No",
+      "Initiate Settlement"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "GTI_0061",
+    "query": "What happens to the claim amount in GTI?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "dues",
+      "balance",
+      "nominee",
+      "Gratuity"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "PER_0062",
+    "query": "As per Arvind HR policy, What kind of candidates get monetary reward in Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "female",
+      "transgender",
+      "specially-abled"
+    ],
+    "category": "Reward-Criteria"
+  },
+  {
+    "id": "VDC_0013",
+    "query": "What is the death contribution for E1?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "100"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "GTI_0074",
+    "query": "As per Arvind HR policy, Who is covered under group term life insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "subsidiary"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "GTI_0050",
+    "query": "As per Arvind HR policy, What is the life insurance for BMH3?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "30,00,000"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "VDC_0026",
+    "query": "As per Arvind HR policy, What is the death contribution for M3?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "300"
+    ],
+    "category": "Grade-M3"
+  },
+  {
+    "id": "TSP_0006",
+    "query": "As per Arvind HR policy, What is the path for travel settlement in OneArvind?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Services",
+      "Travel Menu",
+      "Travel Booking",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "PER_0044",
+    "query": "HR query: What conditions must be met for referral payout?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "employed at Arvind",
+      "not on notice"
+    ],
+    "category": "Payout-Conditions"
+  },
+  {
+    "id": "TSP_0064",
+    "query": "HR query: Is invoice required for travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "invoice",
+      "mandatory"
+    ],
+    "category": "Requirements"
+  },
+  {
+    "id": "GTI_0035",
+    "query": "Please tell me: What is the GTI cover for OT grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "2,50,000"
+    ],
+    "category": "Grade-OT"
+  },
+  {
+    "id": "PER_0069",
+    "query": "Can referred employees be on notice at time of payout?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "not on notice",
+      "employed"
+    ],
+    "category": "Payout-Conditions"
+  },
+  {
+    "id": "TSP_0030",
+    "query": "As per Arvind HR policy, What conveyance modes are covered in travel settlement?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Uber",
+      "Ola",
+      "Taxi",
+      "Auto",
+      "Metro"
+    ],
+    "category": "Conveyance"
+  },
+  {
+    "id": "GTI_0064",
+    "query": "HR query: What happens to the claim amount in GTI?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "dues",
+      "balance",
+      "nominee",
+      "Gratuity"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "PER_0026",
+    "query": "As per Arvind HR policy, What is the referral reward for M2 or M3?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "10,000",
+      "10000"
+    ],
+    "category": "Reward-M2M3"
+  },
+  {
+    "id": "GTI_0019",
+    "query": "Please tell me: What is the GTI cover for M2?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "12,50,000"
+    ],
+    "category": "Grade-M2"
+  },
+  {
+    "id": "TSP_0003",
+    "query": "Please tell me: How do I submit travel expenses in OneArvind?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "OneArvind",
+      "Services",
+      "Travel Menu",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "PER_0035",
+    "query": "Please tell me: Is there a reward for referring male candidates?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "no monetary reward",
+      "no reward"
+    ],
+    "category": "Male-Referral"
+  },
+  {
+    "id": "TSP_0034",
+    "query": "As per Arvind HR policy, Are hotel phone calls reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "hotel phones",
+      "NOT be reimbursed",
+      "not reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "GTI_0067",
+    "query": "Please tell me: Policy number for Group Term Life Insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "ARV|COR|EBF_GTI"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GTI_0008",
+    "query": "HR query: What does GTI cover at Arvind?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "natural death",
+      "suicide"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "GTI_0002",
+    "query": "As per Arvind HR policy, What is Group Term Life Insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "financial security",
+      "natural death"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "VDC_0043",
+    "query": "Please tell me: How much does an M1 employee contribute when a colleague dies?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "175"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "PER_0041",
+    "query": "What conditions must be met for referral payout?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "employed at Arvind",
+      "not on notice"
+    ],
+    "category": "Payout-Conditions"
+  },
+  {
+    "id": "PER_0036",
+    "query": "HR query: Is there a reward for referring male candidates?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "no monetary reward",
+      "no reward"
+    ],
+    "category": "Male-Referral"
+  },
+  {
+    "id": "GTI_0029",
+    "query": "What is the life insurance for E2?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "5,50,000"
+    ],
+    "category": "Grade-E2"
+  },
+  {
+    "id": "GTI_0031",
+    "query": "Please tell me: What is the life insurance for E2?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "5,50,000"
+    ],
+    "category": "Grade-E2"
+  },
+  {
+    "id": "PER_0067",
+    "query": "Please tell me: What is the referral bonus for 5 diverse hires?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "20,000"
+    ],
+    "category": "Bonus"
+  },
+  {
+    "id": "PER_0039",
+    "query": "Please tell me: When is the referral payout made?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "3 months",
+      "6 months",
+      "tranches"
+    ],
+    "category": "Payout"
+  },
+  {
+    "id": "PER_0042",
+    "query": "As per Arvind HR policy, What conditions must be met for referral payout?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "employed at Arvind",
+      "not on notice"
+    ],
+    "category": "Payout-Conditions"
+  },
+  {
+    "id": "VDC_0025",
+    "query": "What is the death contribution for M3?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "300"
+    ],
+    "category": "Grade-M3"
+  },
+  {
+    "id": "TSP_0028",
+    "query": "HR query: What does Flat Rate mean in travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "relatives",
+      "friends"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "GTI_0079",
+    "query": "Please tell me: What is the life cover for DET grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "3,00,000"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "GTI_0023",
+    "query": "Please tell me: What is the life insurance for M3?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "18,00,000"
+    ],
+    "category": "Grade-M3"
+  },
+  {
+    "id": "TSP_0057",
+    "query": "What is Create Your Tour Expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Create Your Tour",
+      "expense",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "PER_0005",
+    "query": "Who can participate in the Pankh referral program?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "all employees",
+      "HR team",
+      "selection process"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "VDC_0003",
+    "query": "Please tell me: What is the Voluntary Death Contribution Scheme?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "monetary contributions",
+      "deceased",
+      "dependants"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "VDC_0020",
+    "query": "HR query: What is the death contribution for M1?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "175"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "VDC_0045",
+    "query": "What is the policy number for Voluntary Death Contribution?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "ARV|EFB_IPP"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GTI_0033",
+    "query": "What is the GTI cover for OT grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "2,50,000"
+    ],
+    "category": "Grade-OT"
+  },
+  {
+    "id": "GTI_0060",
+    "query": "HR query: Who processes the life insurance claim?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "CMG",
+      "Insurance Section"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "GTI_0072",
+    "query": "HR query: Effective date of GTI policy?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GTI_0001",
+    "query": "What is Group Term Life Insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "financial security",
+      "natural death"
+    ],
+    "category": "Basics"
+  },
+  {
+    "id": "PER_0025",
+    "query": "What is the referral reward for M2 or M3?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "10,000",
+      "10000"
+    ],
+    "category": "Reward-M2M3"
+  },
+  {
+    "id": "PER_0034",
+    "query": "As per Arvind HR policy, Is there a reward for referring male candidates?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "no monetary reward",
+      "no reward"
+    ],
+    "category": "Male-Referral"
+  },
+  {
+    "id": "GTI_0052",
+    "query": "HR query: What is the life insurance for BMH3?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "30,00,000"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "GTI_0037",
+    "query": "What is the life insurance for BMH9?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "1,00,00,000"
+    ],
+    "category": "Grade-BMH9"
+  },
+  {
+    "id": "PER_0024",
+    "query": "HR query: What is the referral reward for M1?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "7,500",
+      "7500"
+    ],
+    "category": "Reward-M1"
+  },
+  {
+    "id": "TSP_0027",
+    "query": "Please tell me: What does Flat Rate mean in travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "relatives",
+      "friends"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "GTI_0058",
+    "query": "As per Arvind HR policy, Who processes the life insurance claim?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "CMG",
+      "Insurance Section"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "GTI_0020",
+    "query": "HR query: What is the GTI cover for M2?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "12,50,000"
+    ],
+    "category": "Grade-M2"
+  },
+  {
+    "id": "TSP_0024",
+    "query": "HR query: What does Boarding expense cover?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Food",
+      "Dining"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "VDC_0007",
+    "query": "Please tell me: Who is covered under VDCS?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "Arvind Ltd",
+      "subsidiaries"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "TSP_0038",
+    "query": "As per Arvind HR policy, Is web check-in reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Web check-in",
+      "not be reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "PER_0057",
+    "query": "When was the Pankh program effective?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "01.01.2023"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GTI_0059",
+    "query": "Please tell me: Who processes the life insurance claim?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "CMG",
+      "Insurance Section"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "GTI_0026",
+    "query": "As per Arvind HR policy, What is the term life cover for E1?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "3,00,000"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "GTI_0025",
+    "query": "What is the term life cover for E1?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "3,00,000"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "TSP_0045",
+    "query": "Are extra baggage charges reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Extra baggage",
+      "receipts",
+      "approval"
+    ],
+    "category": "Baggage"
+  },
+  {
+    "id": "GTI_0036",
+    "query": "HR query: What is the GTI cover for OT grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "2,50,000"
+    ],
+    "category": "Grade-OT"
+  },
+  {
+    "id": "TSP_0037",
+    "query": "Is web check-in reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Web check-in",
+      "not be reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "PER_0060",
+    "query": "HR query: When was the Pankh program effective?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "01.01.2023"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "VDC_0010",
+    "query": "As per Arvind HR policy, What is the death contribution for OT grade?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "100"
+    ],
+    "category": "Grade-OT"
+  },
+  {
+    "id": "TSP_0043",
+    "query": "Please tell me: Is express boarding reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Express boarding",
+      "not be reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "GTI_0075",
+    "query": "Please tell me: Who is covered under group term life insurance?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "management",
+      "staff cadre",
+      "subsidiary"
+    ],
+    "category": "Applicability"
+  },
+  {
+    "id": "TSP_0026",
+    "query": "As per Arvind HR policy, What does Flat Rate mean in travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "relatives",
+      "friends"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "PER_0056",
+    "query": "HR query: What is the policy number for Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "ARV|ELC_PER"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GTI_0018",
+    "query": "As per Arvind HR policy, What is the GTI cover for M2?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "12,50,000"
+    ],
+    "category": "Grade-M2"
+  },
+  {
+    "id": "GTI_0022",
+    "query": "As per Arvind HR policy, What is the life insurance for M3?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "18,00,000"
+    ],
+    "category": "Grade-M3"
+  },
+  {
+    "id": "TSP_0021",
+    "query": "What does Boarding expense cover?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Food",
+      "Dining"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "GTI_0070",
+    "query": "As per Arvind HR policy, Effective date of GTI policy?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "TSP_0008",
+    "query": "HR query: What is the path for travel settlement in OneArvind?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Services",
+      "Travel Menu",
+      "Travel Booking",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "GTI_0043",
+    "query": "Please tell me: What is the term life cover for AVP?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "50,00,000"
+    ],
+    "category": "Grade-AVP"
+  },
+  {
+    "id": "VDC_0040",
+    "query": "HR query: What is the contribution for BMH5?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "550"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "VDC_0032",
+    "query": "HR query: What is the death contribution for BMH3?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "550"
+    ],
+    "category": "Grade-BMH"
+  },
+  {
+    "id": "PER_0009",
+    "query": "Can HR team members refer candidates under Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "HR team",
+      "selection process"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "VDC_0016",
+    "query": "HR query: What is the death contribution for E1?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "100"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "GTI_0055",
+    "query": "Please tell me: How is the death claim processed?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "CMG",
+      "death certificate",
+      "Insurance Section"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "VDC_0049",
+    "query": "When is the VDCS effective from?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "01.05.2021"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "PER_0064",
+    "query": "HR query: What kind of candidates get monetary reward in Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "female",
+      "transgender",
+      "specially-abled"
+    ],
+    "category": "Reward-Criteria"
+  },
+  {
+    "id": "GTI_0071",
+    "query": "Please tell me: Effective date of GTI policy?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "01.01.2026"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "GTI_0077",
+    "query": "What is the life cover for DET grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "3,00,000"
+    ],
+    "category": "Grade-E1"
+  },
+  {
+    "id": "VDC_0050",
+    "query": "As per Arvind HR policy, When is the VDCS effective from?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "01.05.2021"
+    ],
+    "category": "Policy-Details"
+  },
+  {
+    "id": "TSP_0039",
+    "query": "Please tell me: Is web check-in reimbursed?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Web check-in",
+      "not be reimbursed"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "PER_0010",
+    "query": "As per Arvind HR policy, Can HR team members refer candidates under Pankh?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "HR team",
+      "selection process"
+    ],
+    "category": "Exclusions"
+  },
+  {
+    "id": "TSP_0005",
+    "query": "What is the path for travel settlement in OneArvind?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Services",
+      "Travel Menu",
+      "Travel Booking",
+      "MMT"
+    ],
+    "category": "Process"
+  },
+  {
+    "id": "TSP_0025",
+    "query": "What does Flat Rate mean in travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "relatives",
+      "friends"
+    ],
+    "category": "Expense-Types"
+  },
+  {
+    "id": "PER_0032",
+    "query": "HR query: What is the bonus for 5 successful referrals?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "20,000",
+      "20000"
+    ],
+    "category": "Bonus"
+  },
+  {
+    "id": "PER_0016",
+    "query": "HR query: What grades are open for employee referrals?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "M3",
+      "upto M3"
+    ],
+    "category": "Eligibility"
+  },
+  {
+    "id": "PER_0047",
+    "query": "Please tell me: Is referral payout taxable?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "taxable"
+    ],
+    "category": "Tax"
+  },
+  {
+    "id": "GTI_0056",
+    "query": "HR query: How is the death claim processed?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "CMG",
+      "death certificate",
+      "Insurance Section"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "TSP_0031",
+    "query": "Please tell me: What conveyance modes are covered in travel settlement?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Uber",
+      "Ola",
+      "Taxi",
+      "Auto",
+      "Metro"
+    ],
+    "category": "Conveyance"
+  },
+  {
+    "id": "PER_0070",
+    "query": "As per Arvind HR policy, Can referred employees be on notice at time of payout?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "not on notice",
+      "employed"
+    ],
+    "category": "Payout-Conditions"
+  },
+  {
+    "id": "TSP_0052",
+    "query": "HR query: How does the manager approve travel expenses?",
+    "source": "Domestic Travel Expense Settlement Procedure",
+    "keyFacts": [
+      "Manager Approval",
+      "My Team Tour",
+      "Tour Pending"
+    ],
+    "category": "Manager-Approval"
+  },
+  {
+    "id": "GTI_0045",
+    "query": "What is the GTI cover for VP grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "85,00,000"
+    ],
+    "category": "Grade-VP"
+  },
+  {
+    "id": "PER_0072",
+    "query": "HR query: Can referred employees be on notice at time of payout?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "not on notice",
+      "employed"
+    ],
+    "category": "Payout-Conditions"
+  },
+  {
+    "id": "GTI_0016",
+    "query": "HR query: What is the life insurance cover for M1 grade?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "8,00,000"
+    ],
+    "category": "Grade-M1"
+  },
+  {
+    "id": "GTI_0063",
+    "query": "Please tell me: What happens to the claim amount in GTI?",
+    "source": "Group Term Life Insurance",
+    "keyFacts": [
+      "dues",
+      "balance",
+      "nominee",
+      "Gratuity"
+    ],
+    "category": "Settlement"
+  },
+  {
+    "id": "PER_0040",
+    "query": "HR query: When is the referral payout made?",
+    "source": "Pankh Employee Referral",
+    "keyFacts": [
+      "3 months",
+      "6 months",
+      "tranches"
+    ],
+    "category": "Payout"
+  },
+  {
+    "id": "VDC_0024",
+    "query": "HR query: What is the death contribution for M2?",
+    "source": "Voluntary Death Contribution Scheme",
+    "keyFacts": [
+      "200"
+    ],
+    "category": "Grade-M2"
+  }
+]

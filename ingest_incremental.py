@@ -17,11 +17,10 @@ MIN_CHUNK       = 30
 
 # Map filename fragment → policy_name for NEW policies only
 NEW_POLICY_NAMES = {
-    "1to1_help":                         "Employee Assistance Program (EAP)",
-    "employee_expense_reimbursement":    "Employee Expense Reimbursement Policy",
-    "full_final_settlement":             "Exit & Full & Final Settlement Policy",
-    "group_health_insurance":            "Group Health Insurance Policy",
-    "group_personal_accident":           "Group Personal Accident Insurance Scheme",
+    "group_term_life_insurance":         "Group Term Life Insurance",
+    "pankh_employee_referral":           "Pankh Employee Referral",
+    "travel_settlement_procedure":       "Domestic Travel Expense Settlement Procedure",
+    "voluntary_death_contribution":      "Voluntary Death Contribution Scheme",
 }
 
 # Only process these files (leave existing policies untouched)

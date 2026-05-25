@@ -9,12 +9,48 @@
     ]
   },
   {
+    "id": "ETV2_01693",
+    "query": "Can I claim Telephone expenses as a travel expense?",
+    "category": "Non-Reimbursable",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "Telephone expenses"
+    ]
+  },
+  {
+    "id": "ETV2_01710",
+    "query": "How many days do I have to submit my travel expense claim?",
+    "category": "Settlement",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "within 15 days of the trip"
+    ]
+  },
+  {
     "id": "ETV2_01716",
     "query": "Can two senior officials travel together on the same flight to the same destination?",
     "category": "Travel-Guidelines",
     "source": "Domestic Travel Policy",
     "missing": [
       "senior officials travelling to the same destination on the same day take separate flights"
+    ]
+  },
+  {
+    "id": "ETV2_01734",
+    "query": "I travel within the city for work. Am I eligible for conveyance?",
+    "category": "Eligibility",
+    "source": "Local Conveyance Policy",
+    "missing": [
+      "outside the respective City/Town Municipal Corporation"
+    ]
+  },
+  {
+    "id": "ETV2_01735",
+    "query": "What happens if I file a false conveyance claim?",
+    "category": "Compliance",
+    "source": "Local Conveyance Policy",
+    "missing": [
+      "strict disciplinary action shall be taken"
     ]
   },
   {
@@ -36,12 +72,12 @@
     ]
   },
   {
-    "id": "ETV2_01745",
-    "query": "What is the penalty for fraudulent conveyance claims?",
-    "category": "Compliance",
-    "source": "Local Conveyance Policy",
+    "id": "ETV2_01759",
+    "query": "What is the first rotation model under Talent Mobility?",
+    "category": "Rotation-Framework",
+    "source": "Talent Mobility Policy",
     "missing": [
-      "strict disciplinary action shall be taken"
+      "1st Rotation \u2013 within the city"
     ]
   },
   {
@@ -54,6 +90,33 @@
     ]
   },
   {
+    "id": "ETV2_02005",
+    "query": "As per Arvind HR policy, Going to Kolkata on business as BMH3-H6. How much can I claim for hotel?",
+    "category": "Lodging-BMH3-H6-Class I",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "8000"
+    ]
+  },
+  {
+    "id": "ETV2_02135",
+    "query": "As per Arvind HR policy, Going to Raipur on business as BMH3-H6. How much can I claim for hotel?",
+    "category": "Lodging-BMH3-H6-Class III",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "5000"
+    ]
+  },
+  {
+    "id": "ETV2_02400",
+    "query": "As per Arvind HR policy, Going to Indore on business as M1/MT/E2/GET/E1/OT. How much can I claim for hotel?",
+    "category": "Lodging-M1/MT/E2/GET/E1/OT-Class II",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "2300"
+    ]
+  },
+  {
     "id": "ETV2_03257",
     "query": "As per Arvind HR policy, Flight entitlement for BMH7/H8 employees as per policy?",
     "category": "Air-BMH7/H8",
@@ -63,30 +126,129 @@
     ]
   },
   {
-    "id": "ETV2_03519",
-    "query": "As per Arvind HR policy, Can two senior officials travel together on the same flight to the same destination?",
-    "category": "Travel-Guidelines",
+    "id": "ETV2_03294",
+    "query": "As per Arvind HR policy, MAB monthly amount for E1 employees?",
+    "category": "MAB-Monthly-E1",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_03298",
+    "query": "As per Arvind HR policy, Monthly MAB entitlement for grade E1?",
+    "category": "MAB-Monthly-E1",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_03314",
+    "query": "As per Arvind HR policy, MAB monthly amount for E2 employees?",
+    "category": "MAB-Monthly-E2",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_03334",
+    "query": "As per Arvind HR policy, MAB monthly amount for M1 employees?",
+    "category": "MAB-Monthly-M1",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_03338",
+    "query": "As per Arvind HR policy, Monthly MAB entitlement for grade M1?",
+    "category": "MAB-Monthly-M1",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_03354",
+    "query": "As per Arvind HR policy, MAB monthly amount for M2 employees?",
+    "category": "MAB-Monthly-M2",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_03358",
+    "query": "As per Arvind HR policy, Monthly MAB entitlement for grade M2?",
+    "category": "MAB-Monthly-M2",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_03374",
+    "query": "As per Arvind HR policy, MAB monthly amount for M3 employees?",
+    "category": "MAB-Monthly-M3",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "id": "ETV2_03378",
+    "query": "As per Arvind HR policy, Monthly MAB entitlement for grade M3?",
+    "category": "MAB-Monthly-M3",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "id": "ETV2_03394",
+    "query": "As per Arvind HR policy, MAB monthly amount for M3H1 employees?",
+    "category": "MAB-Monthly-M3H1",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_03398",
+    "query": "As per Arvind HR policy, Monthly MAB entitlement for grade M3H1?",
+    "category": "MAB-Monthly-M3H1",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_03496",
+    "query": "As per Arvind HR policy, Can I claim Telephone expenses as a travel expense?",
+    "category": "Non-Reimbursable",
     "source": "Domestic Travel Policy",
     "missing": [
-      "senior officials travelling to the same destination on the same day take separate flights"
+      "Telephone expenses"
     ]
   },
   {
-    "id": "ETV2_03534",
-    "query": "As per Arvind HR policy, Where do I submit my conveyance claim?",
-    "category": "Claim-Process",
-    "source": "Local Conveyance Policy",
+    "id": "ETV2_03498",
+    "query": "As per Arvind HR policy, Will the company pay for Telephone expenses?",
+    "category": "Non-Reimbursable",
+    "source": "Domestic Travel Policy",
     "missing": [
-      "Orapps \u2013 ESMS \u2013 Entry \u2013 Conveyance Expense"
+      "Telephone expenses"
     ]
   },
   {
-    "id": "ETV2_03537",
-    "query": "As per Arvind HR policy, I travel within the city for work. Am I eligible for conveyance?",
-    "category": "Eligibility",
+    "id": "ETV2_03535",
+    "query": "As per Arvind HR policy, Who must approve my conveyance expense claim?",
+    "category": "Approval",
     "source": "Local Conveyance Policy",
     "missing": [
-      "outside the respective City/Town Municipal Corporation"
+      "approved only by BM grade employees"
     ]
   },
   {
@@ -108,12 +270,12 @@
     ]
   },
   {
-    "id": "ETV2_03548",
-    "query": "As per Arvind HR policy, What is the penalty for fraudulent conveyance claims?",
-    "category": "Compliance",
-    "source": "Local Conveyance Policy",
+    "id": "ETV2_03562",
+    "query": "As per Arvind HR policy, What is the first rotation model under Talent Mobility?",
+    "category": "Rotation-Framework",
+    "source": "Talent Mobility Policy",
     "missing": [
-      "strict disciplinary action shall be taken"
+      "1st Rotation \u2013 within the city"
     ]
   },
   {
@@ -123,6 +285,69 @@
     "source": "Domestic Travel Policy",
     "missing": [
       "3400"
+    ]
+  },
+  {
+    "id": "ETV2_03808",
+    "query": "Under Arvind's policy, Going to Kolkata on business as BMH3-H6. How much can I claim for hotel?",
+    "category": "Lodging-BMH3-H6-Class I",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "8000"
+    ]
+  },
+  {
+    "id": "ETV2_03818",
+    "query": "Under Arvind's policy, Going to Noida on business as BMH3-H6. How much can I claim for hotel?",
+    "category": "Lodging-BMH3-H6-Class I",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "8000"
+    ]
+  },
+  {
+    "id": "ETV2_03823",
+    "query": "Under Arvind's policy, Going to Gurugram on business as BMH3-H6. How much can I claim for hotel?",
+    "category": "Lodging-BMH3-H6-Class I",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "8000"
+    ]
+  },
+  {
+    "id": "ETV2_03918",
+    "query": "Under Arvind's policy, Going to Bhavnagar on business as BMH3-H6. How much can I claim for hotel?",
+    "category": "Lodging-BMH3-H6-Class III",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "5000"
+    ]
+  },
+  {
+    "id": "ETV2_03938",
+    "query": "Under Arvind's policy, Going to Raipur on business as BMH3-H6. How much can I claim for hotel?",
+    "category": "Lodging-BMH3-H6-Class III",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "5000"
+    ]
+  },
+  {
+    "id": "ETV2_03943",
+    "query": "Under Arvind's policy, Going to Cuttack on business as BMH3-H6. How much can I claim for hotel?",
+    "category": "Lodging-BMH3-H6-Class III",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "5000"
+    ]
+  },
+  {
+    "id": "ETV2_03948",
+    "query": "Under Arvind's policy, Going to Shimla on business as BMH3-H6. How much can I claim for hotel?",
+    "category": "Lodging-BMH3-H6-Class III",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "5000"
     ]
   },
   {
@@ -144,6 +369,15 @@
     ]
   },
   {
+    "id": "ETV2_04093",
+    "query": "Under what circumstances is Undergoing a counselling session recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Undergoing a counselling session"
+    ]
+  },
+  {
     "id": "ETV2_04118",
     "query": "What can I do if I face retaliation after reporting?",
     "category": "Retaliation-Recourse",
@@ -159,6 +393,15 @@
     "source": "Whistleblower Policy",
     "missing": [
       "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_04184",
+    "query": "Should I use the ethics helpline to report Employee negligence?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Employee negligence"
     ]
   },
   {
@@ -207,6 +450,24 @@
     ]
   },
   {
+    "id": "ETV2_04232",
+    "query": "I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
+    ]
+  },
+  {
+    "id": "ETV2_04240",
+    "query": "As per Arvind HR policy, How do I file a POSH complaint?",
+    "category": "Filing",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "lodge her complaint in writing or via e- mail"
+    ]
+  },
+  {
     "id": "ETV2_04277",
     "query": "As per Arvind HR policy, Can the AIC recommend termination of the respondent?",
     "category": "Disciplinary-Actions",
@@ -243,12 +504,21 @@
     ]
   },
   {
-    "id": "ETV2_04352",
-    "query": "As per Arvind HR policy, Am I protected from retaliation as a whistleblower?",
-    "category": "Protection",
+    "id": "ETV2_04334",
+    "query": "As per Arvind HR policy, Under what circumstances is Carrying out community service recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Carrying out community service"
+    ]
+  },
+  {
+    "id": "ETV2_04351",
+    "query": "As per Arvind HR policy, Is a whistleblower's identity kept confidential?",
+    "category": "Confidentiality",
     "source": "Whistleblower Policy",
     "missing": [
-      "no adverse personnel action, victimization, retaliation"
+      "identity of the whistle blower shall be kept confidential"
     ]
   },
   {
@@ -270,15 +540,6 @@
     ]
   },
   {
-    "id": "ETV2_04359",
-    "query": "As per Arvind HR policy, Is false invoicing a reportable concern?",
-    "category": "Reportable-Issues",
-    "source": "Whistleblower Policy",
-    "missing": [
-      "False invoicing"
-    ]
-  },
-  {
     "id": "ETV2_04407",
     "query": "As per Arvind HR policy, Should I use the ethics helpline to report False invoicing?",
     "category": "Reportable-Issues",
@@ -294,6 +555,15 @@
     "source": "Whistleblower Policy",
     "missing": [
       "Employee negligence"
+    ]
+  },
+  {
+    "id": "ETV2_04425",
+    "query": "As per Arvind HR policy, Should I use the ethics helpline to report Health, safety, environment and security related?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Health, safety, environment and security related"
     ]
   },
   {
@@ -351,6 +621,24 @@
     ]
   },
   {
+    "id": "ETV2_04467",
+    "query": "As per Arvind HR policy, I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
+    ]
+  },
+  {
+    "id": "ETV2_04475",
+    "query": "Under Arvind's policy, How do I file a POSH complaint?",
+    "category": "Filing",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "lodge her complaint in writing or via e- mail"
+    ]
+  },
+  {
     "id": "ETV2_04521",
     "query": "Under Arvind's policy, When was the POSH policy last updated?",
     "category": "Policy-Details",
@@ -366,6 +654,24 @@
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
       "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_04527",
+    "query": "Under Arvind's policy, Under what circumstances is Written warning recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Written warning"
+    ]
+  },
+  {
+    "id": "ETV2_04545",
+    "query": "Under Arvind's policy, Under what circumstances is Withholding of promotion recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Withholding of promotion"
     ]
   },
   {
@@ -387,12 +693,12 @@
     ]
   },
   {
-    "id": "ETV2_04587",
-    "query": "Under Arvind's policy, Am I protected from retaliation as a whistleblower?",
-    "category": "Protection",
-    "source": "Whistleblower Policy",
+    "id": "ETV2_04575",
+    "query": "Under Arvind's policy, Under what circumstances is Monetary compensation recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
-      "no adverse personnel action, victimization, retaliation"
+      "Monetary compensation"
     ]
   },
   {
@@ -432,8 +738,35 @@
     ]
   },
   {
+    "id": "ETV2_04606",
+    "query": "Under Arvind's policy, Should I use the ethics helpline to report Non-compliance/breach of legal and regulatory requ?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Non-compliance/breach of legal and regulatory requ"
+    ]
+  },
+  {
+    "id": "ETV2_04636",
+    "query": "Under Arvind's policy, Should I use the ethics helpline to report Undue awarding of contracts?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Undue awarding of contracts"
+    ]
+  },
+  {
     "id": "ETV2_04642",
     "query": "Under Arvind's policy, Should I use the ethics helpline to report False invoicing?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "False invoicing"
+    ]
+  },
+  {
+    "id": "ETV2_04643",
+    "query": "Under Arvind's policy, I witnessed False invoicing. Can I blow the whistle?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -522,6 +855,24 @@
     ]
   },
   {
+    "id": "ETV2_04673",
+    "query": "Under Arvind's policy, Is Discrimination and favouritism listed as a reportable issue?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "id": "ETV2_04702",
+    "query": "Under Arvind's policy, I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
+    ]
+  },
+  {
     "id": "ETV2_04756",
     "query": "My HR manager asked: When was the POSH policy last updated?",
     "category": "Policy-Details",
@@ -546,6 +897,15 @@
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
       "Undergoing a counselling session"
+    ]
+  },
+  {
+    "id": "ETV2_04804",
+    "query": "My HR manager asked: Under what circumstances is Carrying out community service recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Carrying out community service"
     ]
   },
   {
@@ -648,6 +1008,15 @@
     ]
   },
   {
+    "id": "ETV2_05039",
+    "query": "I need to know: Under what circumstances is Carrying out community service recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Carrying out community service"
+    ]
+  },
+  {
     "id": "ETV2_05058",
     "query": "I need to know: What can I do if I face retaliation after reporting?",
     "category": "Retaliation-Recourse",
@@ -657,8 +1026,35 @@
     ]
   },
   {
+    "id": "ETV2_05061",
+    "query": "I need to know: Can I report workplace harassment under the Whistleblower Policy?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_05124",
+    "query": "I need to know: Should I use the ethics helpline to report Employee negligence?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Employee negligence"
+    ]
+  },
+  {
     "id": "ETV2_05133",
     "query": "I need to know: Is Workplace harassment a reportable concern under Whistleblower Policy?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_05134",
+    "query": "I need to know: Does Whistleblower Policy cover Workplace harassment?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -693,6 +1089,24 @@
     ]
   },
   {
+    "id": "ETV2_05141",
+    "query": "I need to know: Should I use the ethics helpline to report Discrimination and favouritism?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "id": "ETV2_05172",
+    "query": "I need to know: I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
+    ]
+  },
+  {
     "id": "ETV2_05226",
     "query": "Quick question \u2014 When was the POSH policy last updated?",
     "category": "Policy-Details",
@@ -711,6 +1125,15 @@
     ]
   },
   {
+    "id": "ETV2_05268",
+    "query": "Quick question \u2014 Under what circumstances is Undergoing a counselling session recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Undergoing a counselling session"
+    ]
+  },
+  {
     "id": "ETV2_05293",
     "query": "Quick question \u2014 What can I do if I face retaliation after reporting?",
     "category": "Retaliation-Recourse",
@@ -726,6 +1149,15 @@
     "source": "Whistleblower Policy",
     "missing": [
       "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_05359",
+    "query": "Quick question \u2014 Should I use the ethics helpline to report Employee negligence?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Employee negligence"
     ]
   },
   {
@@ -774,12 +1206,12 @@
     ]
   },
   {
-    "id": "ETV2_05413",
-    "query": "Policy check: How many copies of the POSH complaint do I need to submit?",
-    "category": "Filing",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "id": "ETV2_05407",
+    "query": "Quick question \u2014 I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
     "missing": [
-      "six copies of the complaint"
+      "Immediate HR Representative"
     ]
   },
   {
@@ -810,12 +1242,12 @@
     ]
   },
   {
-    "id": "ETV2_05531",
-    "query": "Policy check: Can I report workplace harassment under the Whistleblower Policy?",
-    "category": "Reportable-Issues",
+    "id": "ETV2_05528",
+    "query": "Policy check: What can I do if I face retaliation after reporting?",
+    "category": "Retaliation-Recourse",
     "source": "Whistleblower Policy",
     "missing": [
-      "Workplace harassment"
+      "lodge a written complaint to the Chairman"
     ]
   },
   {
@@ -882,12 +1314,30 @@
     ]
   },
   {
+    "id": "ETV2_05642",
+    "query": "Policy check: I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
+    ]
+  },
+  {
     "id": "ETV2_05687",
     "query": "HR query: Can the AIC recommend termination of the respondent?",
     "category": "Disciplinary-Actions",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
       "Terminating the RE from service"
+    ]
+  },
+  {
+    "id": "ETV2_05689",
+    "query": "HR query: Can the AIC recommend withholding a promotion?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Withholding of promotion"
     ]
   },
   {
@@ -906,6 +1356,33 @@
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
       "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_05702",
+    "query": "HR query: Under what circumstances is Written warning recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Written warning"
+    ]
+  },
+  {
+    "id": "ETV2_05720",
+    "query": "HR query: Under what circumstances is Withholding of promotion recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Withholding of promotion"
+    ]
+  },
+  {
+    "id": "ETV2_05726",
+    "query": "HR query: Under what circumstances is Withholding of pay rise or increments recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Withholding of pay rise or increments"
     ]
   },
   {
@@ -999,6 +1476,15 @@
     ]
   },
   {
+    "id": "ETV2_05877",
+    "query": "HR query: I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
+    ]
+  },
+  {
     "id": "ETV2_05931",
     "query": "Employee question: When was the POSH policy last updated?",
     "category": "Policy-Details",
@@ -1044,12 +1530,12 @@
     ]
   },
   {
-    "id": "ETV2_06073",
-    "query": "Employee question: Is Workplace harassment a reportable concern under Whistleblower Policy?",
+    "id": "ETV2_06064",
+    "query": "Employee question: Should I use the ethics helpline to report Employee negligence?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
-      "Workplace harassment"
+      "Employee negligence"
     ]
   },
   {
@@ -1080,6 +1566,15 @@
     ]
   },
   {
+    "id": "ETV2_06112",
+    "query": "Employee question: I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
+    ]
+  },
+  {
     "id": "ETV2_06166",
     "query": "Can you clarify: When was the POSH policy last updated?",
     "category": "Policy-Details",
@@ -1095,6 +1590,24 @@
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
       "ARV|ELC_SHA|008|010422"
+    ]
+  },
+  {
+    "id": "ETV2_06208",
+    "query": "Can you clarify: Under what circumstances is Undergoing a counselling session recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Undergoing a counselling session"
+    ]
+  },
+  {
+    "id": "ETV2_06214",
+    "query": "Can you clarify: Under what circumstances is Carrying out community service recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Carrying out community service"
     ]
   },
   {
@@ -1125,12 +1638,30 @@
     ]
   },
   {
+    "id": "ETV2_06312",
+    "query": "Can you clarify: Is Workplace harassment listed as a reportable issue?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
     "id": "ETV2_06316",
     "query": "Can you clarify: Should I use the ethics helpline to report Discrimination and favouritism?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
       "Discrimination and favouritism"
+    ]
+  },
+  {
+    "id": "ETV2_06347",
+    "query": "Can you clarify: I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
     ]
   },
   {
@@ -1161,6 +1692,15 @@
     ]
   },
   {
+    "id": "ETV2_06449",
+    "query": "Just to confirm: Under what circumstances is Carrying out community service recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Carrying out community service"
+    ]
+  },
+  {
     "id": "ETV2_06468",
     "query": "Just to confirm: What can I do if I face retaliation after reporting?",
     "category": "Retaliation-Recourse",
@@ -1176,6 +1716,15 @@
     "source": "Whistleblower Policy",
     "missing": [
       "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_06534",
+    "query": "Just to confirm: Should I use the ethics helpline to report Employee negligence?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Employee negligence"
     ]
   },
   {
@@ -1224,6 +1773,15 @@
     ]
   },
   {
+    "id": "ETV2_06582",
+    "query": "Just to confirm: I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
+    ]
+  },
+  {
     "id": "ETV2_06636",
     "query": "I want to verify: When was the POSH policy last updated?",
     "category": "Policy-Details",
@@ -1242,6 +1800,15 @@
     ]
   },
   {
+    "id": "ETV2_06678",
+    "query": "I want to verify: Under what circumstances is Undergoing a counselling session recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Undergoing a counselling session"
+    ]
+  },
+  {
     "id": "ETV2_06703",
     "query": "I want to verify: What can I do if I face retaliation after reporting?",
     "category": "Retaliation-Recourse",
@@ -1251,8 +1818,35 @@
     ]
   },
   {
+    "id": "ETV2_06706",
+    "query": "I want to verify: Can I report workplace harassment under the Whistleblower Policy?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_06769",
+    "query": "I want to verify: Should I use the ethics helpline to report Employee negligence?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Employee negligence"
+    ]
+  },
+  {
     "id": "ETV2_06778",
     "query": "I want to verify: Is Workplace harassment a reportable concern under Whistleblower Policy?",
+    "category": "Reportable-Issues",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_06779",
+    "query": "I want to verify: Does Whistleblower Policy cover Workplace harassment?",
     "category": "Reportable-Issues",
     "source": "Whistleblower Policy",
     "missing": [
@@ -1296,6 +1890,15 @@
     ]
   },
   {
+    "id": "ETV2_06817",
+    "query": "I want to verify: I'm afraid of reporting to my manager. Can I go directly to HR?",
+    "category": "Escalation-Channels",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Immediate HR Representative"
+    ]
+  },
+  {
     "id": "ETV2_06871",
     "query": "Please help me understand: When was the POSH policy last updated?",
     "category": "Policy-Details",
@@ -1323,6 +1926,24 @@
     ]
   },
   {
+    "id": "ETV2_06919",
+    "query": "Please help me understand: Under what circumstances is Carrying out community service recommended by AIC?",
+    "category": "Disciplinary-Actions",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "Carrying out community service"
+    ]
+  },
+  {
+    "id": "ETV2_06938",
+    "query": "Please help me understand: What can I do if I face retaliation after reporting?",
+    "category": "Retaliation-Recourse",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "lodge a written complaint to the Chairman"
+    ]
+  },
+  {
     "id": "ETV2_06941",
     "query": "Please help me understand: Can I report workplace harassment under the Whistleblower Policy?",
     "category": "Reportable-Issues",
@@ -1332,12 +1953,21 @@
     ]
   },
   {
-    "id": "ETV2_07032",
-    "query": "The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
+    "id": "ETV2_07057",
+    "query": "Brokerage claim window after joining?",
+    "category": "Brokerage-Validity",
     "source": "Joining Policy",
     "missing": [
-      "10 equal monthly instalments"
+      "maximum for 1 year from the date of the joining"
+    ]
+  },
+  {
+    "id": "ETV2_07105",
+    "query": "I feel I was passed over for promotion due to gender. Who should I report to?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
     ]
   },
   {
@@ -1347,6 +1977,15 @@
     "source": "Gender Policy 2025",
     "missing": [
       "third-party partners"
+    ]
+  },
+  {
+    "id": "ETV2_07114",
+    "query": "What is the primary internal contact for gender complaints?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
     ]
   },
   {
@@ -1368,12 +2007,21 @@
     ]
   },
   {
-    "id": "ETV2_07455",
-    "query": "My HR manager asked: The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
+    "id": "ETV2_07398",
+    "query": "Under Arvind's policy, What phone number can I call for gender policy issues?",
+    "category": "Contact",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "1800 200 8301"
+    ]
+  },
+  {
+    "id": "ETV2_07480",
+    "query": "My HR manager asked: Brokerage claim window after joining?",
+    "category": "Brokerage-Validity",
     "source": "Joining Policy",
     "missing": [
-      "10 equal monthly instalments"
+      "maximum for 1 year from the date of the joining"
     ]
   },
   {
@@ -1386,12 +2034,21 @@
     ]
   },
   {
-    "id": "ETV2_07596",
-    "query": "I need to know: The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
-    "source": "Joining Policy",
+    "id": "ETV2_07560",
+    "query": "My HR manager asked: I faced gender bias at a factory location. Am I covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
     "missing": [
-      "10 equal monthly instalments"
+      "all employees of Arvind Ltd"
+    ]
+  },
+  {
+    "id": "ETV2_07669",
+    "query": "I need to know: I feel I was passed over for promotion due to gender. Who should I report to?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
     ]
   },
   {
@@ -1404,6 +2061,15 @@
     ]
   },
   {
+    "id": "ETV2_07678",
+    "query": "I need to know: What is the primary internal contact for gender complaints?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
+    ]
+  },
+  {
     "id": "ETV2_07698",
     "query": "I need to know: What reference code is used for Gender Policy 2025?",
     "category": "Policy-Details",
@@ -1413,21 +2079,21 @@
     ]
   },
   {
+    "id": "ETV2_07701",
+    "query": "I need to know: I faced gender bias at a factory location. Am I covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "all employees of Arvind Ltd"
+    ]
+  },
+  {
     "id": "ETV2_07705",
     "query": "I need to know: I'm afraid my report of gender bias will affect my career. What protection exists?",
     "category": "Protection",
     "source": "Gender Policy 2025",
     "missing": [
       "retaliation against individuals who raise concerns in good faith is strictly prohibited"
-    ]
-  },
-  {
-    "id": "ETV2_07737",
-    "query": "Quick question \u2014 The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
-    "source": "Joining Policy",
-    "missing": [
-      "10 equal monthly instalments"
     ]
   },
   {
@@ -1449,39 +2115,57 @@
     ]
   },
   {
-    "id": "ETV2_07878",
-    "query": "Policy check: The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
-    "source": "Joining Policy",
+    "id": "ETV2_07842",
+    "query": "Quick question \u2014 I faced gender bias at a factory location. Am I covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
     "missing": [
-      "10 equal monthly instalments"
+      "all employees of Arvind Ltd"
     ]
   },
   {
-    "id": "ETV2_07901",
-    "query": "Policy check: What is the brokerage amount covered by the company?",
-    "category": "Brokerage",
+    "id": "ETV2_07903",
+    "query": "Policy check: Brokerage claim window after joining?",
+    "category": "Brokerage-Validity",
     "source": "Joining Policy",
     "missing": [
-      "One month rent"
+      "maximum for 1 year from the date of the joining"
     ]
   },
   {
-    "id": "ETV2_08018",
-    "query": "HR query: What is the brokerage ceiling for a new joinee?",
-    "category": "Brokerage",
-    "source": "Joining Policy",
+    "id": "ETV2_07951",
+    "query": "Policy check: I feel I was passed over for promotion due to gender. Who should I report to?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
     "missing": [
-      "One month rent"
+      "HR Department"
     ]
   },
   {
-    "id": "ETV2_08019",
-    "query": "HR query: The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
-    "source": "Joining Policy",
+    "id": "ETV2_07952",
+    "query": "Policy check: A vendor is discriminating based on gender. Is this covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
     "missing": [
-      "10 equal monthly instalments"
+      "third-party partners"
+    ]
+  },
+  {
+    "id": "ETV2_07960",
+    "query": "Policy check: What is the primary internal contact for gender complaints?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
+    ]
+  },
+  {
+    "id": "ETV2_07983",
+    "query": "Policy check: I faced gender bias at a factory location. Am I covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "all employees of Arvind Ltd"
     ]
   },
   {
@@ -1491,6 +2175,24 @@
     "source": "Gender Policy 2025",
     "missing": [
       "ARV|COM_GENP|001|260725"
+    ]
+  },
+  {
+    "id": "ETV2_08124",
+    "query": "HR query: I faced gender bias at a factory location. Am I covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "all employees of Arvind Ltd"
+    ]
+  },
+  {
+    "id": "ETV2_08233",
+    "query": "Employee question: I feel I was passed over for promotion due to gender. Who should I report to?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
     ]
   },
   {
@@ -1512,6 +2214,24 @@
     ]
   },
   {
+    "id": "ETV2_08244",
+    "query": "Employee question: What phone number can I call for gender policy issues?",
+    "category": "Contact",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "1800 200 8301"
+    ]
+  },
+  {
+    "id": "ETV2_08246",
+    "query": "Employee question: Which email address to report gender discrimination?",
+    "category": "Contact",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "arvind@ethicshelpline.in"
+    ]
+  },
+  {
     "id": "ETV2_08262",
     "query": "Employee question: What reference code is used for Gender Policy 2025?",
     "category": "Policy-Details",
@@ -1521,21 +2241,21 @@
     ]
   },
   {
-    "id": "ETV2_08301",
-    "query": "Can you clarify: The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
-    "source": "Joining Policy",
+    "id": "ETV2_08265",
+    "query": "Employee question: I faced gender bias at a factory location. Am I covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
     "missing": [
-      "10 equal monthly instalments"
+      "all employees of Arvind Ltd"
     ]
   },
   {
-    "id": "ETV2_08324",
-    "query": "Can you clarify: What is the brokerage amount covered by the company?",
-    "category": "Brokerage",
-    "source": "Joining Policy",
+    "id": "ETV2_08374",
+    "query": "Can you clarify: I feel I was passed over for promotion due to gender. Who should I report to?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
     "missing": [
-      "One month rent"
+      "HR Department"
     ]
   },
   {
@@ -1575,21 +2295,21 @@
     ]
   },
   {
-    "id": "ETV2_08442",
-    "query": "Just to confirm: The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
+    "id": "ETV2_08467",
+    "query": "Just to confirm: Brokerage claim window after joining?",
+    "category": "Brokerage-Validity",
     "source": "Joining Policy",
     "missing": [
-      "10 equal monthly instalments"
+      "maximum for 1 year from the date of the joining"
     ]
   },
   {
-    "id": "ETV2_08465",
-    "query": "Just to confirm: What is the brokerage amount covered by the company?",
-    "category": "Brokerage",
-    "source": "Joining Policy",
+    "id": "ETV2_08515",
+    "query": "Just to confirm: I feel I was passed over for promotion due to gender. Who should I report to?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
     "missing": [
-      "One month rent"
+      "HR Department"
     ]
   },
   {
@@ -1599,6 +2319,15 @@
     "source": "Gender Policy 2025",
     "missing": [
       "third-party partners"
+    ]
+  },
+  {
+    "id": "ETV2_08524",
+    "query": "Just to confirm: What is the primary internal contact for gender complaints?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
     ]
   },
   {
@@ -1620,30 +2349,39 @@
     ]
   },
   {
-    "id": "ETV2_08583",
-    "query": "I want to verify: The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
-    "source": "Joining Policy",
+    "id": "ETV2_08551",
+    "query": "Just to confirm: I'm afraid my report of gender bias will affect my career. What protection exists?",
+    "category": "Protection",
+    "source": "Gender Policy 2025",
     "missing": [
-      "10 equal monthly instalments"
+      "retaliation against individuals who raise concerns in good faith is strictly prohibited"
     ]
   },
   {
-    "id": "ETV2_08606",
-    "query": "I want to verify: What is the brokerage amount covered by the company?",
-    "category": "Brokerage",
+    "id": "ETV2_08608",
+    "query": "I want to verify: Brokerage claim window after joining?",
+    "category": "Brokerage-Validity",
     "source": "Joining Policy",
     "missing": [
-      "One month rent"
+      "maximum for 1 year from the date of the joining"
     ]
   },
   {
-    "id": "ETV2_08610",
-    "query": "I want to verify: In how many installments is the house deposit refunded?",
-    "category": "House-Deposit",
+    "id": "ETV2_08613",
+    "query": "I want to verify: Last date to submit joining expense claim?",
+    "category": "Expense-Claim-Deadline",
     "source": "Joining Policy",
     "missing": [
-      "10 equal monthly instalments"
+      "One Year from Date of Joining"
+    ]
+  },
+  {
+    "id": "ETV2_08656",
+    "query": "I want to verify: I feel I was passed over for promotion due to gender. Who should I report to?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
     ]
   },
   {
@@ -1653,6 +2391,15 @@
     "source": "Gender Policy 2025",
     "missing": [
       "third-party partners"
+    ]
+  },
+  {
+    "id": "ETV2_08665",
+    "query": "I want to verify: What is the primary internal contact for gender complaints?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
     ]
   },
   {
@@ -1683,12 +2430,21 @@
     ]
   },
   {
-    "id": "ETV2_08724",
-    "query": "Please help me understand: The company is paying my house deposit. How will it be recovered?",
-    "category": "House-Deposit",
+    "id": "ETV2_08749",
+    "query": "Please help me understand: Brokerage claim window after joining?",
+    "category": "Brokerage-Validity",
     "source": "Joining Policy",
     "missing": [
-      "10 equal monthly instalments"
+      "maximum for 1 year from the date of the joining"
+    ]
+  },
+  {
+    "id": "ETV2_08797",
+    "query": "Please help me understand: I feel I was passed over for promotion due to gender. Who should I report to?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
     ]
   },
   {
@@ -1701,6 +2457,15 @@
     ]
   },
   {
+    "id": "ETV2_08806",
+    "query": "Please help me understand: What is the primary internal contact for gender complaints?",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
+    ]
+  },
+  {
     "id": "ETV2_08826",
     "query": "Please help me understand: What reference code is used for Gender Policy 2025?",
     "category": "Policy-Details",
@@ -1710,12 +2475,30 @@
     ]
   },
   {
-    "id": "ETV2_08865",
-    "query": "The company is paying my house deposit. How will it be recovered? \u2014 help me understand.",
-    "category": "House-Deposit",
+    "id": "ETV2_08829",
+    "query": "Please help me understand: I faced gender bias at a factory location. Am I covered?",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "all employees of Arvind Ltd"
+    ]
+  },
+  {
+    "id": "ETV2_08890",
+    "query": "Brokerage claim window after joining? \u2014 help me understand.",
+    "category": "Brokerage-Validity",
     "source": "Joining Policy",
     "missing": [
-      "10 equal monthly instalments"
+      "maximum for 1 year from the date of the joining"
+    ]
+  },
+  {
+    "id": "ETV2_08938",
+    "query": "I feel I was passed over for promotion due to gender. Who should I report to? \u2014 help me understand.",
+    "category": "Complaint-Process",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "HR Department"
     ]
   },
   {
@@ -1734,6 +2517,15 @@
     "source": "Gender Policy 2025",
     "missing": [
       "ARV|COM_GENP|001|260725"
+    ]
+  },
+  {
+    "id": "ETV2_08970",
+    "query": "I faced gender bias at a factory location. Am I covered? \u2014 help me understand.",
+    "category": "Applicability",
+    "source": "Gender Policy 2025",
+    "missing": [
+      "all employees of Arvind Ltd"
     ]
   },
   {
@@ -1764,12 +2556,12 @@
     ]
   },
   {
-    "id": "ETV2_09030",
-    "query": "How does the Whistleblower Policy review cycle compare to Grievance Policy?",
-    "category": "Cross-Review",
-    "source": "Whistleblower Policy",
+    "id": "ETV2_09026",
+    "query": "If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
     "missing": [
-      "quarterly"
+      "2,16,667"
     ]
   },
   {
@@ -1782,12 +2574,66 @@
     ]
   },
   {
+    "id": "ETV2_09042",
+    "query": "I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_09043",
+    "query": "I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_09046",
+    "query": "I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_09052",
+    "query": "I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_09055",
+    "query": "I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
     "id": "ETV2_09059",
     "query": "As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
     "category": "Cross-Grade-Travel",
     "source": "Talent Mobility Policy",
     "missing": [
       "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09068",
+    "query": "Can workplace harassment be reported under both POSH and Whistleblower policies?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
     ]
   },
   {
@@ -1818,6 +2664,15 @@
     ]
   },
   {
+    "id": "ETV2_09087",
+    "query": "Which policy covers a 400km business trip \u2014 local conveyance or domestic travel?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
     "id": "ETV2_09095",
     "query": "Does POSH protection apply from the joining date?",
     "category": "Cross-Applicability",
@@ -1833,6 +2688,15 @@
     "source": "Whistleblower Policy",
     "missing": [
       "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09103",
+    "query": "M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
     ]
   },
   {
@@ -1854,12 +2718,12 @@
     ]
   },
   {
-    "id": "ETV2_09127",
-    "query": "As per Arvind HR policy, Does local conveyance policy cover trips over 300km?",
-    "category": "Cross-Scope",
-    "source": "Domestic Travel Policy",
+    "id": "ETV2_09123",
+    "query": "As per Arvind HR policy, Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
     "missing": [
-      "domestic travel exceeding a distance of 300 km"
+      "One-time lump sum for household setup"
     ]
   },
   {
@@ -1890,15 +2754,6 @@
     ]
   },
   {
-    "id": "ETV2_09141",
-    "query": "As per Arvind HR policy, If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
-    "category": "Cross-Grade-All",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "2,16,667"
-    ]
-  },
-  {
     "id": "ETV2_09143",
     "query": "As per Arvind HR policy, I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
     "category": "Cross-Grade-All",
@@ -1914,6 +2769,15 @@
     "source": "Whistleblower Policy",
     "missing": [
       "quarterly"
+    ]
+  },
+  {
+    "id": "ETV2_09146",
+    "query": "As per Arvind HR policy, Both Whistleblower and Grievance policies have follow-up windows. What's the whistleblower follow-up?",
+    "category": "Cross-Follow-up",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "four weeks after the submission"
     ]
   },
   {
@@ -1964,6 +2828,16 @@
     ]
   },
   {
+    "id": "ETV2_09163",
+    "query": "As per Arvind HR policy, I am M1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000",
+      "15,000"
+    ]
+  },
+  {
     "id": "ETV2_09164",
     "query": "As per Arvind HR policy, I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
     "category": "Cross-Grade-Travel",
@@ -1973,12 +2847,31 @@
     ]
   },
   {
+    "id": "ETV2_09166",
+    "query": "As per Arvind HR policy, I am M2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333",
+      "20,000"
+    ]
+  },
+  {
     "id": "ETV2_09167",
     "query": "As per Arvind HR policy, I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
     "category": "Cross-Grade-Travel",
     "source": "Talent Mobility Policy",
     "missing": [
       "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_09169",
+    "query": "As per Arvind HR policy, I am M3 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
     ]
   },
   {
@@ -2064,6 +2957,16 @@
     ]
   },
   {
+    "id": "ETV2_09208",
+    "query": "As per Arvind HR policy, E1 vs M3H1 \u2014 what are their respective monthly MABs and SIAs?",
+    "category": "Cross-MAB-Compare",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583",
+      "2,16,667"
+    ]
+  },
+  {
     "id": "ETV2_09210",
     "query": "As per Arvind HR policy, Does POSH protection apply from the joining date?",
     "category": "Cross-Applicability",
@@ -2073,12 +2976,30 @@
     ]
   },
   {
+    "id": "ETV2_09211",
+    "query": "As per Arvind HR policy, I witnessed both harassment and financial fraud. Which policies should I use?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Bribery and corruption"
+    ]
+  },
+  {
     "id": "ETV2_09212",
     "query": "As per Arvind HR policy, If I report financial irregularities to POSH AIC, will it be handled correctly?",
     "category": "Cross-Scope",
     "source": "Whistleblower Policy",
     "missing": [
       "Workplace harassment"
+    ]
+  },
+  {
+    "id": "ETV2_09219",
+    "query": "As per Arvind HR policy, E2 rotation to Surat (Class II) \u2014 hotel limit and monthly MAB?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
     ]
   },
   {
@@ -2100,12 +3021,12 @@
     ]
   },
   {
-    "id": "ETV2_09238",
-    "query": "Under Arvind's policy, Does Joining Policy or Talent Mobility cover house-shifting expenses?",
-    "category": "Cross-Relocation",
-    "source": "Talent Mobility Policy",
+    "id": "ETV2_09242",
+    "query": "Under Arvind's policy, Does local conveyance policy cover trips over 300km?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
     "missing": [
-      "One-time lump sum for household setup"
+      "domestic travel exceeding a distance of 300 km"
     ]
   },
   {
@@ -2127,21 +3048,21 @@
     ]
   },
   {
+    "id": "ETV2_09248",
+    "query": "Under Arvind's policy, If I'm rotated to Mumbai (M3 grade), what is my MAB?",
+    "category": "Cross-Grade-MAB",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
     "id": "ETV2_09254",
     "query": "Under Arvind's policy, What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
     "category": "Cross-Timelines",
     "source": "Grievance Mechanism Policy 2025",
     "missing": [
       "15 working days"
-    ]
-  },
-  {
-    "id": "ETV2_09256",
-    "query": "Under Arvind's policy, If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
-    "category": "Cross-Grade-All",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "2,16,667"
     ]
   },
   {
@@ -2229,6 +3150,15 @@
     ]
   },
   {
+    "id": "ETV2_09280",
+    "query": "Under Arvind's policy, As M1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "15,000"
+    ]
+  },
+  {
     "id": "ETV2_09281",
     "query": "Under Arvind's policy, I am M2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
     "category": "Cross-Grade-All",
@@ -2248,13 +3178,21 @@
     ]
   },
   {
+    "id": "ETV2_09283",
+    "query": "Under Arvind's policy, As M2 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "20,000"
+    ]
+  },
+  {
     "id": "ETV2_09284",
     "query": "Under Arvind's policy, I am M3 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
     "category": "Cross-Grade-All",
     "source": "Talent Mobility Policy",
     "missing": [
-      "1,58,333",
-      "30,000"
+      "1,58,333"
     ]
   },
   {
@@ -2295,6 +3233,15 @@
     ]
   },
   {
+    "id": "ETV2_09296",
+    "query": "Under Arvind's policy, What is the grievance resolution timeline vs POSH management action timeline?",
+    "category": "Cross-Timelines",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "15 working days"
+    ]
+  },
+  {
     "id": "ETV2_09298",
     "query": "Under Arvind's policy, Can workplace harassment be reported under both POSH and Whistleblower policies?",
     "category": "Cross-Scope",
@@ -2328,6 +3275,15 @@
     "source": "Whistleblower Policy",
     "missing": [
       "no adverse personnel action, victimization, retaliation"
+    ]
+  },
+  {
+    "id": "ETV2_09312",
+    "query": "Under Arvind's policy, I'm a new joiner at E2 grade who also got rotated immediately. What SIA applies?",
+    "category": "Cross-Relocation",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "10,000"
     ]
   },
   {
@@ -2367,12 +3323,12 @@
     ]
   },
   {
-    "id": "ETV2_09333",
-    "query": "Under Arvind's policy, M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "id": "ETV2_09334",
+    "query": "Under Arvind's policy, E2 rotation to Surat (Class II) \u2014 hotel limit and monthly MAB?",
     "category": "Cross-Grade-All",
     "source": "Talent Mobility Policy",
     "missing": [
-      "71,000"
+      "45,750"
     ]
   },
   {
@@ -2421,6 +3377,15 @@
     ]
   },
   {
+    "id": "ETV2_09373",
+    "query": "My HR manager asked: I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
+    "category": "Cross-Grade-All",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "3400"
+    ]
+  },
+  {
     "id": "ETV2_09375",
     "query": "My HR manager asked: How does the Whistleblower Policy review cycle compare to Grievance Policy?",
     "category": "Cross-Review",
@@ -2439,6 +3404,16 @@
     ]
   },
   {
+    "id": "ETV2_09387",
+    "query": "My HR manager asked: I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583",
+      "10,000"
+    ]
+  },
+  {
     "id": "ETV2_09388",
     "query": "My HR manager asked: I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
     "category": "Cross-Grade-Travel",
@@ -2448,12 +3423,67 @@
     ]
   },
   {
+    "id": "ETV2_09390",
+    "query": "My HR manager asked: I am E2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
     "id": "ETV2_09391",
     "query": "My HR manager asked: I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
     "category": "Cross-Grade-Travel",
     "source": "Talent Mobility Policy",
     "missing": [
       "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_09394",
+    "query": "My HR manager asked: I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_09397",
+    "query": "My HR manager asked: I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_09400",
+    "query": "My HR manager asked: I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "id": "ETV2_09402",
+    "query": "My HR manager asked: I am M3H1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667",
+      "45,000"
+    ]
+  },
+  {
+    "id": "ETV2_09403",
+    "query": "My HR manager asked: I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
     ]
   },
   {
@@ -2502,6 +3532,33 @@
     ]
   },
   {
+    "id": "ETV2_09417",
+    "query": "My HR manager asked: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
+    "category": "Cross-Governance",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "escalate the grievance to the next level"
+    ]
+  },
+  {
+    "id": "ETV2_09431",
+    "query": "My HR manager asked: For a 200km trip, do local conveyance or domestic travel rules apply?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09432",
+    "query": "My HR manager asked: Which policy covers a 400km business trip \u2014 local conveyance or domestic travel?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
     "id": "ETV2_09440",
     "query": "My HR manager asked: Does POSH protection apply from the joining date?",
     "category": "Cross-Applicability",
@@ -2538,12 +3595,30 @@
     ]
   },
   {
+    "id": "ETV2_09464",
+    "query": "I need to know: Both POSH and Grievance policies protect against retaliation. What does POSH say?",
+    "category": "Cross-Protection",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "protected from any form of retaliation"
+    ]
+  },
+  {
     "id": "ETV2_09468",
     "query": "I need to know: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
     "category": "Cross-Relocation",
     "source": "Talent Mobility Policy",
     "missing": [
       "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09474",
+    "query": "I need to know: Should I use POSH or Whistleblower Policy to report workplace harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
     ]
   },
   {
@@ -2556,12 +3631,30 @@
     ]
   },
   {
+    "id": "ETV2_09481",
+    "query": "I need to know: What is the difference in anonymous complaint handling between POSH and Grievance?",
+    "category": "Cross-Anonymous",
+    "source": "Grievance Mechanism Policy 2025",
+    "missing": [
+      "Anonymous complaints will be considered"
+    ]
+  },
+  {
     "id": "ETV2_09484",
     "query": "I need to know: What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
     "category": "Cross-Timelines",
     "source": "Grievance Mechanism Policy 2025",
     "missing": [
       "15 working days"
+    ]
+  },
+  {
+    "id": "ETV2_09488",
+    "query": "I need to know: I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
+    "category": "Cross-Grade-All",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "3400"
     ]
   },
   {
@@ -2574,12 +3667,75 @@
     ]
   },
   {
+    "id": "ETV2_09495",
+    "query": "I need to know: A new joiner faces harassment on day one. Which policy protects them?",
+    "category": "Cross-Applicability",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "All persons employed at Arvind"
+    ]
+  },
+  {
     "id": "ETV2_09496",
     "query": "I need to know: If my rotation request is blocked, can I file a grievance?",
     "category": "Cross-Governance",
     "source": "Talent Mobility Policy",
     "missing": [
       "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09503",
+    "query": "I need to know: I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_09506",
+    "query": "I need to know: I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_09509",
+    "query": "I need to know: I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_09512",
+    "query": "I need to know: I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_09515",
+    "query": "I need to know: I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "id": "ETV2_09518",
+    "query": "I need to know: I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
     ]
   },
   {
@@ -2592,12 +3748,12 @@
     ]
   },
   {
-    "id": "ETV2_09523",
-    "query": "I need to know: As M3 new joiner from 1000km, what transport reimbursement rate applies?",
-    "category": "Cross-Joining-Travel",
-    "source": "Joining Policy",
+    "id": "ETV2_09528",
+    "query": "I need to know: Can workplace harassment be reported under both POSH and Whistleblower policies?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
     "missing": [
-      "Rs. 60 per km"
+      "Workplace harassment"
     ]
   },
   {
@@ -2607,6 +3763,15 @@
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "missing": [
       "Arvind Internal Complaint Committee"
+    ]
+  },
+  {
+    "id": "ETV2_09530",
+    "query": "I need to know: Does Whistleblower Policy cover discrimination while POSH covers harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Discrimination and favouritism"
     ]
   },
   {
@@ -2646,15 +3811,6 @@
     ]
   },
   {
-    "id": "ETV2_09563",
-    "query": "I need to know: M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
-    "category": "Cross-Grade-All",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "71,000"
-    ]
-  },
-  {
     "id": "ETV2_09570",
     "query": "I need to know: What are the policy IDs for POSH and Gender Policy 2025?",
     "category": "Cross-Policy-Details",
@@ -2691,12 +3847,21 @@
     ]
   },
   {
-    "id": "ETV2_09605",
-    "query": "Quick question \u2014 How does the Whistleblower Policy review cycle compare to Grievance Policy?",
-    "category": "Cross-Review",
-    "source": "Whistleblower Policy",
+    "id": "ETV2_09601",
+    "query": "Quick question \u2014 If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
     "missing": [
-      "quarterly"
+      "2,16,667"
+    ]
+  },
+  {
+    "id": "ETV2_09603",
+    "query": "Quick question \u2014 I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
+    "category": "Cross-Grade-All",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "3400"
     ]
   },
   {
@@ -2706,6 +3871,42 @@
     "source": "Talent Mobility Policy",
     "missing": [
       "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09618",
+    "query": "Quick question \u2014 I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "id": "ETV2_09621",
+    "query": "Quick question \u2014 I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "id": "ETV2_09627",
+    "query": "Quick question \u2014 I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "id": "ETV2_09633",
+    "query": "Quick question \u2014 I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667"
     ]
   },
   {
@@ -2724,6 +3925,15 @@
     "source": "Joining Policy",
     "missing": [
       "Rs. 60 per km"
+    ]
+  },
+  {
+    "id": "ETV2_09643",
+    "query": "Quick question \u2014 Can workplace harassment be reported under both POSH and Whistleblower policies?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
     ]
   },
   {
@@ -2790,6 +4000,15 @@
     ]
   },
   {
+    "id": "ETV2_09678",
+    "query": "Quick question \u2014 M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
     "id": "ETV2_09685",
     "query": "Quick question \u2014 What are the policy IDs for POSH and Gender Policy 2025?",
     "category": "Cross-Policy-Details",
@@ -2814,6 +4033,15 @@
     "source": "Talent Mobility Policy",
     "missing": [
       "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "id": "ETV2_09704",
+    "query": "Policy check: Should I use POSH or Whistleblower Policy to report workplace harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
     ]
   },
   {
@@ -2844,12 +4072,12 @@
     ]
   },
   {
-    "id": "ETV2_09720",
-    "query": "Policy check: How does the Whistleblower Policy review cycle compare to Grievance Policy?",
-    "category": "Cross-Review",
-    "source": "Whistleblower Policy",
+    "id": "ETV2_09718",
+    "query": "Policy check: I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
+    "category": "Cross-Grade-All",
+    "source": "Domestic Travel Policy",
     "missing": [
-      "quarterly"
+      "3400"
     ]
   },
   {
@@ -2900,6 +4128,35 @@
     ]
   },
   {
+    "id": "ETV2_09738",
+    "query": "Policy check: I am M1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000",
+      "15,000"
+    ]
+  },
+  {
+    "id": "ETV2_09739",
+    "query": "Policy check: I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "id": "ETV2_09741",
+    "query": "Policy check: I am M2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,08,333",
+      "20,000"
+    ]
+  },
+  {
     "id": "ETV2_09742",
     "query": "Policy check: I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
     "category": "Cross-Grade-Travel",
@@ -2909,12 +4166,31 @@
     ]
   },
   {
+    "id": "ETV2_09744",
+    "query": "Policy check: I am M3 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
     "id": "ETV2_09745",
     "query": "Policy check: I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
     "category": "Cross-Grade-Travel",
     "source": "Talent Mobility Policy",
     "missing": [
       "1,58,333"
+    ]
+  },
+  {
+    "id": "ETV2_09747",
+    "query": "Policy check: I am M3H1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "category": "Cross-Grade-All",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "2,16,667",
+      "45,000"
     ]
   },
   {
@@ -2945,6 +4221,15 @@
     ]
   },
   {
+    "id": "ETV2_09758",
+    "query": "Policy check: Can workplace harassment be reported under both POSH and Whistleblower policies?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
     "id": "ETV2_09759",
     "query": "Policy check: I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
     "category": "Cross-Scope",
@@ -2954,12 +4239,30 @@
     ]
   },
   {
+    "id": "ETV2_09760",
+    "query": "Policy check: Does Whistleblower Policy cover discrimination while POSH covers harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
     "id": "ETV2_09762",
     "query": "Policy check: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
     "category": "Cross-Governance",
     "source": "Grievance Mechanism Policy 2025",
     "missing": [
       "escalate the grievance to the next level"
+    ]
+  },
+  {
+    "id": "ETV2_09767",
+    "query": "Policy check: Compare retaliation protection across POSH, Grievance, and Gender policies",
+    "category": "Cross-Protection",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "missing": [
+      "protected from any form of retaliation"
     ]
   },
   {
@@ -2999,12 +4302,12 @@
     ]
   },
   {
-    "id": "ETV2_09793",
-    "query": "Policy check: M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "id": "ETV2_09794",
+    "query": "Policy check: E2 rotation to Surat (Class II) \u2014 hotel limit and monthly MAB?",
     "category": "Cross-Grade-All",
     "source": "Talent Mobility Policy",
     "missing": [
-      "71,000"
+      "45,750"
     ]
   },
   {
@@ -3026,6 +4329,24 @@
     ]
   },
   {
+    "id": "ETV2_09817",
+    "query": "HR query: Does local conveyance policy cover trips over 300km?",
+    "category": "Cross-Scope",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "domestic travel exceeding a distance of 300 km"
+    ]
+  },
+  {
+    "id": "ETV2_09819",
+    "query": "HR query: Should I use POSH or Whistleblower Policy to report workplace harassment?",
+    "category": "Cross-Scope",
+    "source": "Whistleblower Policy",
+    "missing": [
+      "Workplace harassment"
+    ]
+  },
+  {
     "id": "ETV2_09820",
     "query": "HR query: If I face sexual harassment, do I use POSH or Whistleblower Policy?",
     "category": "Cross-Scope",
@@ -3044,6 +4365,15 @@
     ]
   },
   {
+    "id": "ETV2_09833",
+    "query": "HR query: I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
+    "category": "Cross-Grade-All",
+    "source": "Domestic Travel Policy",
+    "missing": [
+      "3400"
+    ]
+  },
+  {
     "id": "ETV2_09835",
     "query": "HR query: How does the Whistleblower Policy review cycle compare to Grievance Policy?",
     "category": "Cross-Review",
@@ -3059,6 +4389,15 @@
     "source": "Talent Mobility Policy",
     "missing": [
       "Managers cannot block mobility"
+    ]
+  },
+  {
+    "id": "ETV2_09864",
+    "query": "HR query: As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "category": "Cross-Grade-Travel",
+    "source": "Talent Mobility Policy",
+    "missing": [
+      "45,000"
     ]
   },
   {
@@ -3134,15 +4473,6 @@
     ]
   },
   {
-    "id": "ETV2_09924",
-    "query": "Employee question: Both POSH and Grievance policies protect against retaliation. What does POSH say?",
-    "category": "Cross-Protection",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "protected from any form of retaliation"
-    ]
-  },
-  {
     "id": "ETV2_09928",
     "query": "Employee question: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
     "category": "Cross-Relocation",
@@ -3185,69 +4515,6 @@
     "source": "Talent Mobility Policy",
     "missing": [
       "2,16,667"
-    ]
-  },
-  {
-    "id": "ETV2_09948",
-    "query": "Employee question: I'm E2 on a 5-day trip to Delhi \u2014 hotel limit and can I claim laundry?",
-    "category": "Cross-Grade-All",
-    "source": "Domestic Travel Policy",
-    "missing": [
-      "3400"
-    ]
-  },
-  {
-    "id": "ETV2_09950",
-    "query": "Employee question: How does the Whistleblower Policy review cycle compare to Grievance Policy?",
-    "category": "Cross-Review",
-    "source": "Whistleblower Policy",
-    "missing": [
-      "quarterly"
-    ]
-  },
-  {
-    "id": "ETV2_09956",
-    "query": "Employee question: If my rotation request is blocked, can I file a grievance?",
-    "category": "Cross-Governance",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "Managers cannot block mobility"
-    ]
-  },
-  {
-    "id": "ETV2_09966",
-    "query": "Employee question: I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
-    "category": "Cross-Grade-Travel",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "45,750"
-    ]
-  },
-  {
-    "id": "ETV2_09979",
-    "query": "Employee question: As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
-    "category": "Cross-Grade-Travel",
-    "source": "Talent Mobility Policy",
-    "missing": [
-      "45,000"
-    ]
-  },
-  {
-    "id": "ETV2_09989",
-    "query": "Employee question: I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
-    "category": "Cross-Scope",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "missing": [
-      "Arvind Internal Complaint Committee"
-    ]
-  },
-  {
-    "id": "ETV2_09992",
-    "query": "Employee question: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
-    "category": "Cross-Governance",
-    "source": "Grievance Mechanism Policy 2025",
-    "missing": [
-      "escalate the grievance to the next level"
     ]
   }
 ]
