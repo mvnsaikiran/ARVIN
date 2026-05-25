@@ -1,74 +1,108 @@
 """
-Structure-Aware Hybrid Chunking for Arvind HR Policies.
+Structure-Aware Hybrid Chunking for Arvind HR Policies — v3.
 
-Strategy:
-  1. Extract tables as atomic chunks (never split mid-table)
-  2. Skip repeated boilerplate header tables (Classification/HR Policy header)
-  3. Split prose at section headers first, then paragraph boundaries
-  4. Overlap only on prose chunks, not tables
-  5. Rich metadata: section_title, chunk_type, has_numbers
+Improvements over previous versions:
+  1. ALL 17 policies have correct human-readable policy names
+  2. Document-level prose extraction — no mid-sentence page-boundary cuts
+  3. PDF line-joining: consecutive non-sentence-ending lines are joined before splitting
+  4. Sentence-aware splitting — chunks end at sentence boundaries
+  5. Minimum 150-char chunks — eliminates meaningless single-line fragments
+  6. Tables extracted per-page (atomic, with accurate page numbers)
 """
 
-import os, re, hashlib
+import os, re, hashlib, json
 import pdfplumber
 import chromadb
 from chromadb.utils import embedding_functions
 from docx import Document
 
-POLICIES_DIR = "vectorstore"
-POLICIES_SRC = "policies"
+POLICIES_SRC    = "policies"
 VECTORSTORE_DIR = "vectorstore"
 MAX_PROSE_CHUNK = 1400
-PROSE_OVERLAP   = 200
-MIN_CHUNK       = 30
+MIN_CHUNK       = 150   # ignore tiny fragments
 
-POLICY_NAMES = {
-    "localconveyance": "Local Conveyance Policy",
-    "domestictravel":  "Domestic Travel Policy",
-    "genderpolicy":    "Gender Policy 2025",
-    "grievance":       "Grievance Mechanism Policy 2025",
-    "posh":            "POSH Policy (Prevention of Sexual Harassment)",
-    "talentmobility":  "Talent Mobility Policy",
-    "whistleblower":   "Whistleblower Policy",
-    "joining":         "Joining Policy",
+# Policies that use a SLIDE / PAGE-PER-SECTION format (not continuous prose)
+# For these, each page is kept as its own chunk rather than joining all pages.
+PAGE_PER_SECTION_POLICIES = {
+    "Talent Mobility Policy",
 }
 
-# Regex for section headers (numbered or ALL-CAPS)
+# Exact filename-stem → canonical policy name
+# Keys are lowercase stems; match by longest matching key first
+POLICY_NAMES = {
+    # Original 8
+    "localconveyance":   "Local Conveyance Policy",
+    "domestictravel":    "Domestic Travel Policy",
+    "genderpolicy":      "Gender Policy 2025",
+    "grievance":         "Grievance Mechanism Policy 2025",
+    "posh":              "POSH Policy (Prevention of Sexual Harassment)",
+    "talentmobility":    "Talent Mobility Policy",
+    "whistleblower":     "Whistleblower Policy",
+    "joining":           "Joining Policy",
+    # Batch-1
+    "1to1_help":                           "Employee Assistance Program (EAP)",
+    "employee_expense_reimbursement":      "Employee Expense Reimbursement Policy",
+    "full_final_settlement":               "Exit & Full & Final Settlement Policy",
+    "group_health_insurance":              "Group Health Insurance Policy",
+    "group_personal_accident":             "Group Personal Accident Insurance Scheme",
+    # Batch-2
+    "group_term_life":       "Group Term Life Insurance",
+    "pankh_employee":        "Pankh Employee Referral",
+    "travel_settlement":     "Domestic Travel Expense Settlement Procedure",
+    "voluntary_death":       "Voluntary Death Contribution Scheme",
+}
+
+# Regex: top-level section headers only (keeps sub-items like 5.1 or a. in parent chunk)
 SECTION_HEADER_RE = re.compile(
     r'^(?:'
-    r'\d+(?:\.\d+)*[\.\)]\s+[A-Z]'      # 1. or 1.1. or 1)
-    r'|[A-Z][A-Z\s\-/]{4,}:?$'          # ALL CAPS TITLE
-    r'|(?:ANNEXURE|SCHEDULE|APPENDIX)\s' # Annexures
+    r'\d+[\.\)]\s+[A-Z]'           # "1. Title"  or  "2) Title"
+    r'|[A-Z][A-Z\s\-/]{4,}:?$'    # ALL CAPS TITLE (5+ chars)
+    r'|(?:ANNEXURE|SCHEDULE|APPENDIX)\s'
     r')',
     re.MULTILINE,
 )
 
-# Header tables repeated on every page — skip these
-BOILERPLATE_PATTERNS = [
-    r'HR Policy\s+Classification',
-    r'Classification:\s+Internal',
-    r'Issue Date:.*Policy Number:',
-    r'CLASSIFICATION:\s+Internal',
-]
-BOILERPLATE_RE = re.compile('|'.join(BOILERPLATE_PATTERNS), re.IGNORECASE)
+# Lines / patterns to strip from extracted page text
+BOILERPLATE_RE = re.compile(
+    r'HR Policy\s+Classification'
+    r'|Classification:\s+Internal'
+    r'|Issue Date:.*Policy Number:'
+    r'|CLASSIFICATION:\s+Internal'
+    r'|This document is confidential.*?internal circulation only'
+    r'|www\.arvind\.com'
+    r'|P\s*a\s*g\s*e\s*\d+\s*[|]\s*\d+'   # "P a g e 1 | 2"
+    r'|^\s*\d+\s*$'                         # bare page numbers on their own line
+    r'|WHISTLEBLOWER POLICY\s*[|]\s*Confidential'  # WB footer every page
+    r'|^Confidential\s*$'                   # POSH/WB cover page
+    r'|^HR Policy\s+(?:Anti-Money Laundering|Grievance Mechanism|Group Health Insurance Policy|SOP)'
+                                            # mislabeled/repeated page headers
+    r'|Private\s+&\s*Confidential Only for Internal Circulation'  # POSH footer
+    r'|^Domestic Travel Policy\s*$'         # DTP repeated page header
+    , re.IGNORECASE | re.MULTILINE
+)
+
+# Table boilerplate check
+_TABLE_BP = re.compile(
+    r'HR Policy\s+Classification|Classification:\s+Internal|Issue Date:.*Policy Number:',
+    re.IGNORECASE
+)
 
 
 def get_policy_name(filename: str) -> str:
-    lower = filename.lower()
-    for key, name in POLICY_NAMES.items():
-        if key in lower:
-            return name
-    return os.path.splitext(filename)[0]
+    stem = os.path.splitext(filename)[0].lower()
+    # Match longest key first (to prefer specific over generic)
+    for key in sorted(POLICY_NAMES, key=len, reverse=True):
+        if key in stem:
+            return POLICY_NAMES[key]
+    return os.path.splitext(filename)[0]   # fallback: raw stem
 
 
 def is_boilerplate_table(rows: list) -> bool:
-    """Return True if this table is the repeated HR Policy header."""
     flat = " ".join(str(cell) for row in rows for cell in row if cell)
-    return bool(BOILERPLATE_RE.search(flat))
+    return bool(_TABLE_BP.search(flat))
 
 
 def table_to_text(rows: list) -> str:
-    """Convert table rows to clean pipe-delimited text."""
     lines = []
     for row in rows:
         cells = [str(c).strip().replace('\n', ' ') if c else '' for c in row]
@@ -77,62 +111,175 @@ def table_to_text(rows: list) -> str:
     return '\n'.join(lines)
 
 
-def split_prose_into_chunks(text: str) -> list[str]:
+# ── PDF line-joining ──────────────────────────────────────────────────────────
+# PDFs word-wrap text: a paragraph is split across many lines each ending
+# without punctuation. We join those continuation lines before chunking.
+_SENTENCE_END = re.compile(r'[.!?]["\']?\s*$')
+_BULLET_LINE   = re.compile(r'^\s*[•\-–—●\*]\s+|^\s*\d+[.)]\s+|^[a-z]\.\s+', re.MULTILINE)
+_ALL_CAPS_HEADER = re.compile(r'^[A-Z][A-Z\s\-/&:]{4,}$')
+
+
+def _join_wrapped_lines(raw_text: str) -> str:
     """
-    Split prose text at section headers first, then paragraphs,
-    keeping chunks under MAX_PROSE_CHUNK with PROSE_OVERLAP.
+    Join PDF word-wrapped lines into proper paragraphs.
+    A line is a continuation (not a new paragraph) if:
+      - The previous line did NOT end with sentence-ending punctuation
+      - The current line does NOT start with a bullet, number, or ALL-CAPS header
     """
-    # Split only at TOP-LEVEL section boundaries (not sub-items like 5.1. or a.)
-    # This keeps list items (5.1, 5.2 … or a., b., …) together in their parent section chunk
-    parts = re.split(r'(?=^(?:\d+[\.\)]\s+[A-Z]|[A-Z][A-Z\s\-/]{4,}:?$))', text, flags=re.MULTILINE)
-    chunks = []
-    for part in parts:
-        part = part.strip()
-        if not part or len(part) < MIN_CHUNK:
+    lines = raw_text.split('\n')
+    result = []
+    i = 0
+    while i < len(lines):
+        line = lines[i].rstrip()
+        if not line.strip():
+            result.append('')
+            i += 1
             continue
-        if len(part) <= MAX_PROSE_CHUNK:
-            chunks.append(part)
+
+        # Accumulate continuation lines into this paragraph
+        para = line
+        while i + 1 < len(lines):
+            next_line = lines[i + 1].strip()
+            if not next_line:
+                break   # blank line = paragraph break
+            # Stop accumulating if previous line ended a sentence
+            if _SENTENCE_END.search(para):
+                break
+            # Stop if next line is a structural element (header/bullet)
+            if _BULLET_LINE.match(lines[i + 1]) or _ALL_CAPS_HEADER.match(next_line):
+                break
+            para = para.rstrip() + ' ' + next_line
+            i += 1
+        result.append(para)
+        i += 1
+    return '\n'.join(result)
+
+
+def _clean_page_text(raw: str) -> str:
+    """Strip boilerplate patterns and normalise whitespace."""
+    # Remove boilerplate lines
+    lines = [ln for ln in raw.split('\n') if not BOILERPLATE_RE.search(ln)]
+    text = '\n'.join(lines)
+    # Collapse 3+ blank lines to 2
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return text.strip()
+
+
+# ── Sentence-aware splitting ──────────────────────────────────────────────────
+
+def _split_at_sentences(text: str, max_len: int) -> list[str]:
+    """
+    Split text into chunks ≤ max_len, always at sentence boundaries.
+    Never cuts mid-sentence.
+    """
+    # Split at sentence-ending punctuation followed by whitespace + capital/bullet
+    SENT_BOUNDARY = re.compile(r'(?<=[.!?])\s+(?=[A-Z"\'•\-])')
+
+    paras = re.split(r'\n{2,}', text)
+    chunks = []
+    current = ''
+
+    for para in paras:
+        para = para.strip()
+        if not para:
+            continue
+        if len(current) + len(para) + 2 <= max_len:
+            current = (current + '\n\n' + para).strip() if current else para
         else:
-            # Split long sections at paragraph boundaries
-            paragraphs = re.split(r'\n{2,}', part)
-            current = ''
-            for para in paragraphs:
-                para = para.strip()
-                if not para:
-                    continue
-                if len(current) + len(para) + 2 <= MAX_PROSE_CHUNK:
-                    current = (current + '\n\n' + para).strip()
-                else:
-                    if current:
-                        chunks.append(current)
-                    # Overlap: keep last PROSE_OVERLAP chars of previous chunk
-                    overlap = current[-PROSE_OVERLAP:] if len(current) > PROSE_OVERLAP else current
-                    current = (overlap + '\n\n' + para).strip() if overlap else para
-            if current and len(current) >= MIN_CHUNK:
+            if current:
                 chunks.append(current)
+            if len(para) <= max_len:
+                current = para
+            else:
+                # Para too long — split at sentence boundaries
+                sentences = SENT_BOUNDARY.split(para)
+                sub = ''
+                for sent in sentences:
+                    sent = sent.strip()
+                    if not sent:
+                        continue
+                    if len(sub) + len(sent) + 1 <= max_len:
+                        sub = (sub + ' ' + sent).strip() if sub else sent
+                    else:
+                        if sub:
+                            chunks.append(sub)
+                        sub = sent
+                current = sub
+
+    if current.strip():
+        chunks.append(current.strip())
     return chunks
 
 
+def split_prose_into_chunks(text: str) -> list[str]:
+    """
+    1. Join PDF word-wrapped lines into full sentences/paragraphs
+    2. Split at section headers (ALL-CAPS / numbered)
+    3. Within each section, split at sentence boundaries if > MAX_PROSE_CHUNK
+    4. Merge tiny fragments (< MIN_CHUNK) into previous chunk
+    """
+    # Step 1: fix PDF line wrapping
+    text = _join_wrapped_lines(text)
+
+    # Step 2: split at section headers
+    parts = re.split(
+        r'(?=^(?:\d+[\.\)]\s+[A-Z]|[A-Z][A-Z\s\-/&:]{4,}:?$))',
+        text, flags=re.MULTILINE
+    )
+
+    raw_chunks: list[str] = []
+    for part in parts:
+        part = part.strip()
+        if not part:
+            continue
+        if len(part) <= MAX_PROSE_CHUNK:
+            raw_chunks.append(part)
+        else:
+            raw_chunks.extend(_split_at_sentences(part, MAX_PROSE_CHUNK))
+
+    # Step 4: merge tiny trailing fragments
+    merged: list[str] = []
+    for chunk in raw_chunks:
+        chunk = chunk.strip()
+        if not chunk:
+            continue
+        if len(chunk) < MIN_CHUNK and merged:
+            merged[-1] = merged[-1] + '\n' + chunk
+        else:
+            merged.append(chunk)
+
+    return [c for c in merged if len(c.strip()) >= MIN_CHUNK]
+
+
+# ── PDF extractor ─────────────────────────────────────────────────────────────
+
 def extract_pdf_chunks(filepath: str, policy_name: str, filename: str) -> list[dict]:
-    chunks = []
-    seen_hashes = set()
+    """
+    Tables: per-page, atomic (with accurate page numbers).
+    Prose:
+      - Normal policies: all pages concatenated, then split logically.
+      - PAGE_PER_SECTION policies (slide decks): each page chunked independently.
+    """
+    page_per_section = policy_name in PAGE_PER_SECTION_POLICIES
+    table_chunks: list[dict] = []
+    prose_parts: list[tuple[int, str]] = []   # (page_num, cleaned_text)
+    seen_hashes: set[str] = set()
 
     with pdfplumber.open(filepath) as pdf:
         for page_num, page in enumerate(pdf.pages, start=1):
-            # ── Tables first (atomic chunks) ──────────────────────────
-            tables = page.extract_tables() or []
-            table_bboxes = []
-            for table in tables:
+
+            # ── Tables (per-page) ──────────────────────────────────────
+            for table in (page.extract_tables() or []):
                 if not table or is_boilerplate_table(table):
                     continue
                 text = table_to_text(table)
-                if len(text) < MIN_CHUNK:
+                if len(text.strip()) < MIN_CHUNK:
                     continue
                 h = hashlib.md5(text.encode()).hexdigest()
                 if h in seen_hashes:
                     continue
                 seen_hashes.add(h)
-                chunks.append({
+                table_chunks.append({
                     'text': f'[TABLE — {policy_name}, Page {page_num}]\n{text}',
                     'policy_name': policy_name,
                     'filename': filename,
@@ -141,48 +288,95 @@ def extract_pdf_chunks(filepath: str, policy_name: str, filename: str) -> list[d
                     'section_title': '',
                 })
 
-            # ── Prose text ────────────────────────────────────────────
+            # ── Prose (collect for document-level split) ───────────────
             raw = page.extract_text() or ''
-            # Remove boilerplate lines
-            lines = [l for l in raw.split('\n')
-                     if not BOILERPLATE_RE.search(l)]
-            text = '\n'.join(lines).strip()
-            if not text:
+            cleaned = _clean_page_text(raw)
+            if cleaned:
+                prose_parts.append((page_num, cleaned))
+
+    # ── Prose processing ──────────────────────────────────────────────────
+    if not prose_parts:
+        return table_chunks
+
+    # Slide-format: each page is its own independent chunk
+    if page_per_section:
+        slide_chunks: list[dict] = []
+        for pnum, text in prose_parts:
+            text = text.strip()
+            if len(text) < MIN_CHUNK:
                 continue
+            h = hashlib.md5(text.encode()).hexdigest()
+            if h in seen_hashes:
+                continue
+            seen_hashes.add(h)
+            first_line = text.split('\n')[0].strip()
+            section_title = first_line if SECTION_HEADER_RE.match(first_line) else ''
+            slide_chunks.append({
+                'text': text,
+                'policy_name': policy_name,
+                'filename': filename,
+                'page': pnum,
+                'chunk_type': 'prose',
+                'section_title': section_title,
+            })
+        return table_chunks + slide_chunks
 
-            for chunk_text in split_prose_into_chunks(text):
-                h = hashlib.md5(chunk_text.encode()).hexdigest()
-                if h in seen_hashes:
-                    continue
-                seen_hashes.add(h)
-                # Detect section title from first line
-                first_line = chunk_text.split('\n')[0].strip()
-                section_title = first_line if SECTION_HEADER_RE.match(first_line) else ''
-                has_numbers = bool(re.search(r'₹\s*\d+|\d+\s*(?:per|/)\s*(?:km|day|month)', chunk_text, re.IGNORECASE))
-                chunks.append({
-                    'text': chunk_text,
-                    'policy_name': policy_name,
-                    'filename': filename,
-                    'page': page_num,
-                    'chunk_type': 'table_data' if has_numbers else 'prose',
-                    'section_title': section_title,
-                })
+    full_prose = '\n'.join(text for _, text in prose_parts)
 
-    return chunks
+    # Build page-offset index for attribution
+    page_offsets: list[tuple[int, int, int]] = []
+    offset = 0
+    for pnum, text in prose_parts:
+        page_offsets.append((offset, offset + len(text), pnum))
+        offset += len(text) + 1   # +1 for the '\n' joining separator
 
+    def approx_page(chunk_text: str) -> int:
+        needle = chunk_text[:80].strip()
+        pos = full_prose.find(needle)
+        if pos < 0:
+            return prose_parts[0][0]
+        for start, end, pnum in page_offsets:
+            if start <= pos < end:
+                return pnum
+        return prose_parts[-1][0]
+
+    prose_chunks: list[dict] = []
+    for chunk_text in split_prose_into_chunks(full_prose):
+        h = hashlib.md5(chunk_text.encode()).hexdigest()
+        if h in seen_hashes:
+            continue
+        seen_hashes.add(h)
+        first_line = chunk_text.split('\n')[0].strip()
+        section_title = first_line if SECTION_HEADER_RE.match(first_line) else ''
+        has_numbers = bool(re.search(
+            r'₹\s*\d+|\d+\s*(?:per|/)\s*(?:km|day|month|week)|Rs\.?\s*\d+',
+            chunk_text, re.IGNORECASE
+        ))
+        prose_chunks.append({
+            'text': chunk_text,
+            'policy_name': policy_name,
+            'filename': filename,
+            'page': approx_page(chunk_text),
+            'chunk_type': 'table_data' if has_numbers else 'prose',
+            'section_title': section_title,
+        })
+
+    return table_chunks + prose_chunks
+
+
+# ── DOCX extractor ────────────────────────────────────────────────────────────
 
 def extract_docx_chunks(filepath: str, policy_name: str, filename: str) -> list[dict]:
     doc = Document(filepath)
-    chunks = []
-    seen_hashes = set()
+    chunks: list[dict] = []
+    seen_hashes: set[str] = set()
 
-    # Tables first
     for table in doc.tables:
         rows = [[cell.text.strip() for cell in row.cells] for row in table.rows]
         if is_boilerplate_table(rows):
             continue
         text = table_to_text(rows)
-        if len(text) < MIN_CHUNK:
+        if len(text.strip()) < MIN_CHUNK:
             continue
         h = hashlib.md5(text.encode()).hexdigest()
         if h not in seen_hashes:
@@ -196,7 +390,6 @@ def extract_docx_chunks(filepath: str, policy_name: str, filename: str) -> list[
                 'section_title': '',
             })
 
-    # Prose paragraphs
     full_text = '\n'.join(p.text for p in doc.paragraphs if p.text.strip())
     for chunk_text in split_prose_into_chunks(full_text):
         h = hashlib.md5(chunk_text.encode()).hexdigest()
@@ -216,6 +409,8 @@ def extract_docx_chunks(filepath: str, policy_name: str, filename: str) -> list[
     return chunks
 
 
+# ── Main ──────────────────────────────────────────────────────────────────────
+
 def main():
     print("Loading ChromaDB ONNX embeddings...", flush=True)
     ef = embedding_functions.ONNXMiniLM_L6_V2()
@@ -231,7 +426,7 @@ def main():
         metadata={"hnsw:space": "cosine"},
     )
 
-    all_chunks = []
+    all_chunks: list[dict] = []
     for filename in sorted(os.listdir(POLICIES_SRC)):
         filepath = os.path.join(POLICIES_SRC, filename)
         if not os.path.isfile(filepath):
@@ -252,8 +447,8 @@ def main():
             print(f"    ERROR: {e}", flush=True)
             continue
 
-        tables  = sum(1 for c in chunks if c['chunk_type'] == 'table')
-        prose   = sum(1 for c in chunks if c['chunk_type'] != 'table')
+        tables = sum(1 for c in chunks if c['chunk_type'] == 'table')
+        prose  = sum(1 for c in chunks if c['chunk_type'] != 'table')
         print(f"    → {len(chunks)} chunks ({tables} tables, {prose} prose)", flush=True)
         all_chunks.extend(chunks)
 
@@ -279,11 +474,9 @@ def main():
         )
         print(f"  Stored {end}/{len(all_chunks)}", flush=True)
 
-    # Save chunks manifest for BM25 hybrid retrieval
     chunks_file = os.path.join(VECTORSTORE_DIR, 'chunks.json')
-    import json as _json
     with open(chunks_file, 'w') as f:
-        _json.dump([{
+        json.dump([{
             'text':        c['text'],
             'policy_name': c['policy_name'],
             'page':        c['page'],
@@ -291,7 +484,6 @@ def main():
             'chunk_type':  c['chunk_type'],
         } for c in all_chunks], f)
     print(f"Saved chunks manifest → {chunks_file}", flush=True)
-
     print(f"\nDone. {len(all_chunks)} chunks in vectorstore.", flush=True)
 
 
