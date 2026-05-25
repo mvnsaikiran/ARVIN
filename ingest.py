@@ -25,6 +25,7 @@ MIN_CHUNK       = 150   # ignore tiny fragments
 # For these, each page is kept as its own chunk rather than joining all pages.
 PAGE_PER_SECTION_POLICIES = {
     "Talent Mobility Policy",
+    "MediBuddy Health & Wellness (User Manual)",
 }
 
 # Exact filename-stem → canonical policy name
@@ -50,6 +51,8 @@ POLICY_NAMES = {
     "pankh_employee":        "Pankh Employee Referral",
     "travel_settlement":     "Domestic Travel Expense Settlement Procedure",
     "voluntary_death":       "Voluntary Death Contribution Scheme",
+    # 18th policy
+    "medibuddy":             "MediBuddy Health & Wellness (User Manual)",
 }
 
 # Regex: top-level section headers only (keeps sub-items like 5.1 or a. in parent chunk)

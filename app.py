@@ -32,6 +32,16 @@ with st.sidebar:
         "🔄 Talent Mobility Policy",
         "🔔 Whistleblower Policy",
         "🤝 Joining Policy",
+        "💼 Employee Assistance Program (EAP)",
+        "💳 Employee Expense Reimbursement",
+        "🚪 Exit & Full & Final Settlement",
+        "🏥 Group Health Insurance",
+        "🚑 Group Personal Accident Insurance",
+        "💎 Group Term Life Insurance",
+        "👥 Pankh Employee Referral",
+        "✈️ Travel Expense Settlement",
+        "🕊️ Voluntary Death Contribution",
+        "💊 MediBuddy Health & Wellness",
     ]
     for p in policies:
         st.markdown(f"- {p}")

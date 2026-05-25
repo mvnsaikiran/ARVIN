@@ -1,0 +1,960 @@
+[
+  {
+    "query": "What is MediBuddy Gold?",
+    "key_facts": [
+      "online consultation",
+      "medibuddy gold",
+      "MediBuddy Gold"
+    ],
+    "category": "Overview",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What does MediBuddy provide to Arvind employees?",
+    "key_facts": [
+      "online consultation",
+      "lab test",
+      "medicine"
+    ],
+    "category": "Overview",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the MediBuddy benefit at Arvind?",
+    "key_facts": [
+      "medibuddy gold",
+      "MediBuddy Gold",
+      "online consultation"
+    ],
+    "category": "Overview",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What services does MediBuddy offer?",
+    "key_facts": [
+      "doctor consultation",
+      "lab test",
+      "medicine",
+      "surgery"
+    ],
+    "category": "Services",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What are the four main services of MediBuddy?",
+    "key_facts": [
+      "doctor",
+      "lab",
+      "medicine",
+      "surgery"
+    ],
+    "category": "Services",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is MediBuddy a corporate benefit at Arvind?",
+    "key_facts": [
+      "corporate sponsored",
+      "arvind",
+      "MediBuddy"
+    ],
+    "category": "Overview",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the MediBuddy app used for?",
+    "key_facts": [
+      "consultation",
+      "lab",
+      "medicine"
+    ],
+    "category": "Overview",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Who is covered under MediBuddy?",
+    "key_facts": [
+      "employee",
+      "spouse",
+      "children",
+      "parents"
+    ],
+    "category": "Coverage",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How many family members can use MediBuddy?",
+    "key_facts": [
+      "5",
+      "five"
+    ],
+    "category": "Coverage",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can my parents use MediBuddy?",
+    "key_facts": [
+      "parents",
+      "family"
+    ],
+    "category": "Coverage",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can my spouse use MediBuddy?",
+    "key_facts": [
+      "spouse",
+      "family"
+    ],
+    "category": "Coverage",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I add my children to MediBuddy?",
+    "key_facts": [
+      "children",
+      "family"
+    ],
+    "category": "Coverage",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the family coverage in MediBuddy?",
+    "key_facts": [
+      "employee + 5",
+      "employee+5",
+      "5 members",
+      "five members"
+    ],
+    "category": "Coverage",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How many dependents can I add on MediBuddy?",
+    "key_facts": [
+      "5",
+      "five",
+      "family"
+    ],
+    "category": "Coverage",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How many specialties are available on MediBuddy?",
+    "key_facts": [
+      "22",
+      "specialit"
+    ],
+    "category": "Specialties",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the number of specialities on MediBuddy?",
+    "key_facts": [
+      "22",
+      "specialit"
+    ],
+    "category": "Specialties",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How many types of doctors are on MediBuddy?",
+    "key_facts": [
+      "22",
+      "specialit"
+    ],
+    "category": "Specialties",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What medical specialties are available on MediBuddy?",
+    "key_facts": [
+      "general physician",
+      "cardiology",
+      "diabetes",
+      "skin",
+      "ent"
+    ],
+    "category": "Specialties",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I consult a cardiologist on MediBuddy?",
+    "key_facts": [
+      "cardiology",
+      "cardiolog",
+      "specialist"
+    ],
+    "category": "Specialties",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is diabetes care available on MediBuddy?",
+    "key_facts": [
+      "diabetes",
+      "specialit"
+    ],
+    "category": "Specialties",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I get a dermatologist on MediBuddy?",
+    "key_facts": [
+      "skin",
+      "dermatolog",
+      "specialit"
+    ],
+    "category": "Specialties",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What types of doctors are on MediBuddy?",
+    "key_facts": [
+      "general physician",
+      "specialist",
+      "md doctor"
+    ],
+    "category": "Specialties",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is MediBuddy available 24/7?",
+    "key_facts": [
+      "24x7",
+      "24*7",
+      "24 x 7",
+      "anytime"
+    ],
+    "category": "Availability",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I use MediBuddy at any time?",
+    "key_facts": [
+      "24x7",
+      "24*7",
+      "24 x 7",
+      "anytime"
+    ],
+    "category": "Availability",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is MediBuddy accessible 24 hours a day?",
+    "key_facts": [
+      "24x7",
+      "24*7",
+      "24 x 7",
+      "anytime"
+    ],
+    "category": "Availability",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I consult a doctor at night on MediBuddy?",
+    "key_facts": [
+      "24x7",
+      "24*7",
+      "anytime",
+      "anywhere"
+    ],
+    "category": "Availability",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the SLA for doctor response on MediBuddy?",
+    "key_facts": [
+      "30 mins",
+      "30 minutes",
+      "sla"
+    ],
+    "category": "SLA",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How quickly will a doctor respond on MediBuddy?",
+    "key_facts": [
+      "30 mins",
+      "30 minutes",
+      "15 mins"
+    ],
+    "category": "SLA",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What percentage of consultations are answered within 15 minutes?",
+    "key_facts": [
+      "85",
+      "15 mins"
+    ],
+    "category": "SLA",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How many languages does MediBuddy support?",
+    "key_facts": [
+      "16",
+      "sixteen"
+    ],
+    "category": "Languages",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "In which languages can I consult on MediBuddy?",
+    "key_facts": [
+      "hindi",
+      "english",
+      "telegu",
+      "kannada",
+      "marathi"
+    ],
+    "category": "Languages",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is Tamil available on MediBuddy?",
+    "key_facts": [
+      "tamil",
+      "16",
+      "language"
+    ],
+    "category": "Languages",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I consult in Gujarati on MediBuddy?",
+    "key_facts": [
+      "gujarati",
+      "language"
+    ],
+    "category": "Languages",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What are the 16 languages on MediBuddy?",
+    "key_facts": [
+      "hindi",
+      "english",
+      "telegu",
+      "kannada",
+      "malayalam",
+      "marathi",
+      "gujarati",
+      "tamil"
+    ],
+    "category": "Languages",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is consultation available in Bengali on MediBuddy?",
+    "key_facts": [
+      "bengali",
+      "language"
+    ],
+    "category": "Languages",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What Indian languages are supported on MediBuddy?",
+    "key_facts": [
+      "hindi",
+      "telegu",
+      "kannada",
+      "malayalam",
+      "konkani",
+      "assamese"
+    ],
+    "category": "Languages",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How do I log in to MediBuddy?",
+    "key_facts": [
+      "corporate",
+      "email",
+      "otp",
+      "arvind.in"
+    ],
+    "category": "Login",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How do I register on MediBuddy?",
+    "key_facts": [
+      "corporate account",
+      "corporate email",
+      "otp"
+    ],
+    "category": "Login",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What email do I use to login to MediBuddy?",
+    "key_facts": [
+      "arvind.in",
+      "corporate email"
+    ],
+    "category": "Login",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How do I download the MediBuddy app?",
+    "key_facts": [
+      "download",
+      "app",
+      "play store",
+      "app store"
+    ],
+    "category": "App",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is CLARA on MediBuddy?",
+    "key_facts": [
+      "clara",
+      "symptom",
+      "ai"
+    ],
+    "category": "App",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What does CLARA do on MediBuddy?",
+    "key_facts": [
+      "symptom",
+      "ai",
+      "clara"
+    ],
+    "category": "App",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the first step to use MediBuddy?",
+    "key_facts": [
+      "download",
+      "corporate account",
+      "login"
+    ],
+    "category": "Login",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What account type should I select on MediBuddy?",
+    "key_facts": [
+      "corporate account",
+      "corporate",
+      "i have corporate"
+    ],
+    "category": "Login",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is there a limit on consultations on MediBuddy?",
+    "key_facts": [
+      "no cap",
+      "unlimited",
+      "no limit"
+    ],
+    "category": "Consultations",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How many times can I consult on MediBuddy in a month?",
+    "key_facts": [
+      "no cap",
+      "unlimited",
+      "no limit"
+    ],
+    "category": "Consultations",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is there a cap on consultations per employee on MediBuddy?",
+    "key_facts": [
+      "no cap",
+      "unlimited",
+      "no limit"
+    ],
+    "category": "Consultations",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I take unlimited consultations on MediBuddy?",
+    "key_facts": [
+      "no cap",
+      "unlimited",
+      "no limit"
+    ],
+    "category": "Consultations",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How many consultations can I take on MediBuddy?",
+    "key_facts": [
+      "unlimited",
+      "no cap",
+      "no limit"
+    ],
+    "category": "Consultations",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I choose my doctor on MediBuddy?",
+    "key_facts": [
+      "change doctor",
+      "auto assigned",
+      "auto-assigned"
+    ],
+    "category": "Doctor-Choice",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How is a doctor assigned on MediBuddy?",
+    "key_facts": [
+      "auto assigned",
+      "auto-assigned",
+      "first consultation"
+    ],
+    "category": "Doctor-Choice",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What if I don't like the assigned doctor on MediBuddy?",
+    "key_facts": [
+      "change doctor",
+      "different doctor"
+    ],
+    "category": "Doctor-Choice",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I request a different doctor on MediBuddy?",
+    "key_facts": [
+      "change doctor",
+      "different doctor"
+    ],
+    "category": "Doctor-Choice",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How do I start a consultation on MediBuddy?",
+    "key_facts": [
+      "start consultation",
+      "connect with doctor"
+    ],
+    "category": "Consultations",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I do a follow-up consultation on MediBuddy?",
+    "key_facts": [
+      "follow up",
+      "follow-up",
+      "previous doctor"
+    ],
+    "category": "Consultations",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How do I book a lab test on MediBuddy?",
+    "key_facts": [
+      "lab test",
+      "select lab",
+      "search"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Does MediBuddy offer home sample collection?",
+    "key_facts": [
+      "home sample collection",
+      "phlebotomist",
+      "home"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can lab samples be collected at home through MediBuddy?",
+    "key_facts": [
+      "home sample collection",
+      "phlebotomist",
+      "home"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Does a phlebotomist come home for MediBuddy lab tests?",
+    "key_facts": [
+      "home sample collection",
+      "phlebotomist",
+      "home"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Who collects the sample at home for lab tests?",
+    "key_facts": [
+      "phlebotomist",
+      "home sample"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How do I select the date for home sample collection?",
+    "key_facts": [
+      "date",
+      "slot",
+      "morning",
+      "afternoon"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What health check packages are available on MediBuddy?",
+    "key_facts": [
+      "health check",
+      "full body",
+      "health package"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is full body checkup available on MediBuddy?",
+    "key_facts": [
+      "full body",
+      "full body checkup",
+      "health check"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I add family members for lab tests?",
+    "key_facts": [
+      "family",
+      "add another patient",
+      "add family"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is X-Ray booking available on MediBuddy?",
+    "key_facts": [
+      "x-ray",
+      "xray",
+      "scan",
+      "mri"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How do I order medicines on MediBuddy?",
+    "key_facts": [
+      "buy medicine",
+      "search medicine",
+      "pharmacy"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is there a discount on medicines through MediBuddy?",
+    "key_facts": [
+      "discount",
+      "40%",
+      "pharmacy discount"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How long does medicine delivery take on MediBuddy?",
+    "key_facts": [
+      "24",
+      "48",
+      "hours",
+      "delivery"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the delivery time for medicines on MediBuddy?",
+    "key_facts": [
+      "24",
+      "48",
+      "hours",
+      "delivery"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "When will my MediBuddy medicine order arrive?",
+    "key_facts": [
+      "24",
+      "48",
+      "hours",
+      "delivery"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I do store pickup for medicines on MediBuddy?",
+    "key_facts": [
+      "store pickup",
+      "5 hours"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the store pickup time for medicines on MediBuddy?",
+    "key_facts": [
+      "5 hours",
+      "store pickup"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What documents do I need to order prescription medicines?",
+    "key_facts": [
+      "prescription",
+      "upload prescription",
+      "rx"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What file formats are accepted for prescription upload?",
+    "key_facts": [
+      "jpg",
+      "png",
+      "pdf"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the maximum file size for prescription upload on MediBuddy?",
+    "key_facts": [
+      "15 mb",
+      "15mb",
+      "size limit"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How are medicine order details shared?",
+    "key_facts": [
+      "mail",
+      "text",
+      "email",
+      "sms"
+    ],
+    "category": "Medicines",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can family members get discounts on lab tests through MediBuddy?",
+    "key_facts": [
+      "employee",
+      "application",
+      "book"
+    ],
+    "category": "Family-Booking",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How should I book MediBuddy services for my family?",
+    "key_facts": [
+      "employee",
+      "application",
+      "book",
+      "employee's application"
+    ],
+    "category": "Family-Booking",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "If my family member lives elsewhere, how do I book for them?",
+    "key_facts": [
+      "location",
+      "employee",
+      "choose",
+      "family member's location"
+    ],
+    "category": "Family-Booking",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What payment methods are available on MediBuddy?",
+    "key_facts": [
+      "upi",
+      "card",
+      "netbanking",
+      "wallet",
+      "razorpay"
+    ],
+    "category": "Payment",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I pay via UPI on MediBuddy?",
+    "key_facts": [
+      "upi",
+      "google pay",
+      "phonepe",
+      "paytm"
+    ],
+    "category": "Payment",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What happens after successful payment for lab tests?",
+    "key_facts": [
+      "mail",
+      "text",
+      "appointment"
+    ],
+    "category": "Payment",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I pay via netbanking on MediBuddy?",
+    "key_facts": [
+      "netbanking",
+      "indian banks"
+    ],
+    "category": "Payment",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How do I track my orders on MediBuddy?",
+    "key_facts": [
+      "profile",
+      "track",
+      "orders"
+    ],
+    "category": "Tracking",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Where can I find my past consultations on MediBuddy?",
+    "key_facts": [
+      "past video consultation",
+      "profile",
+      "track"
+    ],
+    "category": "Tracking",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is MediBuddy customer care number?",
+    "key_facts": [
+      "9999991555"
+    ],
+    "category": "Customer-Care",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "How do I contact MediBuddy support?",
+    "key_facts": [
+      "9999991555",
+      "hello@medibuddy.in"
+    ],
+    "category": "Customer-Care",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What if the doctor doesn't respond on MediBuddy?",
+    "key_facts": [
+      "9999991555",
+      "24x7",
+      "support"
+    ],
+    "category": "Customer-Care",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is MediBuddy support 24x7?",
+    "key_facts": [
+      "24x7",
+      "9999991555",
+      "support"
+    ],
+    "category": "Customer-Care",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the MediBuddy email for support?",
+    "key_facts": [
+      "hello@medibuddy.in"
+    ],
+    "category": "Customer-Care",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Can I consult from any part of India on MediBuddy?",
+    "key_facts": [
+      "anywhere in india",
+      "india",
+      "anywhere"
+    ],
+    "category": "FAQ",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What modes of consultation are available on MediBuddy?",
+    "key_facts": [
+      "video",
+      "audio",
+      "chat"
+    ],
+    "category": "FAQ",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What type of doctor handles consultations on MediBuddy?",
+    "key_facts": [
+      "md doctor",
+      "specialist",
+      "qualified"
+    ],
+    "category": "FAQ",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "Is online pharmacy discount available on MediBuddy?",
+    "key_facts": [
+      "pharmacy",
+      "discount",
+      "ongoing discount"
+    ],
+    "category": "FAQ",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  },
+  {
+    "query": "What is the MediBuddy Full Body Health Checkup?",
+    "key_facts": [
+      "82",
+      "lab test",
+      "full body"
+    ],
+    "category": "Lab-Tests",
+    "policy": "MediBuddy Health & Wellness (User Manual)"
+  }
+]
