@@ -25,10 +25,9 @@ BM25_K          = 40   # candidates from BM25 pass
 RRF_K           = 60   # RRF constant (standard value)
 FINAL_K         = 10   # chunks returned to LLM
 POLICY_BOOST    = 3.0  # BM25 score multiplier for detected policy
-BM25_GUARANTEE  = 6    # scan top-N BM25 results for guarantee candidates
+BM25_GUARANTEE  = 8    # scan top-N BM25 results for guarantee candidates
 BM25_FLOOR      = 2.0  # minimum BM25 score to qualify for guaranteed inclusion
 BM25_MAX_INJECT = 3    # max chunks to actually inject
-BM25_GUARANTEE = 8     # increased from 6 — scan wider BM25 top for guarantee candidates
 # Policy-specific fast-path: if a detected-policy chunk scores this high in BM25,
 # inject it without the content-token check (BM25 rank already proves relevance).
 # After POLICY_BOOST=3.0 this corresponds to a raw BM25 score ≥ 5.0.
