@@ -132,6 +132,11 @@ const POLICY_ALIASES: Array<{ policyId: string; name: string; aliases: string[] 
     name: "voluntary death contribution scheme",
     aliases: ["death contribution", "voluntary death contribution", "vdcs"],
   },
+  {
+    policyId: "travel-settlement",
+    name: "domestic travel expense settlement procedure",
+    aliases: ["travel settlement", "settlement procedure", "tour expense", "settle tour", "expense settlement", "my tour dashboard", "create tour expense"],
+  },
 ];
 
 const STOPWORDS = new Set([
@@ -273,6 +278,9 @@ function inferPolicyIds(normalizedQuery: string, answerType: PolicyQuestionType)
   }
   if (/\bdeath contribution\b|\bvdcs\b|\bvoluntary death\b/.test(normalizedQuery)) {
     ids.push("voluntary-death-contribution");
+  }
+  if (/\btravel settlement\b|\btour expense\b|\bsettle.*tour\b|\bmy tour dashboard\b|\bcreate tour expense\b/.test(normalizedQuery)) {
+    ids.push("travel-settlement");
   }
 
   // Fallback based on specific answer types
