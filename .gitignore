@@ -9,6 +9,5 @@ node_modules/
 frontend/
 public/
 package-lock.json
-src/data/enterpriseUnseen5000Generated.ts
 test_suite.json
 cleaned_test_suite.json
