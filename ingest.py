@@ -29,31 +29,27 @@ PAGE_PER_SECTION_POLICIES = {
     "MediBuddy Health & Wellness (User Manual)",
 }
 
-# Exact filename-stem → canonical policy name
-# Keys are lowercase stems; match by longest matching key first
+# Canonical policy name lookup — keys are substrings of the lowercase filename stem.
+# Longest-key-first matching ensures specificity (e.g. "group health insurance" before "health").
 POLICY_NAMES = {
-    # Original 8
-    "localconveyance":   "Local Conveyance Policy",
-    "domestictravel":    "Domestic Travel Policy",
-    "genderpolicy":      "Gender Policy 2025",
-    "grievance":         "Grievance Mechanism Policy 2025",
-    "posh":              "POSH Policy (Prevention of Sexual Harassment)",
-    "talentmobility":    "Talent Mobility Policy",
-    "whistleblower":     "Whistleblower Policy",
-    "joining":           "Joining Policy",
-    # Batch-1
-    "1to1_help":                           "Employee Assistance Program (EAP)",
-    "employee_expense_reimbursement":      "Employee Expense Reimbursement Policy",
-    "full_final_settlement":               "Exit & Full & Final Settlement Policy",
-    "group_health_insurance":              "Group Health Insurance Policy",
-    "group_personal_accident":             "Group Personal Accident Insurance Scheme",
-    # Batch-2
-    "group_term_life":       "Group Term Life Insurance",
-    "pankh_employee":        "Pankh Employee Referral",
-    "travel_settlement":     "Domestic Travel Expense Settlement Procedure",
-    "voluntary_death":       "Voluntary Death Contribution Scheme",
-    # 18th policy
-    "medibuddy":             "MediBuddy Health & Wellness (User Manual)",
+    "local-conveyance":        "Local Conveyance Policy",
+    "domestic-travel":         "Domestic Travel Policy",
+    "group health insurance":  "Group Health Insurance Policy",
+    "personal accident":       "Group Personal Accident Insurance Scheme",
+    "employee expense":        "Employee Expense Reimbursement Policy",
+    "travel settlement":       "Domestic Travel Expense Settlement Procedure",
+    "voluntary death":         "Voluntary Death Contribution Scheme",
+    "full & final":            "Exit & Full & Final Settlement Policy",
+    "term life":               "Group Term Life Insurance",
+    "grievance":               "Grievance Mechanism Policy 2025",
+    "whistleblower":           "Whistleblower Policy",
+    "medibuddy":               "MediBuddy Health & Wellness (User Manual)",
+    "pankh":                   "Pankh Employee Referral",
+    "talent":                  "Talent Mobility Policy",
+    "joining":                 "Joining Policy",
+    "gender":                  "Gender Policy 2025",
+    "1to1":                    "Employee Assistance Program (EAP)",
+    "posh":                    "POSH Policy (Prevention of Sexual Harassment)",
 }
 
 # Regex: top-level section headers only (keeps sub-items like 5.1 or a. in parent chunk)
