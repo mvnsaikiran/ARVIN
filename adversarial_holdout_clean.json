@@ -1,0 +1,586 @@
+[
+  {
+    "query": "What is the helpline number?",
+    "key_facts": [
+      "1800 200 8301"
+    ],
+    "policy": "Gender Policy 2025",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the helpline number?",
+    "key_facts": [
+      "9873477624"
+    ],
+    "policy": "POSH Policy (Prevention of Sexual Harassment)",
+    "chunk_id": ""
+  },
+  {
+    "query": "How many years do I have to submit the claim?",
+    "key_facts": [
+      "3 years"
+    ],
+    "policy": "Talent Mobility Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What happens if I miss the 8 hours window?",
+    "key_facts": [
+      "8 hours"
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Am I covered for this situation?",
+    "key_facts": [
+      "Group Term Life Insurance (GTI) \u2014 key facts: Policy number: "
+    ],
+    "policy": "Group Term Life Insurance",
+    "chunk_id": ""
+  },
+  {
+    "query": "How does the amount differ if I'm at BMH6?",
+    "key_facts": [
+      "BMH6 & Above 800 NOTE: The management reserves all right to "
+    ],
+    "policy": "Voluntary Death Contribution Scheme",
+    "chunk_id": ""
+  },
+  {
+    "query": "Does my family also get this benefit?",
+    "key_facts": [
+      "Special Sanction: Any expenses that exceed the defined entit"
+    ],
+    "policy": "Domestic Travel Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the M3 entitlement?",
+    "key_facts": [
+      "M3 10000 5 successful Referrals 20000"
+    ],
+    "policy": "Pankh Employee Referral",
+    "chunk_id": ""
+  },
+  {
+    "query": "Am I covered for this situation?",
+    "key_facts": [
+      "OTHER TERMS & CONDITIONS:\n\u2022 This policy is subject to period"
+    ],
+    "policy": "Employee Expense Reimbursement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Can you explain this policy in simple words?",
+    "key_facts": [
+      "COMPLAINT PROCESS AND PROCEDURES: Employees may raise concer"
+    ],
+    "policy": "Gender Policy 2025",
+    "chunk_id": ""
+  },
+  {
+    "query": "What happens if I miss the 2 Years window?",
+    "key_facts": [
+      "2 Years"
+    ],
+    "policy": "Exit & Full & Final Settlement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Am I covered for this situation?",
+    "key_facts": [
+      "\u2022 Ambulance charges up to a maximum of \u20b95,000/-\n\u2022 Any compli"
+    ],
+    "policy": "Group Health Insurance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What happens if I miss the 15 days window?",
+    "key_facts": [
+      "15 days"
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Is there any paperwork I need to fill?",
+    "key_facts": [
+      "Talent Mobility Policy \u2014 MAB (Mobility Adjustment Benefit) a"
+    ],
+    "policy": "Talent Mobility Policy",
+    "chunk_id": "chunk_269"
+  },
+  {
+    "query": "How long do I have to do this?",
+    "key_facts": [
+      "3 days"
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Am I covered for this situation?",
+    "key_facts": [
+      "Any other location Employee travels that is different from O"
+    ],
+    "policy": "Local Conveyance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What are the rules around this?",
+    "key_facts": [
+      "EXPENSE SUBMISSION AND SETTLEMENT:\n\u2022 Expense Documentation &"
+    ],
+    "policy": "Employee Expense Reimbursement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the maximum I can spend?",
+    "key_facts": [
+      "5000"
+    ],
+    "policy": "Group Personal Accident Insurance Scheme",
+    "chunk_id": ""
+  },
+  {
+    "query": "Who should I call for this?",
+    "key_facts": [
+      "amit.panghal@arvind.in"
+    ],
+    "policy": "POSH Policy (Prevention of Sexual Harassment)",
+    "chunk_id": ""
+  },
+  {
+    "query": "How many year do I have to submit the claim?",
+    "key_facts": [
+      "1 year"
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Am I covered for this situation?",
+    "key_facts": [
+      "EFFECTIVE DATE: 21."
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Can you explain this policy in simple words?",
+    "key_facts": [
+      "Notice period is sixty (60) days."
+    ],
+    "policy": "Exit & Full & Final Settlement Policy",
+    "chunk_id": "chunk_272"
+  },
+  {
+    "query": "Who is eligible for this benefit?",
+    "key_facts": [
+      "EFFECTIVE DATE: 21."
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Can you explain this policy in simple words?",
+    "key_facts": [
+      "For CXO-level employees, respective BU-HR will arrange a gif"
+    ],
+    "policy": "Employee Expense Reimbursement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the maximum I can spend?",
+    "key_facts": [
+      "5000"
+    ],
+    "policy": "Group Health Insurance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What if my case is different from what's written?",
+    "key_facts": [
+      "This may include, but is not limited to:\n\u2013 Discrimination, h"
+    ],
+    "policy": "Grievance Mechanism Policy 2025",
+    "chunk_id": ""
+  },
+  {
+    "query": "What's the most money I can claim?",
+    "key_facts": [
+      "85000"
+    ],
+    "policy": "Group Health Insurance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Who is eligible for this benefit?",
+    "key_facts": [
+      "RECORD-KEEPING & MONITORING:\n\u2022 All grievances and outcomes w"
+    ],
+    "policy": "Grievance Mechanism Policy 2025",
+    "chunk_id": ""
+  },
+  {
+    "query": "What happens if I don't follow this?",
+    "key_facts": [
+      ", wherein the Insured is discharged the same day due to tech"
+    ],
+    "policy": "Group Health Insurance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "How many months do I have to submit the claim?",
+    "key_facts": [
+      "6 months"
+    ],
+    "policy": "Pankh Employee Referral",
+    "chunk_id": ""
+  },
+  {
+    "query": "Who is eligible for this benefit?",
+    "key_facts": [
+      "\u2022 Ambulance charges up to a maximum of \u20b95,000/-\n\u2022 Any compli"
+    ],
+    "policy": "Group Health Insurance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "How long do I have to do this?",
+    "key_facts": [
+      "30 days"
+    ],
+    "policy": "Group Health Insurance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Am I covered for this situation?",
+    "key_facts": [
+      "FAQ 5: Do we have a cap on number of consultations in a give"
+    ],
+    "policy": "MediBuddy Health & Wellness (User Manual)",
+    "chunk_id": "chunk_263"
+  },
+  {
+    "query": "I am a BMH3 level employee \u2014 what do I get?",
+    "key_facts": [
+      "BMH3, H4, H5, H6 | Ola / Uber / BluSmart"
+    ],
+    "policy": "Domestic Travel Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the process to apply for this?",
+    "key_facts": [
+      "POLICY ANCHORS\n1."
+    ],
+    "policy": "Talent Mobility Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "How does this work for a new joiner?",
+    "key_facts": [
+      "Effective From: 01."
+    ],
+    "policy": "Voluntary Death Contribution Scheme",
+    "chunk_id": "chunk_270"
+  },
+  {
+    "query": "Who is eligible for this benefit?",
+    "key_facts": [
+      "Any other location Employee travels that is different from O"
+    ],
+    "policy": "Local Conveyance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the benefit for someone at M2?",
+    "key_facts": [
+      "M2, should be closed via IJP, exceptions to be justified"
+    ],
+    "policy": "Talent Mobility Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "I am a M2 level employee \u2014 what do I get?",
+    "key_facts": [
+      "M2 / M3 / M3H1 | Service Apartment/ Guest House | In case if"
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the helpline number?",
+    "key_facts": [
+      "managersupport@1to1help.net"
+    ],
+    "policy": "Employee Assistance Program (EAP)",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the M3 entitlement?",
+    "key_facts": [
+      "M3 grade) shall be opened for Referrals. This implies, that "
+    ],
+    "policy": "Pankh Employee Referral",
+    "chunk_id": ""
+  },
+  {
+    "query": "What happens if I miss the 24 hours window?",
+    "key_facts": [
+      "24 hours"
+    ],
+    "policy": "Domestic Travel Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "How does this work for a new joiner?",
+    "key_facts": [
+      "Joining Policy \u2014 relocation transport reimbursement rate by "
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": "chunk_268"
+  },
+  {
+    "query": "What is the helpline number?",
+    "key_facts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "policy": "Grievance Mechanism Policy 2025",
+    "chunk_id": ""
+  },
+  {
+    "query": "What email should I use to report this?",
+    "key_facts": [
+      "1800-258-8999"
+    ],
+    "policy": "Employee Assistance Program (EAP)",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the benefit for someone at Grade M1?",
+    "key_facts": [
+      "Grade M1: Annual MAB = 8,52,000 | Monthly MAB = 71,000 | SIA"
+    ],
+    "policy": "Talent Mobility Policy",
+    "chunk_id": "chunk_269"
+  },
+  {
+    "query": "Am I covered for this situation?",
+    "key_facts": [
+      "REIMBURSEMENT\nPOLICY SOP For Expense Reimbursement Prepared "
+    ],
+    "policy": "Employee Expense Reimbursement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Who is eligible for this benefit?",
+    "key_facts": [
+      "The deduction would be on basis of 100% of the amount paid b"
+    ],
+    "policy": "Exit & Full & Final Settlement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What happens if I don't follow this?",
+    "key_facts": [
+      "Group Term Life Insurance (GTI) \u2014 key facts: Policy number: "
+    ],
+    "policy": "Group Term Life Insurance",
+    "chunk_id": ""
+  },
+  {
+    "query": "Does my family also get this benefit?",
+    "key_facts": [
+      "OTHER TERMS & CONDITIONS:\n\u2022 This policy is subject to period"
+    ],
+    "policy": "Employee Expense Reimbursement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What if my case is different from what's written?",
+    "key_facts": [
+      "Amount for transportation of personal packers & household go"
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Does my family also get this benefit?",
+    "key_facts": [
+      "Effective From: 01."
+    ],
+    "policy": "Voluntary Death Contribution Scheme",
+    "chunk_id": "chunk_270"
+  },
+  {
+    "query": "How long do I have to do this?",
+    "key_facts": [
+      "30 days"
+    ],
+    "policy": "Exit & Full & Final Settlement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "I am a M3 level employee \u2014 what do I get?",
+    "key_facts": [
+      "M3, M3H1 18,00,000 BMH3, BMH4, CGM G4, CGM G3 30,00,000 AVP "
+    ],
+    "policy": "Group Term Life Insurance",
+    "chunk_id": ""
+  },
+  {
+    "query": "Can you explain this policy in simple words?",
+    "key_facts": [
+      "MATERNITY BENEFITS:\n\u2022 Fees of a qualified obstetrician for n"
+    ],
+    "policy": "Group Health Insurance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "How many Years do I have to submit the claim?",
+    "key_facts": [
+      "2 Years"
+    ],
+    "policy": "Exit & Full & Final Settlement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Where do I send the documents?",
+    "key_facts": [
+      "corporate.hr@arvind.in"
+    ],
+    "policy": "Exit & Full & Final Settlement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "Can you explain this policy in simple words?",
+    "key_facts": [
+      "FAQ 5: Do we have a cap on number of consultations in a give"
+    ],
+    "policy": "MediBuddy Health & Wellness (User Manual)",
+    "chunk_id": "chunk_263"
+  },
+  {
+    "query": "Who is eligible for this benefit?",
+    "key_facts": [
+      "ENTITLEMENT:\n\u2022 Benefit shall be passed on to the beneficiary"
+    ],
+    "policy": "Group Term Life Insurance",
+    "chunk_id": ""
+  },
+  {
+    "query": "Is there a deadline for submitting documents?",
+    "key_facts": [
+      "100 weeks"
+    ],
+    "policy": "Group Personal Accident Insurance Scheme",
+    "chunk_id": ""
+  },
+  {
+    "query": "Is there a deadline for submitting documents?",
+    "key_facts": [
+      "12 months"
+    ],
+    "policy": "Talent Mobility Policy",
+    "chunk_id": "chunk_269"
+  },
+  {
+    "query": "What is the process to apply for this?",
+    "key_facts": [
+      "ROTATION FRAMEWORK\nOn Demand Risk Mitigation\nMobility\n\u2022Track"
+    ],
+    "policy": "Talent Mobility Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What's the most money I can claim?",
+    "key_facts": [
+      "10000"
+    ],
+    "policy": "Employee Expense Reimbursement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What happens if I don't follow this?",
+    "key_facts": [
+      "ROTATION FRAMEWORK\nOn Demand Risk Mitigation\nMobility\n\u2022Track"
+    ],
+    "policy": "Talent Mobility Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the money limit for 5. Education Grant: For dependent children (<25 years of age) in case of death O?",
+    "key_facts": [
+      "20000"
+    ],
+    "policy": "Group Personal Accident Insurance Scheme",
+    "chunk_id": ""
+  },
+  {
+    "query": "Is there any paperwork I need to fill?",
+    "key_facts": [
+      "ENTITLEMENT:\n\u2022 Benefit shall be passed on to the beneficiary"
+    ],
+    "policy": "Group Term Life Insurance",
+    "chunk_id": ""
+  },
+  {
+    "query": "How much money can I get back for this?",
+    "key_facts": [
+      "10.00"
+    ],
+    "policy": "Local Conveyance Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "How many years do I have to submit the claim?",
+    "key_facts": [
+      "25 years"
+    ],
+    "policy": "Group Personal Accident Insurance Scheme",
+    "chunk_id": ""
+  },
+  {
+    "query": "What if my case is different from what's written?",
+    "key_facts": [
+      "RESPONSIBILITIES:\n\u2022 Employees: Ensure that all expenses are "
+    ],
+    "policy": "Employee Expense Reimbursement Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What is the M1 entitlement?",
+    "key_facts": [
+      "M1: 8,00,000; M2: 12,50,000; GMG1/GMG2/M3/M3H1: 18,00,000; B"
+    ],
+    "policy": "Group Term Life Insurance",
+    "chunk_id": ""
+  },
+  {
+    "query": "What's the most money I can claim?",
+    "key_facts": [
+      "1800"
+    ],
+    "policy": "Employee Assistance Program (EAP)",
+    "chunk_id": ""
+  },
+  {
+    "query": "What happens if I don't follow this?",
+    "key_facts": [
+      "This benefit is available maximum for 1 year from the date o"
+    ],
+    "policy": "Joining Policy",
+    "chunk_id": ""
+  },
+  {
+    "query": "What email should I use to report this?",
+    "key_facts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "policy": "Gender Policy 2025",
+    "chunk_id": ""
+  }
+]

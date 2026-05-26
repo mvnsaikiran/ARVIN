@@ -1,0 +1,221 @@
+{
+  "n_total": 10847,
+  "n_clusters": 50,
+  "n_holdout_clusters": 10,
+  "holdout_cluster_ids": [
+    6,
+    14,
+    19,
+    22,
+    31,
+    33,
+    41,
+    42,
+    46,
+    48
+  ],
+  "n_holdout": 1887,
+  "n_train": 8960,
+  "cluster_distances": [
+    {
+      "cluster_id": 33,
+      "dist_from_grand": 0.7999225854873657
+    },
+    {
+      "cluster_id": 22,
+      "dist_from_grand": 0.7820653915405273
+    },
+    {
+      "cluster_id": 48,
+      "dist_from_grand": 0.7692548632621765
+    },
+    {
+      "cluster_id": 46,
+      "dist_from_grand": 0.749625563621521
+    },
+    {
+      "cluster_id": 14,
+      "dist_from_grand": 0.7270001173019409
+    },
+    {
+      "cluster_id": 31,
+      "dist_from_grand": 0.7195289134979248
+    },
+    {
+      "cluster_id": 42,
+      "dist_from_grand": 0.710209310054779
+    },
+    {
+      "cluster_id": 19,
+      "dist_from_grand": 0.707653284072876
+    },
+    {
+      "cluster_id": 6,
+      "dist_from_grand": 0.7048276662826538
+    },
+    {
+      "cluster_id": 41,
+      "dist_from_grand": 0.7042457461357117
+    },
+    {
+      "cluster_id": 40,
+      "dist_from_grand": 0.7018848061561584
+    },
+    {
+      "cluster_id": 45,
+      "dist_from_grand": 0.696251392364502
+    },
+    {
+      "cluster_id": 8,
+      "dist_from_grand": 0.6950889825820923
+    },
+    {
+      "cluster_id": 12,
+      "dist_from_grand": 0.693159282207489
+    },
+    {
+      "cluster_id": 16,
+      "dist_from_grand": 0.6923463940620422
+    },
+    {
+      "cluster_id": 37,
+      "dist_from_grand": 0.6897209882736206
+    },
+    {
+      "cluster_id": 34,
+      "dist_from_grand": 0.6861713528633118
+    },
+    {
+      "cluster_id": 47,
+      "dist_from_grand": 0.6836366653442383
+    },
+    {
+      "cluster_id": 11,
+      "dist_from_grand": 0.6796998381614685
+    },
+    {
+      "cluster_id": 10,
+      "dist_from_grand": 0.678451657295227
+    },
+    {
+      "cluster_id": 1,
+      "dist_from_grand": 0.6700152158737183
+    },
+    {
+      "cluster_id": 38,
+      "dist_from_grand": 0.667521059513092
+    },
+    {
+      "cluster_id": 26,
+      "dist_from_grand": 0.6637620329856873
+    },
+    {
+      "cluster_id": 29,
+      "dist_from_grand": 0.6586935520172119
+    },
+    {
+      "cluster_id": 20,
+      "dist_from_grand": 0.6521726250648499
+    },
+    {
+      "cluster_id": 43,
+      "dist_from_grand": 0.6518847942352295
+    },
+    {
+      "cluster_id": 3,
+      "dist_from_grand": 0.6505168080329895
+    },
+    {
+      "cluster_id": 13,
+      "dist_from_grand": 0.6483890414237976
+    },
+    {
+      "cluster_id": 44,
+      "dist_from_grand": 0.6311262845993042
+    },
+    {
+      "cluster_id": 36,
+      "dist_from_grand": 0.6301082372665405
+    },
+    {
+      "cluster_id": 21,
+      "dist_from_grand": 0.6272987127304077
+    },
+    {
+      "cluster_id": 30,
+      "dist_from_grand": 0.6267155408859253
+    },
+    {
+      "cluster_id": 9,
+      "dist_from_grand": 0.624355673789978
+    },
+    {
+      "cluster_id": 4,
+      "dist_from_grand": 0.6230248212814331
+    },
+    {
+      "cluster_id": 7,
+      "dist_from_grand": 0.6196903586387634
+    },
+    {
+      "cluster_id": 23,
+      "dist_from_grand": 0.6193504333496094
+    },
+    {
+      "cluster_id": 25,
+      "dist_from_grand": 0.6177406311035156
+    },
+    {
+      "cluster_id": 5,
+      "dist_from_grand": 0.6081040501594543
+    },
+    {
+      "cluster_id": 49,
+      "dist_from_grand": 0.6073781847953796
+    },
+    {
+      "cluster_id": 35,
+      "dist_from_grand": 0.5935636162757874
+    },
+    {
+      "cluster_id": 17,
+      "dist_from_grand": 0.5764795541763306
+    },
+    {
+      "cluster_id": 27,
+      "dist_from_grand": 0.5653531551361084
+    },
+    {
+      "cluster_id": 0,
+      "dist_from_grand": 0.5454304218292236
+    },
+    {
+      "cluster_id": 15,
+      "dist_from_grand": 0.5419155359268188
+    },
+    {
+      "cluster_id": 24,
+      "dist_from_grand": 0.5415928363800049
+    },
+    {
+      "cluster_id": 32,
+      "dist_from_grand": 0.5283574461936951
+    },
+    {
+      "cluster_id": 39,
+      "dist_from_grand": 0.46187838912010193
+    },
+    {
+      "cluster_id": 18,
+      "dist_from_grand": 0.45761406421661377
+    },
+    {
+      "cluster_id": 28,
+      "dist_from_grand": 0.3752913475036621
+    },
+    {
+      "cluster_id": 2,
+      "dist_from_grand": 0.3415040671825409
+    }
+  ]
+}
