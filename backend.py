@@ -114,9 +114,12 @@ POLICY_CONFIG: dict[str, str] = {
         "notification is required. Mention phone, video, and in-person options."
     ),
     "Pankh Employee Referral": (
-        "IMPORTANT FOR THIS POLICY: For bonus/reward queries, clearly state that monetary "
-        "rewards apply ONLY for female, transgender, or specially-abled referrals. "
-        "State the exact amounts by grade. Mention the two-tranche payout schedule."
+        "IMPORTANT FOR THIS POLICY: The reward table in the context may appear as compressed "
+        "inline text without formatting, for example: 'Grade Reward E1-E2 5000 M1 7500 M2/M3 10000'. "
+        "Read this as a table where each grade label is immediately followed by its reward amount in rupees. "
+        "Extract and present the exact rupee amounts from the context for each grade. "
+        "Monetary rewards apply ONLY for female, transgender, or specially-abled referrals — state this clearly. "
+        "Always mention the two-tranche payout schedule (3 months and 6 months)."
     ),
     "Talent Mobility Policy": (
         "IMPORTANT FOR THIS POLICY: State eligibility criteria and tenure requirements clearly. "
