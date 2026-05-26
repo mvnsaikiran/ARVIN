@@ -20,7 +20,8 @@ from pydantic import BaseModel
 from typing import Any
 from dotenv import load_dotenv
 
-load_dotenv()
+_HERE = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(dotenv_path=os.path.join(_HERE, ".env"))
 
 app = FastAPI(title="ARVIN RAG Backend")
 
