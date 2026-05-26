@@ -31,6 +31,31 @@ BM25_GUARANTEE  = 6    # scan top-N BM25 results for guarantee candidates
 BM25_FLOOR      = 2.0  # minimum BM25 score to qualify for guaranteed inclusion
 BM25_MAX_INJECT = 3    # max chunks to actually inject
 POLICY_MIN_CHUNKS = 4  # min chunks from detected policy guaranteed in final results
+
+# Policies with ≤ this many total chunks get ALL chunks included (not just POLICY_MIN_CHUNKS).
+# 14 of 18 Arvind policies have ≤ 15 chunks — include-all guarantees no detail is missed.
+POLICY_INCLUDE_ALL_THRESHOLD = 15
+
+# For these table-heavy policies, table/table_data chunks get an extra BM25 boost
+# when the query asks about rates, limits, amounts, or coverage.
+TABLE_FIRST_POLICIES = frozenset({
+    "Domestic Travel Policy",
+    "Group Health Insurance Policy",
+    "Group Personal Accident Insurance Scheme",
+    "Local Conveyance Policy",
+    "Joining Policy",
+    "MediBuddy Health & Wellness (User Manual)",
+    "POSH Policy (Prevention of Sexual Harassment)",
+    "Talent Mobility Policy",
+})
+TABLE_BOOST = 2.0   # multiplier on top of POLICY_BOOST for table chunks
+
+_AMOUNT_QUERY_RE = re.compile(
+    r'\b(how much|rate|limit|amount|entitlement|coverage|per night|per km|per day|'
+    r'reimburs|allowance|sum insured|benefit|bonus|reward|compensation|salary|pay|'
+    r'cost|price|charge|fee|grant|stipend|payout|tranche|deduct|recover)\b',
+    re.IGNORECASE
+)
 # Common query stopwords — only inject if chunk matches ALL non-stop query tokens
 _BM25_STOPWORDS = frozenset(
     "what is the does a an of to in for how why can you tell me explain "
@@ -466,10 +491,17 @@ class HybridRetriever:
         bm25_raw   = self._bm25.get_scores(tokens)
 
         # Boost BM25 scores for the detected policy
+        is_amount_query = bool(_AMOUNT_QUERY_RE.search(query))
         if detected_policy:
             for i, c in enumerate(self._chunks):
-                if c["policy_name"] == detected_policy:
-                    bm25_raw[i] *= POLICY_BOOST
+                if c["policy_name"] != detected_policy:
+                    continue
+                bm25_raw[i] *= POLICY_BOOST
+                # Extra boost for table chunks in table-heavy policies on amount queries
+                if (detected_policy in TABLE_FIRST_POLICIES
+                        and is_amount_query
+                        and c.get("chunk_type") in ("table", "table_data")):
+                    bm25_raw[i] *= TABLE_BOOST
 
         bm25_top = sorted(
             ((i, s) for i, s in enumerate(bm25_raw) if s > 0),
@@ -550,7 +582,7 @@ class HybridRetriever:
         if detected_policy and not cross_policy:
             rrf_ids_final = {idx for idx, _ in top_indices}
             total_policy = sum(1 for c in self._chunks if c["policy_name"] == detected_policy)
-            effective_min = total_policy if total_policy <= 12 else POLICY_MIN_CHUNKS
+            effective_min = total_policy if total_policy <= POLICY_INCLUDE_ALL_THRESHOLD else POLICY_MIN_CHUNKS
             count_in_result = sum(
                 1 for idx in rrf_ids_final
                 if self._chunks[idx]["policy_name"] == detected_policy
