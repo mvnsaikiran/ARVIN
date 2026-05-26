@@ -61,6 +61,96 @@ ARVIN_SYSTEM_PROMPT = (
     "- Format responses clearly using bullet points or numbered steps where appropriate."
 )
 
+# Per-policy prompt addendums — injected when that policy is detected.
+# Each entry gives Gemini specific instructions for that policy's content type.
+POLICY_CONFIG: dict[str, str] = {
+    "Domestic Travel Policy": (
+        "IMPORTANT FOR THIS POLICY: Always specify which grade/band the entitlement applies to. "
+        "Present hotel limits, travel class, and per diem in a clear structured format. "
+        "If the employee's grade is mentioned, focus on their specific entitlement."
+    ),
+    "Local Conveyance Policy": (
+        "IMPORTANT FOR THIS POLICY: Always state the exact reimbursement rate (₹ per km) "
+        "for the specific vehicle type asked. Include any monthly claim limits if mentioned."
+    ),
+    "Group Health Insurance Policy": (
+        "IMPORTANT FOR THIS POLICY: Always mention room rent limits, ICU limits, and "
+        "sum insured amounts with grade/band specificity. Clarify cashless vs reimbursement "
+        "procedures. Include FHPL helpline if present in context."
+    ),
+    "Group Personal Accident Insurance Scheme": (
+        "IMPORTANT FOR THIS POLICY: This policy is entirely table-based. State exact "
+        "coverage amounts and percentages for the specific scenario asked. "
+        "Distinguish between permanent total disability, partial disability, and death benefits."
+    ),
+    "Group Term Life Insurance": (
+        "IMPORTANT FOR THIS POLICY: State the exact sum insured as a multiple of salary "
+        "or fixed amount. Mention nomination process and claim procedure if asked."
+    ),
+    "Exit & Full & Final Settlement Policy": (
+        "IMPORTANT FOR THIS POLICY: Always mention exact timelines (days). "
+        "For notice period queries, state exactly what gets recovered (basic + PA + HRA + FBP). "
+        "For tuition recovery, state the percentage based on separation period."
+    ),
+    "POSH Policy (Prevention of Sexual Harassment)": (
+        "IMPORTANT FOR THIS POLICY: Always include the Ethics Helpline (1800 200 8301 / "
+        "arvind@ethicshelpline.in) if relevant. For complaint procedures, give numbered steps. "
+        "For disciplinary action queries, focus specifically on the penalty/sanction section, "
+        "not the complaint filing section. Distinguish AIC procedures from general HR procedures."
+    ),
+    "Grievance Mechanism Policy 2025": (
+        "IMPORTANT FOR THIS POLICY: Provide the exact grievance filing steps in numbered order. "
+        "Mention timelines for each stage. Include escalation path if the first level doesn't resolve."
+    ),
+    "Whistleblower Policy": (
+        "IMPORTANT FOR THIS POLICY: Emphasize confidentiality protections. "
+        "List all available reporting channels (email, phone, web portal). "
+        "Clarify who can use the policy and what types of violations are covered."
+    ),
+    "Employee Assistance Program (EAP)": (
+        "IMPORTANT FOR THIS POLICY: Always mention that the service is FREE and CONFIDENTIAL. "
+        "Include the 1to1help contact details if present. State clearly that no manager/HR "
+        "notification is required. Mention phone, video, and in-person options."
+    ),
+    "Pankh Employee Referral": (
+        "IMPORTANT FOR THIS POLICY: For bonus/reward queries, clearly state that monetary "
+        "rewards apply ONLY for female, transgender, or specially-abled referrals. "
+        "State the exact amounts by grade. Mention the two-tranche payout schedule."
+    ),
+    "Talent Mobility Policy": (
+        "IMPORTANT FOR THIS POLICY: State eligibility criteria and tenure requirements clearly. "
+        "Mention that managers cannot block mobility and only CHRO/CEO can approve exceptions. "
+        "Include mobility adjustment amounts if present in context."
+    ),
+    "Joining Policy": (
+        "IMPORTANT FOR THIS POLICY: Always specify which grade/band the benefit applies to. "
+        "For accommodation queries, present the grade-wise options in a structured format. "
+        "Mention timelines for when benefits kick in."
+    ),
+    "Domestic Travel Expense Settlement Procedure": (
+        "IMPORTANT FOR THIS POLICY: Focus on the step-by-step procedure using MyTour Dashboard. "
+        "Always mention the 15-day submission deadline and the auto-settlement consequence on day 16."
+    ),
+    "Employee Expense Reimbursement Policy": (
+        "IMPORTANT FOR THIS POLICY: State exact reimbursement limits and eligible expense categories. "
+        "Mention the approval workflow and submission timeline."
+    ),
+    "MediBuddy Health & Wellness (User Manual)": (
+        "IMPORTANT FOR THIS POLICY: Focus on the specific feature or service the employee is "
+        "asking about. Provide step-by-step app navigation instructions where relevant. "
+        "Mention turnaround times for consultations."
+    ),
+    "Voluntary Death Contribution Scheme": (
+        "IMPORTANT FOR THIS POLICY: Explain the contribution mechanism and how the fund helps "
+        "the deceased employee's family. Mention eligibility and contribution amounts."
+    ),
+    "Gender Policy 2025": (
+        "IMPORTANT FOR THIS POLICY: Focus on the specific commitment or procedure asked. "
+        "Emphasize that this policy applies across all genders. "
+        "Mention reporting channels if relevant."
+    ),
+}
+
 
 def call_gemini(system_prompt: str, user_message: str) -> str:
     """Call Gemini via REST, trying models in order until one succeeds."""
@@ -310,15 +400,17 @@ def chat(req: ChatRequest):
         chunks = rerank_chunks_for_query(chunks, query)
         context = build_context_block(chunks)
 
-        # Build user message with optional memory context and policy hint
+        # Build per-policy system prompt and user message
         from hybrid_rag import _detect_policy
         detected = _detect_policy(query)
+        policy_addendum = POLICY_CONFIG.get(detected, "") if detected else ""
+        system_prompt = ARVIN_SYSTEM_PROMPT + (f"\n\n{policy_addendum}" if policy_addendum else "")
         policy_hint = f"[This query is specifically about: {detected}]\n\n" if detected else ""
         memory_prefix = f"CONVERSATION HISTORY:\n{req.memory_context}\n\n" if req.memory_context.strip() else ""
         user_message = f"{memory_prefix}{policy_hint}POLICY CONTEXT:\n{context}\n\nEMPLOYEE QUESTION:\n{query}"
 
-        # Generate answer via Gemini 2.5 Flash
-        answer = call_gemini(ARVIN_SYSTEM_PROMPT, user_message)
+        # Generate answer via Gemini with per-policy system prompt
+        answer = call_gemini(system_prompt, user_message)
 
         # Build citations from retrieved chunks
         seen: dict[str, Any] = {}
