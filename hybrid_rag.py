@@ -25,24 +25,16 @@ BM25_K          = 40   # candidates from BM25 pass
 RRF_K           = 60   # RRF constant (standard value)
 FINAL_K         = 10   # chunks returned to LLM
 POLICY_BOOST    = 3.0  # BM25 score multiplier for detected policy
-BM25_GUARANTEE  = 8    # scan top-N BM25 results for guarantee candidates
+BM25_GUARANTEE  = 6    # scan top-N BM25 results for guarantee candidates
 BM25_FLOOR      = 2.0  # minimum BM25 score to qualify for guaranteed inclusion
 BM25_MAX_INJECT = 3    # max chunks to actually inject
-# Policy-specific fast-path: if a detected-policy chunk scores this high in BM25,
-# inject it without the content-token check (BM25 rank already proves relevance).
-# After POLICY_BOOST=3.0 this corresponds to a raw BM25 score ≥ 5.0.
-BM25_POLICY_FAST_PATH = 15.0
-
 # Common query stopwords — only inject if chunk matches ALL non-stop query tokens
 _BM25_STOPWORDS = frozenset(
     "what is the does a an of to in for how why can you tell me explain "
     "about say do any as with by at or and that this are if not all be "
     "will was from on it its i am we my their your its true applicable "
     "policy policies hr arvind company employee employees grade grades "
-    "which under covered mention according confirm true false "
-    # Meta-query words from prefixes like 'As per Arvind HR policy...'
-    # or question scaffolding ('is X listed as a reportable issue?')
-    "per listed issue concern reportable".split()
+    "which under covered mention according confirm true false".split()
 )
 
 # ── Policy keyword routing ────────────────────────────────────────────────────
@@ -235,11 +227,6 @@ POLICY_KEYWORDS = {
         "it clearance exit", "cmg clearance exit",
         "pl balance payout", "consolidated salary notice",
         "100% tuition recovery", "50% tuition recovery",
-        # Resignation process vocabulary
-        "resign", "how to resign", "resign from arvind", "resignation",
-        "employee life cycle", "can i resign", "resign by email",
-        "email resignation", "resignation steps", "how do i quit",
-        "how do i leave", "quit job arvind", "leave company arvind",
     ],
     "Group Health Insurance Policy": [
         "health insurance", "ghi", "mediclaim", "hospitalisation", "hospitalization",
@@ -515,34 +502,23 @@ class HybridRetriever:
         else:
             top_indices = sorted(rrf.items(), key=lambda x: -x[1])[:n_results]
 
-        # 4. BM25 exact-match guarantee: inject top BM25 results not in RRF top-K.
-        #    Two paths:
-        #    Fast-path: chunk from the detected policy with a very high BM25 score gets
-        #      injected unconditionally — BM25 rank already proves it belongs here, and
-        #      requiring all query tokens would fail when queries use abbreviations (MAB),
-        #      meta-prefixes ("As per Arvind HR policy, …"), or paraphrased vocabulary.
-        #    Normal path: chunk must contain a majority (≥50%) of non-stopword query
-        #      tokens (relaxed from the prior all-match requirement).
+        # 4. BM25 exact-match guarantee: inject top BM25 results not in RRF top-K,
+        #    but only when the chunk actually contains a content token from the query.
+        #    This prevents generic high-BM25 chunks from crowding out true exact matches.
         rrf_ids = {idx for idx, _ in top_indices}
         content_tokens = set(tokens) - _BM25_STOPWORDS
         min_rrf = min(sc for _, sc in top_indices) if top_indices else 0.0
         injected = []
-        majority_floor = max(1, len(content_tokens) // 2) if content_tokens else 0
         for bm25_idx, bm25_score in bm25_ranked[:BM25_GUARANTEE]:
             if len(injected) >= BM25_MAX_INJECT:
                 break
             if bm25_score < BM25_FLOOR or bm25_idx in rrf_ids:
                 continue
-            chunk = self._chunks[bm25_idx]
-            # Fast-path: high-scoring chunk from the exact detected policy
-            if (detected_policy and
-                    chunk["policy_name"] == detected_policy and
-                    bm25_score >= BM25_POLICY_FAST_PATH):
-                injected.append((bm25_idx, min_rrf + 1e-6))
-                continue
-            # Normal path: majority token match
-            chunk_tokens = set(_tokenise(chunk["text"]))
-            if content_tokens and len(content_tokens & chunk_tokens) < majority_floor:
+            # Only inject if the chunk contains ALL non-stopword query tokens.
+            # Using subset (all-match) instead of intersection (any-match) ensures
+            # we inject truly precise matches, not generic chunks that share one token.
+            chunk_tokens = set(_tokenise(self._chunks[bm25_idx]["text"]))
+            if content_tokens and not content_tokens.issubset(chunk_tokens):
                 continue
             injected.append((bm25_idx, min_rrf + 1e-6))
         if injected:
