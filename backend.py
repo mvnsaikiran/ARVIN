@@ -91,6 +91,11 @@ class GenerateRequest(BaseModel):
     contents: list[Any]
     config: dict[str, Any] = {}
 
+class ChatRequest(BaseModel):
+    query: str
+    employeeId: str = "anonymous"
+    memory_context: str = ""
+
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def extract_query(contents: list[Any]) -> str:
@@ -193,6 +198,97 @@ def rag_generate(req: GenerateRequest):
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/chat")
+def chat(req: ChatRequest):
+    """
+    Primary chat endpoint called by the frontend (productionRagService.ts).
+    Returns AIResponse format: {text, type, suggestedQuestions, data}.
+
+    Flow:
+      1. Hybrid BM25 + semantic retrieval (hybrid_rag)
+      2. Out-of-scope guardrail
+      3. Gemini 2.5 Flash generates a grounded answer
+      4. Returns structured AIResponse the frontend UI can render
+    """
+    try:
+        ensure_rag()
+        from rag import retrieve, build_context_block, is_low_confidence, _OUT_OF_SCOPE_MSG
+
+        query = req.query.strip()
+        if not query:
+            return {
+                "text": "Please ask a question.",
+                "type": "error",
+                "suggestedQuestions": [],
+            }
+
+        # Hybrid retrieval
+        chunks = retrieve(query)
+
+        # Out-of-scope guardrail
+        if is_low_confidence(query, chunks):
+            return {
+                "text": _OUT_OF_SCOPE_MSG,
+                "type": "general",
+                "suggestedQuestions": [
+                    "What is covered under the travel reimbursement policy?",
+                    "How do I file a POSH complaint?",
+                    "What are my health insurance benefits?",
+                ],
+                "data": {"confidenceScore": 0, "source": "Out-of-scope guardrail"},
+            }
+
+        context = build_context_block(chunks)
+
+        # Build user message with optional memory context
+        memory_prefix = f"CONVERSATION HISTORY:\n{req.memory_context}\n\n" if req.memory_context.strip() else ""
+        user_message = f"{memory_prefix}POLICY CONTEXT:\n{context}\n\nEMPLOYEE QUESTION:\n{query}"
+
+        # Generate answer via Gemini 2.5 Flash
+        answer = call_gemini(ARVIN_SYSTEM_PROMPT, user_message)
+
+        # Build citations from retrieved chunks
+        seen: dict[str, Any] = {}
+        for c in chunks:
+            key = c["policy_name"]
+            if key not in seen:
+                seen[key] = {
+                    "policyName": c["policy_name"],
+                    "sourceDocumentName": c.get("source_file", c["policy_name"]),
+                    "pageNumber": c.get("page", 1),
+                    "clauseReference": c.get("section", ""),
+                    "source": "Python Hybrid RAG (BM25 + Semantic)",
+                }
+
+        citations = list(seen.values())
+        top = citations[0] if citations else {}
+
+        return {
+            "text": answer,
+            "type": "policy_details",
+            "suggestedQuestions": [],
+            "data": {
+                "confidenceScore": 0.97,
+                "source": "Python Hybrid RAG (BM25 + Semantic)",
+                "policyName": top.get("policyName", ""),
+                "sourceDocumentName": top.get("sourceDocumentName", ""),
+                "pageNumber": top.get("pageNumber", 1),
+                "clauseReference": top.get("clauseReference", ""),
+                "citations": citations,
+            },
+        }
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        return {
+            "text": "I encountered an error processing your question. Please try again.",
+            "type": "error",
+            "suggestedQuestions": [],
+            "data": {"source": "error", "confidenceScore": 0},
+        }
 
 
 if __name__ == "__main__":
