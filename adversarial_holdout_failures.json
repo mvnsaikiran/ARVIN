@@ -35,13 +35,6 @@
     ]
   },
   {
-    "query": "How many years do I have to submit the claim?",
-    "policy": "Talent Mobility Policy",
-    "missing": [
-      "3 years"
-    ]
-  },
-  {
     "query": "Who is eligible for this benefit?",
     "policy": "Domestic Travel Expense Settlement Procedure",
     "missing": [
@@ -119,13 +112,6 @@
     ]
   },
   {
-    "query": "Am I covered for this situation?",
-    "policy": "Employee Expense Reimbursement Policy",
-    "missing": [
-      "OTHER TERMS & CONDITIONS:\n\u2022 This policy is subject to period"
-    ]
-  },
-  {
     "query": "Can you explain this policy in simple words?",
     "policy": "Gender Policy 2025",
     "missing": [
@@ -151,13 +137,6 @@
     "policy": "Domestic Travel Policy",
     "missing": [
       "[TABLE \u2014 Domestic Travel Policy, Page 8]\nGrade | Conveyance\n"
-    ]
-  },
-  {
-    "query": "What if my case is different from what's written?",
-    "policy": "Pankh Employee Referral",
-    "missing": [
-      "4."
     ]
   },
   {
@@ -200,6 +179,13 @@
     "policy": "MediBuddy Health & Wellness (User Manual)",
     "missing": [
       "[TABLE \u2014 MediBuddy Health & Wellness (User Manual), Page 22]"
+    ]
+  },
+  {
+    "query": "Am I covered for this situation?",
+    "policy": "Joining Policy",
+    "missing": [
+      "EFFECTIVE DATE: 21."
     ]
   },
   {
@@ -343,13 +329,6 @@
     ]
   },
   {
-    "query": "What is the M3 entitlement?",
-    "policy": "Pankh Employee Referral",
-    "missing": [
-      "M3 grade) shall be opened for Referrals. This implies, that "
-    ]
-  },
-  {
     "query": "Does my family also get this benefit?",
     "policy": "Whistleblower Policy",
     "missing": [
@@ -382,6 +361,13 @@
     "policy": "Employee Assistance Program (EAP)",
     "missing": [
       "1800-258-8999"
+    ]
+  },
+  {
+    "query": "What is the benefit for someone at Grade M1?",
+    "policy": "Talent Mobility Policy",
+    "missing": [
+      "Grade M1: Annual MAB = 8,52,000 | Monthly MAB = 71,000 | SIA"
     ]
   },
   {
@@ -455,13 +441,6 @@
     ]
   },
   {
-    "query": "Who is eligible for this benefit?",
-    "policy": "Group Term Life Insurance",
-    "missing": [
-      "ENTITLEMENT:\n\u2022 Benefit shall be passed on to the beneficiary"
-    ]
-  },
-  {
     "query": "Is there a deadline for submitting documents?",
     "policy": "Group Personal Accident Insurance Scheme",
     "missing": [
@@ -504,6 +483,13 @@
     ]
   },
   {
+    "query": "How much will the company pay me?",
+    "policy": "Joining Policy",
+    "missing": [
+      "200"
+    ]
+  },
+  {
     "query": "What's the most money I can claim?",
     "policy": "Employee Expense Reimbursement Policy",
     "missing": [
@@ -543,13 +529,6 @@
     "policy": "Employee Expense Reimbursement Policy",
     "missing": [
       "RESPONSIBILITIES:\n\u2022 Employees: Ensure that all expenses are "
-    ]
-  },
-  {
-    "query": "What is the process to apply for this?",
-    "policy": "Group Personal Accident Insurance Scheme",
-    "missing": [
-      "11."
     ]
   },
   {
