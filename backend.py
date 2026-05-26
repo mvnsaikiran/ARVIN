@@ -32,16 +32,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Gemini REST config ────────────────────────────────────────────────────────
+# ── Groq REST config ─────────────────────────────────────────────────────────
 
-_GEMINI_MODELS = [
-    "gemini-2.5-flash",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite",
-    "gemini-1.5-flash-latest",
-    "gemini-1.5-flash-8b",
+_GROQ_MODELS = [
+    "llama-3.3-70b-versatile",
+    "llama3-70b-8192",
+    "llama3-8b-8192",
+    "mixtral-8x7b-32768",
 ]
-GEMINI_TIMEOUT = 60
+GROQ_TIMEOUT = 60
 
 ARVIN_SYSTEM_PROMPT = (
     "You are ARVIN, Arvind Limited's official HR Policy Assistant. "
@@ -154,48 +153,45 @@ POLICY_CONFIG: dict[str, str] = {
 }
 
 
-def call_gemini(system_prompt: str, user_message: str) -> str:
-    """Call Gemini via REST, trying models in order until one succeeds."""
+def call_groq(system_prompt: str, user_message: str) -> str:
+    """Call Groq via OpenAI-compatible REST API, trying models in order."""
     import time
-    api_key = os.getenv("GEMINI_API_KEY", "")
+    api_key = os.getenv("GROQ_API_KEY", "")
     if not api_key:
-        raise HTTPException(status_code=500, detail="GEMINI_API_KEY not set.")
+        raise HTTPException(status_code=500, detail="GROQ_API_KEY not set.")
 
     payload = {
-        "system_instruction": {"parts": [{"text": system_prompt}]},
-        "contents": [{"parts": [{"text": user_message}]}],
-        "generationConfig": {
-            "temperature": 0.2,
-            "maxOutputTokens": 1024,
-        },
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_message},
+        ],
+        "temperature": 0.2,
+        "max_tokens": 1024,
     }
     last_err = None
-    for model in _GEMINI_MODELS:
-        endpoint = (
-            f"https://generativelanguage.googleapis.com/v1beta/models/"
-            f"{model}:generateContent"
-        )
+    for model in _GROQ_MODELS:
+        payload["model"] = model
         for attempt in range(3):
             try:
                 resp = requests.post(
-                    endpoint,
-                    params={"key": api_key},
+                    "https://api.groq.com/openai/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
                     json=payload,
-                    timeout=GEMINI_TIMEOUT,
+                    timeout=GROQ_TIMEOUT,
                 )
                 if resp.status_code in (429, 503):
                     time.sleep(2 ** attempt)
                     last_err = f"{model} {resp.status_code}"
                     continue
                 resp.raise_for_status()
-                return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+                return resp.json()["choices"][0]["message"]["content"]
             except requests.exceptions.Timeout:
                 last_err = f"{model} timeout"
                 break
             except Exception as e:
                 last_err = str(e)
                 break
-    raise HTTPException(status_code=502, detail=f"All Gemini models failed: {last_err}")
+    raise HTTPException(status_code=502, detail=f"All Groq models failed: {last_err}")
 
 # ── Request model ─────────────────────────────────────────────────────────────
 
@@ -263,7 +259,7 @@ def ensure_rag():
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "backend": "chromadb-gemini"}
+    return {"status": "ok", "backend": "chromadb-groq"}
 
 
 class DebugRequest(BaseModel):
@@ -349,8 +345,7 @@ def rag_generate(req: GenerateRequest):
         context = build_context_block(chunks)
         user_message = build_user_message(query, context, history)
 
-        # Generate answer via Gemini 2.5 Flash REST
-        answer = call_gemini(ARVIN_SYSTEM_PROMPT, user_message)
+        answer = call_groq(ARVIN_SYSTEM_PROMPT, user_message)
         return {"text": answer}
 
     except HTTPException:
@@ -411,8 +406,7 @@ def chat(req: ChatRequest):
         memory_prefix = f"CONVERSATION HISTORY:\n{req.memory_context}\n\n" if req.memory_context.strip() else ""
         user_message = f"{memory_prefix}{policy_hint}POLICY CONTEXT:\n{context}\n\nEMPLOYEE QUESTION:\n{query}"
 
-        # Generate answer via Gemini with per-policy system prompt
-        answer = call_gemini(system_prompt, user_message)
+        answer = call_groq(system_prompt, user_message)
 
         # Build citations from retrieved chunks
         seen: dict[str, Any] = {}
