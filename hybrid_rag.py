@@ -18,7 +18,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-VECTORSTORE_DIR = "vectorstore"
+# Absolute path so the vectorstore is always found regardless of working directory
+_HERE           = os.path.dirname(os.path.abspath(__file__))
+VECTORSTORE_DIR = os.path.join(_HERE, "vectorstore")
 CHUNKS_FILE     = os.path.join(VECTORSTORE_DIR, "chunks.json")
 SEMANTIC_K      = 40   # candidates from semantic pass
 BM25_K          = 40   # candidates from BM25 pass
@@ -428,27 +430,27 @@ class HybridRetriever:
         detected_policy = _detect_policy(query)
         cross_policy = detected_policy is None
 
-        # Cross-policy queries get a wider semantic net
-        sem_k = min(SEMANTIC_K * 2 if cross_policy else SEMANTIC_K, self._chroma.count())
+        chroma_count = self._chroma.count()
 
-        # 1. Semantic search (wider net)
-        sem = self._chroma.query(
-            query_texts=[query],
-            n_results=sem_k,
-            include=["documents", "metadatas", "distances"],
-        )
-        sem_docs  = sem["documents"][0]
-        sem_metas = sem["metadatas"][0]
-        sem_dists = sem["distances"][0]
-
-        # Map to chunk indices (handle possible duplicates)
+        # 1. Semantic search — skip entirely if ChromaDB is empty (BM25-only fallback)
         sem_rank_map: dict[int, float] = {}
-        for doc, meta, dist in zip(sem_docs, sem_metas, sem_dists):
-            key = doc[:80]
-            for idx in self._doc2idx.get(key, []):
-                if self._chunks[idx]["policy_name"] == meta["policy_name"]:
-                    sem_rank_map[idx] = 1.0 - float(dist)
-                    break
+        if chroma_count > 0:
+            sem_k = min(SEMANTIC_K * 2 if cross_policy else SEMANTIC_K, chroma_count)
+            sem = self._chroma.query(
+                query_texts=[query],
+                n_results=sem_k,
+                include=["documents", "metadatas", "distances"],
+            )
+            sem_docs  = sem["documents"][0]
+            sem_metas = sem["metadatas"][0]
+            sem_dists = sem["distances"][0]
+
+            for doc, meta, dist in zip(sem_docs, sem_metas, sem_dists):
+                key = doc[:80]
+                for idx in self._doc2idx.get(key, []):
+                    if self._chunks[idx]["policy_name"] == meta["policy_name"]:
+                        sem_rank_map[idx] = 1.0 - float(dist)
+                        break
 
         # 2. BM25 search
         tokens     = _tokenise(query)
