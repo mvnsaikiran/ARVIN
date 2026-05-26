@@ -124,6 +124,10 @@ POLICY_KEYWORDS = {
         "reprimand", "censure", "withholding of promotion",
         "withholding of pay rise", "counselling session",
         "community service", "monetary compensation",
+        "guilty", "found guilty", "action against respondent",
+        "penalty for harassment", "punishment for harassment",
+        "disciplinary action against", "consequence of harassment",
+        "sanction against",
         # Protection
         "protected from retaliation posh", "no adverse action posh",
         "victimization posh", "protect complainants posh",
@@ -198,6 +202,10 @@ POLICY_KEYWORDS = {
     "Employee Assistance Program (EAP)": [
         "eap", "1to1help", "1 to 1 help", "employee assistance program",
         "counselling", "counseling", "mental health", "emotional support",
+        # Broad triggers: substring match catches "stressed", "stressful", "anxiety"
+        "stress", "anxiety", "anxious", "burnout", "burn out",
+        "overwhelmed", "feeling low", "emotional wellbeing",
+        "personal problem", "personal issue", "work life balance",
         "stress support", "wellness app", "well-being app", "wellbeing app",
         "confidential help service", "free and confidential",
         "psychological support", "therapist", "psychologist",

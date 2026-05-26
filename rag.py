@@ -80,24 +80,37 @@ def _max_bm25_content_score(query: str) -> float:
     return float(max(scores))
 
 
+def _count_matched_tokens(query: str) -> int:
+    """Count distinct content tokens that score >0 in at least one policy chunk."""
+    from hybrid_rag import _retriever, _tokenise, _BM25_STOPWORDS
+    _retriever._ensure_loaded()
+    content_tokens = [
+        t for t in _tokenise(query)
+        if t not in _BM25_STOPWORDS and len(t) >= MIN_TOKEN_LEN
+    ]
+    if not content_tokens:
+        return 0
+    matched = 0
+    for token in set(content_tokens):
+        scores = _retriever._bm25.get_scores([token])
+        if max(scores) > 0:
+            matched += 1
+    return matched
+
+
 def is_low_confidence(query: str, chunks: list[dict]) -> bool:
     """
     Return True when the query is out of Arvind HR policy scope.
 
-    Logic (two gates, both must pass to allow through):
-      Gate 1 — policy keyword: if hybrid_rag detects a specific Arvind policy
-               via keyword matching, the query is definitely on-topic → pass.
-      Gate 2 — BM25 noise floor: if no policy was detected (Gate 1 missed) AND
-               the max BM25 content-token score is below BM25_NOISE_FLOOR, the
-               query most likely has no real HR policy content → block.
-
-    This catches:
-      - "cook pasta", "tell me a joke"   → BM25≈0, no policy → blocked
-      - "capital of France"              → BM25=4.5 (capital≡GPA), no policy → blocked
-      - "what is 2+2"                    → BM25=6.4 (bare "2" in tables), no policy → blocked
-    And correctly passes:
-      - All queries that hit any POLICY_KEYWORDS entry (reimbursement, posh, mab, …)
-      - General HR queries with multiple HR-vocab tokens (benefits, counselling, etc.)
+    Three-gate logic (must pass all to be considered on-topic):
+      Gate 1 — policy keyword: explicit Arvind policy hit → always pass.
+      Gate 2 — BM25 noise floor: combined content-token BM25 score must be
+               above BM25_NOISE_FLOOR.
+      Gate 3 — token coverage: at least BM25_MATCH_MIN distinct content tokens
+               must independently appear somewhere in the policy corpus.
+               Prevents single common words (e.g. "india") from inflating the
+               score enough to pass generic/off-topic queries like
+               "Who is the PM of India?".
     """
     if not chunks:
         return True
@@ -105,7 +118,10 @@ def is_low_confidence(query: str, chunks: list[dict]) -> bool:
     if _detect_policy(query):
         return False  # explicit policy match → always on-topic
     bm25_max = _max_bm25_content_score(query)
-    return bm25_max < BM25_NOISE_FLOOR
+    if bm25_max < BM25_NOISE_FLOOR:
+        return True
+    matched = _count_matched_tokens(query)
+    return matched < BM25_MATCH_MIN
 
 
 def stream_answer(query: str, chat_history: list[dict]):
