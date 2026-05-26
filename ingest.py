@@ -22,6 +22,37 @@ VECTORSTORE_DIR = os.path.join(_HERE, "vectorstore")
 MAX_PROSE_CHUNK = 1400
 MIN_CHUNK       = 150   # ignore tiny fragments
 
+# Per-policy chunk sizes — tuned to each policy's content type:
+#   Small chunks  → precise clause/rate retrieval (rate tables, POSH sections)
+#   Large chunks  → preserve full Q&A pairs or multi-step procedures
+POLICY_CHUNK_SIZES: dict[str, int] = {
+    # Rate/table-heavy: small chunks isolate each grade row or rate clause
+    "Domestic Travel Policy":               700,
+    "Local Conveyance Policy":              700,
+    "Group Health Insurance Policy":        800,
+    "Group Personal Accident Insurance Scheme": 800,
+    "Joining Policy":                       800,
+    "Employee Expense Reimbursement Policy":900,
+    # Large policy with many sections: small chunks = precise section retrieval
+    "POSH Policy (Prevention of Sexual Harassment)": 700,
+    # Referral: small chunks so bonus table gets its own chunk
+    "Pankh Employee Referral":              600,
+    # F&F: notice period + tuition clauses need their own chunks
+    "Exit & Full & Final Settlement Policy":900,
+    # Q&A / FAQ format: large chunks keep question + answer together
+    "Employee Assistance Program (EAP)":   2000,
+    # Procedural: keep full procedure in one chunk
+    "Grievance Mechanism Policy 2025":     1600,
+    "Whistleblower Policy":                1600,
+    "Domestic Travel Expense Settlement Procedure": 1600,
+    # Small policies: large chunks fine (few chunks anyway)
+    "Group Term Life Insurance":           1400,
+    "Voluntary Death Contribution Scheme": 1400,
+    "Gender Policy 2025":                  1400,
+    "Talent Mobility Policy":              1400,   # page-per-section overrides this
+    "MediBuddy Health & Wellness (User Manual)": 1400,  # page-per-section overrides
+}
+
 # Policies that use a SLIDE / PAGE-PER-SECTION format (not continuous prose)
 # For these, each page is kept as its own chunk rather than joining all pages.
 PAGE_PER_SECTION_POLICIES = {
@@ -211,7 +242,7 @@ def _split_at_sentences(text: str, max_len: int) -> list[str]:
     return chunks
 
 
-def split_prose_into_chunks(text: str) -> list[str]:
+def split_prose_into_chunks(text: str, max_chunk: int = MAX_PROSE_CHUNK) -> list[str]:
     """
     1. Join PDF word-wrapped lines into full sentences/paragraphs
     2. Split at section headers (ALL-CAPS / numbered)
@@ -232,10 +263,10 @@ def split_prose_into_chunks(text: str) -> list[str]:
         part = part.strip()
         if not part:
             continue
-        if len(part) <= MAX_PROSE_CHUNK:
+        if len(part) <= max_chunk:
             raw_chunks.append(part)
         else:
-            raw_chunks.extend(_split_at_sentences(part, MAX_PROSE_CHUNK))
+            raw_chunks.extend(_split_at_sentences(part, max_chunk))
 
     # Step 4: merge tiny trailing fragments
     merged: list[str] = []
@@ -354,7 +385,8 @@ def extract_pdf_chunks(filepath: str, policy_name: str, filename: str) -> list[d
         return prose_parts[-1][0]
 
     prose_chunks: list[dict] = []
-    for chunk_text in split_prose_into_chunks(full_prose):
+    policy_max_chunk = POLICY_CHUNK_SIZES.get(policy_name, MAX_PROSE_CHUNK)
+    for chunk_text in split_prose_into_chunks(full_prose, max_chunk=policy_max_chunk):
         h = hashlib.md5(chunk_text.encode()).hexdigest()
         if h in seen_hashes:
             continue

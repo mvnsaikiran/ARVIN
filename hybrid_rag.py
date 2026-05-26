@@ -86,6 +86,40 @@ POLICY_RAG_CONFIG: dict[str, dict] = {
 }
 DEFAULT_BM25_W = 1.5   # fallback for cross-policy queries
 
+# Query expansion — maps query tokens to synonym tokens added before BM25 scoring.
+# Fixes vocabulary mismatch between how employees ask vs how policies are written.
+# e.g. employee says "bonus" → policy says "reward monetarily"
+QUERY_SYNONYMS: dict[str, list[str]] = {
+    "bonus":        ["reward", "monetary", "incentive", "payout"],
+    "fired":        ["terminated", "termination", "dismissed", "dismissal"],
+    "quit":         ["resign", "resignation", "voluntary"],
+    "fired":        ["terminated", "dismissal"],
+    "hospital":     ["hospitaliz", "hospitalis", "admitted", "admission"],
+    "sick":         ["illness", "medical", "disease"],
+    "counsel":      ["counselling", "counseling", "therapist"],
+    "stress":       ["stressed", "anxiety", "burnout", "overwhelm"],
+    "reimburs":     ["claim", "reimburse", "settlement", "expense"],
+    "salary":       ["ctc", "remuneration", "compensation", "pay"],
+    "fine":         ["penalty", "disciplinary", "sanction"],
+    "penalty":      ["sanction", "disciplinary", "action", "consequence"],
+    "report":       ["complaint", "file", "raise", "lodge"],
+    "transfer":     ["mobility", "relocation", "movement", "rotate"],
+    "refer":        ["referral", "recommend", "nominate"],
+    "cover":        ["coverage", "insured", "eligible", "entitlement"],
+    "insurance":    ["insured", "scheme", "cover", "policy"],
+    "death":        ["deceased", "demise", "fatality", "fatal"],
+}
+
+
+def _expand_query_tokens(tokens: list[str]) -> list[str]:
+    """Add synonym tokens to the query token list for BM25 scoring."""
+    expanded = list(tokens)
+    for token in tokens:
+        for key, synonyms in QUERY_SYNONYMS.items():
+            if token.startswith(key) or key.startswith(token):
+                expanded.extend(synonyms)
+    return expanded
+
 # Common query stopwords — only inject if chunk matches ALL non-stop query tokens
 _BM25_STOPWORDS = frozenset(
     "what is the does a an of to in for how why can you tell me explain "
@@ -521,9 +555,10 @@ class HybridRetriever:
                         sem_rank_map[idx] = 1.0 - float(dist)
                         break
 
-        # 2. BM25 search
+        # 2. BM25 search with query expansion (synonym injection)
         tokens     = _tokenise(query)
-        bm25_raw   = self._bm25.get_scores(tokens)
+        tokens_exp = _expand_query_tokens(tokens)
+        bm25_raw   = self._bm25.get_scores(tokens_exp)
 
         # Boost BM25 scores for the detected policy
         is_amount_query = bool(_AMOUNT_QUERY_RE.search(query))
