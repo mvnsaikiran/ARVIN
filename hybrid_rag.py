@@ -557,14 +557,23 @@ class HybridRetriever:
             )
             shortage = POLICY_MIN_CHUNKS - count_in_result
             if shortage > 0:
-                min_score = (min(sc for _, sc in top_indices) if top_indices else 0.0) - 1e-6
+                q_tok = frozenset(
+                    t for t in _tokenise(query)
+                    if t not in _BM25_STOPWORDS and len(t) >= 3
+                )
+                def _extra_rank(chunk_idx: int, rrf_sc: float) -> tuple:
+                    overlap = sum(
+                        1 for t in _tokenise(self._chunks[chunk_idx]["text"][:600])
+                        if t in q_tok
+                    )
+                    return (-overlap, -rrf_sc)
                 policy_extras = sorted(
                     [
                         (i, rrf.get(i, 0.0))
                         for i, c in enumerate(self._chunks)
                         if c["policy_name"] == detected_policy and i not in rrf_ids_final
                     ],
-                    key=lambda x: -x[1],
+                    key=lambda x: _extra_rank(x[0], x[1]),
                 )[:shortage]
                 if policy_extras:
                     keep = n_results - len(policy_extras)
