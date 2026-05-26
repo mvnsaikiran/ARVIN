@@ -63,7 +63,7 @@
     ]
   },
   {
-    "query": "Under Arvind's policy, As E1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "query": "Under Arvind's policy, As E2 grade, what SIA do I get and what is the Class I boarding limit?",
     "policy": "Talent Mobility Policy",
     "missing": [
       "10,000"
@@ -91,17 +91,10 @@
     ]
   },
   {
-    "query": "My HR manager asked: As E1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "query": "My HR manager asked: As E2 grade, what SIA do I get and what is the Class I boarding limit?",
     "policy": "Talent Mobility Policy",
     "missing": [
       "10,000"
-    ]
-  },
-  {
-    "query": "My HR manager asked: As M1 grade, what SIA do I get and what is the Class I boarding limit?",
-    "policy": "Talent Mobility Policy",
-    "missing": [
-      "15,000"
     ]
   },
   {
@@ -119,6 +112,13 @@
     ]
   },
   {
+    "query": "I need to know: As M1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "policy": "Talent Mobility Policy",
+    "missing": [
+      "15,000"
+    ]
+  },
+  {
     "query": "I need to know: As M2 grade, what SIA do I get and what is the Class I boarding limit?",
     "policy": "Talent Mobility Policy",
     "missing": [
@@ -133,10 +133,31 @@
     ]
   },
   {
+    "query": "Quick question \u2014 As M1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "policy": "Talent Mobility Policy",
+    "missing": [
+      "15,000"
+    ]
+  },
+  {
+    "query": "Quick question \u2014 As M2 grade, what SIA do I get and what is the Class I boarding limit?",
+    "policy": "Talent Mobility Policy",
+    "missing": [
+      "20,000"
+    ]
+  },
+  {
     "query": "Quick question \u2014 As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
     "policy": "Talent Mobility Policy",
     "missing": [
       "45,000"
+    ]
+  },
+  {
+    "query": "Policy check: As E1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "policy": "Talent Mobility Policy",
+    "missing": [
+      "10,000"
     ]
   },
   {

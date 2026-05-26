@@ -42,6 +42,13 @@
     ]
   },
   {
+    "query": "What happens if I miss the 8 hours window?",
+    "policy": "Joining Policy",
+    "missing": [
+      "8 hours"
+    ]
+  },
+  {
     "query": "Does my family also get this benefit?",
     "policy": "Exit & Full & Final Settlement Policy",
     "missing": [
@@ -238,13 +245,6 @@
     ]
   },
   {
-    "query": "What's the most money I can claim?",
-    "policy": "Group Health Insurance Policy",
-    "missing": [
-      "85000"
-    ]
-  },
-  {
     "query": "Who is eligible for this benefit?",
     "policy": "Grievance Mechanism Policy 2025",
     "missing": [
@@ -263,20 +263,6 @@
     "policy": "Group Health Insurance Policy",
     "missing": [
       ", wherein the Insured is discharged the same day due to tech"
-    ]
-  },
-  {
-    "query": "Does my family also get this benefit?",
-    "policy": "Whistleblower Policy",
-    "missing": [
-      "8."
-    ]
-  },
-  {
-    "query": "Who is eligible for this benefit?",
-    "policy": "Group Health Insurance Policy",
-    "missing": [
-      "\u2022 Ambulance charges up to a maximum of \u20b95,000/-\n\u2022 Any compli"
     ]
   },
   {
@@ -329,10 +315,10 @@
     ]
   },
   {
-    "query": "Does my family also get this benefit?",
-    "policy": "Whistleblower Policy",
+    "query": "What is the helpline number?",
+    "policy": "Employee Assistance Program (EAP)",
     "missing": [
-      "8."
+      "managersupport@1to1help.net"
     ]
   },
   {
@@ -340,13 +326,6 @@
     "policy": "Joining Policy",
     "missing": [
       "Joining Policy \u2014 relocation transport reimbursement rate by "
-    ]
-  },
-  {
-    "query": "What's the most money I can claim?",
-    "policy": "Group Personal Accident Insurance Scheme",
-    "missing": [
-      "50"
     ]
   },
   {
@@ -487,13 +466,6 @@
     "policy": "Joining Policy",
     "missing": [
       "200"
-    ]
-  },
-  {
-    "query": "What's the most money I can claim?",
-    "policy": "Employee Expense Reimbursement Policy",
-    "missing": [
-      "10000"
     ]
   },
   {
