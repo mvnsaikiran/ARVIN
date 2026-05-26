@@ -157,6 +157,48 @@ def health():
     return {"status": "ok", "backend": "chromadb-gemini"}
 
 
+class DebugRequest(BaseModel):
+    query: str
+
+@app.post("/api/debug/retrieve")
+def debug_retrieve(req: DebugRequest):
+    """Show exactly which chunks + policies are retrieved for a query.
+    Use this to verify the RAG pipeline is working before involving Gemini."""
+    try:
+        ensure_rag()
+        from rag import retrieve, rerank_chunks_for_query
+        from hybrid_rag import _detect_policy
+
+        query = req.query.strip()
+        detected = _detect_policy(query)
+        chunks = retrieve(query)
+        chunks = rerank_chunks_for_query(chunks, query)
+
+        summary = []
+        for i, c in enumerate(chunks):
+            summary.append({
+                "rank": i + 1,
+                "policy": c["policy_name"],
+                "page": c["page"],
+                "score": c["score"],
+                "snippet": c["text"][:120].replace("\n", " "),
+            })
+
+        policy_counts: dict[str, int] = {}
+        for c in chunks:
+            policy_counts[c["policy_name"]] = policy_counts.get(c["policy_name"], 0) + 1
+
+        return {
+            "query": query,
+            "detected_policy": detected,
+            "policy_counts": policy_counts,
+            "chunks": summary,
+        }
+    except Exception as e:
+        import traceback
+        return {"error": str(e), "trace": traceback.format_exc()}
+
+
 @app.post("/api/ingest")
 def ingest():
     """Rebuild the ChromaDB vectorstore from policies/."""
