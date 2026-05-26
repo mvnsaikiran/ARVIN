@@ -251,9 +251,12 @@ def chat(req: ChatRequest):
         chunks = rerank_chunks_for_query(chunks, query)
         context = build_context_block(chunks)
 
-        # Build user message with optional memory context
+        # Build user message with optional memory context and policy hint
+        from hybrid_rag import _detect_policy
+        detected = _detect_policy(query)
+        policy_hint = f"[This query is specifically about: {detected}]\n\n" if detected else ""
         memory_prefix = f"CONVERSATION HISTORY:\n{req.memory_context}\n\n" if req.memory_context.strip() else ""
-        user_message = f"{memory_prefix}POLICY CONTEXT:\n{context}\n\nEMPLOYEE QUESTION:\n{query}"
+        user_message = f"{memory_prefix}{policy_hint}POLICY CONTEXT:\n{context}\n\nEMPLOYEE QUESTION:\n{query}"
 
         # Generate answer via Gemini 2.5 Flash
         answer = call_gemini(ARVIN_SYSTEM_PROMPT, user_message)

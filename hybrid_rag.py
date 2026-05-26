@@ -567,15 +567,8 @@ class HybridRetriever:
                     key=lambda x: -x[1],
                 )[:shortage]
                 if policy_extras:
-                    combined2 = list(top_indices) + [(idx, min_score) for idx, _ in policy_extras]
-                    combined2.sort(key=lambda x: -x[1])
-                    seen2: set[int] = set()
-                    top_indices = []
-                    for idx, sc in combined2:
-                        if idx not in seen2:
-                            seen2.add(idx)
-                            top_indices.append((idx, sc))
-                    top_indices = top_indices[:n_results]
+                    keep = n_results - len(policy_extras)
+                    top_indices = top_indices[:keep] + [(idx, 0.001) for idx, _ in policy_extras]
 
         return [
             {
