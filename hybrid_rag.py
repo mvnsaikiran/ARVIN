@@ -544,18 +544,18 @@ class HybridRetriever:
                     deduped.append((idx, sc))
             top_indices = deduped[:n_results]
 
-        # 5. Policy minimum guarantee: when a specific policy is keyword-detected,
-        #    ensure at least POLICY_MIN_CHUNKS of its chunks appear in the final
-        #    context even if semantic search ranked them below the top-K cutoff.
-        #    Prevents a large policy (e.g. POSH, 70 chunks) from drowning out a
-        #    small targeted policy (e.g. EAP, 12 chunks) through sheer volume.
+        # 5. Policy guarantee: ensure sufficient chunks from the detected policy.
+        #    For small policies (≤ 12 chunks total) include ALL of them.
+        #    For large policies (e.g. POSH 70 chunks) keep POLICY_MIN_CHUNKS floor.
         if detected_policy and not cross_policy:
             rrf_ids_final = {idx for idx, _ in top_indices}
+            total_policy = sum(1 for c in self._chunks if c["policy_name"] == detected_policy)
+            effective_min = total_policy if total_policy <= 12 else POLICY_MIN_CHUNKS
             count_in_result = sum(
                 1 for idx in rrf_ids_final
                 if self._chunks[idx]["policy_name"] == detected_policy
             )
-            shortage = POLICY_MIN_CHUNKS - count_in_result
+            shortage = effective_min - count_in_result
             if shortage > 0:
                 q_tok = frozenset(
                     t for t in _tokenise(query)

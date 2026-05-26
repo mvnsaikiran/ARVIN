@@ -10,7 +10,7 @@ import hybrid_rag
 
 load_dotenv()
 
-TOP_K = 10
+TOP_K = 15
 MODEL = "claude-sonnet-4-6"
 
 # Thresholds for the two-gate out-of-scope check (see is_low_confidence).
