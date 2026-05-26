@@ -30,6 +30,7 @@ POLICY_BOOST    = 3.0  # BM25 score multiplier for detected policy
 BM25_GUARANTEE  = 6    # scan top-N BM25 results for guarantee candidates
 BM25_FLOOR      = 2.0  # minimum BM25 score to qualify for guaranteed inclusion
 BM25_MAX_INJECT = 3    # max chunks to actually inject
+POLICY_MIN_CHUNKS = 4  # min chunks from detected policy guaranteed in final results
 # Common query stopwords — only inject if chunk matches ALL non-stop query tokens
 _BM25_STOPWORDS = frozenset(
     "what is the does a an of to in for how why can you tell me explain "
@@ -542,6 +543,39 @@ class HybridRetriever:
                     seen_ids.add(idx)
                     deduped.append((idx, sc))
             top_indices = deduped[:n_results]
+
+        # 5. Policy minimum guarantee: when a specific policy is keyword-detected,
+        #    ensure at least POLICY_MIN_CHUNKS of its chunks appear in the final
+        #    context even if semantic search ranked them below the top-K cutoff.
+        #    Prevents a large policy (e.g. POSH, 70 chunks) from drowning out a
+        #    small targeted policy (e.g. EAP, 12 chunks) through sheer volume.
+        if detected_policy and not cross_policy:
+            rrf_ids_final = {idx for idx, _ in top_indices}
+            count_in_result = sum(
+                1 for idx in rrf_ids_final
+                if self._chunks[idx]["policy_name"] == detected_policy
+            )
+            shortage = POLICY_MIN_CHUNKS - count_in_result
+            if shortage > 0:
+                min_score = (min(sc for _, sc in top_indices) if top_indices else 0.0) - 1e-6
+                policy_extras = sorted(
+                    [
+                        (i, rrf.get(i, 0.0))
+                        for i, c in enumerate(self._chunks)
+                        if c["policy_name"] == detected_policy and i not in rrf_ids_final
+                    ],
+                    key=lambda x: -x[1],
+                )[:shortage]
+                if policy_extras:
+                    combined2 = list(top_indices) + [(idx, min_score) for idx, _ in policy_extras]
+                    combined2.sort(key=lambda x: -x[1])
+                    seen2: set[int] = set()
+                    top_indices = []
+                    for idx, sc in combined2:
+                        if idx not in seen2:
+                            seen2.add(idx)
+                            top_indices.append((idx, sc))
+                    top_indices = top_indices[:n_results]
 
         return [
             {

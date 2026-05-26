@@ -37,7 +37,7 @@ GEMINI_ENDPOINT = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
     "gemini-2.5-flash:generateContent"
 )
-GEMINI_TIMEOUT = 30
+GEMINI_TIMEOUT = 60
 
 ARVIN_SYSTEM_PROMPT = (
     "You are ARVIN, Arvind Limited's official HR Policy Assistant. "
@@ -182,7 +182,7 @@ def rag_generate(req: GenerateRequest):
     """
     try:
         ensure_rag()
-        from rag import retrieve, build_context_block, is_low_confidence, _OUT_OF_SCOPE_MSG
+        from rag import retrieve, build_context_block, is_low_confidence, _OUT_OF_SCOPE_MSG, rerank_chunks_for_query
 
         query = extract_query(req.contents)
         history = req.contents[:-1]
@@ -194,6 +194,7 @@ def rag_generate(req: GenerateRequest):
         if is_low_confidence(query, chunks):
             return {"text": _OUT_OF_SCOPE_MSG}
 
+        chunks = rerank_chunks_for_query(chunks, query)
         context = build_context_block(chunks)
         user_message = build_user_message(query, context, history)
 
@@ -221,7 +222,7 @@ def chat(req: ChatRequest):
     """
     try:
         ensure_rag()
-        from rag import retrieve, build_context_block, is_low_confidence, _OUT_OF_SCOPE_MSG
+        from rag import retrieve, build_context_block, is_low_confidence, _OUT_OF_SCOPE_MSG, rerank_chunks_for_query
 
         query = req.query.strip()
         if not query:
@@ -247,6 +248,7 @@ def chat(req: ChatRequest):
                 "data": {"confidenceScore": 0, "source": "Out-of-scope guardrail"},
             }
 
+        chunks = rerank_chunks_for_query(chunks, query)
         context = build_context_block(chunks)
 
         # Build user message with optional memory context

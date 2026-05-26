@@ -126,6 +126,25 @@ def is_low_confidence(query: str, chunks: list[dict]) -> bool:
     return matched < BM25_MATCH_MIN
 
 
+def rerank_chunks_for_query(chunks: list[dict], query: str) -> list[dict]:
+    """Re-sort retrieved chunks so the one with the most query-token overlap appears
+    first in the Gemini context.  Prevents Gemini from anchoring on the highest-RRF
+    chunk when a more specific chunk better answers the employee's actual question
+    (e.g. DISCIPLINARY ACTION before PROTECTION, PAYOUT RATES before CASE MATRIX)."""
+    from hybrid_rag import _tokenise, _BM25_STOPWORDS
+    q_tokens = frozenset(
+        t for t in _tokenise(query)
+        if t not in _BM25_STOPWORDS and len(t) >= 3
+    )
+    if not q_tokens:
+        return chunks
+
+    def overlap(c: dict) -> int:
+        return sum(1 for t in _tokenise(c.get("text", "")[:400]) if t in q_tokens)
+
+    return sorted(chunks, key=overlap, reverse=True)
+
+
 def stream_answer(query: str, chat_history: list[dict]):
     """
     Retrieve context, build prompt, stream Claude response.
@@ -141,6 +160,7 @@ def stream_answer(query: str, chat_history: list[dict]):
         yield {"sources": []}
         return
 
+    chunks = rerank_chunks_for_query(chunks, query)
     context = build_context_block(chunks)
 
     # Build messages list for Claude
