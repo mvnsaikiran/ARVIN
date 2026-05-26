@@ -10,6 +10,5 @@ frontend/
 public/
 package-lock.json
 src/data/enterpriseUnseen5000Generated.ts
-src/data/fullTestSuite.ts
 test_suite.json
 cleaned_test_suite.json
