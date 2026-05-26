@@ -23,8 +23,8 @@ MAX_PROSE_CHUNK = 1400
 MIN_CHUNK       = 150   # ignore tiny fragments
 
 # Per-policy chunk sizes — tuned to each policy's content type:
-#   Small chunks  → precise clause/rate retrieval (rate tables, POSH sections)
-#   Large chunks  → preserve full Q&A pairs or multi-step procedures
+#   Small chunks  -> precise clause/rate retrieval (rate tables, POSH sections)
+#   Large chunks  -> preserve full Q&A pairs or multi-step procedures
 POLICY_CHUNK_SIZES: dict[str, int] = {
     # Rate/table-heavy: small chunks isolate each grade row or rate clause
     "Domestic Travel Policy":               700,
@@ -479,7 +479,7 @@ def main():
         policy_name = get_policy_name(filename)
         ext = os.path.splitext(filename)[1].lower()
 
-        print(f"\n  {filename} → {policy_name}", flush=True)
+        print(f"\n  {filename} -> {policy_name}", flush=True)
         try:
             if ext == '.pdf':
                 chunks = extract_pdf_chunks(filepath, policy_name, filename)
@@ -494,7 +494,7 @@ def main():
 
         tables = sum(1 for c in chunks if c['chunk_type'] == 'table')
         prose  = sum(1 for c in chunks if c['chunk_type'] != 'table')
-        print(f"    → {len(chunks)} chunks ({tables} tables, {prose} prose)", flush=True)
+        print(f"    -> {len(chunks)} chunks ({tables} tables, {prose} prose)", flush=True)
         all_chunks.extend(chunks)
 
     print(f"\nTotal: {len(all_chunks)} chunks — embedding and storing...", flush=True)
@@ -528,7 +528,7 @@ def main():
             'filename':    c['filename'],
             'chunk_type':  c['chunk_type'],
         } for c in all_chunks], f)
-    print(f"Saved chunks manifest → {chunks_file}", flush=True)
+    print(f"Saved chunks manifest -> {chunks_file}", flush=True)
     print(f"\nDone. {len(all_chunks)} chunks in vectorstore.", flush=True)
 
 
