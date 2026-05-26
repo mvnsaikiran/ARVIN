@@ -48,6 +48,8 @@ function buildSourceSuite(source: keyof typeof BALANCED_POLICY_TARGETS): FullTes
   const baseTests = FULL_TEST_SUITE.filter((test) => test.source === source);
   const targetCount = BALANCED_POLICY_TARGETS[source];
 
+  if (baseTests.length === 0) return [];
+
   if (baseTests.length >= targetCount) {
     return baseTests.slice(0, targetCount);
   }
