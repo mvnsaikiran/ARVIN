@@ -34,10 +34,11 @@ app.add_middleware(
 
 # ── Gemini REST config ────────────────────────────────────────────────────────
 
-GEMINI_ENDPOINT = (
-    "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.5-flash:generateContent"
-)
+_GEMINI_MODELS = [
+    "gemini-2.5-flash",
+    "gemini-2.0-flash",
+    "gemini-1.5-flash",
+]
 GEMINI_TIMEOUT = 60
 
 ARVIN_SYSTEM_PROMPT = (
@@ -62,7 +63,8 @@ ARVIN_SYSTEM_PROMPT = (
 
 
 def call_gemini(system_prompt: str, user_message: str) -> str:
-    """Call Gemini 2.5 Flash via REST and return the answer text."""
+    """Call Gemini via REST, trying models in order until one succeeds."""
+    import time
     api_key = os.getenv("GEMINI_API_KEY", "")
     if not api_key:
         raise HTTPException(status_code=500, detail="GEMINI_API_KEY not set.")
@@ -75,19 +77,33 @@ def call_gemini(system_prompt: str, user_message: str) -> str:
             "maxOutputTokens": 1024,
         },
     }
-    try:
-        resp = requests.post(
-            GEMINI_ENDPOINT,
-            params={"key": api_key},
-            json=payload,
-            timeout=GEMINI_TIMEOUT,
+    last_err = None
+    for model in _GEMINI_MODELS:
+        endpoint = (
+            f"https://generativelanguage.googleapis.com/v1beta/models/"
+            f"{model}:generateContent"
         )
-        resp.raise_for_status()
-        return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
-    except requests.exceptions.Timeout:
-        raise HTTPException(status_code=504, detail="Gemini API timed out.")
-    except Exception as e:
-        raise HTTPException(status_code=502, detail=f"Gemini API error: {e}")
+        for attempt in range(3):
+            try:
+                resp = requests.post(
+                    endpoint,
+                    params={"key": api_key},
+                    json=payload,
+                    timeout=GEMINI_TIMEOUT,
+                )
+                if resp.status_code in (429, 503):
+                    time.sleep(2 ** attempt)
+                    last_err = f"{model} {resp.status_code}"
+                    continue
+                resp.raise_for_status()
+                return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+            except requests.exceptions.Timeout:
+                last_err = f"{model} timeout"
+                break
+            except Exception as e:
+                last_err = str(e)
+                break
+    raise HTTPException(status_code=502, detail=f"All Gemini models failed: {last_err}")
 
 # ── Request model ─────────────────────────────────────────────────────────────
 
