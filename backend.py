@@ -283,8 +283,10 @@ def chat(req: ChatRequest):
     except HTTPException:
         raise
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return {
-            "text": "I encountered an error processing your question. Please try again.",
+            "text": f"Error: {e}",
             "type": "error",
             "suggestedQuestions": [],
             "data": {"source": "error", "confidenceScore": 0},
