@@ -84,6 +84,54 @@ const POLICY_ALIASES: Array<{ policyId: string; name: string; aliases: string[] 
     name: "talent mobility policy",
     aliases: ["talent mobility", "mobility policy", "rotation policy", "ijp", "transfer", "deputation"],
   },
+  {
+    policyId: "eap",
+    name: "employee assistance program",
+    aliases: [
+      "eap", "1to1", "1to1help", "employee assistance", "counselling", "counseling",
+      "mental health", "stress support", "wellbeing", "wellness", "psychological support",
+    ],
+  },
+  {
+    policyId: "group-health-insurance",
+    name: "group health insurance",
+    aliases: ["health insurance", "mediclaim", "hospitalisation", "hospitalization", "cashless claim", "fhpl", "ghi"],
+  },
+  {
+    policyId: "group-personal-accident",
+    name: "group personal accident insurance",
+    aliases: ["personal accident insurance", "accident insurance", "disability insurance", "gpa"],
+  },
+  {
+    policyId: "group-term-life",
+    name: "group term life insurance",
+    aliases: ["term life insurance", "life insurance arvind", "death benefit", "gtl", "gti"],
+  },
+  {
+    policyId: "pankh-referral",
+    name: "pankh employee referral",
+    aliases: ["pankh", "employee referral", "refer a candidate", "referral reward", "referral bonus"],
+  },
+  {
+    policyId: "expense-reimbursement",
+    name: "employee expense reimbursement",
+    aliases: ["expense reimbursement", "birthday expense", "farewell expense", "late night food reimbursement"],
+  },
+  {
+    policyId: "exit-fnf",
+    name: "exit and full final settlement",
+    aliases: ["full and final", "fnf settlement", "relieving letter", "experience letter", "resignation process"],
+  },
+  {
+    policyId: "medibuddy",
+    name: "medibuddy health wellness",
+    aliases: ["medibuddy", "online doctor consultation", "video consultation doctor"],
+  },
+  {
+    policyId: "voluntary-death-contribution",
+    name: "voluntary death contribution scheme",
+    aliases: ["death contribution", "voluntary death contribution", "vdcs"],
+  },
 ];
 
 const STOPWORDS = new Set([
@@ -201,6 +249,30 @@ function inferPolicyIds(normalizedQuery: string, answerType: PolicyQuestionType)
   }
   if (/\bmobility\b|\brotation\b|\bijp\b|\bmab\b|\bsia\b|\bsettling[- ]in\b/.test(normalizedQuery)) {
     ids.push("talent-mobility");
+  }
+  if (/\beap\b|\bstress(?:ed|ful)?\b|\bcounsel(?:l?ing)?\b|\bmental health\b|\bwellbeing\b|\bwellness\b|\bemotional support\b|\banxi(?:ous|ety)\b|\bburnout\b|\boverwhel|\b1to1\b/.test(normalizedQuery)) {
+    ids.push("eap");
+  }
+  if (/\bhealth insurance\b|\bmediclaim\b|\bhospitali(?:s|z)ation\b|\bcashless\b|\bfhpl\b|\bghi\b/.test(normalizedQuery)) {
+    ids.push("group-health-insurance");
+  }
+  if (/\bpersonal accident\b|\baccident insurance\b|\bdisability insurance\b|\bgpa\b/.test(normalizedQuery)) {
+    ids.push("group-personal-accident");
+  }
+  if (/\bterm life\b|\blife insurance\b|\bdeath benefit\b|\bgtl\b|\bgti\b/.test(normalizedQuery)) {
+    ids.push("group-term-life");
+  }
+  if (/\bpankh\b|\breferral reward\b|\breferral bonus\b|\brefer.*candidate\b|\bemployee referral\b/.test(normalizedQuery)) {
+    ids.push("pankh-referral");
+  }
+  if (/\bfull.*final\b|\bfull & final\b|\bfnf\b|\brelieving letter\b|\bresignation process\b|\bexperience letter\b/.test(normalizedQuery)) {
+    ids.push("exit-fnf");
+  }
+  if (/\bmedibuddy\b|\bonline doctor\b|\bvideo consult\b/.test(normalizedQuery)) {
+    ids.push("medibuddy");
+  }
+  if (/\bdeath contribution\b|\bvdcs\b|\bvoluntary death\b/.test(normalizedQuery)) {
+    ids.push("voluntary-death-contribution");
   }
 
   // Fallback based on specific answer types
