@@ -1,18 +1,218 @@
 [
   {
-    "query": "Flight entitlement for BMH9 employees as per policy?",
-    "source": "Domestic Travel Policy",
+    "query": "If I am E1, what annual MAB is credited?",
+    "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "Premium Economy / Business"
+      "3,91,000"
     ]
   },
   {
-    "query": "As per Arvind HR policy, Can I claim Telephone expenses as a travel expense?",
-    "source": "Domestic Travel Policy",
+    "query": "What is the annual MAB for a E2 employee?",
+    "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "Telephone expenses"
+      "5,49,000"
+    ]
+  },
+  {
+    "query": "If I am E2, what annual MAB is credited?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "5,49,000"
+    ]
+  },
+  {
+    "query": "If I am M1, what annual MAB is credited?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "8,52,000"
+    ]
+  },
+  {
+    "query": "What is the annual MAB for a M2 employee?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "13,00,000"
+    ]
+  },
+  {
+    "query": "What is the annual MAB for a M3 employee?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "19,00,000"
+    ]
+  },
+  {
+    "query": "If I am M3, what annual MAB is credited?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "19,00,000"
+    ]
+  },
+  {
+    "query": "What is the annual MAB for a M3H1 employee?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "26,00,000"
+    ]
+  },
+  {
+    "query": "If I am M3H1, what annual MAB is credited?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "26,00,000"
+    ]
+  },
+  {
+    "query": "What distance triggers SIA eligibility?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "relocation >20 kms"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, What is the annual MAB for a E1 employee?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "3,91,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Monthly MAB entitlement for grade E2?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, What is the annual MAB for a E2 employee?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "5,49,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, What is the annual MAB for a M1 employee?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "8,52,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, How much SIA does a M1 employee receive?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "15,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, MAB monthly amount for M2 employees?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Monthly MAB entitlement for grade M2?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, What is the annual MAB for a M2 employee?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "13,00,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Yearly MAB figure for M2?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "13,00,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, How much SIA does a M2 employee receive?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "20,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, MAB monthly amount for M3 employees?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Monthly MAB entitlement for grade M3?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, What is the annual MAB for a M3 employee?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "19,00,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Yearly MAB figure for M3?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "19,00,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, How much SIA does a M3 employee receive?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "30,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, What is the annual MAB for a M3H1 employee?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "26,00,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, How much SIA does a M3H1 employee receive?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,000"
     ]
   },
   {
@@ -32,19 +232,67 @@
     ]
   },
   {
-    "query": "As per Arvind HR policy, I booked Telephone expenses on my business trip. Will it be reimbursed?",
-    "source": "Domestic Travel Policy",
+    "query": "As per Arvind HR policy, What distance triggers SIA eligibility?",
+    "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "Telephone expenses"
+      "relocation >20 kms"
     ]
   },
   {
-    "query": "Who are the POSH filing channels?",
+    "query": "As per Arvind HR policy, Can the 3-month POSH filing deadline be extended?",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "suite": "Original-8",
     "missing": [
-      "Supervisor / Reporting Manager"
+      "extended for further 3 (three) months"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, How do I file a POSH complaint?",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "suite": "Original-8",
+    "missing": [
+      "lodge her complaint in writing or via e- mail"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Is false invoicing a reportable concern?",
+    "source": "Whistleblower Policy",
+    "suite": "Original-8",
+    "missing": [
+      "False invoicing"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Is False invoicing listed as a reportable issue?",
+    "source": "Whistleblower Policy",
+    "suite": "Original-8",
+    "missing": [
+      "False invoicing"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Should I use the ethics helpline to report Discrimination and favouritism?",
+    "source": "Whistleblower Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Is Discrimination and favouritism listed as a reportable issue?",
+    "source": "Whistleblower Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, Can the 3-month POSH filing deadline be extended?",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "suite": "Original-8",
+    "missing": [
+      "extended for further 3 (three) months"
     ]
   },
   {
@@ -56,6 +304,30 @@
     ]
   },
   {
+    "query": "Under Arvind's policy, Who are the POSH filing channels?",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "suite": "Original-8",
+    "missing": [
+      "Supervisor / Reporting Manager"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, Is Discrimination and favouritism listed as a reportable issue?",
+    "source": "Whistleblower Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Discrimination and favouritism"
+    ]
+  },
+  {
+    "query": "My HR manager asked: Can the 3-month POSH filing deadline be extended?",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "suite": "Original-8",
+    "missing": [
+      "extended for further 3 (three) months"
+    ]
+  },
+  {
     "query": "My HR manager asked: What happens if POSH confidentiality is breached?",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "suite": "Original-8",
@@ -64,7 +336,7 @@
     ]
   },
   {
-    "query": "Quick question \u2014 Who are the POSH filing channels?",
+    "query": "My HR manager asked: Who are the POSH filing channels?",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "suite": "Original-8",
     "missing": [
@@ -72,7 +344,23 @@
     ]
   },
   {
-    "query": "Employee question: Who are the POSH filing channels?",
+    "query": "Policy check: How do I file a POSH complaint?",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "suite": "Original-8",
+    "missing": [
+      "lodge her complaint in writing or via e- mail"
+    ]
+  },
+  {
+    "query": "HR query: Can the 3-month POSH filing deadline be extended?",
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "suite": "Original-8",
+    "missing": [
+      "extended for further 3 (three) months"
+    ]
+  },
+  {
+    "query": "HR query: Who are the POSH filing channels?",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "suite": "Original-8",
     "missing": [
@@ -80,11 +368,11 @@
     ]
   },
   {
-    "query": "Just to confirm: Can the AIC recommend termination of the respondent?",
+    "query": "Can you clarify: Who are the POSH filing channels?",
     "source": "POSH Policy (Prevention of Sexual Harassment)",
     "suite": "Original-8",
     "missing": [
-      "Terminating the RE from service"
+      "Supervisor / Reporting Manager"
     ]
   },
   {
@@ -96,11 +384,521 @@
     ]
   },
   {
-    "query": "Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
-    "source": "Grievance Mechanism Policy 2025",
+    "query": "What rate applies for relocation journeys over 700km?",
+    "source": "Joining Policy",
     "suite": "Original-8",
     "missing": [
-      "escalate the grievance to the next level"
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Will I be taxed on the joining allowances?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, Will I be taxed on the joining allowances?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, How much can I claim per meal during the joining move?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 200/- per meal"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, Does Arvind gross up tax on relocation reimbursements?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, Will I be taxed on the joining allowances?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "My HR manager asked: What rate applies for relocation journeys over 700km?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "My HR manager asked: Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "My HR manager asked: Does Arvind pay movers directly or reimburse me?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "The company shall directly make payment"
+    ]
+  },
+  {
+    "query": "I need to know: Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "I need to know: I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Quick question \u2014 What rate applies for relocation journeys over 700km?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Quick question \u2014 Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Quick question \u2014 I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Policy check: What rate applies for relocation journeys over 700km?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Policy check: Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Policy check: I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Policy check: Will I be taxed on the joining allowances?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "HR query: What rate applies for relocation journeys over 700km?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "HR query: Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "HR query: I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Employee question: Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Employee question: I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Can you clarify: What rate applies for relocation journeys over 700km?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Can you clarify: Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Can you clarify: I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Can you clarify: Does Arvind pay movers directly or reimburse me?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "The company shall directly make payment"
+    ]
+  },
+  {
+    "query": "Just to confirm: Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Just to confirm: I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Just to confirm: Will I be taxed on the joining allowances?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "I want to verify: Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "I want to verify: I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "I want to verify: Will I be taxed on the joining allowances?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Please help me understand: What rate applies for relocation journeys over 700km?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Please help me understand: Are joining-related expenses taxable?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "Please help me understand: I'm relocating 850km to Mumbai. What transport reimbursement applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "What rate applies for relocation journeys over 700km? \u2014 help me understand.",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Are joining-related expenses taxable? \u2014 help me understand.",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "I'm relocating 850km to Mumbai. What transport reimbursement applies? \u2014 help me understand.",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "What rate applies for relocation journeys over 700km? Please explain.",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Are joining-related expenses taxable? Please explain.",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Income tax shall be grossed up"
+    ]
+  },
+  {
+    "query": "I'm E2 grade joining from a city 800km away. What transport rate applies for joining?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "query": "I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "32,583",
+      "10,000"
+    ]
+  },
+  {
+    "query": "I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "query": "I am E2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,750",
+      "10,000"
+    ]
+  },
+  {
+    "query": "I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "query": "I am M1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000",
+      "15,000"
+    ]
+  },
+  {
+    "query": "I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "query": "I am M2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333",
+      "20,000"
+    ]
+  },
+  {
+    "query": "I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "query": "I am M3 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "I am M3H1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667",
+      "45,000"
+    ]
+  },
+  {
+    "query": "I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "query": "As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "query": "As M3 new joiner from 1000km, what transport reimbursement rate applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "E1 vs M3H1 \u2014 what are their respective monthly MABs and SIAs?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "32,583",
+      "2,16,667"
     ]
   },
   {
@@ -109,6 +907,14 @@
     "suite": "Original-8",
     "missing": [
       "Workplace harassment"
+    ]
+  },
+  {
+    "query": "I'm M3 on rotation to Mumbai. What hotel limit (Domestic Travel) and MAB (Talent Mobility) apply?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
     ]
   },
   {
@@ -136,19 +942,152 @@
     ]
   },
   {
+    "query": "As per Arvind HR policy, I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "32,583",
+      "10,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, As E1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "10,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I am E2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,750",
+      "10,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, As E2 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "10,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I am M1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000",
+      "15,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, As M1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "15,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I am M2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333",
+      "20,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, As M2 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "20,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I am M3 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I am M3H1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667",
+      "45,000"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
     "query": "As per Arvind HR policy, Does Whistleblower Policy cover discrimination while POSH covers harassment?",
     "source": "Whistleblower Policy",
     "suite": "Original-8",
     "missing": [
       "Discrimination and favouritism"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
-    "source": "Grievance Mechanism Policy 2025",
-    "suite": "Original-8",
-    "missing": [
-      "escalate the grievance to the next level"
     ]
   },
   {
@@ -160,6 +1099,22 @@
     ]
   },
   {
+    "query": "As per Arvind HR policy, I'm M3 on rotation to Mumbai. What hotel limit (Domestic Travel) and MAB (Talent Mobility) apply?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "As per Arvind HR policy, M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
     "query": "Under Arvind's policy, Does Joining Policy or Talent Mobility cover house-shifting expenses?",
     "source": "Talent Mobility Policy",
     "suite": "Original-8",
@@ -168,11 +1123,27 @@
     ]
   },
   {
-    "query": "Under Arvind's policy, What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
-    "source": "Grievance Mechanism Policy 2025",
+    "query": "Under Arvind's policy, I'm E2 grade joining from a city 800km away. What transport rate applies for joining?",
+    "source": "Joining Policy",
     "suite": "Original-8",
     "missing": [
-      "15 working days"
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, If I'm rotated to Mumbai (M3 grade), what is my MAB?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667"
     ]
   },
   {
@@ -184,11 +1155,153 @@
     ]
   },
   {
-    "query": "Under Arvind's policy, Does Whistleblower Policy cover discrimination while POSH covers harassment?",
-    "source": "Whistleblower Policy",
+    "query": "Under Arvind's policy, I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "Discrimination and favouritism"
+      "32,583",
+      "10,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, As E1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "10,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I am E2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,750",
+      "10,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I am M1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000",
+      "15,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, As M1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "15,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I am M2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333",
+      "20,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, As M2 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "20,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I am M3 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I am M3H1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667",
+      "45,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, As M3 new joiner from 1000km, what transport reimbursement rate applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, E1 vs M3H1 \u2014 what are their respective monthly MABs and SIAs?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "32,583",
+      "2,16,667"
     ]
   },
   {
@@ -200,11 +1313,51 @@
     ]
   },
   {
+    "query": "Under Arvind's policy, I'm M3 on rotation to Mumbai. What hotel limit (Domestic Travel) and MAB (Talent Mobility) apply?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "Under Arvind's policy, M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
     "query": "My HR manager asked: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
     "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
       "One-time lump sum for household setup"
+    ]
+  },
+  {
+    "query": "My HR manager asked: For a transfer requiring relocation, which policy covers transport costs?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 50 per km"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I'm E2 grade joining from a city 800km away. What transport rate applies for joining?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
+    "query": "My HR manager asked: If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667"
     ]
   },
   {
@@ -216,11 +1369,144 @@
     ]
   },
   {
-    "query": "My HR manager asked: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
-    "source": "Grievance Mechanism Policy 2025",
+    "query": "My HR manager asked: I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "escalate the grievance to the next level"
+      "32,583",
+      "10,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "32,583"
+    ]
+  },
+  {
+    "query": "My HR manager asked: As E1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "10,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I am E2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,750",
+      "10,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,750"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I am M1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000",
+      "15,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: As M1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "15,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I am M2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333",
+      "20,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I'm M2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,08,333"
+    ]
+  },
+  {
+    "query": "My HR manager asked: As M2 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "20,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I am M3 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I'm M3 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I am M3H1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667",
+      "45,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: I'm M3H1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667"
+    ]
+  },
+  {
+    "query": "My HR manager asked: As M3H1 grade, what SIA do I get and what is the Class I boarding limit?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "45,000"
+    ]
+  },
+  {
+    "query": "My HR manager asked: As M3 new joiner from 1000km, what transport reimbursement rate applies?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
     ]
   },
   {
@@ -232,11 +1518,19 @@
     ]
   },
   {
-    "query": "I need to know: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "query": "My HR manager asked: I'm M3 on rotation to Mumbai. What hotel limit (Domestic Travel) and MAB (Talent Mobility) apply?",
     "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "One-time lump sum for household setup"
+      "1,58,333"
+    ]
+  },
+  {
+    "query": "My HR manager asked: M1 employee transferred to Chennai \u2014 what hotel ceiling and monthly MAB?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "71,000"
     ]
   },
   {
@@ -248,11 +1542,27 @@
     ]
   },
   {
+    "query": "I need to know: I'm E2 grade joining from a city 800km away. What transport rate applies for joining?",
+    "source": "Joining Policy",
+    "suite": "Original-8",
+    "missing": [
+      "Rs. 60 per km"
+    ]
+  },
+  {
     "query": "I need to know: What is the difference between grievance resolution timeline and POSH AIC inquiry timeline?",
     "source": "Grievance Mechanism Policy 2025",
     "suite": "Original-8",
     "missing": [
       "15 working days"
+    ]
+  },
+  {
+    "query": "I need to know: If I'm M3H1 on rotation to Bangalore, what MAB and hotel limit applies?",
+    "source": "Talent Mobility Policy",
+    "suite": "Original-8",
+    "missing": [
+      "2,16,667"
     ]
   },
   {
@@ -264,546 +1574,54 @@
     ]
   },
   {
-    "query": "I need to know: I faced harassment \u2014 should I use POSH or Whistleblower to report it?",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "suite": "Original-8",
-    "missing": [
-      "Arvind Internal Complaint Committee"
-    ]
-  },
-  {
-    "query": "I need to know: Does Whistleblower Policy cover discrimination while POSH covers harassment?",
-    "source": "Whistleblower Policy",
-    "suite": "Original-8",
-    "missing": [
-      "Discrimination and favouritism"
-    ]
-  },
-  {
-    "query": "I need to know: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
-    "source": "Grievance Mechanism Policy 2025",
-    "suite": "Original-8",
-    "missing": [
-      "escalate the grievance to the next level"
-    ]
-  },
-  {
-    "query": "I need to know: If I report financial irregularities to POSH AIC, will it be handled correctly?",
-    "source": "Whistleblower Policy",
-    "suite": "Original-8",
-    "missing": [
-      "Workplace harassment"
-    ]
-  },
-  {
-    "query": "Quick question \u2014 Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "query": "I need to know: I am E1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
     "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "One-time lump sum for household setup"
+      "32,583",
+      "10,000"
     ]
   },
   {
-    "query": "Quick question \u2014 Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
-    "source": "Grievance Mechanism Policy 2025",
-    "suite": "Original-8",
-    "missing": [
-      "escalate the grievance to the next level"
-    ]
-  },
-  {
-    "query": "Quick question \u2014 If I report financial irregularities to POSH AIC, will it be handled correctly?",
-    "source": "Whistleblower Policy",
-    "suite": "Original-8",
-    "missing": [
-      "Workplace harassment"
-    ]
-  },
-  {
-    "query": "Policy check: Does Joining Policy or Talent Mobility cover house-shifting expenses?",
+    "query": "I need to know: I'm E1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
     "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "One-time lump sum for household setup"
+      "32,583"
     ]
   },
   {
-    "query": "Policy check: A new joiner faces harassment on day one. Which policy protects them?",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "query": "I need to know: I am E2 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "All persons employed at Arvind"
+      "45,750",
+      "10,000"
     ]
   },
   {
-    "query": "Policy check: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
-    "source": "Grievance Mechanism Policy 2025",
+    "query": "I need to know: I'm E2 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "escalate the grievance to the next level"
+      "45,750"
     ]
   },
   {
-    "query": "Policy check: If I report financial irregularities to POSH AIC, will it be handled correctly?",
-    "source": "Whistleblower Policy",
+    "query": "I need to know: I am M1 grade being rotated to Bangalore. What MAB, SIA, hotel limit?",
+    "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "Workplace harassment"
+      "71,000",
+      "15,000"
     ]
   },
   {
-    "query": "HR query: If I face sexual harassment, do I use POSH or Whistleblower Policy?",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "query": "I need to know: I'm M1 relocating to Delhi. What monthly MAB and Class I hotel limit?",
+    "source": "Talent Mobility Policy",
     "suite": "Original-8",
     "missing": [
-      "Arvind Internal Complaint Committee"
-    ]
-  },
-  {
-    "query": "HR query: A new joiner faces harassment on day one. Which policy protects them?",
-    "source": "POSH Policy (Prevention of Sexual Harassment)",
-    "suite": "Original-8",
-    "missing": [
-      "All persons employed at Arvind"
-    ]
-  },
-  {
-    "query": "HR query: Talent Mobility says managers cannot block rotation. If they do, what grievance process applies?",
-    "source": "Grievance Mechanism Policy 2025",
-    "suite": "Original-8",
-    "missing": [
-      "escalate the grievance to the next level"
-    ]
-  },
-  {
-    "query": "HR query: If I report financial irregularities to POSH AIC, will it be handled correctly?",
-    "source": "Whistleblower Policy",
-    "suite": "Original-8",
-    "missing": [
-      "Workplace harassment"
-    ]
-  },
-  {
-    "query": "What is PTD?",
-    "source": "Group Personal Accident Insurance Scheme",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "Partial Total Disablement"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, What self-help content is available on 1to1help?",
-    "source": "Employee Assistance Program (EAP)",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "videos"
-    ]
-  },
-  {
-    "query": "HR query: Who is covered under GPA?",
-    "source": "Group Personal Accident Insurance Scheme",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "subsidiaries"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, What happens with LWP during notice period?",
-    "source": "Exit & Full & Final Settlement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "not adjusted"
-    ]
-  },
-  {
-    "query": "HR query: Who is covered under GHI?",
-    "source": "Group Health Insurance Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "spouse",
-      "25 years"
-    ]
-  },
-  {
-    "query": "What happens with LWP during notice period?",
-    "source": "Exit & Full & Final Settlement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "not adjusted"
-    ]
-  },
-  {
-    "query": "Please tell me: What happens with LWP during notice period?",
-    "source": "Exit & Full & Final Settlement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "not adjusted"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, What is the Employee Expense Reimbursement Policy?",
-    "source": "Employee Expense Reimbursement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "ARV|ELC_EER"
-    ]
-  },
-  {
-    "query": "What is PPD?",
-    "source": "Group Personal Accident Insurance Scheme",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "Permanent Partial Disablement"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, How to register on 1to1help?",
-    "source": "Employee Assistance Program (EAP)",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "OTP"
-    ]
-  },
-  {
-    "query": "What is the Employee Expense Reimbursement Policy?",
-    "source": "Employee Expense Reimbursement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "ARV|ELC_EER"
-    ]
-  },
-  {
-    "query": "HR query: How is company car maintenance handled?",
-    "source": "Employee Expense Reimbursement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "company name"
-    ]
-  },
-  {
-    "query": "HR query: What happens with LWP during notice period?",
-    "source": "Exit & Full & Final Settlement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "not adjusted"
-    ]
-  },
-  {
-    "query": "Who is covered under GPA?",
-    "source": "Group Personal Accident Insurance Scheme",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "subsidiaries"
-    ]
-  },
-  {
-    "query": "HR query: What is the notice period at Arvind?",
-    "source": "Exit & Full & Final Settlement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "sixty days"
-    ]
-  },
-  {
-    "query": "How is Notice Pay calculated?",
-    "source": "Exit & Full & Final Settlement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "HRA"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, When should I contact EAP?",
-    "source": "Employee Assistance Program (EAP)",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "burnout"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, How is company car maintenance handled?",
-    "source": "Employee Expense Reimbursement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "company name"
-    ]
-  },
-  {
-    "query": "HR query: What is the Employee Expense Reimbursement Policy?",
-    "source": "Employee Expense Reimbursement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "ARV|ELC_EER"
-    ]
-  },
-  {
-    "query": "Please tell me: What is the Employee Expense Reimbursement Policy?",
-    "source": "Employee Expense Reimbursement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "ARV|ELC_EER"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, What topics are covered in EAP articles?",
-    "source": "Employee Assistance Program (EAP)",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "stress management",
-      "self-development"
-    ]
-  },
-  {
-    "query": "Please tell me: Who is covered under GPA?",
-    "source": "Group Personal Accident Insurance Scheme",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "subsidiaries"
-    ]
-  },
-  {
-    "query": "Please tell me: What is the notice period at Arvind?",
-    "source": "Exit & Full & Final Settlement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "sixty days"
-    ]
-  },
-  {
-    "query": "HR query: When should I contact EAP?",
-    "source": "Employee Assistance Program (EAP)",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "burnout"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, Is my username on 1to1help private?",
-    "source": "Employee Assistance Program (EAP)",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "private",
-      "not be shared"
-    ]
-  },
-  {
-    "query": "Please tell me: How is company car maintenance handled?",
-    "source": "Employee Expense Reimbursement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "company name"
-    ]
-  },
-  {
-    "query": "What is the notice period at Arvind?",
-    "source": "Exit & Full & Final Settlement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "sixty days"
-    ]
-  },
-  {
-    "query": "How is company car maintenance handled?",
-    "source": "Employee Expense Reimbursement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "company name"
-    ]
-  },
-  {
-    "query": "Please tell me: Can I buy stationery and claim reimbursement?",
-    "source": "Employee Expense Reimbursement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "admin team"
-    ]
-  },
-  {
-    "query": "Please tell me: When should I contact EAP?",
-    "source": "Employee Assistance Program (EAP)",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "burnout"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, What is the notice period at Arvind?",
-    "source": "Exit & Full & Final Settlement Policy",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "sixty days"
-    ]
-  },
-  {
-    "query": "When should I contact EAP?",
-    "source": "Employee Assistance Program (EAP)",
-    "suite": "Batch-1 (5)",
-    "missing": [
-      "burnout"
-    ]
-  },
-  {
-    "query": "HR query: What is the Pankh employee referral program?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "M3"
-    ]
-  },
-  {
-    "query": "Is there a reward for referring male candidates?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "no reward"
-    ]
-  },
-  {
-    "query": "Please tell me: How does the manager approve travel expenses?",
-    "source": "Domestic Travel Expense Settlement Procedure",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "My Team Tour"
-    ]
-  },
-  {
-    "query": "Please tell me: Are hotel phone calls reimbursed?",
-    "source": "Domestic Travel Expense Settlement Procedure",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "not reimbursed"
-    ]
-  },
-  {
-    "query": "What is the Pankh employee referral program?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "M3"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, How does the manager approve travel expenses?",
-    "source": "Domestic Travel Expense Settlement Procedure",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "My Team Tour",
-      "Tour Pending"
-    ]
-  },
-  {
-    "query": "Please tell me: What is the Pankh employee referral program?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "M3"
-    ]
-  },
-  {
-    "query": "HR query: Are hotel phone calls reimbursed?",
-    "source": "Domestic Travel Expense Settlement Procedure",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "not reimbursed"
-    ]
-  },
-  {
-    "query": "How does the manager approve travel expenses?",
-    "source": "Domestic Travel Expense Settlement Procedure",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "My Team Tour",
-      "Tour Pending"
-    ]
-  },
-  {
-    "query": "Please tell me: Who can participate in the Pankh referral program?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "all employees"
-    ]
-  },
-  {
-    "query": "HR query: Who can participate in the Pankh referral program?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "all employees"
-    ]
-  },
-  {
-    "query": "Are hotel phone calls reimbursed?",
-    "source": "Domestic Travel Expense Settlement Procedure",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "not reimbursed"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, Who can participate in the Pankh referral program?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "all employees"
-    ]
-  },
-  {
-    "query": "Please tell me: Is there a reward for referring male candidates?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "no reward"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, Are hotel phone calls reimbursed?",
-    "source": "Domestic Travel Expense Settlement Procedure",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "not reimbursed"
-    ]
-  },
-  {
-    "query": "HR query: Is there a reward for referring male candidates?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "no reward"
-    ]
-  },
-  {
-    "query": "Who can participate in the Pankh referral program?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "all employees"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, Is there a reward for referring male candidates?",
-    "source": "Pankh Employee Referral",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "no reward"
-    ]
-  },
-  {
-    "query": "As per Arvind HR policy, What does Flat Rate mean in travel expenses?",
-    "source": "Domestic Travel Expense Settlement Procedure",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "relatives",
-      "friends"
-    ]
-  },
-  {
-    "query": "HR query: How does the manager approve travel expenses?",
-    "source": "Domestic Travel Expense Settlement Procedure",
-    "suite": "Batch-2 (4)",
-    "missing": [
-      "My Team Tour",
-      "Tour Pending"
+      "71,000"
     ]
   }
 ]
