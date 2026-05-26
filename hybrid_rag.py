@@ -56,6 +56,36 @@ _AMOUNT_QUERY_RE = re.compile(
     r'cost|price|charge|fee|grant|stipend|payout|tranche|deduct|recover)\b',
     re.IGNORECASE
 )
+# ── Per-policy RAG configuration ─────────────────────────────────────────────
+# bm25_w: weight of BM25 in RRF (semantic weight is always 1.0)
+# sem_k:  how many semantic candidates to pull (override SEMANTIC_K)
+# bm25_k: how many BM25 candidates to pull (override BM25_K)
+POLICY_RAG_CONFIG: dict[str, dict] = {
+    # Rate/amount policies — BM25 heavy (exact numbers, grade labels)
+    "Local Conveyance Policy":              {"bm25_w": 3.0, "sem_k": 20, "bm25_k": 40},
+    "Domestic Travel Policy":               {"bm25_w": 2.5, "sem_k": 30, "bm25_k": 40},
+    "Group Health Insurance Policy":        {"bm25_w": 2.5, "sem_k": 20, "bm25_k": 40},
+    "Group Personal Accident Insurance Scheme": {"bm25_w": 3.0, "sem_k": 10, "bm25_k": 40},
+    "Group Term Life Insurance":            {"bm25_w": 3.0, "sem_k": 10, "bm25_k": 40},
+    "Joining Policy":                       {"bm25_w": 2.5, "sem_k": 20, "bm25_k": 40},
+    "Employee Expense Reimbursement Policy":{"bm25_w": 2.5, "sem_k": 20, "bm25_k": 40},
+    "Domestic Travel Expense Settlement Procedure": {"bm25_w": 2.0, "sem_k": 10, "bm25_k": 30},
+    # Procedural/descriptive policies — semantic heavy (meaning > keywords)
+    "POSH Policy (Prevention of Sexual Harassment)": {"bm25_w": 1.0, "sem_k": 50, "bm25_k": 30},
+    "Grievance Mechanism Policy 2025":      {"bm25_w": 1.0, "sem_k": 30, "bm25_k": 20},
+    "Whistleblower Policy":                 {"bm25_w": 1.0, "sem_k": 30, "bm25_k": 20},
+    "Gender Policy 2025":                   {"bm25_w": 1.0, "sem_k": 30, "bm25_k": 20},
+    "Talent Mobility Policy":               {"bm25_w": 1.2, "sem_k": 20, "bm25_k": 20},
+    # Support/wellness policies — balanced (mix of facts + empathetic prose)
+    "Employee Assistance Program (EAP)":    {"bm25_w": 1.5, "sem_k": 20, "bm25_k": 20},
+    "MediBuddy Health & Wellness (User Manual)": {"bm25_w": 1.5, "sem_k": 30, "bm25_k": 30},
+    # Small fact policies — BM25 enough, small candidate pool
+    "Pankh Employee Referral":              {"bm25_w": 2.0, "sem_k": 15, "bm25_k": 15},
+    "Exit & Full & Final Settlement Policy":{"bm25_w": 2.0, "sem_k": 15, "bm25_k": 20},
+    "Voluntary Death Contribution Scheme":  {"bm25_w": 2.0, "sem_k": 10, "bm25_k": 10},
+}
+DEFAULT_BM25_W = 1.5   # fallback for cross-policy queries
+
 # Common query stopwords — only inject if chunk matches ALL non-stop query tokens
 _BM25_STOPWORDS = frozenset(
     "what is the does a an of to in for how why can you tell me explain "
@@ -464,12 +494,17 @@ class HybridRetriever:
         detected_policy = _detect_policy(query)
         cross_policy = detected_policy is None
 
+        # Load per-policy RAG config
+        _pcfg    = POLICY_RAG_CONFIG.get(detected_policy, {}) if detected_policy else {}
+        _sem_k   = _pcfg.get("sem_k", SEMANTIC_K)
+        _bm25_k  = _pcfg.get("bm25_k", BM25_K)
+
         chroma_count = self._chroma.count()
 
         # 1. Semantic search — skip entirely if ChromaDB is empty (BM25-only fallback)
         sem_rank_map: dict[int, float] = {}
         if chroma_count > 0:
-            sem_k = min(SEMANTIC_K * 2 if cross_policy else SEMANTIC_K, chroma_count)
+            sem_k = min((_sem_k * 2) if cross_policy else _sem_k, chroma_count)
             sem = self._chroma.query(
                 query_texts=[query],
                 n_results=sem_k,
@@ -506,19 +541,19 @@ class HybridRetriever:
         bm25_top = sorted(
             ((i, s) for i, s in enumerate(bm25_raw) if s > 0),
             key=lambda x: -x[1],
-        )[:BM25_K]
+        )[:_bm25_k]
         bm25_rank_map = {i: s for i, s in bm25_top}
 
-        # 3. RRF merge
+        # 3. RRF merge — BM25 weight is per-policy
+        pol_cfg  = POLICY_RAG_CONFIG.get(detected_policy, {}) if detected_policy else {}
+        bm25_w   = pol_cfg.get("bm25_w", DEFAULT_BM25_W)
+
         sem_ranked  = sorted(sem_rank_map.items(),  key=lambda x: -x[1])
         bm25_ranked = sorted(bm25_rank_map.items(), key=lambda x: -x[1])
 
         sem_rk  = {idx: r + 1 for r, (idx, _) in enumerate(sem_ranked)}
         bm25_rk = {idx: r + 1 for r, (idx, _) in enumerate(bm25_ranked)}
 
-        # BM25 weight 1.5× semantic — exact-match lexical precision > broad semantic
-        # recall for short-form HR policy queries (numbers, names, specific clauses).
-        # Research basis: BEIR studies show α∈[1.3,1.7] optimal for domain corpora.
         all_idx = set(sem_rank_map) | set(bm25_rank_map)
         rrf: dict[int, float] = {}
         for idx in all_idx:
@@ -526,7 +561,7 @@ class HybridRetriever:
             if idx in sem_rk:
                 score += 1.0 / (RRF_K + sem_rk[idx])
             if idx in bm25_rk:
-                score += 1.5 / (RRF_K + bm25_rk[idx])
+                score += bm25_w / (RRF_K + bm25_rk[idx])
             rrf[idx] = score
 
         # Cross-policy: diversity enforcement, 2× result budget
