@@ -141,6 +141,10 @@ def ensure_rag():
     global _rag_ready
     if not _rag_ready:
         import rag  # triggers ChromaDB + ONNX model load
+        import hybrid_rag
+        hybrid_rag._retriever._ensure_loaded()
+        count = hybrid_rag._retriever._chroma.count()
+        print(f"[RAG] ChromaDB collection count: {count}", flush=True)
         _rag_ready = True
 
 # ── Routes ────────────────────────────────────────────────────────────────────
