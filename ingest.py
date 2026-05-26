@@ -269,6 +269,14 @@ def extract_pdf_chunks(filepath: str, policy_name: str, filename: str) -> list[d
         for page_num, page in enumerate(pdf.pages, start=1):
 
             # ── Tables (per-page) ──────────────────────────────────────
+            # Extract page prose first so we can prefix tables with context
+            page_raw = page.extract_text() or ''
+            page_prose_lines = [
+                ln.strip() for ln in _clean_page_text(page_raw).split('\n')
+                if ln.strip() and len(ln.strip()) > 25
+            ]
+            page_context = ' '.join(page_prose_lines[-4:]) if page_prose_lines else ''
+
             for table in (page.extract_tables() or []):
                 if not table or is_boilerplate_table(table):
                     continue
@@ -279,8 +287,13 @@ def extract_pdf_chunks(filepath: str, policy_name: str, filename: str) -> list[d
                 if h in seen_hashes:
                     continue
                 seen_hashes.add(h)
+                full_text = (
+                    f'[TABLE — {policy_name}, Page {page_num}]\n'
+                    f'{page_context}\n{text}' if page_context else
+                    f'[TABLE — {policy_name}, Page {page_num}]\n{text}'
+                )
                 table_chunks.append({
-                    'text': f'[TABLE — {policy_name}, Page {page_num}]\n{text}',
+                    'text': full_text,
                     'policy_name': policy_name,
                     'filename': filename,
                     'page': page_num,
