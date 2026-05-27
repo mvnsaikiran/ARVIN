@@ -4,9 +4,9 @@
   "n_total": 122,
   "n_in_scope": 72,
   "n_oos": 50,
-  "routing_accuracy": 0.402,
+  "routing_accuracy": 0.434,
   "retrieval_hit": 1.0,
   "oos_rejection": 0.96,
-  "semantic_score": 0.442,
-  "overall": 0.701
+  "semantic_score": 0.441,
+  "overall": 0.711
 }
