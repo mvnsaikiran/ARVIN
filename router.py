@@ -73,20 +73,37 @@ _FALLBACK_MSG = (
 )
 
 
-def detect_policy(query: str) -> str | None:
+def _keyword_detect(query: str) -> tuple[str | None, int]:
     q = query.lower()
     best_policy, best_count = None, 0
     for keywords, _, label in POLICY_REGISTRY:
         count = sum(1 for kw in keywords if kw in q)
         if count > best_count:
             best_policy, best_count = label, count
-    return best_policy if best_count >= 1 else None
+    return best_policy if best_count >= 1 else None, best_count
+
+
+def detect_policy(query: str) -> str | None:
+    """
+    Hybrid router:
+      1. Keyword match (fast, zero-cost) — if >= 1 keyword found, trust it.
+      2. Semantic ONNX similarity — for queries that contain no keywords,
+         embed the query and pick the closest policy intent anchor.
+    """
+    kw_result, kw_count = _keyword_detect(query)
+    if kw_count >= 1:
+        return kw_result
+
+    from core.semantic_router import detect_policy_semantic
+    sem_result, _ = detect_policy_semantic(query)
+    return sem_result
 
 
 def route(query: str, chat_history: list[dict] = None) -> dict:
+    # Step 1: keyword match
     q = query.lower()
     best_fn, best_count = None, 0
-    for keywords, answer_fn, _ in POLICY_REGISTRY:
+    for keywords, answer_fn, label in POLICY_REGISTRY:
         count = sum(1 for kw in keywords if kw in q)
         if count > best_count:
             best_fn, best_count = answer_fn, count
@@ -95,6 +112,16 @@ def route(query: str, chat_history: list[dict] = None) -> dict:
         result = best_fn(query, chat_history or [])
         result["matched"] = True
         return result
+
+    # Step 2: semantic fallback
+    from core.semantic_router import detect_policy_semantic
+    sem_label, _ = detect_policy_semantic(query)
+    if sem_label:
+        for keywords, answer_fn, label in POLICY_REGISTRY:
+            if label == sem_label:
+                result = answer_fn(query, chat_history or [])
+                result["matched"] = True
+                return result
 
     return {
         "text":    _FALLBACK_MSG,
