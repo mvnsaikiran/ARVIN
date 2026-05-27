@@ -251,6 +251,7 @@ if __name__ == "__main__":
 
     testset_map = {
         "whistleblower": os.path.join(os.path.dirname(__file__), "whistleblower_testset.json"),
+        "posh":          os.path.join(os.path.dirname(__file__), "posh_testset.json"),
     }
 
     if args.policy not in testset_map:

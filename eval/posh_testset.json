@@ -1,0 +1,242 @@
+[
+  {
+    "id": "POSH-01",
+    "question": "What is the purpose of the POSH policy?",
+    "category": "purpose",
+    "expected_keywords": ["safe workplace", "sexual harassment", "dignity", "committed"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "POSH-02",
+    "question": "What constitutes sexual harassment at the workplace?",
+    "category": "definitions",
+    "expected_keywords": ["unwelcome", "sexually determined", "hostile", "intimidating"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "POSH-03",
+    "question": "Where does the POSH policy apply — what counts as a workplace?",
+    "category": "workplace_definition",
+    "expected_keywords": ["extended workplace", "office parties", "travel", "client"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "POSH-04",
+    "question": "Who is an aggrieved woman under this policy?",
+    "category": "definitions",
+    "expected_keywords": ["aggrieved", "woman", "employee"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "POSH-05",
+    "question": "What is the AIC and who are its members?",
+    "category": "aic_composition",
+    "expected_keywords": ["aic", "anti", "presiding officer", "member", "external"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "POSH-06",
+    "question": "How long do AIC members serve?",
+    "category": "aic_tenure",
+    "expected_keywords": ["three years", "tenure", "nomination", "re-nominated"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-07",
+    "question": "How do I file a sexual harassment complaint?",
+    "category": "complaint_procedure",
+    "expected_keywords": ["writing", "email", "aic", "complaint", "lodge"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "POSH-08",
+    "question": "Can I file an anonymous complaint under POSH?",
+    "category": "complaint_procedure",
+    "expected_keywords": ["anonymous", "not", "entertained"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-09",
+    "question": "What is the time limit for filing a POSH complaint?",
+    "category": "complaint_procedure",
+    "expected_keywords": ["90 days", "three months", "days"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-10",
+    "question": "What happens during the inquiry process?",
+    "category": "inquiry_process",
+    "expected_keywords": ["inquiry", "aic", "investigation", "report", "findings"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-11",
+    "question": "How many days does management have to act on the AIC recommendation?",
+    "category": "inquiry_process",
+    "expected_keywords": ["60 days", "sixty", "recommendation", "management"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "POSH-12",
+    "question": "Can I get interim relief while the inquiry is ongoing?",
+    "category": "interim_relief",
+    "expected_keywords": ["interim", "relief", "pendency", "inquiry"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "POSH-13",
+    "question": "What disciplinary actions can be taken if harassment is proven?",
+    "category": "disciplinary_action",
+    "expected_keywords": ["written warning", "apology", "reprimand", "termination", "withholding"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "POSH-14",
+    "question": "What happens if I make a false complaint under POSH?",
+    "category": "false_complaint",
+    "expected_keywords": ["false", "action", "complainant"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-15",
+    "question": "Is my complaint kept confidential under the POSH policy?",
+    "category": "confidentiality",
+    "expected_keywords": ["confidential", "identity", "secrecy"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-16",
+    "question": "Does the POSH policy cover harassment during office parties?",
+    "category": "workplace_definition",
+    "expected_keywords": ["office parties", "extended workplace", "yes"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-17",
+    "question": "Does this policy apply to contract workers and third parties?",
+    "category": "applicability",
+    "expected_keywords": ["third party", "contract", "visitor", "employee"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "POSH-18",
+    "question": "What training does Arvind provide on POSH?",
+    "category": "training",
+    "expected_keywords": ["training", "awareness", "session", "employees"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-19",
+    "question": "What is the role of management in the POSH process?",
+    "category": "management_role",
+    "expected_keywords": ["management", "assist", "monitor", "aic", "report"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-20",
+    "question": "Does Indian law override the POSH policy?",
+    "category": "legal",
+    "expected_keywords": ["laws of india", "act", "prevail", "policy"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "POSH-21",
+    "question": "What are unwelcome sexually determined behaviours?",
+    "category": "definitions",
+    "expected_keywords": ["unwelcome", "sexually determined", "physical", "verbal"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "POSH-22",
+    "question": "What is the complaint template for reporting sexual harassment?",
+    "category": "complaint_template",
+    "expected_keywords": ["annexure", "template", "details", "name", "designation"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "POSH-23",
+    "question": "Can a male employee file a complaint under POSH?",
+    "category": "applicability",
+    "expected_keywords": ["woman", "aggrieved", "female"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "POSH-24",
+    "question": "Who can I contact if I have a POSH related concern?",
+    "category": "contact",
+    "expected_keywords": ["contact", "officer", "aic", "hr"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "POSH-25",
+    "question": "What is the preamble of the POSH policy?",
+    "category": "purpose",
+    "expected_keywords": ["arvind", "dignity", "safe", "committed", "gender bias"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-01",
+    "question": "What is the annual leave entitlement?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-02",
+    "question": "How do I report a bribery concern?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-03",
+    "question": "What is the travel reimbursement limit?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-04",
+    "question": "How do I apply for maternity leave?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-05",
+    "question": "What is the capital of France?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  }
+]
