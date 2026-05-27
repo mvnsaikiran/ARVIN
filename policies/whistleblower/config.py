@@ -14,7 +14,7 @@ COLLECTION     = "policy_whistleblower"
 MAX_CHUNK      = 1500   # pure prose, larger chunks keep full sections together
 SKIP_TABLES    = True   # this policy has zero tables — skip table extraction
 SKIP_PAGES     = {1}    # page 1 is a cover image with no real content
-SEM_WEIGHT     = 1.5    # semantic > BM25 for meaning-heavy prose
+SEM_WEIGHT     = 3.0    # semantic > BM25 for meaning-heavy prose
 TOP_K          = 5      # 12 chunks total; 5 ensures no section is missed
 DOC_TYPE       = "Policy"
 

@@ -86,27 +86,44 @@ def _keyword_detect(query: str) -> tuple[str | None, int]:
 def detect_policy(query: str) -> str | None:
     """
     Hybrid router:
-      1. Keyword match (fast, zero-cost) — if >= 1 keyword found, trust it.
-      2. Semantic ONNX similarity — for queries that contain no keywords,
-         embed the query and pick the closest policy intent anchor.
+      1. Keyword match on original query — handles raw abbreviations (vdc, ghi, posh…).
+      2. Keyword match on normalised query — handles Hindi-English mixed, expansions.
+      3. Semantic ONNX similarity — fallback for queries with no keywords in either form.
     """
+    # Step 1: original keywords (abbreviations like 'vdc', 'ghi' must match before expansion)
     kw_result, kw_count = _keyword_detect(query)
     if kw_count >= 1:
         return kw_result
 
+    # Step 2: normalised keywords
+    from core.query_normalizer import normalise
+    normalised = normalise(query)
+    kw_result, kw_count = _keyword_detect(normalised)
+    if kw_count >= 1:
+        return kw_result
+
+    # Step 3: semantic fallback on normalised query
     from core.semantic_router import detect_policy_semantic
-    sem_result, _ = detect_policy_semantic(query)
+    sem_result, _ = detect_policy_semantic(normalised)
     return sem_result
 
 
 def route(query: str, chat_history: list[dict] = None) -> dict:
-    # Step 1: keyword match
-    q = query.lower()
-    best_fn, best_count = None, 0
-    for keywords, answer_fn, label in POLICY_REGISTRY:
-        count = sum(1 for kw in keywords if kw in q)
-        if count > best_count:
-            best_fn, best_count = answer_fn, count
+    from core.query_normalizer import normalise
+    normalised = normalise(query)
+
+    # Step 1: keyword match on original then normalised
+    def _best_fn(q_text: str):
+        best_fn_, best_cnt = None, 0
+        for keywords, answer_fn, label in POLICY_REGISTRY:
+            count = sum(1 for kw in keywords if kw in q_text.lower())
+            if count > best_cnt:
+                best_fn_, best_cnt = answer_fn, count
+        return best_fn_, best_cnt
+
+    best_fn, best_count = _best_fn(query)
+    if best_count == 0:
+        best_fn, best_count = _best_fn(normalised)
 
     if best_fn:
         result = best_fn(query, chat_history or [])
@@ -115,7 +132,7 @@ def route(query: str, chat_history: list[dict] = None) -> dict:
 
     # Step 2: semantic fallback
     from core.semantic_router import detect_policy_semantic
-    sem_label, _ = detect_policy_semantic(query)
+    sem_label, _ = detect_policy_semantic(normalised)
     if sem_label:
         for keywords, answer_fn, label in POLICY_REGISTRY:
             if label == sem_label:

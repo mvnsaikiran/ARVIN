@@ -64,8 +64,30 @@ def _approx_page(chunk_text_: str, prose_pages: list, page_word_sets: list) -> i
     return best_page
 
 
+_HEADING = re.compile(
+    r'^(?:'
+    r'\d+[\.\d]*\s+[A-Z][A-Za-z][A-Za-z\s&\-/]{2,}'  # "1. Purpose", "2.1 Scope"
+    r'|[A-Z][A-Z\s\-/&:]{4,}[A-Z]'                    # "ELIGIBILITY CRITERIA"
+    r')$'
+)
+
+
+def _extract_section(text: str) -> str:
+    """Return the first heading-like line in the first 4 lines of text."""
+    for line in text.split('\n')[:4]:
+        line = line.strip()
+        if 5 <= len(line) <= 70 and _HEADING.match(line):
+            # Normalise ALL-CAPS to Title Case for readability
+            section = line.title() if line.isupper() else line
+            return section.rstrip('.:')
+    return ""
+
+
 def _add_header(text: str, policy_name: str, doc_type: str) -> str:
     """Prepend a context header so the embedding captures document identity."""
+    section = _extract_section(text)
+    if section:
+        return f"[{policy_name} | {doc_type} | Section: {section}]\n{text}"
     return f"[{policy_name} | {doc_type}]\n{text}"
 
 

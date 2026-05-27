@@ -3,9 +3,9 @@ import os
 PDF_PATH    = os.path.join(os.path.dirname(__file__), '..', '..', 'Final_Policies', 'Group Personal Accident Insurance Scheme - Arvind Ltd.pdf')
 POLICY_NAME = "Group Personal Accident Insurance Policy"
 COLLECTION  = "policy_gpa"
-MAX_CHUNK   = 1000
+MAX_CHUNK   = 400
 SKIP_PAGES  = {1}
-SEM_WEIGHT  = 1.5
+SEM_WEIGHT  = 1.0
 TOP_K       = 4
 MODE        = "prose"
 DOC_TYPE    = "Insurance"

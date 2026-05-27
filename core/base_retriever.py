@@ -71,8 +71,8 @@ class PolicyRetriever:
     def retrieve(self, query: str) -> list[dict]:
         self._load()
 
-        count = self._chroma.count()
-        sem_k = min(SEM_K, count)
+        count  = self._chroma.count()
+        sem_k  = min(SEM_K, count)
         sem_result = self._chroma.query(
             query_texts=[query],
             n_results=sem_k,
@@ -81,11 +81,11 @@ class PolicyRetriever:
         sem_docs  = sem_result["documents"][0]
         sem_dists = sem_result["distances"][0]
 
-        sem_rank: dict[int, float] = {}
+        sem_hits: dict[int, float] = {}
         for doc, dist in zip(sem_docs, sem_dists):
             for i, c in enumerate(self._chunks):
-                if c['text'][:80] == doc[:80]:
-                    sem_rank[i] = 1.0 - float(dist)
+                if c["text"][:80] == doc[:80]:
+                    sem_hits[i] = 1.0 - float(dist)  # cosine similarity 0-1
                     break
 
         tokens   = _tokenise(query)
@@ -94,20 +94,39 @@ class PolicyRetriever:
             ((i, s) for i, s in enumerate(scores) if s > 0),
             key=lambda x: -x[1],
         )[:BM25_K]
-        bm25_rank = {i: s for i, s in bm25_top}
+        bm25_hits = {i: s for i, s in bm25_top}
 
-        sem_ranked  = sorted(sem_rank.items(),  key=lambda x: -x[1])
-        bm25_ranked = sorted(bm25_rank.items(), key=lambda x: -x[1])
-        sem_rk  = {idx: r + 1 for r, (idx, _) in enumerate(sem_ranked)}
-        bm25_rk = {idx: r + 1 for r, (idx, _) in enumerate(bm25_ranked)}
+        # RRF rank-based fusion (robust default)
+        sem_rk  = {idx: r + 1 for r, (idx, _) in
+                   enumerate(sorted(sem_hits.items(), key=lambda x: -x[1]))}
+        bm25_rk = {idx: r + 1 for r, (idx, _) in
+                   enumerate(sorted(bm25_hits.items(), key=lambda x: -x[1]))}
 
-        all_idx = set(sem_rank) | set(bm25_rank)
+        all_idx = set(sem_hits) | set(bm25_hits)
         rrf = {
             idx: self.sem_weight / (RRF_K + sem_rk.get(idx, RRF_K * 10))
-                + 1.0 / (RRF_K + bm25_rk.get(idx, RRF_K * 10))
+               + 1.0 / (RRF_K + bm25_rk.get(idx, RRF_K * 10))
             for idx in all_idx
         }
 
+        from core.cross_encoder_reranker import is_available, rerank_with_cross_encoder
+
+        if is_available():
+            # Cross-encoder path: expand candidate pool, then rerank with joint attention
+            rerank_n   = max(self.top_k * 3, 20)
+            candidates = [
+                {
+                    "text":        self._chunks[i]["text"],
+                    "policy_name": self._chunks[i]["policy_name"],
+                    "page":        self._chunks[i]["page"],
+                    "filename":    self._chunks[i].get("filename", ""),
+                    "score":       round(s, 5),
+                }
+                for i, s in sorted(rrf.items(), key=lambda x: -x[1])[:rerank_n]
+            ]
+            return rerank_with_cross_encoder(query, candidates, self.top_k)
+
+        # Standard RRF fallback
         top = sorted(rrf.items(), key=lambda x: -x[1])[:self.top_k]
         return [
             {

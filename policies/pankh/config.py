@@ -3,9 +3,9 @@ import os
 PDF_PATH    = os.path.join(os.path.dirname(__file__), '..', '..', 'Final_Policies', 'Pankh - Employee Referral.pdf')
 POLICY_NAME = "Pankh Employee Referral Policy"
 COLLECTION  = "policy_pankh"
-MAX_CHUNK   = 800
+MAX_CHUNK   = 280
 SKIP_PAGES  = {1}
-SEM_WEIGHT  = 1.2
+SEM_WEIGHT  = 0.5
 TOP_K       = 4
 MODE        = "tables"
 DOC_TYPE    = "Policy"

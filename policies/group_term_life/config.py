@@ -3,9 +3,9 @@ import os
 PDF_PATH    = os.path.join(os.path.dirname(__file__), '..', '..', 'Final_Policies', 'Group Term Life Insurance - Arvind Limited.pdf')
 POLICY_NAME = "Group Term Life Insurance Policy"
 COLLECTION  = "policy_gtl"
-MAX_CHUNK   = 1000
+MAX_CHUNK   = 400
 SKIP_PAGES  = {1}
-SEM_WEIGHT  = 1.3
+SEM_WEIGHT  = 1.0
 TOP_K       = 4
 MODE        = "tables"
 DOC_TYPE    = "Insurance"
@@ -24,7 +24,8 @@ KEYWORDS = [
     "death benefit insurance", "life insurance", "nominee life insurance",
     "death claim insurance", "gtl scheme", "life insurance benefit arvind",
     # broader triggers employees actually type
-    "death", "death benefit", "nominee", "life policy", "term insurance",
+    # note: bare "death" removed — too ambiguous (VDC also has death context)
+    "death benefit", "nominee", "life policy", "term insurance",
     "gtl policy", "death claim", "life cover arvind", "employee death",
     "death compensation", "life benefit", "insurance nominee",
     "death of employee", "natural death", "accidental death life",

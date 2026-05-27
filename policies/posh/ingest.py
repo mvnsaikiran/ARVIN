@@ -100,8 +100,9 @@ def build():
         if h in seen:
             continue
         seen.add(h)
+        from core.base_ingest import _add_header
         all_chunks.append({
-            'text':        f"[{POLICY_NAME} | {DOC_TYPE}]\n{text}",
+            'text':        _add_header(text, POLICY_NAME, DOC_TYPE),
             'policy_name': POLICY_NAME,
             'filename':    os.path.basename(PDF_PATH),
             'page':        approx_page(text),

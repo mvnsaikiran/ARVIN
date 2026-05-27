@@ -3,9 +3,9 @@ import os
 PDF_PATH    = os.path.join(os.path.dirname(__file__), '..', '..', 'Final_Policies', 'Voluntary Death Contribution Policy - Arvind Ltd.pdf')
 POLICY_NAME = "Voluntary Death Contribution Policy"
 COLLECTION  = "policy_vdc"
-MAX_CHUNK   = 600
+MAX_CHUNK   = 280
 SKIP_PAGES  = set()
-SEM_WEIGHT  = 1.2
+SEM_WEIGHT  = 1.0
 TOP_K       = 3
 MODE        = "tables"
 DOC_TYPE    = "Policy"

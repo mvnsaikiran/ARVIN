@@ -14,7 +14,7 @@ COLLECTION  = "policy_posh"
 MAX_CHUNK   = 1200
 # Pages 11-14 are AIC member contact directories — not policy content
 SKIP_PAGES  = {11, 12, 13, 14}
-SEM_WEIGHT  = 1.5
+SEM_WEIGHT  = 2.5
 TOP_K       = 6
 DOC_TYPE    = "Policy"
 
