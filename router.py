@@ -3,13 +3,16 @@ Policy router — detects which policy a query is about and delegates to it.
 Grows as we add more policies: just register them in POLICY_REGISTRY.
 """
 
-from policies.whistleblower.config   import KEYWORDS as WB_KEYWORDS
+from policies.whistleblower.config    import KEYWORDS as WB_KEYWORDS
 from policies.whistleblower.retriever import answer as wb_answer
+from policies.posh.config             import KEYWORDS as POSH_KEYWORDS
+from policies.posh.retriever          import answer as posh_answer
 
 # Registry: each entry is (keywords_list, answer_function, policy_label)
 POLICY_REGISTRY = [
-    (WB_KEYWORDS, wb_answer, "Whistleblower Policy"),
-    # Policy 2 will be added here once built
+    (WB_KEYWORDS,   wb_answer,   "Whistleblower Policy"),
+    (POSH_KEYWORDS, posh_answer, "POSH Policy"),
+    # Policy 3 will be added here once built
 ]
 
 _FALLBACK_MSG = (

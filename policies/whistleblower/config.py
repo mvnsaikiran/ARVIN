@@ -6,7 +6,7 @@ File: whistleblower-policy-arvind-limited.pdf
 import os
 
 PDF_PATH       = os.path.join(
-    os.path.dirname(__file__), '..', 'Final_Policies',
+    os.path.dirname(__file__), '..', '..', 'Final_Policies',
     'whistleblower-policy-arvind-limited.pdf'
 )
 POLICY_NAME    = "Whistleblower Policy"
