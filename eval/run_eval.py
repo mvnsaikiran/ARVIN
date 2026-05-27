@@ -100,6 +100,10 @@ def run_eval(testset_path: str, verbose: bool = False) -> dict:
 
         print(f"[{i:02d}/{total}] {qid} ({diff}) — {question[:65]}...")
 
+        # Small delay between in-scope questions to respect Groq free-tier rate limits
+        if test["expected_routed"] and i > 1:
+            time.sleep(2)
+
         t0 = time.time()
         try:
             result = route(question, [])
