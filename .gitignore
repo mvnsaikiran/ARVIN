@@ -4,7 +4,7 @@ vectorstore/
 __pycache__/
 *.pyc
 .DS_Store
-policies/
+# policies/ intentionally tracked - per-policy RAG modules
 node_modules/
 frontend/
 public/
