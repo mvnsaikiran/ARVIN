@@ -41,15 +41,20 @@ def detect_policy(query: str) -> str | None:
 
 def route(query: str, chat_history: list[dict] = None) -> dict:
     """
-    Route query to the right policy retriever.
-    Returns: {text, sources, policy, matched}
+    Route query to the best-matching policy (highest keyword count).
+    Ties broken by registry order. Returns: {text, sources, policy, matched}
     """
     q = query.lower()
-    for keywords, answer_fn, label in POLICY_REGISTRY:
-        if any(kw in q for kw in keywords):
-            result = answer_fn(query, chat_history or [])
-            result["matched"] = True
-            return result
+    best_fn, best_count = None, 0
+    for keywords, answer_fn, _ in POLICY_REGISTRY:
+        count = sum(1 for kw in keywords if kw in q)
+        if count > best_count:
+            best_fn, best_count = answer_fn, count
+
+    if best_fn:
+        result = best_fn(query, chat_history or [])
+        result["matched"] = True
+        return result
 
     return {
         "text":    _FALLBACK_MSG,
