@@ -16,6 +16,7 @@ SKIP_TABLES    = True   # this policy has zero tables — skip table extraction
 SKIP_PAGES     = {1}    # page 1 is a cover image with no real content
 SEM_WEIGHT     = 1.5    # semantic > BM25 for meaning-heavy prose
 TOP_K          = 5      # 12 chunks total; 5 ensures no section is missed
+DOC_TYPE       = "Policy"
 
 SYSTEM_PROMPT = """You are ARVIN, Arvind Limited's official HR Policy Assistant.
 Answer the employee's question using ONLY the policy context provided below.

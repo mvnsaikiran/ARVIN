@@ -16,6 +16,7 @@ MAX_CHUNK   = 1200
 SKIP_PAGES  = {11, 12, 13, 14}
 SEM_WEIGHT  = 1.5
 TOP_K       = 6
+DOC_TYPE    = "Policy"
 
 SYSTEM_PROMPT = """You are ARVIN, Arvind Limited's official HR Policy Assistant.
 Answer the employee's question using ONLY the policy context provided below.

@@ -8,6 +8,7 @@ SKIP_PAGES  = {1, 23}
 SEM_WEIGHT  = 1.5
 TOP_K       = 6
 MODE        = "slides"
+DOC_TYPE    = "Program"
 SYSTEM_PROMPT = """You are ARVIN, Arvind Limited's official HR Policy Assistant.
 Answer the employee's question using ONLY the policy context provided below.
 Rules:

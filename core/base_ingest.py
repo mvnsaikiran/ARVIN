@@ -64,6 +64,11 @@ def _approx_page(chunk_text_: str, prose_pages: list, page_word_sets: list) -> i
     return best_page
 
 
+def _add_header(text: str, policy_name: str, doc_type: str) -> str:
+    """Prepend a context header so the embedding captures document identity."""
+    return f"[{policy_name} | {doc_type}]\n{text}"
+
+
 def build(
     pdf_path: str,
     policy_name: str,
@@ -74,6 +79,7 @@ def build(
     mode: str = "prose",          # prose | tables | slides | ocr | faq
     faq_text_path: str = "",      # used when mode="faq"
     extra_clean_fn=None,          # optional callable(raw_str)->str
+    doc_type: str = "Policy",     # Policy | Insurance | Guide | Program
 ):
     """
     Build and store chunks for a policy.
@@ -105,11 +111,12 @@ def build(
                 continue
             seen.add(h)
             all_chunks.append({
-                'text':        text,
+                'text':        _add_header(text, policy_name, doc_type),
                 'policy_name': policy_name,
                 'filename':    os.path.basename(faq_text_path),
                 'page':        i + 1,
                 'chunk_type':  'faq',
+                'doc_type':    doc_type,
             })
 
     # ── PDF modes ─────────────────────────────────────────────────────────────
@@ -158,11 +165,12 @@ def build(
                         continue
                     seen.add(h)
                     table_chunks.append({
-                        'text':        f"[TABLE — {policy_name}, Page {page_num}]\n{tbl_text}",
+                        'text':        f"[TABLE — {policy_name} | {doc_type}, Page {page_num}]\n{tbl_text}",
                         'policy_name': policy_name,
                         'filename':    os.path.basename(pdf_path),
                         'page':        page_num,
                         'chunk_type':  'table',
+                        'doc_type':    doc_type,
                     })
 
             # Slide / OCR — each page is its own chunk
@@ -171,11 +179,12 @@ def build(
                 if h not in seen:
                     seen.add(h)
                     all_chunks.append({
-                        'text':        text,
+                        'text':        _add_header(text, policy_name, doc_type),
                         'policy_name': policy_name,
                         'filename':    os.path.basename(pdf_path),
                         'page':        page_num,
                         'chunk_type':  'slide',
+                        'doc_type':    doc_type,
                     })
                     print(f"  Page {page_num}: {len(text)} chars", flush=True)
             else:
@@ -196,11 +205,12 @@ def build(
                 seen.add(h)
                 prose_pages_ref = prose_pages  # capture for closure
                 all_chunks.append({
-                    'text':        text,
+                    'text':        _add_header(text, policy_name, doc_type),
                     'policy_name': policy_name,
                     'filename':    os.path.basename(pdf_path),
                     'page':        _approx_page(text, prose_pages_ref, page_word_sets),
                     'chunk_type':  'prose',
+                    'doc_type':    doc_type,
                 })
             all_chunks = table_chunks + all_chunks
 
@@ -232,6 +242,7 @@ def build(
         'filename':    c['filename'],
         'page':        c['page'],
         'chunk_type':  c['chunk_type'],
+        'doc_type':    c.get('doc_type', 'Policy'),
     } for c in all_chunks]
 
     batch = 50

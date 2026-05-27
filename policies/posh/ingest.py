@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 from core.parser  import clean_text
 from core.chunker import chunk_text
 from policies.posh.config import (
-    PDF_PATH, POLICY_NAME, COLLECTION, MAX_CHUNK, SKIP_PAGES
+    PDF_PATH, POLICY_NAME, COLLECTION, MAX_CHUNK, SKIP_PAGES, DOC_TYPE
 )
 
 _HERE           = os.path.dirname(os.path.abspath(__file__))
@@ -101,11 +101,12 @@ def build():
             continue
         seen.add(h)
         all_chunks.append({
-            'text':        text,
+            'text':        f"[{POLICY_NAME} | {DOC_TYPE}]\n{text}",
             'policy_name': POLICY_NAME,
             'filename':    os.path.basename(PDF_PATH),
             'page':        approx_page(text),
             'chunk_type':  'prose',
+            'doc_type':    DOC_TYPE,
         })
 
     print(f"\nChunks: {len(all_chunks)} prose", flush=True)
@@ -132,6 +133,7 @@ def build():
         'filename':    c['filename'],
         'page':        c['page'],
         'chunk_type':  c['chunk_type'],
+        'doc_type':    c.get('doc_type', 'Policy'),
     } for c in all_chunks]
 
     batch = 50
