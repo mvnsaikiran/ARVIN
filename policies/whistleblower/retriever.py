@@ -15,13 +15,12 @@ from rank_bm25 import BM25Okapi
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
 from core.llm import ask
-from policies.whistleblower.config import COLLECTION, SYSTEM_PROMPT, POLICY_NAME
+from policies.whistleblower.config import COLLECTION, SYSTEM_PROMPT, POLICY_NAME, TOP_K, SEM_WEIGHT
 
 _HERE           = os.path.dirname(os.path.abspath(__file__))
 VECTORSTORE_DIR = os.path.join(_HERE, '..', '..', 'vectorstore')
 CHUNKS_CACHE    = os.path.join(VECTORSTORE_DIR, f'{COLLECTION}_chunks.json')
 
-TOP_K   = 6    # chunks sent to LLM
 SEM_K   = 20   # semantic candidates
 BM25_K  = 20   # BM25 candidates
 RRF_K   = 60   # RRF constant
@@ -107,7 +106,7 @@ class WhistleblowerRetriever:
 
         all_idx = set(sem_rank) | set(bm25_rank)
         rrf = {
-            idx: 1.0 / (RRF_K + sem_rk.get(idx, RRF_K * 10))
+            idx: SEM_WEIGHT / (RRF_K + sem_rk.get(idx, RRF_K * 10))
                 + 1.0 / (RRF_K + bm25_rk.get(idx, RRF_K * 10))
             for idx in all_idx
         }

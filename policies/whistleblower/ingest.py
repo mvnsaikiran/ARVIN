@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 from core.parser  import extract_pdf, clean_text
 from core.chunker import chunk_text
 from policies.whistleblower.config import (
-    PDF_PATH, POLICY_NAME, COLLECTION, MAX_CHUNK
+    PDF_PATH, POLICY_NAME, COLLECTION, MAX_CHUNK, SKIP_PAGES
 )
 
 _HERE           = os.path.dirname(os.path.abspath(__file__))
@@ -36,18 +36,22 @@ def build():
 
     os.makedirs(VECTORSTORE_DIR, exist_ok=True)
 
-    # 1. Extract table chunks from PDF
-    table_chunks = extract_pdf(PDF_PATH, POLICY_NAME, os.path.basename(PDF_PATH))
+    # No table extraction — this policy has zero tables (pure prose)
+    table_chunks = []
 
-    # 2. Extract + chunk prose manually (full document join → smart split)
-    import pdfplumber
+    # Extract prose, skipping cover page(s)
+    import fitz   # PyMuPDF — more reliable text extraction than pdfplumber for this PDF
     prose_pages = []
-    with pdfplumber.open(PDF_PATH) as pdf:
-        for page_num, page in enumerate(pdf.pages, start=1):
-            raw = page.extract_text() or ''
-            cleaned = clean_text(raw)
-            if cleaned:
-                prose_pages.append((page_num, cleaned))
+    doc = fitz.open(PDF_PATH)
+    for page_num, page in enumerate(doc, start=1):
+        if page_num in SKIP_PAGES:
+            print(f"  Skipping page {page_num} (cover)", flush=True)
+            continue
+        raw = page.get_text()
+        cleaned = clean_text(raw)
+        if cleaned:
+            prose_pages.append((page_num, cleaned))
+    doc.close()
 
     full_prose = '\n'.join(text for _, text in prose_pages)
 
