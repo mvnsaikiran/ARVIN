@@ -6,6 +6,7 @@ Each policy creates one instance with its own config values.
 import os
 import re
 import json
+from typing import Optional
 
 import chromadb
 from chromadb.utils import embedding_functions
@@ -119,6 +120,26 @@ class PolicyRetriever:
             for i, s in top
         ]
 
+    @staticmethod
+    def _check_grounding(answer_text: str, chunks: list[dict]) -> Optional[str]:
+        """
+        Extract numeric claims from the answer and verify each appears in at
+        least one retrieved chunk.  Returns a warning string if any number is
+        ungrounded, else None.
+        """
+        numbers = re.findall(r'\b\d[\d,\.]*\b', answer_text)
+        if not numbers:
+            return None
+        combined_context = " ".join(c["text"] for c in chunks)
+        ungrounded = [n for n in numbers if n not in combined_context]
+        if ungrounded:
+            return (
+                f"[ARVIN note: the figure(s) {', '.join(set(ungrounded))} "
+                "could not be verified in the policy document. "
+                "Please confirm with your Business HR.]"
+            )
+        return None
+
     def answer(self, query: str, chat_history: list[dict] = None) -> dict:
         chunks = self.retrieve(query)
 
@@ -151,6 +172,10 @@ class PolicyRetriever:
         )
 
         response_text = ask(self.system_prompt, user_message)
+
+        grounding_warning = self._check_grounding(response_text, chunks)
+        if grounding_warning:
+            response_text = response_text + "\n\n" + grounding_warning
 
         sources = []
         seen = set()

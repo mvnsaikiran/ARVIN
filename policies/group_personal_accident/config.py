@@ -18,8 +18,14 @@ Rules:
 - Use bullet points for lists of steps or items.
 - Never give legal advice."""
 KEYWORDS = [
+    # exact policy phrases
     "personal accident insurance", "gpa", "accidental death benefit",
     "disability benefit", "accident insurance", "permanent disability",
     "temporary disability", "accident claim", "group personal accident",
     "accident compensation",
+    # broader triggers employees actually type
+    "accident", "accidental", "injured", "injury", "pa insurance",
+    "pa policy", "pa cover", "disability claim", "accident benefit",
+    "accident policy", "personal accident", "accident cover",
+    "loss of limb", "loss of sight", "partial disability",
 ]

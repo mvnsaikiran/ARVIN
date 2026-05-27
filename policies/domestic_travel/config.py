@@ -18,8 +18,15 @@ Rules:
 - Use bullet points for lists of steps or items.
 - Never give legal advice."""
 KEYWORDS = [
+    # exact policy phrases
     "domestic travel policy", "travel allowance", "hotel allowance", "flight booking policy",
     "travel approval", "per diem", "travel advance", "ta da", "travel entitlement",
     "grade wise travel", "travel class entitlement", "business travel policy",
     "travel norms", "hotel entitlement", "travel reimbursement policy",
+    # broader triggers employees actually type — avoid bare "travel" (conflicts with Travel Settlement)
+    "flight", "hotel", "accommodation", "outstation",
+    "air ticket", "air travel", "business trip", "mybiz",
+    "train ticket", "cab reimbursement", "lodging",
+    "stay allowance", "daily allowance", "domestic travel",
+    "class of travel", "travel grade", "travel entitlement grade",
 ]

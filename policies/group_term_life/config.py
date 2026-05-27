@@ -18,7 +18,13 @@ Rules:
 - Use bullet points for lists of steps or items.
 - Never give legal advice."""
 KEYWORDS = [
+    # exact policy phrases
     "group term life", "term life insurance", "gtl", "life cover",
     "death benefit insurance", "life insurance", "nominee life insurance",
     "death claim insurance", "gtl scheme", "life insurance benefit arvind",
+    # broader triggers employees actually type
+    "death", "death benefit", "nominee", "life policy", "term insurance",
+    "gtl policy", "death claim", "life cover arvind", "employee death",
+    "death compensation", "life benefit", "insurance nominee",
+    "death of employee", "natural death", "accidental death life",
 ]

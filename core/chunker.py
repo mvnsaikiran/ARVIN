@@ -47,12 +47,13 @@ def _split_at_sentences(text: str, max_len: int) -> list[str]:
     return chunks
 
 
-def chunk_text(text: str, max_chunk: int = 1000) -> list[str]:
+def chunk_text(text: str, max_chunk: int = 1000, overlap: int = 150) -> list[str]:
     """
     1. Fix PDF line-wrapping
     2. Split at section headers
     3. Within each section split at sentence boundaries if > max_chunk
     4. Merge tiny fragments into previous chunk
+    5. Add trailing overlap from each chunk into the next to preserve boundary context
     """
     text = join_wrapped_lines(text)
 
@@ -77,4 +78,15 @@ def chunk_text(text: str, max_chunk: int = 1000) -> list[str]:
         else:
             merged.append(chunk)
 
-    return [c for c in merged if len(c.strip()) >= MIN_CHUNK]
+    base = [c for c in merged if len(c.strip()) >= MIN_CHUNK]
+
+    if overlap <= 0 or len(base) <= 1:
+        return base
+
+    # Prepend the tail of the previous chunk to each subsequent chunk
+    overlapped: list[str] = [base[0]]
+    for i in range(1, len(base)):
+        tail = base[i - 1][-overlap:].strip()
+        overlapped.append((tail + '\n' + base[i]).strip())
+
+    return overlapped
