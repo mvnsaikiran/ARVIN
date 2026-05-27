@@ -170,7 +170,11 @@ def answer(query: str, chat_history: list[dict] = None) -> dict:
         key = (c["policy_name"], c["page"])
         if key not in seen:
             seen.add(key)
-            sources.append({"policy": c["policy_name"], "page": c["page"]})
+            sources.append({
+                "policy":   c["policy_name"],
+                "page":     c["page"],
+                "filename": c.get("filename", "whistleblower-policy-arvind-limited.pdf"),
+            })
 
     return {
         "text":    response_text,

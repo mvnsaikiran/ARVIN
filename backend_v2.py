@@ -35,6 +35,11 @@ _DIST = os.path.join(_HERE, "dist")
 if os.path.isdir(_DIST):
     app.mount("/assets", StaticFiles(directory=os.path.join(_DIST, "assets")), name="assets")
 
+# Serve PDF files so the frontend can open them
+_POLICIES_DIR = os.path.join(_HERE, "policies", "Final_Policies")
+if os.path.isdir(_POLICIES_DIR):
+    app.mount("/pdf", StaticFiles(directory=_POLICIES_DIR), name="pdf")
+
 
 # ── Request models ────────────────────────────────────────────────────────────
 
@@ -93,6 +98,7 @@ def chat(req: ChatRequest):
                 "policyName":         s["policy"],
                 "pageNumber":         s["page"],
                 "sourceDocumentName": s["policy"],
+                "policyUrl":          f"http://localhost:8001/pdf/{s.get('filename', '')}",
             }
             for s in result.get("sources", [])
         ]
