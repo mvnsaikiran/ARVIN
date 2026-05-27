@@ -1,0 +1,12 @@
+{
+  "policy": "Local Conveyance Policy",
+  "short": "lc",
+  "n_total": 125,
+  "n_in_scope": 75,
+  "n_oos": 50,
+  "routing_accuracy": 0.408,
+  "retrieval_hit": 1.0,
+  "oos_rejection": 0.96,
+  "semantic_score": 0.492,
+  "overall": 0.713
+}

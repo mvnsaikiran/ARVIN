@@ -1,0 +1,12 @@
+{
+  "policy": "Talent Mobility Policy",
+  "short": "tm",
+  "n_total": 120,
+  "n_in_scope": 70,
+  "n_oos": 50,
+  "routing_accuracy": 0.475,
+  "retrieval_hit": 1.0,
+  "oos_rejection": 0.96,
+  "semantic_score": 0.487,
+  "overall": 0.732
+}

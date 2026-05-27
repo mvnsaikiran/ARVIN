@@ -1,0 +1,12 @@
+{
+  "policy": "Joining Policy",
+  "short": "jn",
+  "n_total": 130,
+  "n_in_scope": 80,
+  "n_oos": 50,
+  "routing_accuracy": 0.485,
+  "retrieval_hit": 1.0,
+  "oos_rejection": 0.96,
+  "semantic_score": 0.434,
+  "overall": 0.724
+}

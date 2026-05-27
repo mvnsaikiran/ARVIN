@@ -1,0 +1,12 @@
+{
+  "policy": "Whistleblower Policy",
+  "short": "wb",
+  "n_total": 142,
+  "n_in_scope": 92,
+  "n_oos": 50,
+  "routing_accuracy": 0.451,
+  "retrieval_hit": 1.0,
+  "oos_rejection": 0.96,
+  "semantic_score": 0.493,
+  "overall": 0.726
+}

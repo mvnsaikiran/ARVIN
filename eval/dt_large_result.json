@@ -1,0 +1,12 @@
+{
+  "policy": "Domestic Travel Policy",
+  "short": "dt",
+  "n_total": 165,
+  "n_in_scope": 115,
+  "n_oos": 50,
+  "routing_accuracy": 0.4,
+  "retrieval_hit": 1.0,
+  "oos_rejection": 0.96,
+  "semantic_score": 0.468,
+  "overall": 0.706
+}

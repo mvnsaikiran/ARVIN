@@ -1,0 +1,12 @@
+{
+  "policy": "Grievance Mechanism Policy",
+  "short": "grv",
+  "n_total": 146,
+  "n_in_scope": 96,
+  "n_oos": 50,
+  "routing_accuracy": 0.404,
+  "retrieval_hit": 1.0,
+  "oos_rejection": 0.96,
+  "semantic_score": 0.55,
+  "overall": 0.723
+}

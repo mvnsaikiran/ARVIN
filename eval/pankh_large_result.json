@@ -1,0 +1,12 @@
+{
+  "policy": "Pankh Employee Referral Policy",
+  "short": "pankh",
+  "n_total": 104,
+  "n_in_scope": 54,
+  "n_oos": 50,
+  "routing_accuracy": 0.433,
+  "retrieval_hit": 1.0,
+  "oos_rejection": 0.96,
+  "semantic_score": 0.571,
+  "overall": 0.736
+}
