@@ -15,7 +15,7 @@ MAX_CHUNK      = 1500   # pure prose, larger chunks keep full sections together
 SKIP_TABLES    = True   # this policy has zero tables — skip table extraction
 SKIP_PAGES     = {1}    # page 1 is a cover image with no real content
 SEM_WEIGHT     = 1.5    # semantic > BM25 for meaning-heavy prose
-TOP_K          = 4      # doc is ~6400 chars total; 4 chunks covers it cleanly
+TOP_K          = 5      # 12 chunks total; 5 ensures no section is missed
 
 SYSTEM_PROMPT = """You are ARVIN, Arvind Limited's official HR Policy Assistant.
 Answer the employee's question using ONLY the policy context provided below.

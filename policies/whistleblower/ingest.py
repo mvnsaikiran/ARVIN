@@ -53,24 +53,24 @@ def build():
             prose_pages.append((page_num, cleaned))
     doc.close()
 
+    # Build a word-set per page for page attribution
+    # (more reliable than string offset matching after cleaning transforms text)
+    page_word_sets = []
+    for pnum, text in prose_pages:
+        words = set(text.lower().split())
+        page_word_sets.append((pnum, words))
+
     full_prose = '\n'.join(text for _, text in prose_pages)
 
-    # Build page offset map for attribution
-    page_offsets = []
-    offset = 0
-    for pnum, text in prose_pages:
-        page_offsets.append((offset, offset + len(text), pnum))
-        offset += len(text) + 1
-
     def approx_page(chunk_text_: str) -> int:
-        needle = chunk_text_[:80].strip()
-        pos = full_prose.find(needle)
-        if pos < 0:
-            return prose_pages[0][0] if prose_pages else 1
-        for start, end, pnum in page_offsets:
-            if start <= pos < end:
-                return pnum
-        return prose_pages[-1][0] if prose_pages else 1
+        """Return the page whose word set has the most overlap with this chunk."""
+        chunk_words = set(chunk_text_.lower().split())
+        best_page, best_overlap = prose_pages[0][0], -1
+        for pnum, words in page_word_sets:
+            overlap = len(chunk_words & words)
+            if overlap > best_overlap:
+                best_overlap, best_page = overlap, pnum
+        return best_page
 
     seen = {hashlib.md5(c['text'].encode()).hexdigest() for c in table_chunks}
     prose_chunks = []
