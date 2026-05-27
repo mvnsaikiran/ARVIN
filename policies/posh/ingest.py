@@ -150,5 +150,8 @@ def build():
     print(f"\nDone. {len(all_chunks)} chunks in collection '{COLLECTION}'.")
 
 
-if __name__ == '__main__':
+def run():
     build()
+
+if __name__ == '__main__':
+    run()
