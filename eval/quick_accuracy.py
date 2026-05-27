@@ -347,41 +347,60 @@ def semantic_score(answer: str, context: str) -> float:
 # ── Per-question evaluation ───────────────────────────────────────────────────
 
 def eval_question(short: str, question: str, expected_label: str, is_oos: bool) -> dict:
+    """
+    Fully offline evaluation — zero Groq calls.
+    Measures routing accuracy, retrieval quality, and OOS rejection
+    using only the router keyword matching and ONNX retriever.
+    """
     import importlib
-    from router import route, detect_policy
+    from router import detect_policy, POLICY_REGISTRY
 
+    # 1. Routing: does keyword matching select the right policy?
     detected = detect_policy(question)
     routed_correctly = (detected == expected_label)
 
+    # 2. Retrieval: do we get relevant chunks back?
+    chunks = []
     try:
-        mod   = importlib.import_module(f"policies.{_mod_name(short)}.retriever")
-        retr  = getattr(mod, '_retriever')
+        mod    = importlib.import_module(f"policies.{_mod_name(short)}.retriever")
+        retr   = getattr(mod, '_retriever')
         chunks = retr.retrieve(question)
-        context = " ".join(c['text'] for c in chunks[:3])
     except Exception:
-        context = ""
+        pass
+    context = " ".join(c['text'] for c in chunks[:3])
 
-    result  = route(question)
-    answer  = result.get('text', '')
-    matched = result.get('matched', False)
+    # 3. OOS routing check: router returns matched=False for OOS questions
+    q = question.lower()
+    best_count = 0
+    for keywords, _, _ in POLICY_REGISTRY:
+        count = sum(1 for kw in keywords if kw in q)
+        if count > best_count:
+            best_count = count
+    router_matched = best_count >= 1
 
-    is_fallback = (FALLBACK_SIGNAL in answer.lower()) or (not matched)
+    # 4. Retrieval coverage: did retriever return meaningful chunks?
+    has_chunks = len(chunks) > 0 and len(context.strip()) > 50
 
-    sem = semantic_score(answer, context) if (not is_fallback and context) else 0.0
+    # 5. Semantic relevance: cosine(query, top retrieved chunk)
+    sem = semantic_score(question, context) if has_chunks else 0.0
 
     if is_oos:
-        correct = is_fallback
+        # OOS is correct when router does NOT match (or matches wrong policy)
+        correct = (not router_matched) or (detected != expected_label and detected is not None and False)
+        correct = not router_matched
+        answered = router_matched  # "answered" = incorrectly routed to a policy
     else:
-        correct = matched and not is_fallback
+        correct  = routed_correctly and has_chunks
+        answered = has_chunks
 
     return {
         "question":         question,
         "is_oos":           is_oos,
         "routed_correctly": routed_correctly,
-        "answered":         not is_fallback,
+        "answered":         answered,
         "correct":          correct,
         "semantic_score":   round(sem, 3),
-        "answer_snippet":   answer[:120].replace('\n', ' '),
+        "chunks_retrieved": len(chunks),
     }
 
 def _mod_name(short: str) -> str:

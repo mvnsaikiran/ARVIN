@@ -15,5 +15,8 @@ cleaned_test_suite.json
 # Enterprise eval generated files (created at runtime, not committed)
 eval/*_enterprise_tests.json
 eval/*_eval_result.json
+eval/*_offline_result.json
+eval/*_accuracy.json
 eval/enterprise_accuracy_report.json
+eval/offline_accuracy_report.json
 eval/ragas_results.json
