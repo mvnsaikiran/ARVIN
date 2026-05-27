@@ -1,5 +1,5 @@
 """
-Hybrid BM25 + Semantic retrieval with Reciprocal Rank Fusion.
+Hybrid BM25 + Semantic retrieval with Reciprocal Rank Fusion + Cross-encoder re-ranking.
 
 Fixes three root-cause retrieval failures:
   1. MAB/SIA numeric lookups  → BM25 matches grade labels + numbers exactly
@@ -7,7 +7,7 @@ Fixes three root-cause retrieval failures:
   3. Joining vs Local Conveyance confusion → BM25 + policy keyword routing
 
 Architecture:
-  semantic_top30 + bm25_top30  →  RRF merge  →  final top-K
+  semantic_top30 + bm25_top30  →  RRF merge  →  guarantees  →  cross-encoder re-rank
 """
 
 import os, re, json
@@ -493,6 +493,7 @@ class HybridRetriever:
         self._bm25       = None
         self._chunks     = None
         self._doc2idx    = None   # text hash → list of chunk indices
+        self._reranker   = None
 
     # ── Lazy loading ──────────────────────────────────────────────────────────
 
@@ -519,6 +520,9 @@ class HybridRetriever:
         for i, c in enumerate(self._chunks):
             key = c["text"][:80]
             self._doc2idx.setdefault(key, []).append(i)
+
+        from sentence_transformers import CrossEncoder
+        self._reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
     # ── Core retrieval ────────────────────────────────────────────────────────
 
@@ -680,6 +684,20 @@ class HybridRetriever:
                 if policy_extras:
                     keep = n_results - len(policy_extras)
                     top_indices = top_indices[:keep] + [(idx, 0.001) for idx, _ in policy_extras]
+
+        # 6. Cross-encoder re-ranking: score each (query, chunk) pair jointly.
+        #    Runs after all guarantees so no chunk is dropped — only reordered.
+        #    Most relevant chunk appears first in the LLM context window.
+        if len(top_indices) > 1:
+            texts = [self._chunks[idx]["text"] for idx, _ in top_indices]
+            ce_scores = self._reranker.predict([(query, t) for t in texts])
+            top_indices = [
+                (idx, float(sc))
+                for (idx, _), sc in sorted(
+                    zip(top_indices, ce_scores),
+                    key=lambda x: -x[1],
+                )
+            ]
 
         return [
             {
