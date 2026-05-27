@@ -7,6 +7,6 @@
   "routing_accuracy": 0.433,
   "retrieval_hit": 1.0,
   "oos_rejection": 0.96,
-  "semantic_score": 0.571,
-  "overall": 0.736
+  "semantic_score": 0.58,
+  "overall": 0.738
 }

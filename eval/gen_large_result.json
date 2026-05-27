@@ -1,12 +1,12 @@
 {
   "policy": "Gender Policy",
   "short": "gen",
-  "n_total": 131,
-  "n_in_scope": 81,
+  "n_total": 136,
+  "n_in_scope": 86,
   "n_oos": 50,
-  "routing_accuracy": 0.405,
+  "routing_accuracy": 0.404,
   "retrieval_hit": 1.0,
   "oos_rejection": 0.96,
-  "semantic_score": 0.531,
+  "semantic_score": 0.535,
   "overall": 0.72
 }

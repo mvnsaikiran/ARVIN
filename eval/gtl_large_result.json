@@ -1,12 +1,12 @@
 {
   "policy": "Group Term Life Insurance Policy",
   "short": "gtl",
-  "n_total": 121,
-  "n_in_scope": 71,
+  "n_total": 119,
+  "n_in_scope": 69,
   "n_oos": 50,
-  "routing_accuracy": 0.455,
+  "routing_accuracy": 0.471,
   "retrieval_hit": 1.0,
   "oos_rejection": 0.96,
-  "semantic_score": 0.406,
-  "overall": 0.71
+  "semantic_score": 0.407,
+  "overall": 0.715
 }

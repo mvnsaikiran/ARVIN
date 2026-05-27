@@ -2,62 +2,62 @@
   {
     "policy": "Whistleblower Policy",
     "short": "wb",
-    "n_total": 142,
-    "n_in_scope": 92,
+    "n_total": 143,
+    "n_in_scope": 93,
     "n_oos": 50,
-    "routing_accuracy": 0.451,
+    "routing_accuracy": 0.448,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.493,
-    "overall": 0.726
+    "semantic_score": 0.486,
+    "overall": 0.723
   },
   {
     "policy": "POSH Policy",
     "short": "posh",
-    "n_total": 183,
-    "n_in_scope": 133,
+    "n_total": 184,
+    "n_in_scope": 134,
     "n_oos": 50,
-    "routing_accuracy": 0.366,
+    "routing_accuracy": 0.359,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.487,
-    "overall": 0.699
+    "semantic_score": 0.49,
+    "overall": 0.698
   },
   {
     "policy": "Grievance Mechanism Policy",
     "short": "grv",
-    "n_total": 146,
-    "n_in_scope": 96,
+    "n_total": 150,
+    "n_in_scope": 100,
     "n_oos": 50,
-    "routing_accuracy": 0.404,
+    "routing_accuracy": 0.413,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.55,
-    "overall": 0.723
+    "semantic_score": 0.557,
+    "overall": 0.727
   },
   {
     "policy": "Gender Policy",
     "short": "gen",
-    "n_total": 131,
-    "n_in_scope": 81,
+    "n_total": 134,
+    "n_in_scope": 84,
     "n_oos": 50,
-    "routing_accuracy": 0.405,
+    "routing_accuracy": 0.41,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.531,
-    "overall": 0.72
+    "semantic_score": 0.537,
+    "overall": 0.723
   },
   {
     "policy": "Domestic Travel Policy",
     "short": "dt",
-    "n_total": 165,
-    "n_in_scope": 115,
+    "n_total": 162,
+    "n_in_scope": 112,
     "n_oos": 50,
-    "routing_accuracy": 0.4,
+    "routing_accuracy": 0.364,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.468,
-    "overall": 0.706
+    "semantic_score": 0.467,
+    "overall": 0.695
   },
   {
     "policy": "Joining Policy",
@@ -65,23 +65,23 @@
     "n_total": 130,
     "n_in_scope": 80,
     "n_oos": 50,
-    "routing_accuracy": 0.485,
+    "routing_accuracy": 0.454,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.434,
-    "overall": 0.724
+    "semantic_score": 0.433,
+    "overall": 0.715
   },
   {
     "policy": "Full & Final Settlement Policy",
     "short": "fnf",
-    "n_total": 134,
-    "n_in_scope": 84,
+    "n_total": 133,
+    "n_in_scope": 83,
     "n_oos": 50,
-    "routing_accuracy": 0.425,
+    "routing_accuracy": 0.429,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.394,
-    "overall": 0.699
+    "semantic_score": 0.398,
+    "overall": 0.7
   },
   {
     "policy": "Employee Expense Reimbursement Policy",
@@ -89,23 +89,23 @@
     "n_total": 145,
     "n_in_scope": 95,
     "n_oos": 50,
-    "routing_accuracy": 0.455,
+    "routing_accuracy": 0.441,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.98,
     "semantic_score": 0.473,
-    "overall": 0.727
+    "overall": 0.723
   },
   {
     "policy": "Local Conveyance Policy",
     "short": "lc",
-    "n_total": 125,
-    "n_in_scope": 75,
+    "n_total": 124,
+    "n_in_scope": 74,
     "n_oos": 50,
-    "routing_accuracy": 0.408,
+    "routing_accuracy": 0.387,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.492,
-    "overall": 0.713
+    "semantic_score": 0.493,
+    "overall": 0.707
   },
   {
     "policy": "Group Health Insurance Policy",
@@ -113,11 +113,11 @@
     "n_total": 154,
     "n_in_scope": 104,
     "n_oos": 50,
-    "routing_accuracy": 0.461,
+    "routing_accuracy": 0.429,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.482,
-    "overall": 0.727
+    "semantic_score": 0.479,
+    "overall": 0.716
   },
   {
     "policy": "Group Personal Accident Insurance Policy",
@@ -125,35 +125,35 @@
     "n_total": 127,
     "n_in_scope": 77,
     "n_oos": 50,
-    "routing_accuracy": 0.409,
+    "routing_accuracy": 0.402,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.409,
-    "overall": 0.697
+    "semantic_score": 0.401,
+    "overall": 0.693
   },
   {
     "policy": "Group Term Life Insurance Policy",
     "short": "gtl",
-    "n_total": 121,
-    "n_in_scope": 71,
+    "n_total": 118,
+    "n_in_scope": 68,
     "n_oos": 50,
-    "routing_accuracy": 0.455,
+    "routing_accuracy": 0.441,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.406,
-    "overall": 0.71
+    "semantic_score": 0.411,
+    "overall": 0.706
   },
   {
     "policy": "Voluntary Death Contribution Policy",
     "short": "vdc",
-    "n_total": 108,
-    "n_in_scope": 58,
+    "n_total": 106,
+    "n_in_scope": 56,
     "n_oos": 50,
-    "routing_accuracy": 0.417,
+    "routing_accuracy": 0.406,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.464,
-    "overall": 0.71
+    "semantic_score": 0.466,
+    "overall": 0.707
   },
   {
     "policy": "Pankh Employee Referral Policy",
@@ -161,11 +161,11 @@
     "n_total": 104,
     "n_in_scope": 54,
     "n_oos": 50,
-    "routing_accuracy": 0.433,
+    "routing_accuracy": 0.442,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.571,
-    "overall": 0.736
+    "semantic_score": 0.583,
+    "overall": 0.741
   },
   {
     "policy": "Talent Mobility Policy",
@@ -173,11 +173,11 @@
     "n_total": 120,
     "n_in_scope": 70,
     "n_oos": 50,
-    "routing_accuracy": 0.475,
+    "routing_accuracy": 0.467,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.487,
-    "overall": 0.732
+    "semantic_score": 0.489,
+    "overall": 0.73
   },
   {
     "policy": "MediBuddy User Guide",
@@ -185,11 +185,11 @@
     "n_total": 122,
     "n_in_scope": 72,
     "n_oos": 50,
-    "routing_accuracy": 0.418,
+    "routing_accuracy": 0.402,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.437,
-    "overall": 0.705
+    "semantic_score": 0.442,
+    "overall": 0.701
   },
   {
     "policy": "Travel Settlement Guide",
@@ -197,11 +197,11 @@
     "n_total": 123,
     "n_in_scope": 73,
     "n_oos": 50,
-    "routing_accuracy": 0.358,
+    "routing_accuracy": 0.333,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.96,
-    "semantic_score": 0.43,
-    "overall": 0.685
+    "semantic_score": 0.426,
+    "overall": 0.677
   },
   {
     "policy": "1to1 Employee Assistance Program",
@@ -209,10 +209,10 @@
     "n_total": 126,
     "n_in_scope": 76,
     "n_oos": 50,
-    "routing_accuracy": 0.397,
+    "routing_accuracy": 0.389,
     "retrieval_hit": 1.0,
     "oos_rejection": 0.98,
-    "semantic_score": 0.426,
-    "overall": 0.7
+    "semantic_score": 0.425,
+    "overall": 0.698
   }
 ]

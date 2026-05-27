@@ -1,12 +1,12 @@
 {
   "policy": "Group Personal Accident Insurance Policy",
   "short": "gpa",
-  "n_total": 127,
-  "n_in_scope": 77,
+  "n_total": 125,
+  "n_in_scope": 75,
   "n_oos": 50,
-  "routing_accuracy": 0.409,
+  "routing_accuracy": 0.408,
   "retrieval_hit": 1.0,
   "oos_rejection": 0.96,
-  "semantic_score": 0.409,
-  "overall": 0.697
+  "semantic_score": 0.394,
+  "overall": 0.693
 }
