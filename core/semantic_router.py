@@ -1,20 +1,34 @@
 """
 Semantic policy router.
 
-Pre-computes ONNX embeddings for 6-8 representative "intent anchor"
-questions per policy at first call, then routes incoming queries by
-cosine similarity — no keyword matching needed.
+Two-tier semantic routing:
+
+Tier 1 — Synthetic-anchor ChromaDB index (preferred when built):
+  900 LLM-generated questions (50 per policy) covering diverse employee phrasings.
+  Route by finding the closest synthetic question; top-3 majority vote.
+  Build with:  python scripts/generate_synthetic_anchors.py
+               python scripts/build_router_index.py
+
+Tier 2 — ONNX in-memory anchor matrix (fallback / cold-start):
+  12-14 handcrafted intent anchors per policy, embedded at first call.
+  Always available, no build step needed.
 
 Hybrid strategy used by router.py:
-  1. If keyword count >= 1 → keyword result (fast, high-confidence)
-  2. Else if best semantic similarity >= THRESHOLD → semantic result
-  3. Else → None (OOS / unrecognised)
+  1. Keyword match on original → route
+  2. Keyword match on normalised → route
+  3. Synthetic router index (if built) → route if confidence ≥ THRESHOLD
+  4. ONNX anchor matrix → route if confidence ≥ THRESHOLD
+  5. Graceful degradation: clarify with top-2 if confidence 0.40-0.55
+  6. OOS fallback
 """
 
+import os
 import numpy as np
 from chromadb.utils import embedding_functions
 
-THRESHOLD = 0.55   # min cosine similarity to claim a policy match
+THRESHOLD   = 0.55   # min cosine similarity to claim a policy match
+_ROUTER_COL = "arvin_router_index"
+_VS_DIR     = os.path.join(os.path.dirname(__file__), '..', 'vectorstore')
 
 # ---------------------------------------------------------------------------
 # Intent anchors — 6-8 natural-language questions an employee would actually
@@ -295,6 +309,8 @@ POLICY_ANCHORS: dict[str, list[str]] = {
 # ---------------------------------------------------------------------------
 _ef = None
 _anchor_matrix: dict[str, np.ndarray] = {}   # policy → (n_anchors, dim)
+_router_col    = None   # ChromaDB synthetic-anchor collection
+_router_loaded = False  # whether we've tried loading it
 
 
 def _get_ef():
@@ -314,12 +330,67 @@ def _load_anchors():
         _anchor_matrix[policy] = np.array(vecs, dtype=np.float32)
 
 
+def _get_router_col():
+    """Lazy-load the synthetic router index. Returns None if not built yet."""
+    global _router_col, _router_loaded
+    if _router_loaded:
+        return _router_col
+    _router_loaded = True
+    try:
+        import chromadb
+        client      = chromadb.PersistentClient(path=os.path.abspath(_VS_DIR))
+        ef          = _get_ef()
+        _router_col = client.get_collection(_ROUTER_COL, embedding_function=ef)
+    except Exception:
+        _router_col = None
+    return _router_col
+
+
 def _cosine_to_matrix(q_vec: np.ndarray, mat: np.ndarray) -> np.ndarray:
     """Return cosine similarity between q_vec and every row in mat."""
     norms = np.linalg.norm(mat, axis=1)
     norms = np.where(norms == 0, 1e-9, norms)
     q_norm = float(np.linalg.norm(q_vec)) or 1e-9
     return (mat @ q_vec) / (norms * q_norm)
+
+
+def route_via_router_index(query: str) -> tuple[str | None, float]:
+    """
+    Tier-1 semantic routing: query the synthetic anchor ChromaDB collection.
+
+    Returns (policy_label, confidence) where confidence = 1 - cosine_distance.
+    Uses top-3 majority vote for robustness against individual false positives.
+    Returns (None, score) when index not built or confidence < THRESHOLD.
+    """
+    col = _get_router_col()
+    if col is None or col.count() == 0:
+        return None, 0.0
+
+    k = min(5, col.count())
+    results = col.query(
+        query_texts=[query],
+        n_results=k,
+        include=["metadatas", "distances"],
+    )
+
+    if not results["metadatas"] or not results["metadatas"][0]:
+        return None, 0.0
+
+    metadatas = results["metadatas"][0]
+    distances = results["distances"][0]
+
+    # Top-1 confidence (ChromaDB cosine distance: 0=identical, 1=orthogonal)
+    top_confidence = 1.0 - float(distances[0])
+
+    # Majority vote from top-3 (ties broken by highest confidence)
+    from collections import Counter
+    top3_policies = [m["policy"] for m in metadatas[:3]]
+    votes = Counter(top3_policies)
+    top_policy = votes.most_common(1)[0][0]
+
+    if top_confidence >= THRESHOLD:
+        return top_policy, top_confidence
+    return None, top_confidence
 
 
 def detect_policy_semantic(query: str) -> tuple[str | None, float]:
@@ -341,3 +412,20 @@ def detect_policy_semantic(query: str) -> tuple[str | None, float]:
     if best_score >= THRESHOLD:
         return best_policy, best_score
     return None, best_score
+
+
+def detect_top2_semantic(query: str) -> list[tuple[str, float]]:
+    """
+    Return the top-2 (policy_label, score) candidates sorted by confidence.
+    Always returns scores regardless of THRESHOLD — caller decides what to do.
+    """
+    _load_anchors()
+    ef = _get_ef()
+    q_vec = np.array(ef([query])[0], dtype=np.float32)
+
+    all_scores: list[tuple[str, float]] = []
+    for policy, mat in _anchor_matrix.items():
+        sims = _cosine_to_matrix(q_vec, mat)
+        all_scores.append((policy, float(sims.max())))
+
+    return sorted(all_scores, key=lambda x: -x[1])[:2]
