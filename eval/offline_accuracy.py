@@ -439,21 +439,21 @@ def _grade(s):
 
 def print_report(results: list[dict]):
     n_q = sum(r["n_total"] for r in results)
-    print(f"\n{'='*84}")
+    print(f"\n{'='*100}")
     print(f"  ARVIN — Offline Policy Accuracy Report  ({len(results)} policies, {n_q} questions total)")
-    print(f"  Routing(30%) | Retrieval Hit(30%) | OOS Rejection(20%) | Semantic(20%)")
-    print(f"{'='*84}")
-    print(f"  {'Policy':<42} {'N':>4} {'Route':>6} {'Retr':>6} {'OOS':>6} {'Sem':>6} {'Score':>7}  Grade")
-    print(f"  {'─'*42} {'─'*4} {'─'*6} {'─'*6} {'─'*6} {'─'*6} {'─'*7}  {'─'*5}")
+    print(f"  Routing%(30%) | Retrieved Chunks%(30%) | Off-Topic Rejection%(20%) | Answer Relevance Score(20%)")
+    print(f"{'='*100}")
+    print(f"  {'Policy':<42} {'Qs':>4} {'Routed':>7} {'Retrieved':>10} {'Off-Topic':>10} {'Relevance':>10} {'Score':>7}  Grade")
+    print(f"  {'─'*42} {'─'*4} {'─'*7} {'─'*10} {'─'*10} {'─'*10} {'─'*7}  {'─'*5}")
 
     for r in results:
         flag = "✓" if r["overall"] >= 0.75 else ("△" if r["overall"] >= 0.60 else "✗")
         print(
             f"  {flag} {r['policy']:<41} {r['n_total']:>4}"
-            f" {r['routing_accuracy']:>6.0%}"
-            f" {r['retrieval_hit']:>6.0%}"
-            f" {r['oos_rejection']:>6.0%}"
-            f" {r['semantic_score']:>6.2f}"
+            f" {r['routing_accuracy']:>7.0%}"
+            f" {r['retrieval_hit']:>10.0%}"
+            f" {r['oos_rejection']:>10.0%}"
+            f" {r['semantic_score']:>10.2f}"
             f" {r['overall']:>7.3f}"
             f"  {_grade(r['overall'])}"
         )
@@ -465,8 +465,8 @@ def print_report(results: list[dict]):
         as_ = sum(r["semantic_score"]   for r in results) / len(results)
         avg = sum(r["overall"]          for r in results) / len(results)
         nt  = sum(r["n_total"]          for r in results)
-        print(f"  {'─'*42} {'─'*4} {'─'*6} {'─'*6} {'─'*6} {'─'*6} {'─'*7}  {'─'*5}")
-        print(f"  {'AVERAGE':<42} {nt:>4} {ar:>6.0%} {ah:>6.0%} {ao:>6.0%} {as_:>6.2f} {avg:>7.3f}  {_grade(avg)}")
+        print(f"  {'─'*42} {'─'*4} {'─'*7} {'─'*10} {'─'*10} {'─'*10} {'─'*7}  {'─'*5}")
+        print(f"  {'AVERAGE':<42} {nt:>4} {ar:>7.0%} {ah:>10.0%} {ao:>10.0%} {as_:>10.2f} {avg:>7.3f}  {_grade(avg)}")
 
     out = os.path.join(EVAL_DIR, "offline_accuracy_report.json")
     with open(out, "w", encoding="utf-8") as f:
