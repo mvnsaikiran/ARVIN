@@ -1,0 +1,76 @@
+MediBuddy Gold — Employee Guide
+Arvind Limited
+
+WHAT IS MEDIBUDDY GOLD?
+MediBuddy Gold is a free digital health benefit provided by Arvind Limited to all employees. It gives employees and their family members access to online doctor consultations, lab tests, medicine delivery, and surgery care — all through a single mobile app.
+
+WHO IS COVERED?
+The benefit covers: Employee + Spouse + 2 children + Parents (Employee + 5 family members total).
+
+WHAT SERVICES ARE AVAILABLE?
+1. Online Doctor Consultations — Unlimited video/audio/chat consultations with specialist MD doctors across 25+ specialities, available 24x7 from anywhere in India, in 16 Indian languages.
+2. Lab Tests — Book lab tests with home sample collection at discounted rates.
+3. Medicine Delivery — Order medicines online with ongoing discounts on pharmacy.
+4. Surgery Care — Access to planned surgery support and coordination.
+
+HOW TO REGISTER / GET STARTED?
+1. Download the MediBuddy app from Google Play Store or Apple App Store.
+2. Select "I have a Corporate Account".
+3. Enter your registered mobile number and click Proceed.
+4. Verify the OTP sent to your mobile number.
+5. Enter your official Arvind email ID and select "GET OTP" to verify.
+6. Once verified, you have full access to all MediBuddy Gold benefits.
+
+HOW TO BOOK A DOCTOR CONSULTATION?
+1. Open the MediBuddy app and select Doctor Consultations.
+2. Select the relevant health problem / speciality.
+3. Write your symptoms and press Continue.
+4. Enter the patient's name and click Submit.
+5. An AI tool (CLARA) will collect basic information.
+6. A doctor's profile will appear — click "Start Consultation".
+7. Click "Connect with Doctor now" to confirm.
+8. The doctor will start the consultation within 30 minutes (85% of callbacks happen within 15 minutes).
+
+HOW TO BOOK A LAB TEST?
+1. Select "Lab Tests" in the app.
+2. The app will detect your location automatically or you can set it manually.
+3. Search for the required lab test or select from options.
+4. Proceed to checkout after selecting the test package.
+5. Click "Confirm Details", enter address for home sample collection.
+6. Select date and time slot for sample collection.
+7. Click Confirm to book. Payment details will be shared via email and SMS.
+
+HOW TO ORDER MEDICINES?
+1. Select "Buy Medicine" in the app.
+2. Set your delivery location and click Search.
+3. Search for the medicine and add to cart.
+4. Upload your prescription when prompted.
+5. Select delivery address and click Proceed.
+6. Complete payment — order details will be shared on email and SMS.
+7. Track your order via the Profile icon in the app.
+
+IS THERE A LIMIT ON CONSULTATIONS?
+No. There is no cap on the number of consultations. All employees and their family members can avail unlimited consultations.
+
+CAN FAMILY MEMBERS USE THE APP?
+Yes. Family members (spouse, children, parents) are covered. However, bookings for family members must be made through the employee's app account. If the employee and family member are at different locations, the employee still books through the app and selects the family member's location.
+
+CAN I CHOOSE MY DOCTOR?
+Yes. You can select a doctor based on their profile, speciality, language, and availability.
+
+WHAT LANGUAGES ARE SUPPORTED?
+Consultations are available in 16 Indian languages: Hindi, English, Telugu, Kannada, Malayalam, Marathi, Gujarati, Tamil, Bengali, Punjabi, Odia, Konkani, Assamese.
+
+WHAT IF I DON'T GET A RESPONSE FROM A DOCTOR?
+Contact MediBuddy's 24x7 support: Call 9999991555 or email hello@medibuddy.in
+
+CUSTOMER CARE CONTACT:
+Phone: 9999991555 (24x7 voice and non-voice support)
+Email: hello@medibuddy.in
+FAQ link: https://faq.medibuddy.in
+
+IS THIS BENEFIT FREE FOR EMPLOYEES?
+Yes. MediBuddy Gold is provided free of cost by Arvind Limited to all eligible employees.
+
+WHAT SPECIALITIES ARE AVAILABLE FOR CONSULTATION?
+25+ specialities including General Medicine, Dermatology, Gynaecology, Paediatrics, Orthopaedics, Psychiatry, ENT, Cardiology, Neurology, Ophthalmology, and more.
