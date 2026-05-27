@@ -17,7 +17,7 @@ from chromadb.utils import embedding_functions
 from docx import Document
 
 _HERE           = os.path.dirname(os.path.abspath(__file__))
-POLICIES_SRC    = os.path.join(_HERE, "policies")
+POLICIES_SRC    = os.path.join(_HERE, "Final_Policies")
 VECTORSTORE_DIR = os.path.join(_HERE, "vectorstore")
 MAX_PROSE_CHUNK = 1400
 MIN_CHUNK       = 150   # ignore tiny fragments
