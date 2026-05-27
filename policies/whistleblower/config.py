@@ -39,4 +39,10 @@ KEYWORDS = [
     "report misconduct", "report wrongdoing",
     "non-victimization", "confidential complaint",
     "whistleblower identity", "retaliation after reporting",
+    "retaliation",
+    "victimization",
+    "face retaliation",
+    "protect me",
+    "am i protected",
+    "safe to report",
 ]
