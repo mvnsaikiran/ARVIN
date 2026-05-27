@@ -10,7 +10,7 @@ Metrics (reference-free — no golden answers needed):
     answer_relevancy — LLM answer addresses the actual question
 
 LLM judge: Groq llama-3.3-70b-versatile (free tier) via OpenAI-compatible endpoint
-Embeddings: sentence-transformers/all-MiniLM-L6-v2 (local)
+Embeddings: ONNX MiniLM-L6-v2 (local, already installed by ChromaDB)
 """
 
 import os
@@ -18,6 +18,9 @@ import sys
 import time
 import json
 import argparse
+from typing import List
+
+import numpy as np
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
@@ -27,13 +30,29 @@ load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 # ── Ragas + LangChain wiring ─────────────────────────────────────────────────
 
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_openai import ChatOpenAI
+from langchain_core.embeddings import Embeddings
+from chromadb.utils import embedding_functions
 from datasets import Dataset
 from ragas import evaluate
 from ragas.metrics import faithfulness, answer_relevancy
 
 GROQ_API_KEY  = os.getenv("GROQ_API_KEY", "")
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
+
+
+class ONNXEmbeddings(Embeddings):
+    """Wraps ChromaDB's ONNX MiniLM-L6-v2 for use as a LangChain Embeddings."""
+
+    def __init__(self):
+        self._fn = embedding_functions.ONNXMiniLM_L6_V2()
+
+    def embed_documents(self, texts: List[str]) -> List[List[float]]:
+        return [v for v in self._fn(texts)]
+
+    def embed_query(self, text: str) -> List[float]:
+        return self._fn([text])[0]
+
 
 def make_judge_llm():
     return ChatOpenAI(
@@ -46,11 +65,7 @@ def make_judge_llm():
     )
 
 def make_embeddings():
-    return OpenAIEmbeddings(
-        model="text-embedding-3-small",
-        openai_api_key=GROQ_API_KEY,
-        openai_api_base=GROQ_BASE_URL,
-    )
+    return ONNXEmbeddings()
 
 
 # ── Per-policy test questions (10 in-scope + 2 OOS per policy) ───────────────
