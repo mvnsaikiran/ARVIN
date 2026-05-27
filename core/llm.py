@@ -1,41 +1,44 @@
 """
-Local LLM via Ollama — zero API cost, runs entirely on your machine.
-
-Setup (one-time):
-  1. Download Ollama from https://ollama.com
-  2. Run: ollama pull llama3.1
-  3. Ollama runs as a local server on http://localhost:11434
+LLM via Groq API — free tier, llama-3.3-70b-versatile.
+Set GROQ_API_KEY in your .env file or as an environment variable.
 """
 
+import os
 import requests
+from dotenv import load_dotenv
 
-OLLAMA_URL   = "http://localhost:11434/api/chat"
-OLLAMA_MODEL = "llama3.1"   # change to llama3.2, mistral, etc. as needed
-TIMEOUT      = 120
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
+
+GROQ_URL   = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+TIMEOUT    = 60
 
 
 def ask(system_prompt: str, user_message: str) -> str:
-    """Send a prompt to the local Ollama model and return the response text."""
+    api_key = os.getenv("GROQ_API_KEY", "")
+    if not api_key:
+        return "**Error:** GROQ_API_KEY not set. Add it to your .env file or set it as an environment variable."
+
     payload = {
-        "model": OLLAMA_MODEL,
-        "stream": False,
+        "model":       GROQ_MODEL,
+        "temperature": 0.1,
+        "max_tokens":  1024,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user",   "content": user_message},
         ],
-        "options": {
-            "temperature": 0.1,   # low temp = factual, consistent answers
-            "num_predict": 1024,
-        },
     }
     try:
-        resp = requests.post(OLLAMA_URL, json=payload, timeout=TIMEOUT)
-        resp.raise_for_status()
-        return resp.json()["message"]["content"].strip()
-    except requests.exceptions.ConnectionError:
-        return (
-            "**Ollama is not running.** Please start it with `ollama serve` "
-            "and ensure the model is pulled: `ollama pull llama3.1`"
+        resp = requests.post(
+            GROQ_URL,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type":  "application/json",
+            },
+            json=payload,
+            timeout=TIMEOUT,
         )
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"].strip()
     except Exception as e:
         return f"**LLM error:** {e}"

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "WB-01",
+    "question": "What is the purpose of the Whistleblower Policy?",
+    "category": "purpose",
+    "expected_keywords": ["framework", "reporting", "unethical", "improper conduct", "ethical"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-02",
+    "question": "Who is a whistleblower?",
+    "category": "definitions",
+    "expected_keywords": ["individual", "reports", "unethical", "illegal", "wrongdoing"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-03",
+    "question": "What is a protected disclosure?",
+    "category": "definitions",
+    "expected_keywords": ["protected disclosure", "communication"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-04",
+    "question": "Who does this policy apply to?",
+    "category": "applicability",
+    "expected_keywords": ["directors", "employees", "business associates", "stakeholders"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-05",
+    "question": "What types of misconduct can I report under this policy?",
+    "category": "reportable_concerns",
+    "expected_keywords": ["bribery", "fraud", "corruption", "misappropriation", "false invoicing"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-06",
+    "question": "How do I report a concern?",
+    "category": "reporting_channels",
+    "expected_keywords": ["web portal", "toll free", "email", "18002008301", "ethicshelpline"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-07",
+    "question": "What is the toll-free number for reporting?",
+    "category": "reporting_channels",
+    "expected_keywords": ["18002008301", "1800"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-08",
+    "question": "What is the email address to report a whistleblower concern?",
+    "category": "reporting_channels",
+    "expected_keywords": ["arvind@ethicshelpline.in", "ethicshelpline"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-09",
+    "question": "Will I face retaliation if I report something?",
+    "category": "protection",
+    "expected_keywords": ["no adverse", "victimization", "retaliation", "protected", "discrimination"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "WB-10",
+    "question": "What happens if I am victimized after making a report?",
+    "category": "protection",
+    "expected_keywords": ["complaint", "chairman", "investigated", "committee"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "WB-11",
+    "question": "Is my identity kept confidential when I make a report?",
+    "category": "confidentiality",
+    "expected_keywords": ["confidential", "secrecy", "identity"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "WB-12",
+    "question": "What is the role of the whistleblower during investigation?",
+    "category": "whistleblower_role",
+    "expected_keywords": ["reliable information", "not expected", "investigator", "documentation"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "WB-13",
+    "question": "Who investigates complaints made under this policy?",
+    "category": "investigation",
+    "expected_keywords": ["whistleblower committee", "audit committee", "board", "investigating"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "WB-14",
+    "question": "What action is taken if wrongdoing is proven?",
+    "category": "investigation_outcome",
+    "expected_keywords": ["disciplinary action", "termination", "services"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "WB-15",
+    "question": "Can I report bribery and corruption?",
+    "category": "reportable_concerns",
+    "expected_keywords": ["bribery", "corruption", "yes", "report"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-16",
+    "question": "What happens if I make a false complaint?",
+    "category": "precautions",
+    "expected_keywords": ["false", "frivolous", "not protected", "misleading"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "WB-17",
+    "question": "Can I report procurement fraud?",
+    "category": "reportable_concerns",
+    "expected_keywords": ["procurement", "fraud", "tendering"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "WB-18",
+    "question": "Can a business associate use the whistleblower policy?",
+    "category": "applicability",
+    "expected_keywords": ["business associate", "applicable", "stakeholder"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "WB-19",
+    "question": "What are the guiding principles of the whistleblower policy?",
+    "category": "guiding_principles",
+    "expected_keywords": ["protected", "victimized", "disciplinary", "confidentiality"],
+    "expected_routed": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": "WB-20",
+    "question": "Can I report corporate espionage under this policy?",
+    "category": "reportable_concerns",
+    "expected_keywords": ["corporate espionage", "information disclosure"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "WB-21",
+    "question": "Am I allowed to discuss my complaint with colleagues?",
+    "category": "confidentiality",
+    "expected_keywords": ["not discuss", "informal", "social gatherings", "confidential"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "WB-22",
+    "question": "Will I be told the result of the investigation?",
+    "category": "investigation_outcome",
+    "expected_keywords": ["notified", "result", "investigation", "whistleblower"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "WB-23",
+    "question": "Is this policy a grievance redressal mechanism?",
+    "category": "precautions",
+    "expected_keywords": ["not a grievance", "grievance redressal", "incident"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "WB-24",
+    "question": "Can I remain anonymous when filing a report?",
+    "category": "confidentiality",
+    "expected_keywords": ["confidential", "anonymous", "identity", "secrecy"],
+    "expected_routed": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": "WB-25",
+    "question": "What is the website for submitting a whistleblower complaint?",
+    "category": "reporting_channels",
+    "expected_keywords": ["kpmg", "ethicshelpline", "arvind", "portal", "web"],
+    "expected_routed": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-01",
+    "question": "What is the annual leave entitlement?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-02",
+    "question": "What is the capital of France?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-03",
+    "question": "How do I apply for maternity leave?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-04",
+    "question": "What is the travel reimbursement policy?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-05",
+    "question": "How much is my performance bonus?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "expected_routed": false,
+    "difficulty": "easy"
+  }
+]
