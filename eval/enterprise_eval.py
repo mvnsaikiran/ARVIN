@@ -246,27 +246,39 @@ def generate_questions(short: str) -> list[str]:
             print(f"      got {len(questions)}", flush=True)
         except Exception as e:
             print(f"      ⚠ {e}", flush=True)
-        time.sleep(4)  # pause between batches
+        time.sleep(12)  # longer pause between batches to stay under rate limit
 
     return all_questions
 
 
-def run_generate(policies: list[str]):
+def run_generate(policies: list[str], resume: bool = False):
     print(f"\n{'='*60}")
     print(f"  PHASE 1: Generating enterprise test questions")
     print(f"  Policies: {len(policies)} | Target: ~230 per policy")
     print(f"  Types: Direct(30) + Procedural(30) + Eligibility(30)")
     print(f"         Paraphrase(30) + Follow-up(20) + Adversarial(30)")
     print(f"         OOS(30) + Cross-policy(30)")
+    if resume:
+        print(f"  Mode: RESUME (skipping already-completed policies)")
     print(f"{'='*60}")
 
     summary = {}
     for i, short in enumerate(policies, 1):
         _, label = POLICY_MAP[short]
+        out_path = os.path.join(EVAL_DIR, f'{short}_enterprise_tests.json')
+
+        # Skip if already generated and resume mode is on
+        if resume and os.path.exists(out_path):
+            with open(out_path, encoding='utf-8') as f:
+                existing = json.load(f)
+            n = len(existing.get('questions', []))
+            print(f"\n  [{i:02d}/{len(policies)}] {label} — SKIPPED (already have {n} questions)", flush=True)
+            summary[short] = n
+            continue
+
         print(f"\n  [{i:02d}/{len(policies)}] {label}", flush=True)
         try:
             questions = generate_questions(short)
-            out_path  = os.path.join(EVAL_DIR, f'{short}_enterprise_tests.json')
             with open(out_path, 'w', encoding='utf-8') as f:
                 json.dump({
                     "policy":    label,
@@ -275,7 +287,7 @@ def run_generate(policies: list[str]):
                 }, f, indent=2, ensure_ascii=False)
             summary[short] = len(questions)
             print(f"  ✓ {label}: {len(questions)} questions saved", flush=True)
-            time.sleep(5)  # pause between policies
+            time.sleep(20)  # longer pause between policies to reset rate limit window
         except Exception as e:
             print(f"  ✗ {label}: ERROR — {e}", flush=True)
             summary[short] = 0
@@ -466,6 +478,7 @@ def main():
     parser.add_argument("--generate",  action="store_true", help="Generate test questions")
     parser.add_argument("--evaluate",  action="store_true", help="Run Ragas evaluation")
     parser.add_argument("--all",       action="store_true", help="Generate + evaluate")
+    parser.add_argument("--resume",    action="store_true", help="Skip policies already generated")
     parser.add_argument("--policy",    default="all",
                         help="Policy short code or 'all' (default)")
     args = parser.parse_args()
@@ -481,7 +494,7 @@ def main():
         sys.exit(0)
 
     if args.generate or args.all:
-        run_generate(policies)
+        run_generate(policies, resume=args.resume)
 
     if args.evaluate or args.all:
         results = run_evaluate(policies)
