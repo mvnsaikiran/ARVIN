@@ -32,7 +32,7 @@ def normalise(t: str) -> str:
     t = t.lower()
     t = re.sub(r'rs\.?\s*', '', t)
     t = re.sub(r'₹\s*', '', t)
-    t = re.sub(r'/-', '', t)
+    t = re.sub(r'/\s*-\s*', '', t)  # handles both "/- " and "/ - " (LCP rate format)
     t = re.sub(r',', '', t)
     t = re.sub(r'\s+', ' ', t)
     return t.strip()

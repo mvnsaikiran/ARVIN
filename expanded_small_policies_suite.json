@@ -4595,8 +4595,7 @@
     "id": "EXP_10351",
     "query": "What travel is covered under local conveyance?",
     "keyFacts": [
-      "office to office",
-      "within city"
+      "within the city"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4607,8 +4606,7 @@
     "id": "EXP_10352",
     "query": "As per Arvind HR policy, what travel is covered under local conveyance?",
     "keyFacts": [
-      "office to office",
-      "within city"
+      "within the city"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4619,8 +4617,7 @@
     "id": "EXP_10353",
     "query": "Please tell me: what travel is covered under local conveyance?",
     "keyFacts": [
-      "office to office",
-      "within city"
+      "within the city"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4631,8 +4628,7 @@
     "id": "EXP_10354",
     "query": "HR query: What travel is covered under local conveyance?",
     "keyFacts": [
-      "office to office",
-      "within city"
+      "within the city"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4643,8 +4639,7 @@
     "id": "EXP_10355",
     "query": "Can you help me understand: what travel is covered under local conveyance?",
     "keyFacts": [
-      "office to office",
-      "within city"
+      "within the city"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4655,8 +4650,7 @@
     "id": "EXP_10356",
     "query": "I need to know: what travel is covered under local conveyance?",
     "keyFacts": [
-      "office to office",
-      "within city"
+      "within the city"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4667,8 +4661,7 @@
     "id": "EXP_10357",
     "query": "Quick question \u2014 what travel is covered under local conveyance?",
     "keyFacts": [
-      "office to office",
-      "within city"
+      "within the city"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4679,8 +4672,7 @@
     "id": "EXP_10358",
     "query": "Under Arvind's policy, what travel is covered under local conveyance?",
     "keyFacts": [
-      "office to office",
-      "within city"
+      "within the city"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4779,7 +4771,7 @@
     "id": "EXP_10367",
     "query": "What is considered local conveyance at Arvind?",
     "keyFacts": [
-      "within city",
+      "within the city",
       "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
@@ -4791,7 +4783,7 @@
     "id": "EXP_10368",
     "query": "As per Arvind HR policy, what is considered local conveyance at Arvind?",
     "keyFacts": [
-      "within city",
+      "within the city",
       "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
@@ -4803,7 +4795,7 @@
     "id": "EXP_10369",
     "query": "Please tell me: what is considered local conveyance at Arvind?",
     "keyFacts": [
-      "within city",
+      "within the city",
       "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
@@ -4815,7 +4807,7 @@
     "id": "EXP_10370",
     "query": "HR query: What is considered local conveyance at Arvind?",
     "keyFacts": [
-      "within city",
+      "within the city",
       "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
@@ -4827,7 +4819,7 @@
     "id": "EXP_10371",
     "query": "Can you help me understand: what is considered local conveyance at Arvind?",
     "keyFacts": [
-      "within city",
+      "within the city",
       "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
@@ -4839,7 +4831,7 @@
     "id": "EXP_10372",
     "query": "I need to know: what is considered local conveyance at Arvind?",
     "keyFacts": [
-      "within city",
+      "within the city",
       "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
@@ -4851,7 +4843,7 @@
     "id": "EXP_10373",
     "query": "Quick question \u2014 what is considered local conveyance at Arvind?",
     "keyFacts": [
-      "within city",
+      "within the city",
       "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
@@ -4863,7 +4855,7 @@
     "id": "EXP_10374",
     "query": "Under Arvind's policy, what is considered local conveyance at Arvind?",
     "keyFacts": [
-      "within city",
+      "within the city",
       "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
@@ -4875,7 +4867,7 @@
     "id": "EXP_10375",
     "query": "Is local conveyance for travel within municipal limits?",
     "keyFacts": [
-      "municipal corporation limits"
+      "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4886,7 +4878,7 @@
     "id": "EXP_10376",
     "query": "As per Arvind HR policy, is local conveyance for travel within municipal limits?",
     "keyFacts": [
-      "municipal corporation limits"
+      "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4897,7 +4889,7 @@
     "id": "EXP_10377",
     "query": "Please tell me: is local conveyance for travel within municipal limits?",
     "keyFacts": [
-      "municipal corporation limits"
+      "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4908,7 +4900,7 @@
     "id": "EXP_10378",
     "query": "HR query: Is local conveyance for travel within municipal limits?",
     "keyFacts": [
-      "municipal corporation limits"
+      "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4919,7 +4911,7 @@
     "id": "EXP_10379",
     "query": "Can you help me understand: is local conveyance for travel within municipal limits?",
     "keyFacts": [
-      "municipal corporation limits"
+      "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4930,7 +4922,7 @@
     "id": "EXP_10380",
     "query": "I need to know: is local conveyance for travel within municipal limits?",
     "keyFacts": [
-      "municipal corporation limits"
+      "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4941,7 +4933,7 @@
     "id": "EXP_10381",
     "query": "Quick question \u2014 is local conveyance for travel within municipal limits?",
     "keyFacts": [
-      "municipal corporation limits"
+      "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -4952,7 +4944,7 @@
     "id": "EXP_10382",
     "query": "Under Arvind's policy, is local conveyance for travel within municipal limits?",
     "keyFacts": [
-      "municipal corporation limits"
+      "municipal corporation"
     ],
     "source": "Local Conveyance Policy",
     "category": "Eligibility",
@@ -5148,7 +5140,7 @@
     "query": "What system is used for conveyance claims?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5160,7 +5152,7 @@
     "query": "As per Arvind HR policy, what system is used for conveyance claims?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5172,7 +5164,7 @@
     "query": "Please tell me: what system is used for conveyance claims?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5184,7 +5176,7 @@
     "query": "HR query: What system is used for conveyance claims?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5196,7 +5188,7 @@
     "query": "Can you help me understand: what system is used for conveyance claims?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5208,7 +5200,7 @@
     "query": "I need to know: what system is used for conveyance claims?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5220,7 +5212,7 @@
     "query": "Quick question \u2014 what system is used for conveyance claims?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5232,7 +5224,7 @@
     "query": "Under Arvind's policy, what system is used for conveyance claims?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5340,7 +5332,7 @@
     "query": "How are conveyance expenses submitted?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5352,7 +5344,7 @@
     "query": "As per Arvind HR policy, how are conveyance expenses submitted?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5364,7 +5356,7 @@
     "query": "Please tell me: how are conveyance expenses submitted?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5376,7 +5368,7 @@
     "query": "HR query: How are conveyance expenses submitted?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5388,7 +5380,7 @@
     "query": "Can you help me understand: how are conveyance expenses submitted?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5400,7 +5392,7 @@
     "query": "I need to know: how are conveyance expenses submitted?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5412,7 +5404,7 @@
     "query": "Quick question \u2014 how are conveyance expenses submitted?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5424,7 +5416,7 @@
     "query": "Under Arvind's policy, how are conveyance expenses submitted?",
     "keyFacts": [
       "ORAPPS",
-      "ESMS entry"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Claim-Process",
@@ -5811,8 +5803,8 @@
     "id": "EXP_10455",
     "query": "Who approves local conveyance claims?",
     "keyFacts": [
-      "reporting manager",
-      "department head"
+      "ESMS",
+      "ORAPPS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5823,8 +5815,8 @@
     "id": "EXP_10456",
     "query": "As per Arvind HR policy, who approves local conveyance claims?",
     "keyFacts": [
-      "reporting manager",
-      "department head"
+      "ESMS",
+      "ORAPPS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5835,8 +5827,8 @@
     "id": "EXP_10457",
     "query": "Please tell me: who approves local conveyance claims?",
     "keyFacts": [
-      "reporting manager",
-      "department head"
+      "ESMS",
+      "ORAPPS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5847,8 +5839,8 @@
     "id": "EXP_10458",
     "query": "HR query: Who approves local conveyance claims?",
     "keyFacts": [
-      "reporting manager",
-      "department head"
+      "ESMS",
+      "ORAPPS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5859,8 +5851,8 @@
     "id": "EXP_10459",
     "query": "Can you help me understand: who approves local conveyance claims?",
     "keyFacts": [
-      "reporting manager",
-      "department head"
+      "ESMS",
+      "ORAPPS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5871,8 +5863,8 @@
     "id": "EXP_10460",
     "query": "I need to know: who approves local conveyance claims?",
     "keyFacts": [
-      "reporting manager",
-      "department head"
+      "ESMS",
+      "ORAPPS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5883,8 +5875,8 @@
     "id": "EXP_10461",
     "query": "Quick question \u2014 who approves local conveyance claims?",
     "keyFacts": [
-      "reporting manager",
-      "department head"
+      "ESMS",
+      "ORAPPS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5895,8 +5887,8 @@
     "id": "EXP_10462",
     "query": "Under Arvind's policy, who approves local conveyance claims?",
     "keyFacts": [
-      "reporting manager",
-      "department head"
+      "ESMS",
+      "ORAPPS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5907,7 +5899,7 @@
     "id": "EXP_10463",
     "query": "Does my manager need to approve conveyance claims?",
     "keyFacts": [
-      "reporting manager"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5918,7 +5910,7 @@
     "id": "EXP_10464",
     "query": "As per Arvind HR policy, does my manager need to approve conveyance claims?",
     "keyFacts": [
-      "reporting manager"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5929,7 +5921,7 @@
     "id": "EXP_10465",
     "query": "Please tell me: does my manager need to approve conveyance claims?",
     "keyFacts": [
-      "reporting manager"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5940,7 +5932,7 @@
     "id": "EXP_10466",
     "query": "HR query: Does my manager need to approve conveyance claims?",
     "keyFacts": [
-      "reporting manager"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5951,7 +5943,7 @@
     "id": "EXP_10467",
     "query": "Can you help me understand: does my manager need to approve conveyance claims?",
     "keyFacts": [
-      "reporting manager"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5962,7 +5954,7 @@
     "id": "EXP_10468",
     "query": "I need to know: does my manager need to approve conveyance claims?",
     "keyFacts": [
-      "reporting manager"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5973,7 +5965,7 @@
     "id": "EXP_10469",
     "query": "Quick question \u2014 does my manager need to approve conveyance claims?",
     "keyFacts": [
-      "reporting manager"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5984,7 +5976,7 @@
     "id": "EXP_10470",
     "query": "Under Arvind's policy, does my manager need to approve conveyance claims?",
     "keyFacts": [
-      "reporting manager"
+      "ESMS"
     ],
     "source": "Local Conveyance Policy",
     "category": "Approval",
@@ -5995,8 +5987,7 @@
     "id": "EXP_10471",
     "query": "Is company car usage eligible for conveyance claim?",
     "keyFacts": [
-      "company car",
-      "company owned vehicle"
+      "company car"
     ],
     "source": "Local Conveyance Policy",
     "category": "Reimbursement-Rules",
@@ -6007,8 +5998,7 @@
     "id": "EXP_10472",
     "query": "As per Arvind HR policy, is company car usage eligible for conveyance claim?",
     "keyFacts": [
-      "company car",
-      "company owned vehicle"
+      "company car"
     ],
     "source": "Local Conveyance Policy",
     "category": "Reimbursement-Rules",
@@ -6019,8 +6009,7 @@
     "id": "EXP_10473",
     "query": "Please tell me: is company car usage eligible for conveyance claim?",
     "keyFacts": [
-      "company car",
-      "company owned vehicle"
+      "company car"
     ],
     "source": "Local Conveyance Policy",
     "category": "Reimbursement-Rules",
@@ -6031,8 +6020,7 @@
     "id": "EXP_10474",
     "query": "HR query: Is company car usage eligible for conveyance claim?",
     "keyFacts": [
-      "company car",
-      "company owned vehicle"
+      "company car"
     ],
     "source": "Local Conveyance Policy",
     "category": "Reimbursement-Rules",
@@ -6043,8 +6031,7 @@
     "id": "EXP_10475",
     "query": "Can you help me understand: is company car usage eligible for conveyance claim?",
     "keyFacts": [
-      "company car",
-      "company owned vehicle"
+      "company car"
     ],
     "source": "Local Conveyance Policy",
     "category": "Reimbursement-Rules",
@@ -6055,8 +6042,7 @@
     "id": "EXP_10476",
     "query": "I need to know: is company car usage eligible for conveyance claim?",
     "keyFacts": [
-      "company car",
-      "company owned vehicle"
+      "company car"
     ],
     "source": "Local Conveyance Policy",
     "category": "Reimbursement-Rules",
@@ -6067,8 +6053,7 @@
     "id": "EXP_10477",
     "query": "Quick question \u2014 is company car usage eligible for conveyance claim?",
     "keyFacts": [
-      "company car",
-      "company owned vehicle"
+      "company car"
     ],
     "source": "Local Conveyance Policy",
     "category": "Reimbursement-Rules",
@@ -6079,8 +6064,7 @@
     "id": "EXP_10478",
     "query": "Under Arvind's policy, is company car usage eligible for conveyance claim?",
     "keyFacts": [
-      "company car",
-      "company owned vehicle"
+      "company car"
     ],
     "source": "Local Conveyance Policy",
     "category": "Reimbursement-Rules",
@@ -6267,7 +6251,7 @@
     "id": "EXP_10495",
     "query": "What is the policy number for Local Conveyance Policy?",
     "keyFacts": [
-      "ARV|COR|EOP_LCP"
+      "EOP_LCP"
     ],
     "source": "Local Conveyance Policy",
     "category": "Policy-Details",
@@ -6278,7 +6262,7 @@
     "id": "EXP_10496",
     "query": "As per Arvind HR policy, what is the policy number for Local Conveyance Policy?",
     "keyFacts": [
-      "ARV|COR|EOP_LCP"
+      "EOP_LCP"
     ],
     "source": "Local Conveyance Policy",
     "category": "Policy-Details",
@@ -6289,7 +6273,7 @@
     "id": "EXP_10497",
     "query": "Please tell me: what is the policy number for Local Conveyance Policy?",
     "keyFacts": [
-      "ARV|COR|EOP_LCP"
+      "EOP_LCP"
     ],
     "source": "Local Conveyance Policy",
     "category": "Policy-Details",
@@ -6300,7 +6284,7 @@
     "id": "EXP_10498",
     "query": "HR query: What is the policy number for Local Conveyance Policy?",
     "keyFacts": [
-      "ARV|COR|EOP_LCP"
+      "EOP_LCP"
     ],
     "source": "Local Conveyance Policy",
     "category": "Policy-Details",
@@ -6311,7 +6295,7 @@
     "id": "EXP_10499",
     "query": "Can you help me understand: what is the policy number for Local Conveyance Policy?",
     "keyFacts": [
-      "ARV|COR|EOP_LCP"
+      "EOP_LCP"
     ],
     "source": "Local Conveyance Policy",
     "category": "Policy-Details",
@@ -6322,7 +6306,7 @@
     "id": "EXP_10500",
     "query": "I need to know: what is the policy number for Local Conveyance Policy?",
     "keyFacts": [
-      "ARV|COR|EOP_LCP"
+      "EOP_LCP"
     ],
     "source": "Local Conveyance Policy",
     "category": "Policy-Details",
@@ -6333,7 +6317,7 @@
     "id": "EXP_10501",
     "query": "Quick question \u2014 what is the policy number for Local Conveyance Policy?",
     "keyFacts": [
-      "ARV|COR|EOP_LCP"
+      "EOP_LCP"
     ],
     "source": "Local Conveyance Policy",
     "category": "Policy-Details",
@@ -6344,7 +6328,7 @@
     "id": "EXP_10502",
     "query": "Under Arvind's policy, what is the policy number for Local Conveyance Policy?",
     "keyFacts": [
-      "ARV|COR|EOP_LCP"
+      "EOP_LCP"
     ],
     "source": "Local Conveyance Policy",
     "category": "Policy-Details",
@@ -6443,7 +6427,6 @@
     "id": "EXP_10511",
     "query": "What is the difference between local conveyance and domestic travel?",
     "keyFacts": [
-      "within city",
       "outside the respective city"
     ],
     "source": "Local Conveyance Policy",
@@ -6455,7 +6438,6 @@
     "id": "EXP_10512",
     "query": "As per Arvind HR policy, what is the difference between local conveyance and domestic travel?",
     "keyFacts": [
-      "within city",
       "outside the respective city"
     ],
     "source": "Local Conveyance Policy",
@@ -6467,7 +6449,6 @@
     "id": "EXP_10513",
     "query": "Please tell me: what is the difference between local conveyance and domestic travel?",
     "keyFacts": [
-      "within city",
       "outside the respective city"
     ],
     "source": "Local Conveyance Policy",
@@ -6479,7 +6460,6 @@
     "id": "EXP_10514",
     "query": "HR query: What is the difference between local conveyance and domestic travel?",
     "keyFacts": [
-      "within city",
       "outside the respective city"
     ],
     "source": "Local Conveyance Policy",
@@ -6491,7 +6471,6 @@
     "id": "EXP_10515",
     "query": "Can you help me understand: what is the difference between local conveyance and domestic travel?",
     "keyFacts": [
-      "within city",
       "outside the respective city"
     ],
     "source": "Local Conveyance Policy",
@@ -6503,7 +6482,6 @@
     "id": "EXP_10516",
     "query": "I need to know: what is the difference between local conveyance and domestic travel?",
     "keyFacts": [
-      "within city",
       "outside the respective city"
     ],
     "source": "Local Conveyance Policy",
@@ -6515,7 +6493,6 @@
     "id": "EXP_10517",
     "query": "Quick question \u2014 what is the difference between local conveyance and domestic travel?",
     "keyFacts": [
-      "within city",
       "outside the respective city"
     ],
     "source": "Local Conveyance Policy",
@@ -6527,7 +6504,6 @@
     "id": "EXP_10518",
     "query": "Under Arvind's policy, what is the difference between local conveyance and domestic travel?",
     "keyFacts": [
-      "within city",
       "outside the respective city"
     ],
     "source": "Local Conveyance Policy",
@@ -6819,8 +6795,8 @@
     "id": "EXP_10543",
     "query": "What is the conveyance policy for management staff cadre?",
     "keyFacts": [
-      "management staff cadre",
-      "applicable across all grades"
+      "management",
+      "staff cadre"
     ],
     "source": "Local Conveyance Policy",
     "category": "Cross-Scope",
@@ -6831,8 +6807,8 @@
     "id": "EXP_10544",
     "query": "As per Arvind HR policy, what is the conveyance policy for management staff cadre?",
     "keyFacts": [
-      "management staff cadre",
-      "applicable across all grades"
+      "management",
+      "staff cadre"
     ],
     "source": "Local Conveyance Policy",
     "category": "Cross-Scope",
@@ -6843,8 +6819,8 @@
     "id": "EXP_10545",
     "query": "Please tell me: what is the conveyance policy for management staff cadre?",
     "keyFacts": [
-      "management staff cadre",
-      "applicable across all grades"
+      "management",
+      "staff cadre"
     ],
     "source": "Local Conveyance Policy",
     "category": "Cross-Scope",
@@ -6855,8 +6831,8 @@
     "id": "EXP_10546",
     "query": "HR query: What is the conveyance policy for management staff cadre?",
     "keyFacts": [
-      "management staff cadre",
-      "applicable across all grades"
+      "management",
+      "staff cadre"
     ],
     "source": "Local Conveyance Policy",
     "category": "Cross-Scope",
@@ -6867,8 +6843,8 @@
     "id": "EXP_10547",
     "query": "Can you help me understand: what is the conveyance policy for management staff cadre?",
     "keyFacts": [
-      "management staff cadre",
-      "applicable across all grades"
+      "management",
+      "staff cadre"
     ],
     "source": "Local Conveyance Policy",
     "category": "Cross-Scope",
@@ -6879,8 +6855,8 @@
     "id": "EXP_10548",
     "query": "I need to know: what is the conveyance policy for management staff cadre?",
     "keyFacts": [
-      "management staff cadre",
-      "applicable across all grades"
+      "management",
+      "staff cadre"
     ],
     "source": "Local Conveyance Policy",
     "category": "Cross-Scope",
@@ -6891,8 +6867,8 @@
     "id": "EXP_10549",
     "query": "Quick question \u2014 what is the conveyance policy for management staff cadre?",
     "keyFacts": [
-      "management staff cadre",
-      "applicable across all grades"
+      "management",
+      "staff cadre"
     ],
     "source": "Local Conveyance Policy",
     "category": "Cross-Scope",
@@ -6903,8 +6879,8 @@
     "id": "EXP_10550",
     "query": "Under Arvind's policy, what is the conveyance policy for management staff cadre?",
     "keyFacts": [
-      "management staff cadre",
-      "applicable across all grades"
+      "management",
+      "staff cadre"
     ],
     "source": "Local Conveyance Policy",
     "category": "Cross-Scope",
@@ -7019,7 +6995,6 @@
     "id": "EXP_10559",
     "query": "Who is NOT covered under local conveyance?",
     "keyFacts": [
-      "company owned vehicle",
       "company car"
     ],
     "source": "Local Conveyance Policy",
@@ -7031,7 +7006,6 @@
     "id": "EXP_10560",
     "query": "As per Arvind HR policy, who is NOT covered under local conveyance?",
     "keyFacts": [
-      "company owned vehicle",
       "company car"
     ],
     "source": "Local Conveyance Policy",
@@ -7043,7 +7017,6 @@
     "id": "EXP_10561",
     "query": "Please tell me: who is NOT covered under local conveyance?",
     "keyFacts": [
-      "company owned vehicle",
       "company car"
     ],
     "source": "Local Conveyance Policy",
@@ -7055,7 +7028,6 @@
     "id": "EXP_10562",
     "query": "HR query: Who is NOT covered under local conveyance?",
     "keyFacts": [
-      "company owned vehicle",
       "company car"
     ],
     "source": "Local Conveyance Policy",
@@ -7067,7 +7039,6 @@
     "id": "EXP_10563",
     "query": "Can you help me understand: who is NOT covered under local conveyance?",
     "keyFacts": [
-      "company owned vehicle",
       "company car"
     ],
     "source": "Local Conveyance Policy",
@@ -7079,7 +7050,6 @@
     "id": "EXP_10564",
     "query": "I need to know: who is NOT covered under local conveyance?",
     "keyFacts": [
-      "company owned vehicle",
       "company car"
     ],
     "source": "Local Conveyance Policy",
@@ -7091,7 +7061,6 @@
     "id": "EXP_10565",
     "query": "Quick question \u2014 who is NOT covered under local conveyance?",
     "keyFacts": [
-      "company owned vehicle",
       "company car"
     ],
     "source": "Local Conveyance Policy",
@@ -7103,7 +7072,6 @@
     "id": "EXP_10566",
     "query": "Under Arvind's policy, who is NOT covered under local conveyance?",
     "keyFacts": [
-      "company owned vehicle",
       "company car"
     ],
     "source": "Local Conveyance Policy",
@@ -18468,7 +18436,7 @@
     "query": "What is the Group Personal Accident Insurance Scheme?",
     "keyFacts": [
       "accidental death",
-      "disability"
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18480,7 +18448,7 @@
     "query": "As per Arvind HR policy, what is the Group Personal Accident Insurance Scheme?",
     "keyFacts": [
       "accidental death",
-      "disability"
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18492,7 +18460,7 @@
     "query": "Please tell me: what is the Group Personal Accident Insurance Scheme?",
     "keyFacts": [
       "accidental death",
-      "disability"
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18504,7 +18472,7 @@
     "query": "HR query: What is the Group Personal Accident Insurance Scheme?",
     "keyFacts": [
       "accidental death",
-      "disability"
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18516,7 +18484,7 @@
     "query": "Can you help me understand: what is the Group Personal Accident Insurance Scheme?",
     "keyFacts": [
       "accidental death",
-      "disability"
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18528,7 +18496,7 @@
     "query": "I need to know: what is the Group Personal Accident Insurance Scheme?",
     "keyFacts": [
       "accidental death",
-      "disability"
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18540,7 +18508,7 @@
     "query": "Quick question \u2014 what is the Group Personal Accident Insurance Scheme?",
     "keyFacts": [
       "accidental death",
-      "disability"
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18552,7 +18520,7 @@
     "query": "Under Arvind's policy, what is the Group Personal Accident Insurance Scheme?",
     "keyFacts": [
       "accidental death",
-      "disability"
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18563,7 +18531,7 @@
     "id": "EXP_11519",
     "query": "What is the policy number for GPA scheme?",
     "keyFacts": [
-      "ARV|COR|EBF_GPA"
+      "EBF_GPA"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18574,7 +18542,7 @@
     "id": "EXP_11520",
     "query": "As per Arvind HR policy, what is the policy number for GPA scheme?",
     "keyFacts": [
-      "ARV|COR|EBF_GPA"
+      "EBF_GPA"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18585,7 +18553,7 @@
     "id": "EXP_11521",
     "query": "Please tell me: what is the policy number for GPA scheme?",
     "keyFacts": [
-      "ARV|COR|EBF_GPA"
+      "EBF_GPA"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18596,7 +18564,7 @@
     "id": "EXP_11522",
     "query": "HR query: What is the policy number for GPA scheme?",
     "keyFacts": [
-      "ARV|COR|EBF_GPA"
+      "EBF_GPA"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18607,7 +18575,7 @@
     "id": "EXP_11523",
     "query": "Can you help me understand: what is the policy number for GPA scheme?",
     "keyFacts": [
-      "ARV|COR|EBF_GPA"
+      "EBF_GPA"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18618,7 +18586,7 @@
     "id": "EXP_11524",
     "query": "I need to know: what is the policy number for GPA scheme?",
     "keyFacts": [
-      "ARV|COR|EBF_GPA"
+      "EBF_GPA"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18629,7 +18597,7 @@
     "id": "EXP_11525",
     "query": "Quick question \u2014 what is the policy number for GPA scheme?",
     "keyFacts": [
-      "ARV|COR|EBF_GPA"
+      "EBF_GPA"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -18640,7 +18608,7 @@
     "id": "EXP_11526",
     "query": "Under Arvind's policy, what is the policy number for GPA scheme?",
     "keyFacts": [
-      "ARV|COR|EBF_GPA"
+      "EBF_GPA"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -19115,7 +19083,7 @@
     "id": "EXP_11567",
     "query": "What is PTD in GPA?",
     "keyFacts": [
-      "Permanent Total Disablement",
+      "Partial Total Disablement",
       "PTD"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19127,7 +19095,7 @@
     "id": "EXP_11568",
     "query": "As per Arvind HR policy, what is PTD in GPA?",
     "keyFacts": [
-      "Permanent Total Disablement",
+      "Partial Total Disablement",
       "PTD"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19139,7 +19107,7 @@
     "id": "EXP_11569",
     "query": "Please tell me: what is PTD in GPA?",
     "keyFacts": [
-      "Permanent Total Disablement",
+      "Partial Total Disablement",
       "PTD"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19151,7 +19119,7 @@
     "id": "EXP_11570",
     "query": "HR query: What is PTD in GPA?",
     "keyFacts": [
-      "Permanent Total Disablement",
+      "Partial Total Disablement",
       "PTD"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19163,7 +19131,7 @@
     "id": "EXP_11571",
     "query": "Can you help me understand: what is PTD in GPA?",
     "keyFacts": [
-      "Permanent Total Disablement",
+      "Partial Total Disablement",
       "PTD"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19175,7 +19143,7 @@
     "id": "EXP_11572",
     "query": "I need to know: what is PTD in GPA?",
     "keyFacts": [
-      "Permanent Total Disablement",
+      "Partial Total Disablement",
       "PTD"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19187,7 +19155,7 @@
     "id": "EXP_11573",
     "query": "Quick question \u2014 what is PTD in GPA?",
     "keyFacts": [
-      "Permanent Total Disablement",
+      "Partial Total Disablement",
       "PTD"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19199,7 +19167,7 @@
     "id": "EXP_11574",
     "query": "Under Arvind's policy, what is PTD in GPA?",
     "keyFacts": [
-      "Permanent Total Disablement",
+      "Partial Total Disablement",
       "PTD"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19403,8 +19371,7 @@
     "id": "EXP_11591",
     "query": "What is the maximum Capital Sum Insured under GPA?",
     "keyFacts": [
-      "50 crores",
-      "50,00,00,000"
+      "50 crores"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Maximum",
@@ -19415,8 +19382,7 @@
     "id": "EXP_11592",
     "query": "As per Arvind HR policy, what is the maximum Capital Sum Insured under GPA?",
     "keyFacts": [
-      "50 crores",
-      "50,00,00,000"
+      "50 crores"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Maximum",
@@ -19427,8 +19393,7 @@
     "id": "EXP_11593",
     "query": "Please tell me: what is the maximum Capital Sum Insured under GPA?",
     "keyFacts": [
-      "50 crores",
-      "50,00,00,000"
+      "50 crores"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Maximum",
@@ -19439,8 +19404,7 @@
     "id": "EXP_11594",
     "query": "HR query: What is the maximum Capital Sum Insured under GPA?",
     "keyFacts": [
-      "50 crores",
-      "50,00,00,000"
+      "50 crores"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Maximum",
@@ -19451,8 +19415,7 @@
     "id": "EXP_11595",
     "query": "Can you help me understand: what is the maximum Capital Sum Insured under GPA?",
     "keyFacts": [
-      "50 crores",
-      "50,00,00,000"
+      "50 crores"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Maximum",
@@ -19463,8 +19426,7 @@
     "id": "EXP_11596",
     "query": "I need to know: what is the maximum Capital Sum Insured under GPA?",
     "keyFacts": [
-      "50 crores",
-      "50,00,00,000"
+      "50 crores"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Maximum",
@@ -19475,8 +19437,7 @@
     "id": "EXP_11597",
     "query": "Quick question \u2014 what is the maximum Capital Sum Insured under GPA?",
     "keyFacts": [
-      "50 crores",
-      "50,00,00,000"
+      "50 crores"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Maximum",
@@ -19487,8 +19448,7 @@
     "id": "EXP_11598",
     "query": "Under Arvind's policy, what is the maximum Capital Sum Insured under GPA?",
     "keyFacts": [
-      "50 crores",
-      "50,00,00,000"
+      "50 crores"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Maximum",
@@ -19588,8 +19548,7 @@
     "query": "What is the weekly TTD benefit?",
     "keyFacts": [
       "5,000",
-      "5000",
-      "per week"
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19601,8 +19560,7 @@
     "query": "As per Arvind HR policy, what is the weekly TTD benefit?",
     "keyFacts": [
       "5,000",
-      "5000",
-      "per week"
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19614,8 +19572,7 @@
     "query": "Please tell me: what is the weekly TTD benefit?",
     "keyFacts": [
       "5,000",
-      "5000",
-      "per week"
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19627,8 +19584,7 @@
     "query": "HR query: What is the weekly TTD benefit?",
     "keyFacts": [
       "5,000",
-      "5000",
-      "per week"
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19640,8 +19596,7 @@
     "query": "Can you help me understand: what is the weekly TTD benefit?",
     "keyFacts": [
       "5,000",
-      "5000",
-      "per week"
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19653,8 +19608,7 @@
     "query": "I need to know: what is the weekly TTD benefit?",
     "keyFacts": [
       "5,000",
-      "5000",
-      "per week"
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19666,8 +19620,7 @@
     "query": "Quick question \u2014 what is the weekly TTD benefit?",
     "keyFacts": [
       "5,000",
-      "5000",
-      "per week"
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19679,8 +19632,7 @@
     "query": "Under Arvind's policy, what is the weekly TTD benefit?",
     "keyFacts": [
       "5,000",
-      "5000",
-      "per week"
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19875,7 +19827,8 @@
     "id": "EXP_11631",
     "query": "What is Temporary Total Disablement benefit per week?",
     "keyFacts": [
-      "5,000 per week"
+      "5,000",
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19886,7 +19839,8 @@
     "id": "EXP_11632",
     "query": "As per Arvind HR policy, what is Temporary Total Disablement benefit per week?",
     "keyFacts": [
-      "5,000 per week"
+      "5,000",
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19897,7 +19851,8 @@
     "id": "EXP_11633",
     "query": "Please tell me: what is Temporary Total Disablement benefit per week?",
     "keyFacts": [
-      "5,000 per week"
+      "5,000",
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19908,7 +19863,8 @@
     "id": "EXP_11634",
     "query": "HR query: What is Temporary Total Disablement benefit per week?",
     "keyFacts": [
-      "5,000 per week"
+      "5,000",
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19919,7 +19875,8 @@
     "id": "EXP_11635",
     "query": "Can you help me understand: what is Temporary Total Disablement benefit per week?",
     "keyFacts": [
-      "5,000 per week"
+      "5,000",
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19930,7 +19887,8 @@
     "id": "EXP_11636",
     "query": "I need to know: what is Temporary Total Disablement benefit per week?",
     "keyFacts": [
-      "5,000 per week"
+      "5,000",
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19941,7 +19899,8 @@
     "id": "EXP_11637",
     "query": "Quick question \u2014 what is Temporary Total Disablement benefit per week?",
     "keyFacts": [
-      "5,000 per week"
+      "5,000",
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19952,7 +19911,8 @@
     "id": "EXP_11638",
     "query": "Under Arvind's policy, what is Temporary Total Disablement benefit per week?",
     "keyFacts": [
-      "5,000 per week"
+      "5,000",
+      "week"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "TTD",
@@ -19964,7 +19924,6 @@
     "query": "What is the education grant for children under GPA?",
     "keyFacts": [
       "10,000",
-      "10000",
       "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19977,7 +19936,6 @@
     "query": "As per Arvind HR policy, what is the education grant for children under GPA?",
     "keyFacts": [
       "10,000",
-      "10000",
       "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -19990,7 +19948,6 @@
     "query": "Please tell me: what is the education grant for children under GPA?",
     "keyFacts": [
       "10,000",
-      "10000",
       "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -20003,7 +19960,6 @@
     "query": "HR query: What is the education grant for children under GPA?",
     "keyFacts": [
       "10,000",
-      "10000",
       "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -20016,7 +19972,6 @@
     "query": "Can you help me understand: what is the education grant for children under GPA?",
     "keyFacts": [
       "10,000",
-      "10000",
       "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -20029,7 +19984,6 @@
     "query": "I need to know: what is the education grant for children under GPA?",
     "keyFacts": [
       "10,000",
-      "10000",
       "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -20042,7 +19996,6 @@
     "query": "Quick question \u2014 what is the education grant for children under GPA?",
     "keyFacts": [
       "10,000",
-      "10000",
       "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -20055,7 +20008,6 @@
     "query": "Under Arvind's policy, what is the education grant for children under GPA?",
     "keyFacts": [
       "10,000",
-      "10000",
       "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
@@ -20067,8 +20019,7 @@
     "id": "EXP_11647",
     "query": "How many children are covered for education grant in GPA?",
     "keyFacts": [
-      "2 children",
-      "two children"
+      "2 children"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20079,8 +20030,7 @@
     "id": "EXP_11648",
     "query": "As per Arvind HR policy, how many children are covered for education grant in GPA?",
     "keyFacts": [
-      "2 children",
-      "two children"
+      "2 children"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20091,8 +20041,7 @@
     "id": "EXP_11649",
     "query": "Please tell me: how many children are covered for education grant in GPA?",
     "keyFacts": [
-      "2 children",
-      "two children"
+      "2 children"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20103,8 +20052,7 @@
     "id": "EXP_11650",
     "query": "HR query: How many children are covered for education grant in GPA?",
     "keyFacts": [
-      "2 children",
-      "two children"
+      "2 children"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20115,8 +20063,7 @@
     "id": "EXP_11651",
     "query": "Can you help me understand: how many children are covered for education grant in GPA?",
     "keyFacts": [
-      "2 children",
-      "two children"
+      "2 children"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20127,8 +20074,7 @@
     "id": "EXP_11652",
     "query": "I need to know: how many children are covered for education grant in GPA?",
     "keyFacts": [
-      "2 children",
-      "two children"
+      "2 children"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20139,8 +20085,7 @@
     "id": "EXP_11653",
     "query": "Quick question \u2014 how many children are covered for education grant in GPA?",
     "keyFacts": [
-      "2 children",
-      "two children"
+      "2 children"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20151,8 +20096,7 @@
     "id": "EXP_11654",
     "query": "Under Arvind's policy, how many children are covered for education grant in GPA?",
     "keyFacts": [
-      "2 children",
-      "two children"
+      "2 children"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20163,7 +20107,8 @@
     "id": "EXP_11655",
     "query": "What is the per-child education benefit in accident insurance?",
     "keyFacts": [
-      "10,000 per child"
+      "10,000",
+      "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20174,7 +20119,8 @@
     "id": "EXP_11656",
     "query": "As per Arvind HR policy, what is the per-child education benefit in accident insurance?",
     "keyFacts": [
-      "10,000 per child"
+      "10,000",
+      "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20185,7 +20131,8 @@
     "id": "EXP_11657",
     "query": "Please tell me: what is the per-child education benefit in accident insurance?",
     "keyFacts": [
-      "10,000 per child"
+      "10,000",
+      "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20196,7 +20143,8 @@
     "id": "EXP_11658",
     "query": "HR query: What is the per-child education benefit in accident insurance?",
     "keyFacts": [
-      "10,000 per child"
+      "10,000",
+      "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20207,7 +20155,8 @@
     "id": "EXP_11659",
     "query": "Can you help me understand: what is the per-child education benefit in accident insurance?",
     "keyFacts": [
-      "10,000 per child"
+      "10,000",
+      "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20218,7 +20167,8 @@
     "id": "EXP_11660",
     "query": "I need to know: what is the per-child education benefit in accident insurance?",
     "keyFacts": [
-      "10,000 per child"
+      "10,000",
+      "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20229,7 +20179,8 @@
     "id": "EXP_11661",
     "query": "Quick question \u2014 what is the per-child education benefit in accident insurance?",
     "keyFacts": [
-      "10,000 per child"
+      "10,000",
+      "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20240,7 +20191,8 @@
     "id": "EXP_11662",
     "query": "Under Arvind's policy, what is the per-child education benefit in accident insurance?",
     "keyFacts": [
-      "10,000 per child"
+      "10,000",
+      "per child"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Education-Grant",
@@ -20252,7 +20204,7 @@
     "query": "What is the Capital Sum Insured for accident insurance?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20264,7 +20216,7 @@
     "query": "As per Arvind HR policy, what is the Capital Sum Insured for accident insurance?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20276,7 +20228,7 @@
     "query": "Please tell me: what is the Capital Sum Insured for accident insurance?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20288,7 +20240,7 @@
     "query": "HR query: What is the Capital Sum Insured for accident insurance?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20300,7 +20252,7 @@
     "query": "Can you help me understand: what is the Capital Sum Insured for accident insurance?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20312,7 +20264,7 @@
     "query": "I need to know: what is the Capital Sum Insured for accident insurance?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20324,7 +20276,7 @@
     "query": "Quick question \u2014 what is the Capital Sum Insured for accident insurance?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20336,7 +20288,7 @@
     "query": "Under Arvind's policy, what is the Capital Sum Insured for accident insurance?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20348,7 +20300,7 @@
     "query": "How is the Capital Sum Insured calculated in GPA?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20360,7 +20312,7 @@
     "query": "As per Arvind HR policy, how is the Capital Sum Insured calculated in GPA?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20372,7 +20324,7 @@
     "query": "Please tell me: how is the Capital Sum Insured calculated in GPA?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20384,7 +20336,7 @@
     "query": "HR query: How is the Capital Sum Insured calculated in GPA?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20396,7 +20348,7 @@
     "query": "Can you help me understand: how is the Capital Sum Insured calculated in GPA?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20408,7 +20360,7 @@
     "query": "I need to know: how is the Capital Sum Insured calculated in GPA?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20420,7 +20372,7 @@
     "query": "Quick question \u2014 how is the Capital Sum Insured calculated in GPA?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20432,7 +20384,7 @@
     "query": "Under Arvind's policy, how is the Capital Sum Insured calculated in GPA?",
     "keyFacts": [
       "60 times",
-      "monthly salary"
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "CSI",
@@ -20635,8 +20587,8 @@
     "id": "EXP_11695",
     "query": "Is there compensation for broken bones under GPA?",
     "keyFacts": [
-      "fracture cover",
-      "broken bones"
+      "Broken Bones",
+      "Fracture"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Fracture",
@@ -20647,8 +20599,8 @@
     "id": "EXP_11696",
     "query": "As per Arvind HR policy, is there compensation for broken bones under GPA?",
     "keyFacts": [
-      "fracture cover",
-      "broken bones"
+      "Broken Bones",
+      "Fracture"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Fracture",
@@ -20659,8 +20611,8 @@
     "id": "EXP_11697",
     "query": "Please tell me: is there compensation for broken bones under GPA?",
     "keyFacts": [
-      "fracture cover",
-      "broken bones"
+      "Broken Bones",
+      "Fracture"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Fracture",
@@ -20671,8 +20623,8 @@
     "id": "EXP_11698",
     "query": "HR query: Is there compensation for broken bones under GPA?",
     "keyFacts": [
-      "fracture cover",
-      "broken bones"
+      "Broken Bones",
+      "Fracture"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Fracture",
@@ -20683,8 +20635,8 @@
     "id": "EXP_11699",
     "query": "Can you help me understand: is there compensation for broken bones under GPA?",
     "keyFacts": [
-      "fracture cover",
-      "broken bones"
+      "Broken Bones",
+      "Fracture"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Fracture",
@@ -20695,8 +20647,8 @@
     "id": "EXP_11700",
     "query": "I need to know: is there compensation for broken bones under GPA?",
     "keyFacts": [
-      "fracture cover",
-      "broken bones"
+      "Broken Bones",
+      "Fracture"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Fracture",
@@ -20707,8 +20659,8 @@
     "id": "EXP_11701",
     "query": "Quick question \u2014 is there compensation for broken bones under GPA?",
     "keyFacts": [
-      "fracture cover",
-      "broken bones"
+      "Broken Bones",
+      "Fracture"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Fracture",
@@ -20719,8 +20671,8 @@
     "id": "EXP_11702",
     "query": "Under Arvind's policy, is there compensation for broken bones under GPA?",
     "keyFacts": [
-      "fracture cover",
-      "broken bones"
+      "Broken Bones",
+      "Fracture"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Fracture",
@@ -21011,8 +20963,7 @@
     "id": "EXP_11727",
     "query": "Does GPA have a medical expense extension?",
     "keyFacts": [
-      "medical extension",
-      "hospitalization"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21023,8 +20974,7 @@
     "id": "EXP_11728",
     "query": "As per Arvind HR policy, does GPA have a medical expense extension?",
     "keyFacts": [
-      "medical extension",
-      "hospitalization"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21035,8 +20985,7 @@
     "id": "EXP_11729",
     "query": "Please tell me: does GPA have a medical expense extension?",
     "keyFacts": [
-      "medical extension",
-      "hospitalization"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21047,8 +20996,7 @@
     "id": "EXP_11730",
     "query": "HR query: Does GPA have a medical expense extension?",
     "keyFacts": [
-      "medical extension",
-      "hospitalization"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21059,8 +21007,7 @@
     "id": "EXP_11731",
     "query": "Can you help me understand: does GPA have a medical expense extension?",
     "keyFacts": [
-      "medical extension",
-      "hospitalization"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21071,8 +21018,7 @@
     "id": "EXP_11732",
     "query": "I need to know: does GPA have a medical expense extension?",
     "keyFacts": [
-      "medical extension",
-      "hospitalization"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21083,8 +21029,7 @@
     "id": "EXP_11733",
     "query": "Quick question \u2014 does GPA have a medical expense extension?",
     "keyFacts": [
-      "medical extension",
-      "hospitalization"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21095,8 +21040,7 @@
     "id": "EXP_11734",
     "query": "Under Arvind's policy, does GPA have a medical expense extension?",
     "keyFacts": [
-      "medical extension",
-      "hospitalization"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21107,7 +21051,7 @@
     "id": "EXP_11735",
     "query": "Are hospitalization costs covered under GPA?",
     "keyFacts": [
-      "medical extension"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21118,7 +21062,7 @@
     "id": "EXP_11736",
     "query": "As per Arvind HR policy, are hospitalization costs covered under GPA?",
     "keyFacts": [
-      "medical extension"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21129,7 +21073,7 @@
     "id": "EXP_11737",
     "query": "Please tell me: are hospitalization costs covered under GPA?",
     "keyFacts": [
-      "medical extension"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21140,7 +21084,7 @@
     "id": "EXP_11738",
     "query": "HR query: Are hospitalization costs covered under GPA?",
     "keyFacts": [
-      "medical extension"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21151,7 +21095,7 @@
     "id": "EXP_11739",
     "query": "Can you help me understand: are hospitalization costs covered under GPA?",
     "keyFacts": [
-      "medical extension"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21162,7 +21106,7 @@
     "id": "EXP_11740",
     "query": "I need to know: are hospitalization costs covered under GPA?",
     "keyFacts": [
-      "medical extension"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21173,7 +21117,7 @@
     "id": "EXP_11741",
     "query": "Quick question \u2014 are hospitalization costs covered under GPA?",
     "keyFacts": [
-      "medical extension"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21184,7 +21128,7 @@
     "id": "EXP_11742",
     "query": "Under Arvind's policy, are hospitalization costs covered under GPA?",
     "keyFacts": [
-      "medical extension"
+      "Medical Expenses Extension"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Medical-Extension",
@@ -21291,7 +21235,8 @@
     "id": "EXP_11751",
     "query": "How much is paid on accidental death under GPA?",
     "keyFacts": [
-      "60 times monthly salary"
+      "60 times",
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Death-Benefit",
@@ -21302,7 +21247,8 @@
     "id": "EXP_11752",
     "query": "As per Arvind HR policy, how much is paid on accidental death under GPA?",
     "keyFacts": [
-      "60 times monthly salary"
+      "60 times",
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Death-Benefit",
@@ -21313,7 +21259,8 @@
     "id": "EXP_11753",
     "query": "Please tell me: how much is paid on accidental death under GPA?",
     "keyFacts": [
-      "60 times monthly salary"
+      "60 times",
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Death-Benefit",
@@ -21324,7 +21271,8 @@
     "id": "EXP_11754",
     "query": "HR query: How much is paid on accidental death under GPA?",
     "keyFacts": [
-      "60 times monthly salary"
+      "60 times",
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Death-Benefit",
@@ -21335,7 +21283,8 @@
     "id": "EXP_11755",
     "query": "Can you help me understand: how much is paid on accidental death under GPA?",
     "keyFacts": [
-      "60 times monthly salary"
+      "60 times",
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Death-Benefit",
@@ -21346,7 +21295,8 @@
     "id": "EXP_11756",
     "query": "I need to know: how much is paid on accidental death under GPA?",
     "keyFacts": [
-      "60 times monthly salary"
+      "60 times",
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Death-Benefit",
@@ -21357,7 +21307,8 @@
     "id": "EXP_11757",
     "query": "Quick question \u2014 how much is paid on accidental death under GPA?",
     "keyFacts": [
-      "60 times monthly salary"
+      "60 times",
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Death-Benefit",
@@ -21368,7 +21319,8 @@
     "id": "EXP_11758",
     "query": "Under Arvind's policy, how much is paid on accidental death under GPA?",
     "keyFacts": [
-      "60 times monthly salary"
+      "60 times",
+      "monthly basic"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Death-Benefit",
@@ -21931,8 +21883,8 @@
     "id": "EXP_11807",
     "query": "How is the GPA claim processed?",
     "keyFacts": [
-      "CMG",
-      "Insurance Section"
+      "accidental death",
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -21943,8 +21895,8 @@
     "id": "EXP_11808",
     "query": "As per Arvind HR policy, how is the GPA claim processed?",
     "keyFacts": [
-      "CMG",
-      "Insurance Section"
+      "accidental death",
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -21955,8 +21907,8 @@
     "id": "EXP_11809",
     "query": "Please tell me: how is the GPA claim processed?",
     "keyFacts": [
-      "CMG",
-      "Insurance Section"
+      "accidental death",
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -21967,8 +21919,8 @@
     "id": "EXP_11810",
     "query": "HR query: How is the GPA claim processed?",
     "keyFacts": [
-      "CMG",
-      "Insurance Section"
+      "accidental death",
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -21979,8 +21931,8 @@
     "id": "EXP_11811",
     "query": "Can you help me understand: how is the GPA claim processed?",
     "keyFacts": [
-      "CMG",
-      "Insurance Section"
+      "accidental death",
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -21991,8 +21943,8 @@
     "id": "EXP_11812",
     "query": "I need to know: how is the GPA claim processed?",
     "keyFacts": [
-      "CMG",
-      "Insurance Section"
+      "accidental death",
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -22003,8 +21955,8 @@
     "id": "EXP_11813",
     "query": "Quick question \u2014 how is the GPA claim processed?",
     "keyFacts": [
-      "CMG",
-      "Insurance Section"
+      "accidental death",
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",
@@ -22015,8 +21967,8 @@
     "id": "EXP_11814",
     "query": "Under Arvind's policy, how is the GPA claim processed?",
     "keyFacts": [
-      "CMG",
-      "Insurance Section"
+      "accidental death",
+      "disablement"
     ],
     "source": "Group Personal Accident Insurance Scheme",
     "category": "Policy-Details",

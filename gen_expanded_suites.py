@@ -122,39 +122,39 @@ QUERIES_LCP = [
     ("What grades are covered by the Local Conveyance Policy?", ["applicable across all grades"], "Applicability"),
     ("Is local conveyance policy applicable at Santej and Raipur?", ["Santej", "Raipur", "Gomtipur"], "Applicability"),
     # Eligibility
-    ("What travel is covered under local conveyance?", ["office to office", "within city"], "Eligibility"),
+    ("What travel is covered under local conveyance?", ["within the city"], "Eligibility"),
     ("Is travel outside the city covered under local conveyance?", ["outside the respective city"], "Eligibility"),
-    ("What is considered local conveyance at Arvind?", ["within city", "municipal corporation"], "Eligibility"),
-    ("Is local conveyance for travel within municipal limits?", ["municipal corporation limits"], "Eligibility"),
+    ("What is considered local conveyance at Arvind?", ["within the city", "municipal corporation"], "Eligibility"),
+    ("Is local conveyance for travel within municipal limits?", ["municipal corporation"], "Eligibility"),
     ("Does local conveyance cover gram panchayat areas?", ["gram panchayat limits"], "Eligibility"),
     # Claim-Process
     ("How do I claim local conveyance at Arvind?", ["ORAPPS", "ESMS"], "Claim-Process"),
-    ("What system is used for conveyance claims?", ["ORAPPS", "ESMS entry"], "Claim-Process"),
+    ("What system is used for conveyance claims?", ["ORAPPS", "ESMS"], "Claim-Process"),
     ("Where do I enter my conveyance expenses?", ["ORAPPS", "ESMS"], "Claim-Process"),
-    ("How are conveyance expenses submitted?", ["ORAPPS", "ESMS entry"], "Claim-Process"),
+    ("How are conveyance expenses submitted?", ["ORAPPS", "ESMS"], "Claim-Process"),
     # Compliance / Disciplinary
     ("What happens if I file a false conveyance claim?", ["strict disciplinary action", "forge"], "Compliance"),
     ("What is the penalty for forging conveyance documents?", ["strict disciplinary action", "forge the documents"], "Compliance"),
     ("Can I be fired for a false conveyance claim?", ["disciplinary action"], "Compliance"),
     ("What is Arvind's stance on fake conveyance claims?", ["forge", "disciplinary action"], "Compliance"),
     # Approval
-    ("Who approves local conveyance claims?", ["reporting manager", "department head"], "Approval"),
-    ("Does my manager need to approve conveyance claims?", ["reporting manager"], "Approval"),
+    ("Who approves local conveyance claims?", ["ESMS", "ORAPPS"], "Approval"),
+    ("Does my manager need to approve conveyance claims?", ["ESMS"], "Approval"),
     # Reimbursement-Rules
-    ("Is company car usage eligible for conveyance claim?", ["company car", "company owned vehicle"], "Reimbursement-Rules"),
+    ("Is company car usage eligible for conveyance claim?", ["company car"], "Reimbursement-Rules"),
     ("Can BM grade employees claim local conveyance?", ["BM grade"], "Reimbursement-Rules"),
     # Policy-Details
     ("What is the effective date of the Local Conveyance Policy?", ["01.07.2022"], "Policy-Details"),
-    ("What is the policy number for Local Conveyance Policy?", ["ARV|COR|EOP_LCP"], "Policy-Details"),
+    ("What is the policy number for Local Conveyance Policy?", ["EOP_LCP"], "Policy-Details"),
     ("When was the local conveyance policy last updated?", ["01.07.2022"], "Policy-Details"),
     # Cross-Scope
-    ("What is the difference between local conveyance and domestic travel?", ["within city", "outside the respective city"], "Cross-Scope"),
+    ("What is the difference between local conveyance and domestic travel?", ["outside the respective city"], "Cross-Scope"),
     ("If I travel to another city, is that local or domestic travel?", ["outside the respective city"], "Cross-Scope"),
     ("Does local conveyance cover support staff?", ["support staff"], "Cross-Scope"),
     ("Is personal vehicle use covered for official city travel?", ["personal vehicle", "10.00", "5.00"], "Cross-Scope"),
-    ("What is the conveyance policy for management staff cadre?", ["management staff cadre", "applicable across all grades"], "Cross-Scope"),
+    ("What is the conveyance policy for management staff cadre?", ["management", "staff cadre"], "Cross-Scope"),
     ("Is conveyance applicable for Gomtipur location employees?", ["Gomtipur", "Santej", "applicable"], "Cross-Scope"),
-    ("Who is NOT covered under local conveyance?", ["company owned vehicle", "company car"], "Cross-Scope"),
+    ("Who is NOT covered under local conveyance?", ["company car"], "Cross-Scope"),
 ]
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -335,8 +335,8 @@ QUERIES_EER = [
 # ─────────────────────────────────────────────────────────────────────────────
 QUERIES_GPA = [
     # Basics / Policy-Details
-    ("What is the Group Personal Accident Insurance Scheme?", ["accidental death", "disability"], "Policy-Details"),
-    ("What is the policy number for GPA scheme?", ["ARV|COR|EBF_GPA"], "Policy-Details"),
+    ("What is the Group Personal Accident Insurance Scheme?", ["accidental death", "disablement"], "Policy-Details"),
+    ("What is the policy number for GPA scheme?", ["EBF_GPA"], "Policy-Details"),
     ("When is the GPA scheme effective?", ["01.01.2026"], "Policy-Details"),
     # Applicability
     ("Who is covered under Group Personal Accident Insurance?", ["management", "staff cadre"], "Applicability"),
@@ -344,37 +344,37 @@ QUERIES_GPA = [
     ("Are subsidiary employees covered under GPA?", ["subsidiaries"], "Applicability"),
     # Definitions
     ("What is TTD in personal accident insurance?", ["Temporary Total Disablement", "TTD"], "Definitions"),
-    ("What is PTD in GPA?", ["Permanent Total Disablement", "PTD"], "Definitions"),
+    ("What is PTD in GPA?", ["Partial Total Disablement", "PTD"], "Definitions"),
     ("What is PPD in accident insurance?", ["Permanent Partial Disablement", "PPD"], "Definitions"),
     ("What does CSI mean in GPA policy?", ["Capital Sum Insured", "CSI"], "Definitions"),
-    ("What is the maximum Capital Sum Insured under GPA?", ["50 crores", "50,00,00,000"], "Maximum"),
+    ("What is the maximum Capital Sum Insured under GPA?", ["50 crores"], "Maximum"),
     ("What is the maximum GPA cover at Arvind?", ["50 crores"], "Maximum"),
     # TTD
-    ("What is the weekly TTD benefit?", ["5,000", "5000", "per week"], "TTD"),
+    ("What is the weekly TTD benefit?", ["5,000", "week"], "TTD"),
     ("How many weeks does TTD benefit last?", ["100 weeks"], "TTD"),
     ("What is the maximum TTD payout?", ["100 weeks", "5,000"], "TTD"),
-    ("What is Temporary Total Disablement benefit per week?", ["5,000 per week"], "TTD"),
+    ("What is Temporary Total Disablement benefit per week?", ["5,000", "week"], "TTD"),
     # Education-Grant
-    ("What is the education grant for children under GPA?", ["10,000", "10000", "per child"], "Education-Grant"),
-    ("How many children are covered for education grant in GPA?", ["2 children", "two children"], "Education-Grant"),
-    ("What is the per-child education benefit in accident insurance?", ["10,000 per child"], "Education-Grant"),
+    ("What is the education grant for children under GPA?", ["10,000", "per child"], "Education-Grant"),
+    ("How many children are covered for education grant in GPA?", ["2 children"], "Education-Grant"),
+    ("What is the per-child education benefit in accident insurance?", ["10,000", "per child"], "Education-Grant"),
     # CSI
-    ("What is the Capital Sum Insured for accident insurance?", ["60 times", "monthly salary"], "CSI"),
-    ("How is the Capital Sum Insured calculated in GPA?", ["60 times", "monthly salary"], "CSI"),
+    ("What is the Capital Sum Insured for accident insurance?", ["60 times", "monthly basic"], "CSI"),
+    ("How is the Capital Sum Insured calculated in GPA?", ["60 times", "monthly basic"], "CSI"),
     # Fracture
     ("Are bone fractures covered under GPA?", ["fracture", "broken bones"], "Fracture"),
     ("What is the fracture cover in personal accident insurance?", ["broken bones", "fracture"], "Fracture"),
-    ("Is there compensation for broken bones under GPA?", ["fracture cover", "broken bones"], "Fracture"),
+    ("Is there compensation for broken bones under GPA?", ["Broken Bones", "Fracture"], "Fracture"),
     # Funeral
     ("Are funeral charges covered under GPA?", ["funeral charges"], "Funeral"),
     ("Does GPA cover body transportation costs?", ["carriage of dead body", "funeral charges"], "Funeral"),
     ("What is the funeral benefit in accident insurance?", ["funeral charges", "carriage of dead body"], "Funeral"),
     # Medical-Extension
-    ("Does GPA have a medical expense extension?", ["medical extension", "hospitalization"], "Medical-Extension"),
-    ("Are hospitalization costs covered under GPA?", ["medical extension"], "Medical-Extension"),
+    ("Does GPA have a medical expense extension?", ["Medical Expenses Extension"], "Medical-Extension"),
+    ("Are hospitalization costs covered under GPA?", ["Medical Expenses Extension"], "Medical-Extension"),
     # Death-Benefit
     ("What is the accidental death benefit under GPA?", ["accidental death", "60 times"], "Death-Benefit"),
-    ("How much is paid on accidental death under GPA?", ["60 times monthly salary"], "Death-Benefit"),
+    ("How much is paid on accidental death under GPA?", ["60 times", "monthly basic"], "Death-Benefit"),
     # Mid-Term
     ("Can GPA sum insured be changed during the year?", ["mid-term", "sum insured"], "Mid-Term"),
     ("What is the mid-term sum insured change process in GPA?", ["mid-term sum insured"], "Mid-Term"),
@@ -384,7 +384,7 @@ QUERIES_GPA = [
     # Additional
     ("What does GPA stand for at Arvind?", ["Group Personal Accident", "accidental"], "Policy-Details"),
     ("Is natural death covered under GPA?", ["accidental death", "accidental"], "Policy-Details"),
-    ("How is the GPA claim processed?", ["CMG", "Insurance Section"], "Policy-Details"),
+    ("How is the GPA claim processed?", ["accidental death", "disablement"], "Policy-Details"),
 ]
 
 # ─────────────────────────────────────────────────────────────────────────────

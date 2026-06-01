@@ -27,7 +27,7 @@ def normalise(t):
     t = re.sub(r'â€™', "'", t)   # fix garbled apostrophe
     t = re.sub(r'[–—―]', '-', t)  # real em/en dashes → hyphen
     t = re.sub(r'₹\s*', '', t)
-    t = re.sub(r'/-', '', t)
+    t = re.sub(r'/\s*-\s*', '', t)  # handles both "/- " and "/ - " (LCP rate format)
     t = re.sub(r',', '', t)
     t = re.sub(r'\s+', ' ', t)
     return t.strip()
