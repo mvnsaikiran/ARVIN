@@ -526,7 +526,7 @@ class HybridRetriever:
 
     # ── Core retrieval ────────────────────────────────────────────────────────
 
-    def retrieve(self, query: str, n_results: int = FINAL_K) -> list[dict]:
+    def retrieve(self, query: str, n_results: int = FINAL_K, rerank: bool = True) -> list[dict]:
         self._ensure_loaded()
 
         detected_policy = _detect_policy(query)
@@ -688,7 +688,8 @@ class HybridRetriever:
         # 6. Cross-encoder re-ranking: score each (query, chunk) pair jointly.
         #    Runs after all guarantees so no chunk is dropped — only reordered.
         #    Most relevant chunk appears first in the LLM context window.
-        if len(top_indices) > 1:
+        #    Skip during benchmarking (rerank=False) — recall metrics don't depend on order.
+        if rerank and len(top_indices) > 1:
             texts = [self._chunks[idx]["text"] for idx, _ in top_indices]
             ce_scores = self._reranker.predict([(query, t) for t in texts])
             top_indices = [
@@ -715,6 +716,6 @@ class HybridRetriever:
 _retriever = HybridRetriever()
 
 
-def retrieve(query: str, n_results: int = FINAL_K) -> list[dict]:
+def retrieve(query: str, n_results: int = FINAL_K, rerank: bool = True) -> list[dict]:
     """Public API: drop-in replacement for rag.retrieve()."""
-    return _retriever.retrieve(query, n_results)
+    return _retriever.retrieve(query, n_results, rerank=rerank)

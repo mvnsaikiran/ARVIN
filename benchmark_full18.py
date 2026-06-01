@@ -77,7 +77,7 @@ def run():
 
     t0 = time.time()
     for i, case in enumerate(all_cases):
-        chunks = hybrid_rag.retrieve(case["query"], n_results=TOP_K)
+        chunks = hybrid_rag.retrieve(case["query"], n_results=TOP_K, rerank=False)
         fmt    = case["_fmt"]
 
         if fmt == "old":
