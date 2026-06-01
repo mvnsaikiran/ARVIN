@@ -1,0 +1,5258 @@
+[
+  {
+    "id": "EXP_12807",
+    "query": "Does POSH cover same-sex harassment?",
+    "keyFacts": [
+      "prohibits same-sex",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12808",
+    "query": "As per Arvind HR policy, does POSH cover same-sex harassment?",
+    "keyFacts": [
+      "prohibits same-sex",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12809",
+    "query": "Please tell me: does POSH cover same-sex harassment?",
+    "keyFacts": [
+      "prohibits same-sex",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12810",
+    "query": "HR query: Does POSH cover same-sex harassment?",
+    "keyFacts": [
+      "prohibits same-sex",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12811",
+    "query": "Can you help me understand: does POSH cover same-sex harassment?",
+    "keyFacts": [
+      "prohibits same-sex",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12812",
+    "query": "I need to know: does POSH cover same-sex harassment?",
+    "keyFacts": [
+      "prohibits same-sex",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12813",
+    "query": "Quick question \u2014 does POSH cover same-sex harassment?",
+    "keyFacts": [
+      "prohibits same-sex",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12814",
+    "query": "Under Arvind's policy, does POSH cover same-sex harassment?",
+    "keyFacts": [
+      "prohibits same-sex",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12815",
+    "query": "Is POSH a gender-neutral policy?",
+    "keyFacts": [
+      "gender neutral",
+      "covers with equal rigour"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12816",
+    "query": "As per Arvind HR policy, is POSH a gender-neutral policy?",
+    "keyFacts": [
+      "gender neutral",
+      "covers with equal rigour"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12817",
+    "query": "Please tell me: is POSH a gender-neutral policy?",
+    "keyFacts": [
+      "gender neutral",
+      "covers with equal rigour"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12818",
+    "query": "HR query: Is POSH a gender-neutral policy?",
+    "keyFacts": [
+      "gender neutral",
+      "covers with equal rigour"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12819",
+    "query": "Can you help me understand: is POSH a gender-neutral policy?",
+    "keyFacts": [
+      "gender neutral",
+      "covers with equal rigour"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12820",
+    "query": "I need to know: is POSH a gender-neutral policy?",
+    "keyFacts": [
+      "gender neutral",
+      "covers with equal rigour"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12821",
+    "query": "Quick question \u2014 is POSH a gender-neutral policy?",
+    "keyFacts": [
+      "gender neutral",
+      "covers with equal rigour"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12822",
+    "query": "Under Arvind's policy, is POSH a gender-neutral policy?",
+    "keyFacts": [
+      "gender neutral",
+      "covers with equal rigour"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12823",
+    "query": "Does POSH protect male employees from harassment?",
+    "keyFacts": [
+      "covers with equal rigour",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12824",
+    "query": "As per Arvind HR policy, does POSH protect male employees from harassment?",
+    "keyFacts": [
+      "covers with equal rigour",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12825",
+    "query": "Please tell me: does POSH protect male employees from harassment?",
+    "keyFacts": [
+      "covers with equal rigour",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12826",
+    "query": "HR query: Does POSH protect male employees from harassment?",
+    "keyFacts": [
+      "covers with equal rigour",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12827",
+    "query": "Can you help me understand: does POSH protect male employees from harassment?",
+    "keyFacts": [
+      "covers with equal rigour",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12828",
+    "query": "I need to know: does POSH protect male employees from harassment?",
+    "keyFacts": [
+      "covers with equal rigour",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12829",
+    "query": "Quick question \u2014 does POSH protect male employees from harassment?",
+    "keyFacts": [
+      "covers with equal rigour",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12830",
+    "query": "Under Arvind's policy, does POSH protect male employees from harassment?",
+    "keyFacts": [
+      "covers with equal rigour",
+      "gender neutral"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12831",
+    "query": "What types of harassment are covered under POSH?",
+    "keyFacts": [
+      "sexual harassment",
+      "aggrieved woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12832",
+    "query": "As per Arvind HR policy, what types of harassment are covered under POSH?",
+    "keyFacts": [
+      "sexual harassment",
+      "aggrieved woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12833",
+    "query": "Please tell me: what types of harassment are covered under POSH?",
+    "keyFacts": [
+      "sexual harassment",
+      "aggrieved woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12834",
+    "query": "HR query: What types of harassment are covered under POSH?",
+    "keyFacts": [
+      "sexual harassment",
+      "aggrieved woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12835",
+    "query": "Can you help me understand: what types of harassment are covered under POSH?",
+    "keyFacts": [
+      "sexual harassment",
+      "aggrieved woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12836",
+    "query": "I need to know: what types of harassment are covered under POSH?",
+    "keyFacts": [
+      "sexual harassment",
+      "aggrieved woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12837",
+    "query": "Quick question \u2014 what types of harassment are covered under POSH?",
+    "keyFacts": [
+      "sexual harassment",
+      "aggrieved woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12838",
+    "query": "Under Arvind's policy, what types of harassment are covered under POSH?",
+    "keyFacts": [
+      "sexual harassment",
+      "aggrieved woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12839",
+    "query": "Where does POSH apply \u2014 only office or also offsite events?",
+    "keyFacts": [
+      "office parties",
+      "workplace"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12840",
+    "query": "As per Arvind HR policy, where does POSH apply \u2014 only office or also offsite events?",
+    "keyFacts": [
+      "office parties",
+      "workplace"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12841",
+    "query": "Please tell me: where does POSH apply \u2014 only office or also offsite events?",
+    "keyFacts": [
+      "office parties",
+      "workplace"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12842",
+    "query": "HR query: Where does POSH apply \u2014 only office or also offsite events?",
+    "keyFacts": [
+      "office parties",
+      "workplace"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12843",
+    "query": "Can you help me understand: where does POSH apply \u2014 only office or also offsite events?",
+    "keyFacts": [
+      "office parties",
+      "workplace"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12844",
+    "query": "I need to know: where does POSH apply \u2014 only office or also offsite events?",
+    "keyFacts": [
+      "office parties",
+      "workplace"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12845",
+    "query": "Quick question \u2014 where does POSH apply \u2014 only office or also offsite events?",
+    "keyFacts": [
+      "office parties",
+      "workplace"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12846",
+    "query": "Under Arvind's policy, where does POSH apply \u2014 only office or also offsite events?",
+    "keyFacts": [
+      "office parties",
+      "workplace"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12847",
+    "query": "Does POSH cover harassment at office parties?",
+    "keyFacts": [
+      "office parties"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12848",
+    "query": "As per Arvind HR policy, does POSH cover harassment at office parties?",
+    "keyFacts": [
+      "office parties"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12849",
+    "query": "Please tell me: does POSH cover harassment at office parties?",
+    "keyFacts": [
+      "office parties"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12850",
+    "query": "HR query: Does POSH cover harassment at office parties?",
+    "keyFacts": [
+      "office parties"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12851",
+    "query": "Can you help me understand: does POSH cover harassment at office parties?",
+    "keyFacts": [
+      "office parties"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12852",
+    "query": "I need to know: does POSH cover harassment at office parties?",
+    "keyFacts": [
+      "office parties"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12853",
+    "query": "Quick question \u2014 does POSH cover harassment at office parties?",
+    "keyFacts": [
+      "office parties"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12854",
+    "query": "Under Arvind's policy, does POSH cover harassment at office parties?",
+    "keyFacts": [
+      "office parties"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12855",
+    "query": "Is harassment by a client covered under POSH?",
+    "keyFacts": [
+      "third party",
+      "external"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12856",
+    "query": "As per Arvind HR policy, is harassment by a client covered under POSH?",
+    "keyFacts": [
+      "third party",
+      "external"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12857",
+    "query": "Please tell me: is harassment by a client covered under POSH?",
+    "keyFacts": [
+      "third party",
+      "external"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12858",
+    "query": "HR query: Is harassment by a client covered under POSH?",
+    "keyFacts": [
+      "third party",
+      "external"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12859",
+    "query": "Can you help me understand: is harassment by a client covered under POSH?",
+    "keyFacts": [
+      "third party",
+      "external"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12860",
+    "query": "I need to know: is harassment by a client covered under POSH?",
+    "keyFacts": [
+      "third party",
+      "external"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12861",
+    "query": "Quick question \u2014 is harassment by a client covered under POSH?",
+    "keyFacts": [
+      "third party",
+      "external"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12862",
+    "query": "Under Arvind's policy, is harassment by a client covered under POSH?",
+    "keyFacts": [
+      "third party",
+      "external"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12863",
+    "query": "How many copies of POSH complaint do I submit?",
+    "keyFacts": [
+      "six copies"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12864",
+    "query": "As per Arvind HR policy, how many copies of POSH complaint do I submit?",
+    "keyFacts": [
+      "six copies"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12865",
+    "query": "Please tell me: how many copies of POSH complaint do I submit?",
+    "keyFacts": [
+      "six copies"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12866",
+    "query": "HR query: How many copies of POSH complaint do I submit?",
+    "keyFacts": [
+      "six copies"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12867",
+    "query": "Can you help me understand: how many copies of POSH complaint do I submit?",
+    "keyFacts": [
+      "six copies"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12868",
+    "query": "I need to know: how many copies of POSH complaint do I submit?",
+    "keyFacts": [
+      "six copies"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12869",
+    "query": "Quick question \u2014 how many copies of POSH complaint do I submit?",
+    "keyFacts": [
+      "six copies"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12870",
+    "query": "Under Arvind's policy, how many copies of POSH complaint do I submit?",
+    "keyFacts": [
+      "six copies"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12871",
+    "query": "What is the POSH complaint filing process?",
+    "keyFacts": [
+      "six copies",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12872",
+    "query": "As per Arvind HR policy, what is the POSH complaint filing process?",
+    "keyFacts": [
+      "six copies",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12873",
+    "query": "Please tell me: what is the POSH complaint filing process?",
+    "keyFacts": [
+      "six copies",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12874",
+    "query": "HR query: What is the POSH complaint filing process?",
+    "keyFacts": [
+      "six copies",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12875",
+    "query": "Can you help me understand: what is the POSH complaint filing process?",
+    "keyFacts": [
+      "six copies",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12876",
+    "query": "I need to know: what is the POSH complaint filing process?",
+    "keyFacts": [
+      "six copies",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12877",
+    "query": "Quick question \u2014 what is the POSH complaint filing process?",
+    "keyFacts": [
+      "six copies",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12878",
+    "query": "Under Arvind's policy, what is the POSH complaint filing process?",
+    "keyFacts": [
+      "six copies",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12879",
+    "query": "Where do I submit a POSH complaint?",
+    "keyFacts": [
+      "Supervisor",
+      "Reporting Manager",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12880",
+    "query": "As per Arvind HR policy, where do I submit a POSH complaint?",
+    "keyFacts": [
+      "Supervisor",
+      "Reporting Manager",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12881",
+    "query": "Please tell me: where do I submit a POSH complaint?",
+    "keyFacts": [
+      "Supervisor",
+      "Reporting Manager",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12882",
+    "query": "HR query: Where do I submit a POSH complaint?",
+    "keyFacts": [
+      "Supervisor",
+      "Reporting Manager",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12883",
+    "query": "Can you help me understand: where do I submit a POSH complaint?",
+    "keyFacts": [
+      "Supervisor",
+      "Reporting Manager",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12884",
+    "query": "I need to know: where do I submit a POSH complaint?",
+    "keyFacts": [
+      "Supervisor",
+      "Reporting Manager",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12885",
+    "query": "Quick question \u2014 where do I submit a POSH complaint?",
+    "keyFacts": [
+      "Supervisor",
+      "Reporting Manager",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12886",
+    "query": "Under Arvind's policy, where do I submit a POSH complaint?",
+    "keyFacts": [
+      "Supervisor",
+      "Reporting Manager",
+      "AIC"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12887",
+    "query": "Can I file a POSH complaint through my reporting manager?",
+    "keyFacts": [
+      "Supervisor / Reporting Manager"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12888",
+    "query": "As per Arvind HR policy, can I file a POSH complaint through my reporting manager?",
+    "keyFacts": [
+      "Supervisor / Reporting Manager"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12889",
+    "query": "Please tell me: can I file a POSH complaint through my reporting manager?",
+    "keyFacts": [
+      "Supervisor / Reporting Manager"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12890",
+    "query": "HR query: Can I file a POSH complaint through my reporting manager?",
+    "keyFacts": [
+      "Supervisor / Reporting Manager"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12891",
+    "query": "Can you help me understand: can I file a POSH complaint through my reporting manager?",
+    "keyFacts": [
+      "Supervisor / Reporting Manager"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12892",
+    "query": "I need to know: can I file a POSH complaint through my reporting manager?",
+    "keyFacts": [
+      "Supervisor / Reporting Manager"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12893",
+    "query": "Quick question \u2014 can I file a POSH complaint through my reporting manager?",
+    "keyFacts": [
+      "Supervisor / Reporting Manager"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12894",
+    "query": "Under Arvind's policy, can I file a POSH complaint through my reporting manager?",
+    "keyFacts": [
+      "Supervisor / Reporting Manager"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12895",
+    "query": "What is the deadline for filing a POSH complaint?",
+    "keyFacts": [
+      "3 (three) months",
+      "extended"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12896",
+    "query": "As per Arvind HR policy, what is the deadline for filing a POSH complaint?",
+    "keyFacts": [
+      "3 (three) months",
+      "extended"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12897",
+    "query": "Please tell me: what is the deadline for filing a POSH complaint?",
+    "keyFacts": [
+      "3 (three) months",
+      "extended"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12898",
+    "query": "HR query: What is the deadline for filing a POSH complaint?",
+    "keyFacts": [
+      "3 (three) months",
+      "extended"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12899",
+    "query": "Can you help me understand: what is the deadline for filing a POSH complaint?",
+    "keyFacts": [
+      "3 (three) months",
+      "extended"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12900",
+    "query": "I need to know: what is the deadline for filing a POSH complaint?",
+    "keyFacts": [
+      "3 (three) months",
+      "extended"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12901",
+    "query": "Quick question \u2014 what is the deadline for filing a POSH complaint?",
+    "keyFacts": [
+      "3 (three) months",
+      "extended"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12902",
+    "query": "Under Arvind's policy, what is the deadline for filing a POSH complaint?",
+    "keyFacts": [
+      "3 (three) months",
+      "extended"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12903",
+    "query": "Can the POSH filing deadline be extended?",
+    "keyFacts": [
+      "extended for further 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12904",
+    "query": "As per Arvind HR policy, can the POSH filing deadline be extended?",
+    "keyFacts": [
+      "extended for further 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12905",
+    "query": "Please tell me: can the POSH filing deadline be extended?",
+    "keyFacts": [
+      "extended for further 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12906",
+    "query": "HR query: Can the POSH filing deadline be extended?",
+    "keyFacts": [
+      "extended for further 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12907",
+    "query": "Can you help me understand: can the POSH filing deadline be extended?",
+    "keyFacts": [
+      "extended for further 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12908",
+    "query": "I need to know: can the POSH filing deadline be extended?",
+    "keyFacts": [
+      "extended for further 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12909",
+    "query": "Quick question \u2014 can the POSH filing deadline be extended?",
+    "keyFacts": [
+      "extended for further 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12910",
+    "query": "Under Arvind's policy, can the POSH filing deadline be extended?",
+    "keyFacts": [
+      "extended for further 3 (three) months"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Filing-Deadline",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12911",
+    "query": "How many members are on the Arvind AIC?",
+    "keyFacts": [
+      "2 members amongst employees",
+      "minimum of 3"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12912",
+    "query": "As per Arvind HR policy, how many members are on the Arvind AIC?",
+    "keyFacts": [
+      "2 members amongst employees",
+      "minimum of 3"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12913",
+    "query": "Please tell me: how many members are on the Arvind AIC?",
+    "keyFacts": [
+      "2 members amongst employees",
+      "minimum of 3"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12914",
+    "query": "HR query: How many members are on the Arvind AIC?",
+    "keyFacts": [
+      "2 members amongst employees",
+      "minimum of 3"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12915",
+    "query": "Can you help me understand: how many members are on the Arvind AIC?",
+    "keyFacts": [
+      "2 members amongst employees",
+      "minimum of 3"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12916",
+    "query": "I need to know: how many members are on the Arvind AIC?",
+    "keyFacts": [
+      "2 members amongst employees",
+      "minimum of 3"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12917",
+    "query": "Quick question \u2014 how many members are on the Arvind AIC?",
+    "keyFacts": [
+      "2 members amongst employees",
+      "minimum of 3"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12918",
+    "query": "Under Arvind's policy, how many members are on the Arvind AIC?",
+    "keyFacts": [
+      "2 members amongst employees",
+      "minimum of 3"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12919",
+    "query": "Who chairs the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12920",
+    "query": "As per Arvind HR policy, who chairs the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12921",
+    "query": "Please tell me: who chairs the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12922",
+    "query": "HR query: Who chairs the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12923",
+    "query": "Can you help me understand: who chairs the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12924",
+    "query": "I need to know: who chairs the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12925",
+    "query": "Quick question \u2014 who chairs the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12926",
+    "query": "Under Arvind's policy, who chairs the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12927",
+    "query": "What percentage of AIC members must be women?",
+    "keyFacts": [
+      "50% women",
+      "50 percent women"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12928",
+    "query": "As per Arvind HR policy, what percentage of AIC members must be women?",
+    "keyFacts": [
+      "50% women",
+      "50 percent women"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12929",
+    "query": "Please tell me: what percentage of AIC members must be women?",
+    "keyFacts": [
+      "50% women",
+      "50 percent women"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12930",
+    "query": "HR query: What percentage of AIC members must be women?",
+    "keyFacts": [
+      "50% women",
+      "50 percent women"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12931",
+    "query": "Can you help me understand: what percentage of AIC members must be women?",
+    "keyFacts": [
+      "50% women",
+      "50 percent women"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12932",
+    "query": "I need to know: what percentage of AIC members must be women?",
+    "keyFacts": [
+      "50% women",
+      "50 percent women"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12933",
+    "query": "Quick question \u2014 what percentage of AIC members must be women?",
+    "keyFacts": [
+      "50% women",
+      "50 percent women"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12934",
+    "query": "Under Arvind's policy, what percentage of AIC members must be women?",
+    "keyFacts": [
+      "50% women",
+      "50 percent women"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12935",
+    "query": "Who is the Presiding Officer of the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12936",
+    "query": "As per Arvind HR policy, who is the Presiding Officer of the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12937",
+    "query": "Please tell me: who is the Presiding Officer of the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12938",
+    "query": "HR query: Who is the Presiding Officer of the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12939",
+    "query": "Can you help me understand: who is the Presiding Officer of the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12940",
+    "query": "I need to know: who is the Presiding Officer of the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12941",
+    "query": "Quick question \u2014 who is the Presiding Officer of the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12942",
+    "query": "Under Arvind's policy, who is the Presiding Officer of the AIC?",
+    "keyFacts": [
+      "senior level woman employee",
+      "Presiding Officer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12943",
+    "query": "Is there an external member in the AIC?",
+    "keyFacts": [
+      "external member",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12944",
+    "query": "As per Arvind HR policy, is there an external member in the AIC?",
+    "keyFacts": [
+      "external member",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12945",
+    "query": "Please tell me: is there an external member in the AIC?",
+    "keyFacts": [
+      "external member",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12946",
+    "query": "HR query: Is there an external member in the AIC?",
+    "keyFacts": [
+      "external member",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12947",
+    "query": "Can you help me understand: is there an external member in the AIC?",
+    "keyFacts": [
+      "external member",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12948",
+    "query": "I need to know: is there an external member in the AIC?",
+    "keyFacts": [
+      "external member",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12949",
+    "query": "Quick question \u2014 is there an external member in the AIC?",
+    "keyFacts": [
+      "external member",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12950",
+    "query": "Under Arvind's policy, is there an external member in the AIC?",
+    "keyFacts": [
+      "external member",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Composition",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12951",
+    "query": "How much is the external AIC member paid?",
+    "keyFacts": [
+      "Rs. 250 per day",
+      "250 per day"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "External-Member",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12952",
+    "query": "As per Arvind HR policy, how much is the external AIC member paid?",
+    "keyFacts": [
+      "Rs. 250 per day",
+      "250 per day"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "External-Member",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12953",
+    "query": "Please tell me: how much is the external AIC member paid?",
+    "keyFacts": [
+      "Rs. 250 per day",
+      "250 per day"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "External-Member",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12954",
+    "query": "HR query: How much is the external AIC member paid?",
+    "keyFacts": [
+      "Rs. 250 per day",
+      "250 per day"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "External-Member",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12955",
+    "query": "Can you help me understand: how much is the external AIC member paid?",
+    "keyFacts": [
+      "Rs. 250 per day",
+      "250 per day"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "External-Member",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12956",
+    "query": "I need to know: how much is the external AIC member paid?",
+    "keyFacts": [
+      "Rs. 250 per day",
+      "250 per day"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "External-Member",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12957",
+    "query": "Quick question \u2014 how much is the external AIC member paid?",
+    "keyFacts": [
+      "Rs. 250 per day",
+      "250 per day"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "External-Member",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12958",
+    "query": "Under Arvind's policy, how much is the external AIC member paid?",
+    "keyFacts": [
+      "Rs. 250 per day",
+      "250 per day"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "External-Member",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12959",
+    "query": "How long is an AIC member's term?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12960",
+    "query": "As per Arvind HR policy, how long is an AIC member's term?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12961",
+    "query": "Please tell me: how long is an AIC member's term?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12962",
+    "query": "HR query: How long is an AIC member's term?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12963",
+    "query": "Can you help me understand: how long is an AIC member's term?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12964",
+    "query": "I need to know: how long is an AIC member's term?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12965",
+    "query": "Quick question \u2014 how long is an AIC member's term?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12966",
+    "query": "Under Arvind's policy, how long is an AIC member's term?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12967",
+    "query": "Can AIC members be reappointed?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12968",
+    "query": "As per Arvind HR policy, can AIC members be reappointed?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12969",
+    "query": "Please tell me: can AIC members be reappointed?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12970",
+    "query": "HR query: Can AIC members be reappointed?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12971",
+    "query": "Can you help me understand: can AIC members be reappointed?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12972",
+    "query": "I need to know: can AIC members be reappointed?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12973",
+    "query": "Quick question \u2014 can AIC members be reappointed?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12974",
+    "query": "Under Arvind's policy, can AIC members be reappointed?",
+    "keyFacts": [
+      "period of three years"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Tenure",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12975",
+    "query": "When must an AIC vacancy be filled?",
+    "keyFacts": [
+      "within 15 days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Vacancy",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12976",
+    "query": "As per Arvind HR policy, when must an AIC vacancy be filled?",
+    "keyFacts": [
+      "within 15 days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Vacancy",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12977",
+    "query": "Please tell me: when must an AIC vacancy be filled?",
+    "keyFacts": [
+      "within 15 days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Vacancy",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12978",
+    "query": "HR query: When must an AIC vacancy be filled?",
+    "keyFacts": [
+      "within 15 days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Vacancy",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12979",
+    "query": "Can you help me understand: when must an AIC vacancy be filled?",
+    "keyFacts": [
+      "within 15 days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Vacancy",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12980",
+    "query": "I need to know: when must an AIC vacancy be filled?",
+    "keyFacts": [
+      "within 15 days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Vacancy",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12981",
+    "query": "Quick question \u2014 when must an AIC vacancy be filled?",
+    "keyFacts": [
+      "within 15 days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Vacancy",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12982",
+    "query": "Under Arvind's policy, when must an AIC vacancy be filled?",
+    "keyFacts": [
+      "within 15 days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Vacancy",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12983",
+    "query": "Does the AIC have the same powers as a civil court?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12984",
+    "query": "As per Arvind HR policy, does the AIC have the same powers as a civil court?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12985",
+    "query": "Please tell me: does the AIC have the same powers as a civil court?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12986",
+    "query": "HR query: Does the AIC have the same powers as a civil court?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12987",
+    "query": "Can you help me understand: does the AIC have the same powers as a civil court?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12988",
+    "query": "I need to know: does the AIC have the same powers as a civil court?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12989",
+    "query": "Quick question \u2014 does the AIC have the same powers as a civil court?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12990",
+    "query": "Under Arvind's policy, does the AIC have the same powers as a civil court?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12991",
+    "query": "What legal powers does the AIC have?",
+    "keyFacts": [
+      "powers as that of a civil court",
+      "civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12992",
+    "query": "As per Arvind HR policy, what legal powers does the AIC have?",
+    "keyFacts": [
+      "powers as that of a civil court",
+      "civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12993",
+    "query": "Please tell me: what legal powers does the AIC have?",
+    "keyFacts": [
+      "powers as that of a civil court",
+      "civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12994",
+    "query": "HR query: What legal powers does the AIC have?",
+    "keyFacts": [
+      "powers as that of a civil court",
+      "civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12995",
+    "query": "Can you help me understand: what legal powers does the AIC have?",
+    "keyFacts": [
+      "powers as that of a civil court",
+      "civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12996",
+    "query": "I need to know: what legal powers does the AIC have?",
+    "keyFacts": [
+      "powers as that of a civil court",
+      "civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12997",
+    "query": "Quick question \u2014 what legal powers does the AIC have?",
+    "keyFacts": [
+      "powers as that of a civil court",
+      "civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12998",
+    "query": "Under Arvind's policy, what legal powers does the AIC have?",
+    "keyFacts": [
+      "powers as that of a civil court",
+      "civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12999",
+    "query": "Can the AIC summon witnesses?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13000",
+    "query": "As per Arvind HR policy, can the AIC summon witnesses?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13001",
+    "query": "Please tell me: can the AIC summon witnesses?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13002",
+    "query": "HR query: Can the AIC summon witnesses?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13003",
+    "query": "Can you help me understand: can the AIC summon witnesses?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13004",
+    "query": "I need to know: can the AIC summon witnesses?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13005",
+    "query": "Quick question \u2014 can the AIC summon witnesses?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13006",
+    "query": "Under Arvind's policy, can the AIC summon witnesses?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13007",
+    "query": "Can the AIC call for documents?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13008",
+    "query": "As per Arvind HR policy, can the AIC call for documents?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13009",
+    "query": "Please tell me: can the AIC call for documents?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13010",
+    "query": "HR query: Can the AIC call for documents?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13011",
+    "query": "Can you help me understand: can the AIC call for documents?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13012",
+    "query": "I need to know: can the AIC call for documents?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13013",
+    "query": "Quick question \u2014 can the AIC call for documents?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13014",
+    "query": "Under Arvind's policy, can the AIC call for documents?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13015",
+    "query": "Does the AIC function like a court of law?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13016",
+    "query": "As per Arvind HR policy, does the AIC function like a court of law?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13017",
+    "query": "Please tell me: does the AIC function like a court of law?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13018",
+    "query": "HR query: Does the AIC function like a court of law?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13019",
+    "query": "Can you help me understand: does the AIC function like a court of law?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13020",
+    "query": "I need to know: does the AIC function like a court of law?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13021",
+    "query": "Quick question \u2014 does the AIC function like a court of law?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13022",
+    "query": "Under Arvind's policy, does the AIC function like a court of law?",
+    "keyFacts": [
+      "powers as that of a civil court"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Powers",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13023",
+    "query": "How many days notice does AIC give before inquiry?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13024",
+    "query": "As per Arvind HR policy, how many days notice does AIC give before inquiry?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13025",
+    "query": "Please tell me: how many days notice does AIC give before inquiry?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13026",
+    "query": "HR query: How many days notice does AIC give before inquiry?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13027",
+    "query": "Can you help me understand: how many days notice does AIC give before inquiry?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13028",
+    "query": "I need to know: how many days notice does AIC give before inquiry?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13029",
+    "query": "Quick question \u2014 how many days notice does AIC give before inquiry?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13030",
+    "query": "Under Arvind's policy, how many days notice does AIC give before inquiry?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13031",
+    "query": "What is the AIC hearing notice period?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13032",
+    "query": "As per Arvind HR policy, what is the AIC hearing notice period?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13033",
+    "query": "Please tell me: what is the AIC hearing notice period?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13034",
+    "query": "HR query: What is the AIC hearing notice period?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13035",
+    "query": "Can you help me understand: what is the AIC hearing notice period?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13036",
+    "query": "I need to know: what is the AIC hearing notice period?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13037",
+    "query": "Quick question \u2014 what is the AIC hearing notice period?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13038",
+    "query": "Under Arvind's policy, what is the AIC hearing notice period?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13039",
+    "query": "How much advance notice is given before POSH inquiry?",
+    "keyFacts": [
+      "15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13040",
+    "query": "As per Arvind HR policy, how much advance notice is given before POSH inquiry?",
+    "keyFacts": [
+      "15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13041",
+    "query": "Please tell me: how much advance notice is given before POSH inquiry?",
+    "keyFacts": [
+      "15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13042",
+    "query": "HR query: How much advance notice is given before POSH inquiry?",
+    "keyFacts": [
+      "15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13043",
+    "query": "Can you help me understand: how much advance notice is given before POSH inquiry?",
+    "keyFacts": [
+      "15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13044",
+    "query": "I need to know: how much advance notice is given before POSH inquiry?",
+    "keyFacts": [
+      "15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13045",
+    "query": "Quick question \u2014 how much advance notice is given before POSH inquiry?",
+    "keyFacts": [
+      "15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13046",
+    "query": "Under Arvind's policy, how much advance notice is given before POSH inquiry?",
+    "keyFacts": [
+      "15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13047",
+    "query": "Can AIC inquiry proceed without proper notice?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13048",
+    "query": "As per Arvind HR policy, can AIC inquiry proceed without proper notice?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13049",
+    "query": "Please tell me: can AIC inquiry proceed without proper notice?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13050",
+    "query": "HR query: Can AIC inquiry proceed without proper notice?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13051",
+    "query": "Can you help me understand: can AIC inquiry proceed without proper notice?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13052",
+    "query": "I need to know: can AIC inquiry proceed without proper notice?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13053",
+    "query": "Quick question \u2014 can AIC inquiry proceed without proper notice?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13054",
+    "query": "Under Arvind's policy, can AIC inquiry proceed without proper notice?",
+    "keyFacts": [
+      "notice of 15 (fifteen) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Procedures",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13055",
+    "query": "Within how many days must AIC submit its report?",
+    "keyFacts": [
+      "within a period of 10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13056",
+    "query": "As per Arvind HR policy, within how many days must AIC submit its report?",
+    "keyFacts": [
+      "within a period of 10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13057",
+    "query": "Please tell me: within how many days must AIC submit its report?",
+    "keyFacts": [
+      "within a period of 10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13058",
+    "query": "HR query: Within how many days must AIC submit its report?",
+    "keyFacts": [
+      "within a period of 10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13059",
+    "query": "Can you help me understand: within how many days must AIC submit its report?",
+    "keyFacts": [
+      "within a period of 10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13060",
+    "query": "I need to know: within how many days must AIC submit its report?",
+    "keyFacts": [
+      "within a period of 10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13061",
+    "query": "Quick question \u2014 within how many days must AIC submit its report?",
+    "keyFacts": [
+      "within a period of 10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13062",
+    "query": "Under Arvind's policy, within how many days must AIC submit its report?",
+    "keyFacts": [
+      "within a period of 10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13063",
+    "query": "What is the AIC report submission deadline?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13064",
+    "query": "As per Arvind HR policy, what is the AIC report submission deadline?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13065",
+    "query": "Please tell me: what is the AIC report submission deadline?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13066",
+    "query": "HR query: What is the AIC report submission deadline?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13067",
+    "query": "Can you help me understand: what is the AIC report submission deadline?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13068",
+    "query": "I need to know: what is the AIC report submission deadline?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13069",
+    "query": "Quick question \u2014 what is the AIC report submission deadline?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13070",
+    "query": "Under Arvind's policy, what is the AIC report submission deadline?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13071",
+    "query": "How many days does the AIC get to file its findings?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13072",
+    "query": "As per Arvind HR policy, how many days does the AIC get to file its findings?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13073",
+    "query": "Please tell me: how many days does the AIC get to file its findings?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13074",
+    "query": "HR query: How many days does the AIC get to file its findings?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13075",
+    "query": "Can you help me understand: how many days does the AIC get to file its findings?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13076",
+    "query": "I need to know: how many days does the AIC get to file its findings?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13077",
+    "query": "Quick question \u2014 how many days does the AIC get to file its findings?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13078",
+    "query": "Under Arvind's policy, how many days does the AIC get to file its findings?",
+    "keyFacts": [
+      "10 (ten) days"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "AIC-Report",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13079",
+    "query": "What interim leave can the aggrieved woman get during POSH inquiry?",
+    "keyFacts": [
+      "3 (three) months",
+      "leave to the Aggrieved Woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13080",
+    "query": "As per Arvind HR policy, what interim leave can the aggrieved woman get during POSH inquiry?",
+    "keyFacts": [
+      "3 (three) months",
+      "leave to the Aggrieved Woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13081",
+    "query": "Please tell me: what interim leave can the aggrieved woman get during POSH inquiry?",
+    "keyFacts": [
+      "3 (three) months",
+      "leave to the Aggrieved Woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13082",
+    "query": "HR query: What interim leave can the aggrieved woman get during POSH inquiry?",
+    "keyFacts": [
+      "3 (three) months",
+      "leave to the Aggrieved Woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13083",
+    "query": "Can you help me understand: what interim leave can the aggrieved woman get during POSH inquiry?",
+    "keyFacts": [
+      "3 (three) months",
+      "leave to the Aggrieved Woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13084",
+    "query": "I need to know: what interim leave can the aggrieved woman get during POSH inquiry?",
+    "keyFacts": [
+      "3 (three) months",
+      "leave to the Aggrieved Woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13085",
+    "query": "Quick question \u2014 what interim leave can the aggrieved woman get during POSH inquiry?",
+    "keyFacts": [
+      "3 (three) months",
+      "leave to the Aggrieved Woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13086",
+    "query": "Under Arvind's policy, what interim leave can the aggrieved woman get during POSH inquiry?",
+    "keyFacts": [
+      "3 (three) months",
+      "leave to the Aggrieved Woman"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13087",
+    "query": "Can the aggrieved woman be transferred during POSH inquiry?",
+    "keyFacts": [
+      "transfer",
+      "interim relief"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13088",
+    "query": "As per Arvind HR policy, can the aggrieved woman be transferred during POSH inquiry?",
+    "keyFacts": [
+      "transfer",
+      "interim relief"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13089",
+    "query": "Please tell me: can the aggrieved woman be transferred during POSH inquiry?",
+    "keyFacts": [
+      "transfer",
+      "interim relief"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13090",
+    "query": "HR query: Can the aggrieved woman be transferred during POSH inquiry?",
+    "keyFacts": [
+      "transfer",
+      "interim relief"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13091",
+    "query": "Can you help me understand: can the aggrieved woman be transferred during POSH inquiry?",
+    "keyFacts": [
+      "transfer",
+      "interim relief"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13092",
+    "query": "I need to know: can the aggrieved woman be transferred during POSH inquiry?",
+    "keyFacts": [
+      "transfer",
+      "interim relief"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13093",
+    "query": "Quick question \u2014 can the aggrieved woman be transferred during POSH inquiry?",
+    "keyFacts": [
+      "transfer",
+      "interim relief"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13094",
+    "query": "Under Arvind's policy, can the aggrieved woman be transferred during POSH inquiry?",
+    "keyFacts": [
+      "transfer",
+      "interim relief"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13095",
+    "query": "What interim relief is available to POSH complainant?",
+    "keyFacts": [
+      "leave to the Aggrieved Woman",
+      "transfer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13096",
+    "query": "As per Arvind HR policy, what interim relief is available to POSH complainant?",
+    "keyFacts": [
+      "leave to the Aggrieved Woman",
+      "transfer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13097",
+    "query": "Please tell me: what interim relief is available to POSH complainant?",
+    "keyFacts": [
+      "leave to the Aggrieved Woman",
+      "transfer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13098",
+    "query": "HR query: What interim relief is available to POSH complainant?",
+    "keyFacts": [
+      "leave to the Aggrieved Woman",
+      "transfer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13099",
+    "query": "Can you help me understand: what interim relief is available to POSH complainant?",
+    "keyFacts": [
+      "leave to the Aggrieved Woman",
+      "transfer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13100",
+    "query": "I need to know: what interim relief is available to POSH complainant?",
+    "keyFacts": [
+      "leave to the Aggrieved Woman",
+      "transfer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13101",
+    "query": "Quick question \u2014 what interim relief is available to POSH complainant?",
+    "keyFacts": [
+      "leave to the Aggrieved Woman",
+      "transfer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13102",
+    "query": "Under Arvind's policy, what interim relief is available to POSH complainant?",
+    "keyFacts": [
+      "leave to the Aggrieved Woman",
+      "transfer"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Relief",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13103",
+    "query": "Can the AIC suspend the respondent during POSH inquiry?",
+    "keyFacts": [
+      "suspend the RE for defined period"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13104",
+    "query": "As per Arvind HR policy, can the AIC suspend the respondent during POSH inquiry?",
+    "keyFacts": [
+      "suspend the RE for defined period"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13105",
+    "query": "Please tell me: can the AIC suspend the respondent during POSH inquiry?",
+    "keyFacts": [
+      "suspend the RE for defined period"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13106",
+    "query": "HR query: Can the AIC suspend the respondent during POSH inquiry?",
+    "keyFacts": [
+      "suspend the RE for defined period"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13107",
+    "query": "Can you help me understand: can the AIC suspend the respondent during POSH inquiry?",
+    "keyFacts": [
+      "suspend the RE for defined period"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13108",
+    "query": "I need to know: can the AIC suspend the respondent during POSH inquiry?",
+    "keyFacts": [
+      "suspend the RE for defined period"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13109",
+    "query": "Quick question \u2014 can the AIC suspend the respondent during POSH inquiry?",
+    "keyFacts": [
+      "suspend the RE for defined period"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13110",
+    "query": "Under Arvind's policy, can the AIC suspend the respondent during POSH inquiry?",
+    "keyFacts": [
+      "suspend the RE for defined period"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13111",
+    "query": "What action can AIC take against respondent while inquiry is ongoing?",
+    "keyFacts": [
+      "suspend the RE",
+      "interim"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13112",
+    "query": "As per Arvind HR policy, what action can AIC take against respondent while inquiry is ongoing?",
+    "keyFacts": [
+      "suspend the RE",
+      "interim"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13113",
+    "query": "Please tell me: what action can AIC take against respondent while inquiry is ongoing?",
+    "keyFacts": [
+      "suspend the RE",
+      "interim"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13114",
+    "query": "HR query: What action can AIC take against respondent while inquiry is ongoing?",
+    "keyFacts": [
+      "suspend the RE",
+      "interim"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13115",
+    "query": "Can you help me understand: what action can AIC take against respondent while inquiry is ongoing?",
+    "keyFacts": [
+      "suspend the RE",
+      "interim"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13116",
+    "query": "I need to know: what action can AIC take against respondent while inquiry is ongoing?",
+    "keyFacts": [
+      "suspend the RE",
+      "interim"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13117",
+    "query": "Quick question \u2014 what action can AIC take against respondent while inquiry is ongoing?",
+    "keyFacts": [
+      "suspend the RE",
+      "interim"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13118",
+    "query": "Under Arvind's policy, what action can AIC take against respondent while inquiry is ongoing?",
+    "keyFacts": [
+      "suspend the RE",
+      "interim"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13119",
+    "query": "Can the respondent be suspended before POSH inquiry is complete?",
+    "keyFacts": [
+      "suspend the RE"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13120",
+    "query": "As per Arvind HR policy, can the respondent be suspended before POSH inquiry is complete?",
+    "keyFacts": [
+      "suspend the RE"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13121",
+    "query": "Please tell me: can the respondent be suspended before POSH inquiry is complete?",
+    "keyFacts": [
+      "suspend the RE"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13122",
+    "query": "HR query: Can the respondent be suspended before POSH inquiry is complete?",
+    "keyFacts": [
+      "suspend the RE"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13123",
+    "query": "Can you help me understand: can the respondent be suspended before POSH inquiry is complete?",
+    "keyFacts": [
+      "suspend the RE"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13124",
+    "query": "I need to know: can the respondent be suspended before POSH inquiry is complete?",
+    "keyFacts": [
+      "suspend the RE"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13125",
+    "query": "Quick question \u2014 can the respondent be suspended before POSH inquiry is complete?",
+    "keyFacts": [
+      "suspend the RE"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13126",
+    "query": "Under Arvind's policy, can the respondent be suspended before POSH inquiry is complete?",
+    "keyFacts": [
+      "suspend the RE"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Interim-Action",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13127",
+    "query": "Can I file an anonymous POSH complaint?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13128",
+    "query": "As per Arvind HR policy, can I file an anonymous POSH complaint?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13129",
+    "query": "Please tell me: can I file an anonymous POSH complaint?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13130",
+    "query": "HR query: Can I file an anonymous POSH complaint?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13131",
+    "query": "Can you help me understand: can I file an anonymous POSH complaint?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13132",
+    "query": "I need to know: can I file an anonymous POSH complaint?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13133",
+    "query": "Quick question \u2014 can I file an anonymous POSH complaint?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13134",
+    "query": "Under Arvind's policy, can I file an anonymous POSH complaint?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13135",
+    "query": "Will Arvind accept anonymous sexual harassment complaints?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13136",
+    "query": "As per Arvind HR policy, will Arvind accept anonymous sexual harassment complaints?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13137",
+    "query": "Please tell me: will Arvind accept anonymous sexual harassment complaints?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13138",
+    "query": "HR query: Will Arvind accept anonymous sexual harassment complaints?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13139",
+    "query": "Can you help me understand: will Arvind accept anonymous sexual harassment complaints?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13140",
+    "query": "I need to know: will Arvind accept anonymous sexual harassment complaints?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13141",
+    "query": "Quick question \u2014 will Arvind accept anonymous sexual harassment complaints?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13142",
+    "query": "Under Arvind's policy, will Arvind accept anonymous sexual harassment complaints?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13143",
+    "query": "Can I report POSH without revealing my identity?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13144",
+    "query": "As per Arvind HR policy, can I report POSH without revealing my identity?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13145",
+    "query": "Please tell me: can I report POSH without revealing my identity?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13146",
+    "query": "HR query: Can I report POSH without revealing my identity?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13147",
+    "query": "Can you help me understand: can I report POSH without revealing my identity?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13148",
+    "query": "I need to know: can I report POSH without revealing my identity?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13149",
+    "query": "Quick question \u2014 can I report POSH without revealing my identity?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13150",
+    "query": "Under Arvind's policy, can I report POSH without revealing my identity?",
+    "keyFacts": [
+      "Anonymous complaints will not be entertained"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Anonymous",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13151",
+    "query": "What happens if someone reveals details of a POSH case?",
+    "keyFacts": [
+      "disciplinary action will be taken",
+      "confidentiality"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13152",
+    "query": "As per Arvind HR policy, what happens if someone reveals details of a POSH case?",
+    "keyFacts": [
+      "disciplinary action will be taken",
+      "confidentiality"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13153",
+    "query": "Please tell me: what happens if someone reveals details of a POSH case?",
+    "keyFacts": [
+      "disciplinary action will be taken",
+      "confidentiality"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13154",
+    "query": "HR query: What happens if someone reveals details of a POSH case?",
+    "keyFacts": [
+      "disciplinary action will be taken",
+      "confidentiality"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13155",
+    "query": "Can you help me understand: what happens if someone reveals details of a POSH case?",
+    "keyFacts": [
+      "disciplinary action will be taken",
+      "confidentiality"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13156",
+    "query": "I need to know: what happens if someone reveals details of a POSH case?",
+    "keyFacts": [
+      "disciplinary action will be taken",
+      "confidentiality"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13157",
+    "query": "Quick question \u2014 what happens if someone reveals details of a POSH case?",
+    "keyFacts": [
+      "disciplinary action will be taken",
+      "confidentiality"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13158",
+    "query": "Under Arvind's policy, what happens if someone reveals details of a POSH case?",
+    "keyFacts": [
+      "disciplinary action will be taken",
+      "confidentiality"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13159",
+    "query": "Is POSH inquiry information kept confidential?",
+    "keyFacts": [
+      "confidential",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13160",
+    "query": "As per Arvind HR policy, is POSH inquiry information kept confidential?",
+    "keyFacts": [
+      "confidential",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13161",
+    "query": "Please tell me: is POSH inquiry information kept confidential?",
+    "keyFacts": [
+      "confidential",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13162",
+    "query": "HR query: Is POSH inquiry information kept confidential?",
+    "keyFacts": [
+      "confidential",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13163",
+    "query": "Can you help me understand: is POSH inquiry information kept confidential?",
+    "keyFacts": [
+      "confidential",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13164",
+    "query": "I need to know: is POSH inquiry information kept confidential?",
+    "keyFacts": [
+      "confidential",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13165",
+    "query": "Quick question \u2014 is POSH inquiry information kept confidential?",
+    "keyFacts": [
+      "confidential",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13166",
+    "query": "Under Arvind's policy, is POSH inquiry information kept confidential?",
+    "keyFacts": [
+      "confidential",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13167",
+    "query": "Can I bring a lawyer to AIC proceedings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13168",
+    "query": "As per Arvind HR policy, can I bring a lawyer to AIC proceedings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13169",
+    "query": "Please tell me: can I bring a lawyer to AIC proceedings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13170",
+    "query": "HR query: Can I bring a lawyer to AIC proceedings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13171",
+    "query": "Can you help me understand: can I bring a lawyer to AIC proceedings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13172",
+    "query": "I need to know: can I bring a lawyer to AIC proceedings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13173",
+    "query": "Quick question \u2014 can I bring a lawyer to AIC proceedings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13174",
+    "query": "Under Arvind's policy, can I bring a lawyer to AIC proceedings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13175",
+    "query": "Is legal representation allowed in POSH inquiry?",
+    "keyFacts": [
+      "not be allowed",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13176",
+    "query": "As per Arvind HR policy, is legal representation allowed in POSH inquiry?",
+    "keyFacts": [
+      "not be allowed",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13177",
+    "query": "Please tell me: is legal representation allowed in POSH inquiry?",
+    "keyFacts": [
+      "not be allowed",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13178",
+    "query": "HR query: Is legal representation allowed in POSH inquiry?",
+    "keyFacts": [
+      "not be allowed",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13179",
+    "query": "Can you help me understand: is legal representation allowed in POSH inquiry?",
+    "keyFacts": [
+      "not be allowed",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13180",
+    "query": "I need to know: is legal representation allowed in POSH inquiry?",
+    "keyFacts": [
+      "not be allowed",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13181",
+    "query": "Quick question \u2014 is legal representation allowed in POSH inquiry?",
+    "keyFacts": [
+      "not be allowed",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13182",
+    "query": "Under Arvind's policy, is legal representation allowed in POSH inquiry?",
+    "keyFacts": [
+      "not be allowed",
+      "legal practitioner"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13183",
+    "query": "Can the respondent hire a lawyer for AIC hearings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13184",
+    "query": "As per Arvind HR policy, can the respondent hire a lawyer for AIC hearings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13185",
+    "query": "Please tell me: can the respondent hire a lawyer for AIC hearings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13186",
+    "query": "HR query: Can the respondent hire a lawyer for AIC hearings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13187",
+    "query": "Can you help me understand: can the respondent hire a lawyer for AIC hearings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13188",
+    "query": "I need to know: can the respondent hire a lawyer for AIC hearings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13189",
+    "query": "Quick question \u2014 can the respondent hire a lawyer for AIC hearings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13190",
+    "query": "Under Arvind's policy, can the respondent hire a lawyer for AIC hearings?",
+    "keyFacts": [
+      "legal practitioner",
+      "not be allowed"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Legal-Representation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13191",
+    "query": "What is the POSH helpline number?",
+    "keyFacts": [
+      "18002008301",
+      "1800 200 8301"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13192",
+    "query": "As per Arvind HR policy, what is the POSH helpline number?",
+    "keyFacts": [
+      "18002008301",
+      "1800 200 8301"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13193",
+    "query": "Please tell me: what is the POSH helpline number?",
+    "keyFacts": [
+      "18002008301",
+      "1800 200 8301"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13194",
+    "query": "HR query: What is the POSH helpline number?",
+    "keyFacts": [
+      "18002008301",
+      "1800 200 8301"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13195",
+    "query": "Can you help me understand: what is the POSH helpline number?",
+    "keyFacts": [
+      "18002008301",
+      "1800 200 8301"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13196",
+    "query": "I need to know: what is the POSH helpline number?",
+    "keyFacts": [
+      "18002008301",
+      "1800 200 8301"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13197",
+    "query": "Quick question \u2014 what is the POSH helpline number?",
+    "keyFacts": [
+      "18002008301",
+      "1800 200 8301"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13198",
+    "query": "Under Arvind's policy, what is the POSH helpline number?",
+    "keyFacts": [
+      "18002008301",
+      "1800 200 8301"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13199",
+    "query": "What is the POSH ethics helpline email?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13200",
+    "query": "As per Arvind HR policy, what is the POSH ethics helpline email?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13201",
+    "query": "Please tell me: what is the POSH ethics helpline email?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13202",
+    "query": "HR query: What is the POSH ethics helpline email?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13203",
+    "query": "Can you help me understand: what is the POSH ethics helpline email?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13204",
+    "query": "I need to know: what is the POSH ethics helpline email?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13205",
+    "query": "Quick question \u2014 what is the POSH ethics helpline email?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13206",
+    "query": "Under Arvind's policy, what is the POSH ethics helpline email?",
+    "keyFacts": [
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13207",
+    "query": "How can I reach the POSH committee?",
+    "keyFacts": [
+      "18002008301",
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13208",
+    "query": "As per Arvind HR policy, how can I reach the POSH committee?",
+    "keyFacts": [
+      "18002008301",
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13209",
+    "query": "Please tell me: how can I reach the POSH committee?",
+    "keyFacts": [
+      "18002008301",
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13210",
+    "query": "HR query: How can I reach the POSH committee?",
+    "keyFacts": [
+      "18002008301",
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13211",
+    "query": "Can you help me understand: how can I reach the POSH committee?",
+    "keyFacts": [
+      "18002008301",
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13212",
+    "query": "I need to know: how can I reach the POSH committee?",
+    "keyFacts": [
+      "18002008301",
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13213",
+    "query": "Quick question \u2014 how can I reach the POSH committee?",
+    "keyFacts": [
+      "18002008301",
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13214",
+    "query": "Under Arvind's policy, how can I reach the POSH committee?",
+    "keyFacts": [
+      "18002008301",
+      "arvind@ethicshelpline.in"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Contact",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13215",
+    "query": "What happens if a POSH complaint is malicious?",
+    "keyFacts": [
+      "allegation was malicious",
+      "disciplinary"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13216",
+    "query": "As per Arvind HR policy, what happens if a POSH complaint is malicious?",
+    "keyFacts": [
+      "allegation was malicious",
+      "disciplinary"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13217",
+    "query": "Please tell me: what happens if a POSH complaint is malicious?",
+    "keyFacts": [
+      "allegation was malicious",
+      "disciplinary"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13218",
+    "query": "HR query: What happens if a POSH complaint is malicious?",
+    "keyFacts": [
+      "allegation was malicious",
+      "disciplinary"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13219",
+    "query": "Can you help me understand: what happens if a POSH complaint is malicious?",
+    "keyFacts": [
+      "allegation was malicious",
+      "disciplinary"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13220",
+    "query": "I need to know: what happens if a POSH complaint is malicious?",
+    "keyFacts": [
+      "allegation was malicious",
+      "disciplinary"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13221",
+    "query": "Quick question \u2014 what happens if a POSH complaint is malicious?",
+    "keyFacts": [
+      "allegation was malicious",
+      "disciplinary"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13222",
+    "query": "Under Arvind's policy, what happens if a POSH complaint is malicious?",
+    "keyFacts": [
+      "allegation was malicious",
+      "disciplinary"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13223",
+    "query": "Can a false POSH complainant be punished?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13224",
+    "query": "As per Arvind HR policy, can a false POSH complainant be punished?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13225",
+    "query": "Please tell me: can a false POSH complainant be punished?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13226",
+    "query": "HR query: Can a false POSH complainant be punished?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13227",
+    "query": "Can you help me understand: can a false POSH complainant be punished?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13228",
+    "query": "I need to know: can a false POSH complainant be punished?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13229",
+    "query": "Quick question \u2014 can a false POSH complainant be punished?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13230",
+    "query": "Under Arvind's policy, can a false POSH complainant be punished?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary action"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13231",
+    "query": "What action is taken against a malicious POSH complaint?",
+    "keyFacts": [
+      "allegation was malicious"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13232",
+    "query": "As per Arvind HR policy, what action is taken against a malicious POSH complaint?",
+    "keyFacts": [
+      "allegation was malicious"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13233",
+    "query": "Please tell me: what action is taken against a malicious POSH complaint?",
+    "keyFacts": [
+      "allegation was malicious"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13234",
+    "query": "HR query: What action is taken against a malicious POSH complaint?",
+    "keyFacts": [
+      "allegation was malicious"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13235",
+    "query": "Can you help me understand: what action is taken against a malicious POSH complaint?",
+    "keyFacts": [
+      "allegation was malicious"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13236",
+    "query": "I need to know: what action is taken against a malicious POSH complaint?",
+    "keyFacts": [
+      "allegation was malicious"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13237",
+    "query": "Quick question \u2014 what action is taken against a malicious POSH complaint?",
+    "keyFacts": [
+      "allegation was malicious"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13238",
+    "query": "Under Arvind's policy, what action is taken against a malicious POSH complaint?",
+    "keyFacts": [
+      "allegation was malicious"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13239",
+    "query": "Are all Arvind employees covered under POSH?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13240",
+    "query": "As per Arvind HR policy, are all Arvind employees covered under POSH?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13241",
+    "query": "Please tell me: are all Arvind employees covered under POSH?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13242",
+    "query": "HR query: Are all Arvind employees covered under POSH?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13243",
+    "query": "Can you help me understand: are all Arvind employees covered under POSH?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13244",
+    "query": "I need to know: are all Arvind employees covered under POSH?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13245",
+    "query": "Quick question \u2014 are all Arvind employees covered under POSH?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13246",
+    "query": "Under Arvind's policy, are all Arvind employees covered under POSH?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13247",
+    "query": "Does POSH apply to contract workers?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13248",
+    "query": "As per Arvind HR policy, does POSH apply to contract workers?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13249",
+    "query": "Please tell me: does POSH apply to contract workers?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13250",
+    "query": "HR query: Does POSH apply to contract workers?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13251",
+    "query": "Can you help me understand: does POSH apply to contract workers?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13252",
+    "query": "I need to know: does POSH apply to contract workers?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13253",
+    "query": "Quick question \u2014 does POSH apply to contract workers?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13254",
+    "query": "Under Arvind's policy, does POSH apply to contract workers?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13255",
+    "query": "Is POSH applicable to visiting consultants?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13256",
+    "query": "As per Arvind HR policy, is POSH applicable to visiting consultants?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13257",
+    "query": "Please tell me: is POSH applicable to visiting consultants?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13258",
+    "query": "HR query: Is POSH applicable to visiting consultants?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13259",
+    "query": "Can you help me understand: is POSH applicable to visiting consultants?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13260",
+    "query": "I need to know: is POSH applicable to visiting consultants?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13261",
+    "query": "Quick question \u2014 is POSH applicable to visiting consultants?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_13262",
+    "query": "Under Arvind's policy, is POSH applicable to visiting consultants?",
+    "keyFacts": [
+      "All persons employed at Arvind"
+    ],
+    "source": "POSH Policy (Prevention of Sexual Harassment)",
+    "category": "Applicability",
+    "query_type": "Expanded",
+    "tier": 4
+  }
+]

@@ -1,0 +1,4226 @@
+[
+  {
+    "id": "EXP_12447",
+    "query": "Is my identity protected if I report via the ethics helpline?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12448",
+    "query": "As per Arvind HR policy, is my identity protected if I report via the ethics helpline?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12449",
+    "query": "Please tell me: is my identity protected if I report via the ethics helpline?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12450",
+    "query": "HR query: Is my identity protected if I report via the ethics helpline?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12451",
+    "query": "Can you help me understand: is my identity protected if I report via the ethics helpline?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12452",
+    "query": "I need to know: is my identity protected if I report via the ethics helpline?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12453",
+    "query": "Quick question \u2014 is my identity protected if I report via the ethics helpline?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12454",
+    "query": "Under Arvind's policy, is my identity protected if I report via the ethics helpline?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12455",
+    "query": "Will the company reveal who filed a whistleblower complaint?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12456",
+    "query": "As per Arvind HR policy, will the company reveal who filed a whistleblower complaint?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12457",
+    "query": "Please tell me: will the company reveal who filed a whistleblower complaint?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12458",
+    "query": "HR query: Will the company reveal who filed a whistleblower complaint?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12459",
+    "query": "Can you help me understand: will the company reveal who filed a whistleblower complaint?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12460",
+    "query": "I need to know: will the company reveal who filed a whistleblower complaint?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12461",
+    "query": "Quick question \u2014 will the company reveal who filed a whistleblower complaint?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12462",
+    "query": "Under Arvind's policy, will the company reveal who filed a whistleblower complaint?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12463",
+    "query": "What confidentiality protection exists for whistleblowers?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12464",
+    "query": "As per Arvind HR policy, what confidentiality protection exists for whistleblowers?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12465",
+    "query": "Please tell me: what confidentiality protection exists for whistleblowers?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12466",
+    "query": "HR query: What confidentiality protection exists for whistleblowers?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12467",
+    "query": "Can you help me understand: what confidentiality protection exists for whistleblowers?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12468",
+    "query": "I need to know: what confidentiality protection exists for whistleblowers?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12469",
+    "query": "Quick question \u2014 what confidentiality protection exists for whistleblowers?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12470",
+    "query": "Under Arvind's policy, what confidentiality protection exists for whistleblowers?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12471",
+    "query": "Can the respondent find out who made the complaint?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12472",
+    "query": "As per Arvind HR policy, can the respondent find out who made the complaint?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12473",
+    "query": "Please tell me: can the respondent find out who made the complaint?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12474",
+    "query": "HR query: Can the respondent find out who made the complaint?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12475",
+    "query": "Can you help me understand: can the respondent find out who made the complaint?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12476",
+    "query": "I need to know: can the respondent find out who made the complaint?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12477",
+    "query": "Quick question \u2014 can the respondent find out who made the complaint?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12478",
+    "query": "Under Arvind's policy, can the respondent find out who made the complaint?",
+    "keyFacts": [
+      "confidential",
+      "identity"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12479",
+    "query": "Is the whistleblower's identity kept secret throughout the investigation?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12480",
+    "query": "As per Arvind HR policy, is the whistleblower's identity kept secret throughout the investigation?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12481",
+    "query": "Please tell me: is the whistleblower's identity kept secret throughout the investigation?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12482",
+    "query": "HR query: Is the whistleblower's identity kept secret throughout the investigation?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12483",
+    "query": "Can you help me understand: is the whistleblower's identity kept secret throughout the investigation?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12484",
+    "query": "I need to know: is the whistleblower's identity kept secret throughout the investigation?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12485",
+    "query": "Quick question \u2014 is the whistleblower's identity kept secret throughout the investigation?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12486",
+    "query": "Under Arvind's policy, is the whistleblower's identity kept secret throughout the investigation?",
+    "keyFacts": [
+      "confidential"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Confidentiality",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12487",
+    "query": "What protection does a whistleblower have against retaliation?",
+    "keyFacts": [
+      "adverse personnel action",
+      "protected disclosure"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12488",
+    "query": "As per Arvind HR policy, what protection does a whistleblower have against retaliation?",
+    "keyFacts": [
+      "adverse personnel action",
+      "protected disclosure"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12489",
+    "query": "Please tell me: what protection does a whistleblower have against retaliation?",
+    "keyFacts": [
+      "adverse personnel action",
+      "protected disclosure"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12490",
+    "query": "HR query: What protection does a whistleblower have against retaliation?",
+    "keyFacts": [
+      "adverse personnel action",
+      "protected disclosure"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12491",
+    "query": "Can you help me understand: what protection does a whistleblower have against retaliation?",
+    "keyFacts": [
+      "adverse personnel action",
+      "protected disclosure"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12492",
+    "query": "I need to know: what protection does a whistleblower have against retaliation?",
+    "keyFacts": [
+      "adverse personnel action",
+      "protected disclosure"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12493",
+    "query": "Quick question \u2014 what protection does a whistleblower have against retaliation?",
+    "keyFacts": [
+      "adverse personnel action",
+      "protected disclosure"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12494",
+    "query": "Under Arvind's policy, what protection does a whistleblower have against retaliation?",
+    "keyFacts": [
+      "adverse personnel action",
+      "protected disclosure"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12495",
+    "query": "Can I be fired for filing a whistleblower complaint?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12496",
+    "query": "As per Arvind HR policy, can I be fired for filing a whistleblower complaint?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12497",
+    "query": "Please tell me: can I be fired for filing a whistleblower complaint?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12498",
+    "query": "HR query: Can I be fired for filing a whistleblower complaint?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12499",
+    "query": "Can you help me understand: can I be fired for filing a whistleblower complaint?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12500",
+    "query": "I need to know: can I be fired for filing a whistleblower complaint?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12501",
+    "query": "Quick question \u2014 can I be fired for filing a whistleblower complaint?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12502",
+    "query": "Under Arvind's policy, can I be fired for filing a whistleblower complaint?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12503",
+    "query": "Does the policy protect whistleblowers from demotion?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12504",
+    "query": "As per Arvind HR policy, does the policy protect whistleblowers from demotion?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12505",
+    "query": "Please tell me: does the policy protect whistleblowers from demotion?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12506",
+    "query": "HR query: Does the policy protect whistleblowers from demotion?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12507",
+    "query": "Can you help me understand: does the policy protect whistleblowers from demotion?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12508",
+    "query": "I need to know: does the policy protect whistleblowers from demotion?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12509",
+    "query": "Quick question \u2014 does the policy protect whistleblowers from demotion?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12510",
+    "query": "Under Arvind's policy, does the policy protect whistleblowers from demotion?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12511",
+    "query": "What is the non-victimization clause in the whistleblower policy?",
+    "keyFacts": [
+      "adverse personnel action",
+      "victimization"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12512",
+    "query": "As per Arvind HR policy, what is the non-victimization clause in the whistleblower policy?",
+    "keyFacts": [
+      "adverse personnel action",
+      "victimization"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12513",
+    "query": "Please tell me: what is the non-victimization clause in the whistleblower policy?",
+    "keyFacts": [
+      "adverse personnel action",
+      "victimization"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12514",
+    "query": "HR query: What is the non-victimization clause in the whistleblower policy?",
+    "keyFacts": [
+      "adverse personnel action",
+      "victimization"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12515",
+    "query": "Can you help me understand: what is the non-victimization clause in the whistleblower policy?",
+    "keyFacts": [
+      "adverse personnel action",
+      "victimization"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12516",
+    "query": "I need to know: what is the non-victimization clause in the whistleblower policy?",
+    "keyFacts": [
+      "adverse personnel action",
+      "victimization"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12517",
+    "query": "Quick question \u2014 what is the non-victimization clause in the whistleblower policy?",
+    "keyFacts": [
+      "adverse personnel action",
+      "victimization"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12518",
+    "query": "Under Arvind's policy, what is the non-victimization clause in the whistleblower policy?",
+    "keyFacts": [
+      "adverse personnel action",
+      "victimization"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12519",
+    "query": "What happens to a manager who retaliates against a whistleblower?",
+    "keyFacts": [
+      "adverse personnel action",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12520",
+    "query": "As per Arvind HR policy, what happens to a manager who retaliates against a whistleblower?",
+    "keyFacts": [
+      "adverse personnel action",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12521",
+    "query": "Please tell me: what happens to a manager who retaliates against a whistleblower?",
+    "keyFacts": [
+      "adverse personnel action",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12522",
+    "query": "HR query: What happens to a manager who retaliates against a whistleblower?",
+    "keyFacts": [
+      "adverse personnel action",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12523",
+    "query": "Can you help me understand: what happens to a manager who retaliates against a whistleblower?",
+    "keyFacts": [
+      "adverse personnel action",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12524",
+    "query": "I need to know: what happens to a manager who retaliates against a whistleblower?",
+    "keyFacts": [
+      "adverse personnel action",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12525",
+    "query": "Quick question \u2014 what happens to a manager who retaliates against a whistleblower?",
+    "keyFacts": [
+      "adverse personnel action",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12526",
+    "query": "Under Arvind's policy, what happens to a manager who retaliates against a whistleblower?",
+    "keyFacts": [
+      "adverse personnel action",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Protection",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12527",
+    "query": "What can I do if I face retaliation after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "retaliation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12528",
+    "query": "As per Arvind HR policy, what can I do if I face retaliation after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "retaliation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12529",
+    "query": "Please tell me: what can I do if I face retaliation after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "retaliation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12530",
+    "query": "HR query: What can I do if I face retaliation after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "retaliation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12531",
+    "query": "Can you help me understand: what can I do if I face retaliation after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "retaliation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12532",
+    "query": "I need to know: what can I do if I face retaliation after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "retaliation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12533",
+    "query": "Quick question \u2014 what can I do if I face retaliation after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "retaliation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12534",
+    "query": "Under Arvind's policy, what can I do if I face retaliation after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "retaliation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12535",
+    "query": "Who do I approach if I'm victimized after filing a complaint?",
+    "keyFacts": [
+      "Chairman",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12536",
+    "query": "As per Arvind HR policy, who do I approach if I'm victimized after filing a complaint?",
+    "keyFacts": [
+      "Chairman",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12537",
+    "query": "Please tell me: who do I approach if I'm victimized after filing a complaint?",
+    "keyFacts": [
+      "Chairman",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12538",
+    "query": "HR query: Who do I approach if I'm victimized after filing a complaint?",
+    "keyFacts": [
+      "Chairman",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12539",
+    "query": "Can you help me understand: who do I approach if I'm victimized after filing a complaint?",
+    "keyFacts": [
+      "Chairman",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12540",
+    "query": "I need to know: who do I approach if I'm victimized after filing a complaint?",
+    "keyFacts": [
+      "Chairman",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12541",
+    "query": "Quick question \u2014 who do I approach if I'm victimized after filing a complaint?",
+    "keyFacts": [
+      "Chairman",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12542",
+    "query": "Under Arvind's policy, who do I approach if I'm victimized after filing a complaint?",
+    "keyFacts": [
+      "Chairman",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12543",
+    "query": "What recourse do I have if my manager takes adverse action after I report?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12544",
+    "query": "As per Arvind HR policy, what recourse do I have if my manager takes adverse action after I report?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12545",
+    "query": "Please tell me: what recourse do I have if my manager takes adverse action after I report?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12546",
+    "query": "HR query: What recourse do I have if my manager takes adverse action after I report?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12547",
+    "query": "Can you help me understand: what recourse do I have if my manager takes adverse action after I report?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12548",
+    "query": "I need to know: what recourse do I have if my manager takes adverse action after I report?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12549",
+    "query": "Quick question \u2014 what recourse do I have if my manager takes adverse action after I report?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12550",
+    "query": "Under Arvind's policy, what recourse do I have if my manager takes adverse action after I report?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12551",
+    "query": "How does Arvind protect me from victimization after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12552",
+    "query": "As per Arvind HR policy, how does Arvind protect me from victimization after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12553",
+    "query": "Please tell me: how does Arvind protect me from victimization after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12554",
+    "query": "HR query: How does Arvind protect me from victimization after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12555",
+    "query": "Can you help me understand: how does Arvind protect me from victimization after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12556",
+    "query": "I need to know: how does Arvind protect me from victimization after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12557",
+    "query": "Quick question \u2014 how does Arvind protect me from victimization after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12558",
+    "query": "Under Arvind's policy, how does Arvind protect me from victimization after whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12559",
+    "query": "Can I escalate if I face career consequences for whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "Chairman"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12560",
+    "query": "As per Arvind HR policy, can I escalate if I face career consequences for whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "Chairman"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12561",
+    "query": "Please tell me: can I escalate if I face career consequences for whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "Chairman"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12562",
+    "query": "HR query: Can I escalate if I face career consequences for whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "Chairman"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12563",
+    "query": "Can you help me understand: can I escalate if I face career consequences for whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "Chairman"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12564",
+    "query": "I need to know: can I escalate if I face career consequences for whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "Chairman"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12565",
+    "query": "Quick question \u2014 can I escalate if I face career consequences for whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "Chairman"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12566",
+    "query": "Under Arvind's policy, can I escalate if I face career consequences for whistleblowing?",
+    "keyFacts": [
+      "adverse personnel action",
+      "Chairman"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Retaliation-Recourse",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12567",
+    "query": "What happens if a whistleblower complaint is found to be false?",
+    "keyFacts": [
+      "false",
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12568",
+    "query": "As per Arvind HR policy, what happens if a whistleblower complaint is found to be false?",
+    "keyFacts": [
+      "false",
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12569",
+    "query": "Please tell me: what happens if a whistleblower complaint is found to be false?",
+    "keyFacts": [
+      "false",
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12570",
+    "query": "HR query: What happens if a whistleblower complaint is found to be false?",
+    "keyFacts": [
+      "false",
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12571",
+    "query": "Can you help me understand: what happens if a whistleblower complaint is found to be false?",
+    "keyFacts": [
+      "false",
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12572",
+    "query": "I need to know: what happens if a whistleblower complaint is found to be false?",
+    "keyFacts": [
+      "false",
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12573",
+    "query": "Quick question \u2014 what happens if a whistleblower complaint is found to be false?",
+    "keyFacts": [
+      "false",
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12574",
+    "query": "Under Arvind's policy, what happens if a whistleblower complaint is found to be false?",
+    "keyFacts": [
+      "false",
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12575",
+    "query": "Can I be penalised for making a wrong whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12576",
+    "query": "As per Arvind HR policy, can I be penalised for making a wrong whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12577",
+    "query": "Please tell me: can I be penalised for making a wrong whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12578",
+    "query": "HR query: Can I be penalised for making a wrong whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12579",
+    "query": "Can you help me understand: can I be penalised for making a wrong whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12580",
+    "query": "I need to know: can I be penalised for making a wrong whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12581",
+    "query": "Quick question \u2014 can I be penalised for making a wrong whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12582",
+    "query": "Under Arvind's policy, can I be penalised for making a wrong whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12583",
+    "query": "What is the consequence of a frivolous whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12584",
+    "query": "As per Arvind HR policy, what is the consequence of a frivolous whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12585",
+    "query": "Please tell me: what is the consequence of a frivolous whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12586",
+    "query": "HR query: What is the consequence of a frivolous whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12587",
+    "query": "Can you help me understand: what is the consequence of a frivolous whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12588",
+    "query": "I need to know: what is the consequence of a frivolous whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12589",
+    "query": "Quick question \u2014 what is the consequence of a frivolous whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12590",
+    "query": "Under Arvind's policy, what is the consequence of a frivolous whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12591",
+    "query": "Is there a penalty for filing a fake ethics complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12592",
+    "query": "As per Arvind HR policy, is there a penalty for filing a fake ethics complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12593",
+    "query": "Please tell me: is there a penalty for filing a fake ethics complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12594",
+    "query": "HR query: Is there a penalty for filing a fake ethics complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12595",
+    "query": "Can you help me understand: is there a penalty for filing a fake ethics complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12596",
+    "query": "I need to know: is there a penalty for filing a fake ethics complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12597",
+    "query": "Quick question \u2014 is there a penalty for filing a fake ethics complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12598",
+    "query": "Under Arvind's policy, is there a penalty for filing a fake ethics complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12599",
+    "query": "What if I accidentally file an incorrect whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12600",
+    "query": "As per Arvind HR policy, what if I accidentally file an incorrect whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12601",
+    "query": "Please tell me: what if I accidentally file an incorrect whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12602",
+    "query": "HR query: What if I accidentally file an incorrect whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12603",
+    "query": "Can you help me understand: what if I accidentally file an incorrect whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12604",
+    "query": "I need to know: what if I accidentally file an incorrect whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12605",
+    "query": "Quick question \u2014 what if I accidentally file an incorrect whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12606",
+    "query": "Under Arvind's policy, what if I accidentally file an incorrect whistleblower complaint?",
+    "keyFacts": [
+      "malicious",
+      "disciplinary"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "False-Complaints",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12607",
+    "query": "How often does the whistleblower committee report its findings?",
+    "keyFacts": [
+      "quarterly",
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12608",
+    "query": "As per Arvind HR policy, how often does the whistleblower committee report its findings?",
+    "keyFacts": [
+      "quarterly",
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12609",
+    "query": "Please tell me: how often does the whistleblower committee report its findings?",
+    "keyFacts": [
+      "quarterly",
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12610",
+    "query": "HR query: How often does the whistleblower committee report its findings?",
+    "keyFacts": [
+      "quarterly",
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12611",
+    "query": "Can you help me understand: how often does the whistleblower committee report its findings?",
+    "keyFacts": [
+      "quarterly",
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12612",
+    "query": "I need to know: how often does the whistleblower committee report its findings?",
+    "keyFacts": [
+      "quarterly",
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12613",
+    "query": "Quick question \u2014 how often does the whistleblower committee report its findings?",
+    "keyFacts": [
+      "quarterly",
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12614",
+    "query": "Under Arvind's policy, how often does the whistleblower committee report its findings?",
+    "keyFacts": [
+      "quarterly",
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12615",
+    "query": "What is the reporting frequency for whistleblower cases?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12616",
+    "query": "As per Arvind HR policy, what is the reporting frequency for whistleblower cases?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12617",
+    "query": "Please tell me: what is the reporting frequency for whistleblower cases?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12618",
+    "query": "HR query: What is the reporting frequency for whistleblower cases?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12619",
+    "query": "Can you help me understand: what is the reporting frequency for whistleblower cases?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12620",
+    "query": "I need to know: what is the reporting frequency for whistleblower cases?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12621",
+    "query": "Quick question \u2014 what is the reporting frequency for whistleblower cases?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12622",
+    "query": "Under Arvind's policy, what is the reporting frequency for whistleblower cases?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12623",
+    "query": "How frequently is the ethics committee report shared?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12624",
+    "query": "As per Arvind HR policy, how frequently is the ethics committee report shared?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12625",
+    "query": "Please tell me: how frequently is the ethics committee report shared?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12626",
+    "query": "HR query: How frequently is the ethics committee report shared?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12627",
+    "query": "Can you help me understand: how frequently is the ethics committee report shared?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12628",
+    "query": "I need to know: how frequently is the ethics committee report shared?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12629",
+    "query": "Quick question \u2014 how frequently is the ethics committee report shared?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12630",
+    "query": "Under Arvind's policy, how frequently is the ethics committee report shared?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12631",
+    "query": "Does the whistleblower committee report annually or quarterly?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12632",
+    "query": "As per Arvind HR policy, does the whistleblower committee report annually or quarterly?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12633",
+    "query": "Please tell me: does the whistleblower committee report annually or quarterly?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12634",
+    "query": "HR query: Does the whistleblower committee report annually or quarterly?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12635",
+    "query": "Can you help me understand: does the whistleblower committee report annually or quarterly?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12636",
+    "query": "I need to know: does the whistleblower committee report annually or quarterly?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12637",
+    "query": "Quick question \u2014 does the whistleblower committee report annually or quarterly?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12638",
+    "query": "Under Arvind's policy, does the whistleblower committee report annually or quarterly?",
+    "keyFacts": [
+      "quarterly"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12639",
+    "query": "When is the whistleblower activity report submitted?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12640",
+    "query": "As per Arvind HR policy, when is the whistleblower activity report submitted?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12641",
+    "query": "Please tell me: when is the whistleblower activity report submitted?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12642",
+    "query": "HR query: When is the whistleblower activity report submitted?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12643",
+    "query": "Can you help me understand: when is the whistleblower activity report submitted?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12644",
+    "query": "I need to know: when is the whistleblower activity report submitted?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12645",
+    "query": "Quick question \u2014 when is the whistleblower activity report submitted?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12646",
+    "query": "Under Arvind's policy, when is the whistleblower activity report submitted?",
+    "keyFacts": [
+      "quarterly report"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Reporting-Frequency",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12647",
+    "query": "Who investigates a whistleblower complaint?",
+    "keyFacts": [
+      "independent",
+      "investigation",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12648",
+    "query": "As per Arvind HR policy, who investigates a whistleblower complaint?",
+    "keyFacts": [
+      "independent",
+      "investigation",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12649",
+    "query": "Please tell me: who investigates a whistleblower complaint?",
+    "keyFacts": [
+      "independent",
+      "investigation",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12650",
+    "query": "HR query: Who investigates a whistleblower complaint?",
+    "keyFacts": [
+      "independent",
+      "investigation",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12651",
+    "query": "Can you help me understand: who investigates a whistleblower complaint?",
+    "keyFacts": [
+      "independent",
+      "investigation",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12652",
+    "query": "I need to know: who investigates a whistleblower complaint?",
+    "keyFacts": [
+      "independent",
+      "investigation",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12653",
+    "query": "Quick question \u2014 who investigates a whistleblower complaint?",
+    "keyFacts": [
+      "independent",
+      "investigation",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12654",
+    "query": "Under Arvind's policy, who investigates a whistleblower complaint?",
+    "keyFacts": [
+      "independent",
+      "investigation",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12655",
+    "query": "What is the investigation process for whistleblower reports?",
+    "keyFacts": [
+      "independent",
+      "investigate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12656",
+    "query": "As per Arvind HR policy, what is the investigation process for whistleblower reports?",
+    "keyFacts": [
+      "independent",
+      "investigate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12657",
+    "query": "Please tell me: what is the investigation process for whistleblower reports?",
+    "keyFacts": [
+      "independent",
+      "investigate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12658",
+    "query": "HR query: What is the investigation process for whistleblower reports?",
+    "keyFacts": [
+      "independent",
+      "investigate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12659",
+    "query": "Can you help me understand: what is the investigation process for whistleblower reports?",
+    "keyFacts": [
+      "independent",
+      "investigate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12660",
+    "query": "I need to know: what is the investigation process for whistleblower reports?",
+    "keyFacts": [
+      "independent",
+      "investigate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12661",
+    "query": "Quick question \u2014 what is the investigation process for whistleblower reports?",
+    "keyFacts": [
+      "independent",
+      "investigate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12662",
+    "query": "Under Arvind's policy, what is the investigation process for whistleblower reports?",
+    "keyFacts": [
+      "independent",
+      "investigate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12663",
+    "query": "How long does a whistleblower investigation take?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12664",
+    "query": "As per Arvind HR policy, how long does a whistleblower investigation take?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12665",
+    "query": "Please tell me: how long does a whistleblower investigation take?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12666",
+    "query": "HR query: How long does a whistleblower investigation take?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12667",
+    "query": "Can you help me understand: how long does a whistleblower investigation take?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12668",
+    "query": "I need to know: how long does a whistleblower investigation take?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12669",
+    "query": "Quick question \u2014 how long does a whistleblower investigation take?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12670",
+    "query": "Under Arvind's policy, how long does a whistleblower investigation take?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12671",
+    "query": "Who conducts the investigation on ethics complaints?",
+    "keyFacts": [
+      "independent",
+      "investigation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12672",
+    "query": "As per Arvind HR policy, who conducts the investigation on ethics complaints?",
+    "keyFacts": [
+      "independent",
+      "investigation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12673",
+    "query": "Please tell me: who conducts the investigation on ethics complaints?",
+    "keyFacts": [
+      "independent",
+      "investigation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12674",
+    "query": "HR query: Who conducts the investigation on ethics complaints?",
+    "keyFacts": [
+      "independent",
+      "investigation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12675",
+    "query": "Can you help me understand: who conducts the investigation on ethics complaints?",
+    "keyFacts": [
+      "independent",
+      "investigation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12676",
+    "query": "I need to know: who conducts the investigation on ethics complaints?",
+    "keyFacts": [
+      "independent",
+      "investigation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12677",
+    "query": "Quick question \u2014 who conducts the investigation on ethics complaints?",
+    "keyFacts": [
+      "independent",
+      "investigation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12678",
+    "query": "Under Arvind's policy, who conducts the investigation on ethics complaints?",
+    "keyFacts": [
+      "independent",
+      "investigation"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12679",
+    "query": "What is the timeline for whistleblower investigation at Arvind?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12680",
+    "query": "As per Arvind HR policy, what is the timeline for whistleblower investigation at Arvind?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12681",
+    "query": "Please tell me: what is the timeline for whistleblower investigation at Arvind?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12682",
+    "query": "HR query: What is the timeline for whistleblower investigation at Arvind?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12683",
+    "query": "Can you help me understand: what is the timeline for whistleblower investigation at Arvind?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12684",
+    "query": "I need to know: what is the timeline for whistleblower investigation at Arvind?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12685",
+    "query": "Quick question \u2014 what is the timeline for whistleblower investigation at Arvind?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12686",
+    "query": "Under Arvind's policy, what is the timeline for whistleblower investigation at Arvind?",
+    "keyFacts": [
+      "investigate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Investigation",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12687",
+    "query": "Can I follow up on my whistleblower complaint status?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12688",
+    "query": "As per Arvind HR policy, can I follow up on my whistleblower complaint status?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12689",
+    "query": "Please tell me: can I follow up on my whistleblower complaint status?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12690",
+    "query": "HR query: Can I follow up on my whistleblower complaint status?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12691",
+    "query": "Can you help me understand: can I follow up on my whistleblower complaint status?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12692",
+    "query": "I need to know: can I follow up on my whistleblower complaint status?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12693",
+    "query": "Quick question \u2014 can I follow up on my whistleblower complaint status?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12694",
+    "query": "Under Arvind's policy, can I follow up on my whistleblower complaint status?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12695",
+    "query": "How do I track my ethics complaint after submission?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12696",
+    "query": "As per Arvind HR policy, how do I track my ethics complaint after submission?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12697",
+    "query": "Please tell me: how do I track my ethics complaint after submission?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12698",
+    "query": "HR query: How do I track my ethics complaint after submission?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12699",
+    "query": "Can you help me understand: how do I track my ethics complaint after submission?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12700",
+    "query": "I need to know: how do I track my ethics complaint after submission?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12701",
+    "query": "Quick question \u2014 how do I track my ethics complaint after submission?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12702",
+    "query": "Under Arvind's policy, how do I track my ethics complaint after submission?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12703",
+    "query": "Will I be informed of the outcome of my whistleblower complaint?",
+    "keyFacts": [
+      "follow up",
+      "informed"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12704",
+    "query": "As per Arvind HR policy, will I be informed of the outcome of my whistleblower complaint?",
+    "keyFacts": [
+      "follow up",
+      "informed"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12705",
+    "query": "Please tell me: will I be informed of the outcome of my whistleblower complaint?",
+    "keyFacts": [
+      "follow up",
+      "informed"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12706",
+    "query": "HR query: Will I be informed of the outcome of my whistleblower complaint?",
+    "keyFacts": [
+      "follow up",
+      "informed"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12707",
+    "query": "Can you help me understand: will I be informed of the outcome of my whistleblower complaint?",
+    "keyFacts": [
+      "follow up",
+      "informed"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12708",
+    "query": "I need to know: will I be informed of the outcome of my whistleblower complaint?",
+    "keyFacts": [
+      "follow up",
+      "informed"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12709",
+    "query": "Quick question \u2014 will I be informed of the outcome of my whistleblower complaint?",
+    "keyFacts": [
+      "follow up",
+      "informed"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12710",
+    "query": "Under Arvind's policy, will I be informed of the outcome of my whistleblower complaint?",
+    "keyFacts": [
+      "follow up",
+      "informed"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12711",
+    "query": "What is the feedback mechanism for whistleblower reports?",
+    "keyFacts": [
+      "follow up"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12712",
+    "query": "As per Arvind HR policy, what is the feedback mechanism for whistleblower reports?",
+    "keyFacts": [
+      "follow up"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12713",
+    "query": "Please tell me: what is the feedback mechanism for whistleblower reports?",
+    "keyFacts": [
+      "follow up"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12714",
+    "query": "HR query: What is the feedback mechanism for whistleblower reports?",
+    "keyFacts": [
+      "follow up"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12715",
+    "query": "Can you help me understand: what is the feedback mechanism for whistleblower reports?",
+    "keyFacts": [
+      "follow up"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12716",
+    "query": "I need to know: what is the feedback mechanism for whistleblower reports?",
+    "keyFacts": [
+      "follow up"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12717",
+    "query": "Quick question \u2014 what is the feedback mechanism for whistleblower reports?",
+    "keyFacts": [
+      "follow up"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12718",
+    "query": "Under Arvind's policy, what is the feedback mechanism for whistleblower reports?",
+    "keyFacts": [
+      "follow up"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12719",
+    "query": "Does Arvind provide updates on whistleblower complaint progress?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12720",
+    "query": "As per Arvind HR policy, does Arvind provide updates on whistleblower complaint progress?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12721",
+    "query": "Please tell me: does Arvind provide updates on whistleblower complaint progress?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12722",
+    "query": "HR query: Does Arvind provide updates on whistleblower complaint progress?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12723",
+    "query": "Can you help me understand: does Arvind provide updates on whistleblower complaint progress?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12724",
+    "query": "I need to know: does Arvind provide updates on whistleblower complaint progress?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12725",
+    "query": "Quick question \u2014 does Arvind provide updates on whistleblower complaint progress?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12726",
+    "query": "Under Arvind's policy, does Arvind provide updates on whistleblower complaint progress?",
+    "keyFacts": [
+      "follow up",
+      "status"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Follow-up",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12727",
+    "query": "Who is responsible for whistleblower policy implementation?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12728",
+    "query": "As per Arvind HR policy, who is responsible for whistleblower policy implementation?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12729",
+    "query": "Please tell me: who is responsible for whistleblower policy implementation?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12730",
+    "query": "HR query: Who is responsible for whistleblower policy implementation?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12731",
+    "query": "Can you help me understand: who is responsible for whistleblower policy implementation?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12732",
+    "query": "I need to know: who is responsible for whistleblower policy implementation?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12733",
+    "query": "Quick question \u2014 who is responsible for whistleblower policy implementation?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12734",
+    "query": "Under Arvind's policy, who is responsible for whistleblower policy implementation?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12735",
+    "query": "What are the responsibilities of managers under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12736",
+    "query": "As per Arvind HR policy, what are the responsibilities of managers under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12737",
+    "query": "Please tell me: what are the responsibilities of managers under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12738",
+    "query": "HR query: What are the responsibilities of managers under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12739",
+    "query": "Can you help me understand: what are the responsibilities of managers under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12740",
+    "query": "I need to know: what are the responsibilities of managers under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12741",
+    "query": "Quick question \u2014 what are the responsibilities of managers under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12742",
+    "query": "Under Arvind's policy, what are the responsibilities of managers under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12743",
+    "query": "Is every employee required to cooperate in whistleblower investigations?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12744",
+    "query": "As per Arvind HR policy, is every employee required to cooperate in whistleblower investigations?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12745",
+    "query": "Please tell me: is every employee required to cooperate in whistleblower investigations?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12746",
+    "query": "HR query: Is every employee required to cooperate in whistleblower investigations?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12747",
+    "query": "Can you help me understand: is every employee required to cooperate in whistleblower investigations?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12748",
+    "query": "I need to know: is every employee required to cooperate in whistleblower investigations?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12749",
+    "query": "Quick question \u2014 is every employee required to cooperate in whistleblower investigations?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12750",
+    "query": "Under Arvind's policy, is every employee required to cooperate in whistleblower investigations?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12751",
+    "query": "What is the duty to cooperate under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12752",
+    "query": "As per Arvind HR policy, what is the duty to cooperate under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12753",
+    "query": "Please tell me: what is the duty to cooperate under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12754",
+    "query": "HR query: What is the duty to cooperate under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12755",
+    "query": "Can you help me understand: what is the duty to cooperate under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12756",
+    "query": "I need to know: what is the duty to cooperate under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12757",
+    "query": "Quick question \u2014 what is the duty to cooperate under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12758",
+    "query": "Under Arvind's policy, what is the duty to cooperate under the whistleblower policy?",
+    "keyFacts": [
+      "duty to cooperate"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12759",
+    "query": "What are the obligations of the whistleblower committee?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12760",
+    "query": "As per Arvind HR policy, what are the obligations of the whistleblower committee?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12761",
+    "query": "Please tell me: what are the obligations of the whistleblower committee?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12762",
+    "query": "HR query: What are the obligations of the whistleblower committee?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12763",
+    "query": "Can you help me understand: what are the obligations of the whistleblower committee?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12764",
+    "query": "I need to know: what are the obligations of the whistleblower committee?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12765",
+    "query": "Quick question \u2014 what are the obligations of the whistleblower committee?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12766",
+    "query": "Under Arvind's policy, what are the obligations of the whistleblower committee?",
+    "keyFacts": [
+      "duty to cooperate",
+      "committee"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Responsibilities",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12767",
+    "query": "Can I use whistleblower policy to report sexual harassment?",
+    "keyFacts": [
+      "workplace harassment",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12768",
+    "query": "As per Arvind HR policy, can I use whistleblower policy to report sexual harassment?",
+    "keyFacts": [
+      "workplace harassment",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12769",
+    "query": "Please tell me: can I use whistleblower policy to report sexual harassment?",
+    "keyFacts": [
+      "workplace harassment",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12770",
+    "query": "HR query: Can I use whistleblower policy to report sexual harassment?",
+    "keyFacts": [
+      "workplace harassment",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12771",
+    "query": "Can you help me understand: can I use whistleblower policy to report sexual harassment?",
+    "keyFacts": [
+      "workplace harassment",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12772",
+    "query": "I need to know: can I use whistleblower policy to report sexual harassment?",
+    "keyFacts": [
+      "workplace harassment",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12773",
+    "query": "Quick question \u2014 can I use whistleblower policy to report sexual harassment?",
+    "keyFacts": [
+      "workplace harassment",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12774",
+    "query": "Under Arvind's policy, can I use whistleblower policy to report sexual harassment?",
+    "keyFacts": [
+      "workplace harassment",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12775",
+    "query": "What is the difference between whistleblower and POSH policy?",
+    "keyFacts": [
+      "workplace harassment",
+      "sexual harassment"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12776",
+    "query": "As per Arvind HR policy, what is the difference between whistleblower and POSH policy?",
+    "keyFacts": [
+      "workplace harassment",
+      "sexual harassment"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12777",
+    "query": "Please tell me: what is the difference between whistleblower and POSH policy?",
+    "keyFacts": [
+      "workplace harassment",
+      "sexual harassment"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12778",
+    "query": "HR query: What is the difference between whistleblower and POSH policy?",
+    "keyFacts": [
+      "workplace harassment",
+      "sexual harassment"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12779",
+    "query": "Can you help me understand: what is the difference between whistleblower and POSH policy?",
+    "keyFacts": [
+      "workplace harassment",
+      "sexual harassment"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12780",
+    "query": "I need to know: what is the difference between whistleblower and POSH policy?",
+    "keyFacts": [
+      "workplace harassment",
+      "sexual harassment"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12781",
+    "query": "Quick question \u2014 what is the difference between whistleblower and POSH policy?",
+    "keyFacts": [
+      "workplace harassment",
+      "sexual harassment"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12782",
+    "query": "Under Arvind's policy, what is the difference between whistleblower and POSH policy?",
+    "keyFacts": [
+      "workplace harassment",
+      "sexual harassment"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12783",
+    "query": "Can I report discrimination via the ethics helpline?",
+    "keyFacts": [
+      "discrimination",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12784",
+    "query": "As per Arvind HR policy, can I report discrimination via the ethics helpline?",
+    "keyFacts": [
+      "discrimination",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12785",
+    "query": "Please tell me: can I report discrimination via the ethics helpline?",
+    "keyFacts": [
+      "discrimination",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12786",
+    "query": "HR query: Can I report discrimination via the ethics helpline?",
+    "keyFacts": [
+      "discrimination",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12787",
+    "query": "Can you help me understand: can I report discrimination via the ethics helpline?",
+    "keyFacts": [
+      "discrimination",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12788",
+    "query": "I need to know: can I report discrimination via the ethics helpline?",
+    "keyFacts": [
+      "discrimination",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12789",
+    "query": "Quick question \u2014 can I report discrimination via the ethics helpline?",
+    "keyFacts": [
+      "discrimination",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12790",
+    "query": "Under Arvind's policy, can I report discrimination via the ethics helpline?",
+    "keyFacts": [
+      "discrimination",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12791",
+    "query": "Is financial fraud a reportable concern under whistleblower policy?",
+    "keyFacts": [
+      "false invoicing",
+      "procurement fraud",
+      "bribery"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12792",
+    "query": "As per Arvind HR policy, is financial fraud a reportable concern under whistleblower policy?",
+    "keyFacts": [
+      "false invoicing",
+      "procurement fraud",
+      "bribery"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12793",
+    "query": "Please tell me: is financial fraud a reportable concern under whistleblower policy?",
+    "keyFacts": [
+      "false invoicing",
+      "procurement fraud",
+      "bribery"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12794",
+    "query": "HR query: Is financial fraud a reportable concern under whistleblower policy?",
+    "keyFacts": [
+      "false invoicing",
+      "procurement fraud",
+      "bribery"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12795",
+    "query": "Can you help me understand: is financial fraud a reportable concern under whistleblower policy?",
+    "keyFacts": [
+      "false invoicing",
+      "procurement fraud",
+      "bribery"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12796",
+    "query": "I need to know: is financial fraud a reportable concern under whistleblower policy?",
+    "keyFacts": [
+      "false invoicing",
+      "procurement fraud",
+      "bribery"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12797",
+    "query": "Quick question \u2014 is financial fraud a reportable concern under whistleblower policy?",
+    "keyFacts": [
+      "false invoicing",
+      "procurement fraud",
+      "bribery"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12798",
+    "query": "Under Arvind's policy, is financial fraud a reportable concern under whistleblower policy?",
+    "keyFacts": [
+      "false invoicing",
+      "procurement fraud",
+      "bribery"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12799",
+    "query": "Can I report my manager for favouritism using whistleblower policy?",
+    "keyFacts": [
+      "discrimination and favouritism",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12800",
+    "query": "As per Arvind HR policy, can I report my manager for favouritism using whistleblower policy?",
+    "keyFacts": [
+      "discrimination and favouritism",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12801",
+    "query": "Please tell me: can I report my manager for favouritism using whistleblower policy?",
+    "keyFacts": [
+      "discrimination and favouritism",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12802",
+    "query": "HR query: Can I report my manager for favouritism using whistleblower policy?",
+    "keyFacts": [
+      "discrimination and favouritism",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12803",
+    "query": "Can you help me understand: can I report my manager for favouritism using whistleblower policy?",
+    "keyFacts": [
+      "discrimination and favouritism",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12804",
+    "query": "I need to know: can I report my manager for favouritism using whistleblower policy?",
+    "keyFacts": [
+      "discrimination and favouritism",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12805",
+    "query": "Quick question \u2014 can I report my manager for favouritism using whistleblower policy?",
+    "keyFacts": [
+      "discrimination and favouritism",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  },
+  {
+    "id": "EXP_12806",
+    "query": "Under Arvind's policy, can I report my manager for favouritism using whistleblower policy?",
+    "keyFacts": [
+      "discrimination and favouritism",
+      "reportable"
+    ],
+    "source": "Whistleblower Policy",
+    "category": "Cross-Scope",
+    "query_type": "Expanded",
+    "tier": 4
+  }
+]
