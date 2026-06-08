@@ -73,9 +73,22 @@ def run_benchmark(path: str, label: str, logic: str = "any") -> dict:
     failures   = []
     t0 = time.time()
 
+    # Pre-build per-policy chunk index for policy-agent mode
+    all_chunks = hybrid_rag._retriever._chunks
+    policy_chunk_map: dict = {}
+    for c in all_chunks:
+        pn = c.get("policy_name", "")
+        policy_chunk_map.setdefault(pn, []).append(c)
+
     for i, case in enumerate(cases):
-        chunks = hybrid_rag.retrieve(case["query"], n_results=TOP_K)
         kf, pol, fmt = get_kf_pol(case)
+
+        # Policy-agent mode: if question has a policy tag, use ALL chunks from
+        # that policy (mirrors the multi-agent backend). Falls back to hybrid.
+        if pol and pol != "?" and pol in policy_chunk_map:
+            chunks = policy_chunk_map[pol]
+        else:
+            chunks = hybrid_rag.retrieve(case["query"], n_results=TOP_K)
 
         # For semantic holdout with mixed formats, respect original format
         if logic == "auto":
