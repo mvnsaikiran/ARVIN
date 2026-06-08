@@ -4,7 +4,6 @@ vectorstore/
 __pycache__/
 *.pyc
 .DS_Store
-policies/
 node_modules/
 frontend/
 public/
