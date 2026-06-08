@@ -258,6 +258,22 @@ def ensure_rag():
         print(f"[RAG] ChromaDB collection count: {count}", flush=True)
         _rag_ready = True
 
+
+def get_policy_agent_chunks(policy_name: str, query: str) -> list[dict]:
+    """
+    Policy Agent mode: return ALL chunks for the detected policy, ranked by
+    query-token overlap. Gives the LLM complete policy context instead of
+    the global top-K, which cuts cross-policy noise and prevents missed clauses.
+    """
+    from hybrid_rag import _retriever
+    from rag import rerank_chunks_for_query
+    _retriever._ensure_loaded()
+    policy_chunks = [c for c in _retriever._chunks if c.get("policy_name") == policy_name]
+    if not policy_chunks:
+        return []
+    return rerank_chunks_for_query(policy_chunks, query)
+
+
 # ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.get("/api/health")
@@ -337,18 +353,26 @@ def rag_generate(req: GenerateRequest):
         query = extract_query(req.contents)
         history = req.contents[:-1]
 
-        # Hybrid retrieval
-        chunks = retrieve(query)
+        from hybrid_rag import _detect_policy
+        detected = _detect_policy(query)
 
-        # Guardrail: out-of-scope queries return fallback without touching Gemini
-        if is_low_confidence(query, chunks):
-            return {"text": _OUT_OF_SCOPE_MSG}
+        if detected:
+            chunks = get_policy_agent_chunks(detected, query)
+            if not chunks:
+                chunks = retrieve(query)
+                chunks = rerank_chunks_for_query(chunks, query)
+        else:
+            chunks = retrieve(query)
+            if is_low_confidence(query, chunks):
+                return {"text": _OUT_OF_SCOPE_MSG}
+            chunks = rerank_chunks_for_query(chunks, query)
 
-        chunks = rerank_chunks_for_query(chunks, query)
         context = build_context_block(chunks)
         user_message = build_user_message(query, context, history)
 
-        answer = call_groq(ARVIN_SYSTEM_PROMPT, user_message)
+        policy_addendum = POLICY_CONFIG.get(detected, "") if detected else ""
+        system_prompt = ARVIN_SYSTEM_PROMPT + (f"\n\n{policy_addendum}" if policy_addendum else "")
+        answer = call_groq(system_prompt, user_message)
         return {"text": answer}
 
     except HTTPException:
@@ -381,28 +405,36 @@ def chat(req: ChatRequest):
                 "suggestedQuestions": [],
             }
 
-        # Hybrid retrieval
-        chunks = retrieve(query)
+        from hybrid_rag import _detect_policy
+        detected = _detect_policy(query)
 
-        # Out-of-scope guardrail
-        if is_low_confidence(query, chunks):
-            return {
-                "text": _OUT_OF_SCOPE_MSG,
-                "type": "general",
-                "suggestedQuestions": [
-                    "What is covered under the travel reimbursement policy?",
-                    "How do I file a POSH complaint?",
-                    "What are my health insurance benefits?",
-                ],
-                "data": {"confidenceScore": 0, "source": "Out-of-scope guardrail"},
-            }
+        if detected:
+            # ── POLICY AGENT MODE ──────────────────────────────────────────
+            # One agent per policy: feed ALL chunks from that policy so the
+            # LLM has complete context — no clause gets cut off by top-K.
+            chunks = get_policy_agent_chunks(detected, query)
+            if not chunks:
+                chunks = retrieve(query)
+                chunks = rerank_chunks_for_query(chunks, query)
+        else:
+            # ── HYBRID RAG FALLBACK ────────────────────────────────────────
+            chunks = retrieve(query)
+            if is_low_confidence(query, chunks):
+                return {
+                    "text": _OUT_OF_SCOPE_MSG,
+                    "type": "general",
+                    "suggestedQuestions": [
+                        "What is covered under the travel reimbursement policy?",
+                        "How do I file a POSH complaint?",
+                        "What are my health insurance benefits?",
+                    ],
+                    "data": {"confidenceScore": 0, "source": "Out-of-scope guardrail"},
+                }
+            chunks = rerank_chunks_for_query(chunks, query)
 
-        chunks = rerank_chunks_for_query(chunks, query)
         context = build_context_block(chunks)
 
         # Build per-policy system prompt and user message
-        from hybrid_rag import _detect_policy
-        detected = _detect_policy(query)
         policy_addendum = POLICY_CONFIG.get(detected, "") if detected else ""
         system_prompt = ARVIN_SYSTEM_PROMPT + (f"\n\n{policy_addendum}" if policy_addendum else "")
         policy_hint = f"[This query is specifically about: {detected}]\n\n" if detected else ""
